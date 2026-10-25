@@ -227,6 +227,12 @@ The montage forms part of a **non-commercial university project for COMP-2002 at
 
 [Detailed film and music credits, with source references](docs/credits.md#introductory-audiovisual-material).
 
+## License
+
+Original technical documentation and original source code are licensed under the **[MIT License](LICENSE)**. The current repository contains prototype documentation; website source code is planned for later phases.
+
+**Artwork, screenshots, visual design, video, music, anecdotes, helper texts and translations are excluded from the MIT grant.** Third-party materials retain their own rights and applicable licences. See [Licensing scope](LICENSING.md) and [Credits](docs/credits.md).
+
 ---
 
 Designed and developed as an independent student project by **Alessandro Benevelli** for COMP-2002 at OPIT. University and course references identify the academic context; they do not imply institutional endorsement.
