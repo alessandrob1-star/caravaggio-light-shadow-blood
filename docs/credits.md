@@ -2,6 +2,8 @@
 
 ## Project authorship
 
+This is a **non-commercial university project**, created for the **COMP-2002 Web Development course at Open Institute of Technology (OPIT)** and as a **tribute to the art of Caravaggio**. It was developed for educational purposes, without a profit-making objective.
+
 Alessandro Benevelli is the author of the project concept, visual direction, selection of artwork details, Italian anecdotes and helper texts. The prototype is coursework for COMP-2002 Web Development at Open Institute of Technology (OPIT), taught by Filip Biały.
 
 The Italian source texts and the approved translations are preserved in the [multilingual archive](translations/caravaggio-anecdotes-and-helpers-8-languages.txt). This publication does not revise their wording.

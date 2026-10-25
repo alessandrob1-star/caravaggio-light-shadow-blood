@@ -9,6 +9,8 @@
 
 **Figma prototype · COMP-2002 Web Development · OPIT**
 
+**A non-commercial university project, created for the COMP-2002 Web Development course at Open Institute of Technology (OPIT), as a tribute to the art of Caravaggio.**
+
 </div>
 
 ![Opening screen in the Figma preview, with the introductory video and language selector](assets/screenshots/opening-preview.png)
