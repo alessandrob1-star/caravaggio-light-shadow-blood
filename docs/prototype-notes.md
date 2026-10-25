@@ -14,7 +14,7 @@ LIGHT uses a cream background, SHADOW a charcoal background, and BLOOD a warm ba
 
 Each helper opens a dedicated overlay containing the selected crop, its chapter background and one explanatory panel. Surrounding gallery content is covered.
 
-The close interaction has explicit targets: the × control and the area outside the gold-bordered panel within the prototype viewport. Clicking the panel itself keeps it open. Opening controls use a single click action without hover-driven variant changes; this avoids duplicate overlay openings that would otherwise require repeated closing clicks.
+The close interaction has explicit targets: the × control and the area outside the gold-bordered panel within the prototype viewport. Clicking the panel itself keeps it open. Opening controls use a single click action without hover-driven variant changes; this avoids duplicate overlay openings that would otherwise require repeated closing clicks. Mouse-enter and mouse-leave events independently toggle the existing warm reflection on each gold button through a stored Boolean variable. This restores visual hover feedback without switching variants or adding overlay openings.
 
 The design aims to keep the crop and explanation centred and the entire text panel visible. Text size and panel placement must accommodate longer translations. This remains a desktop prototype; the screenshots do not establish responsive behaviour at every screen size.
 
