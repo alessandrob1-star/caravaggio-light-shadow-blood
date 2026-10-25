@@ -107,6 +107,8 @@ The opening video occupies most of the first screen beneath the project title. I
 
 The DATALAND reference describes a presentation choice. It is separate from the documentary and music sources credited for the montage in [Credits](credits.md#introductory-audiovisual-material).
 
+The montage was assembled by Alessandro Benevelli by selecting, trimming and joining scenes from _Caravaggio — L’anima e il sangue_, produced by Sky / Sky Arte and Magnitudo Film, directed by Jesus Garces Lambert, with cinematography by Massimiliano Gatti. Its background music is “Experience” by Ludovico Einaudi. [Detailed credits and source references](credits.md#introductory-audiovisual-material) distinguish the original film’s creators from the project’s excerpt selection and re-editing.
+
 The video is configured for autoplay in Figma. README screenshots show still frames; the interactive link is needed to inspect playback.
 
 An earlier loading delay disappeared after clearing the affected browser cache and was absent in another browser. This was a specific observation, not proof of identical loading times for every visitor.

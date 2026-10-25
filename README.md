@@ -13,6 +13,14 @@
 
 ![Opening screen in the Figma preview, with the introductory video and language selector](assets/screenshots/opening-preview.png)
 
+## Opening video and music credits
+
+The introductory video is a montage assembled by **Alessandro Benevelli**, who selected, trimmed and joined scenes from **_Caravaggio — L’anima e il sangue_** (Italian theatrical release: 2018), a **Sky / Sky Arte and Magnitudo Film** production, directed by **Jesus Garces Lambert**, with cinematography by **Massimiliano Gatti**, distributed by **Nexo Digital**. The project contribution is the selection and re-editing of existing scenes; the original footage is credited to the film’s creators.
+
+The background music used in the prototype is **“Experience” by Ludovico Einaudi**, from **_In a Time Lapse_ (2013), Decca Records**.
+
+[Detailed film and music credits, with source references](docs/credits.md#introductory-audiovisual-material).
+
 ## The experience
 
 A painting first. A detail next. A story when you choose to look closer.

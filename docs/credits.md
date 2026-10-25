@@ -16,9 +16,52 @@ A per-asset source and rights register remains to be completed before website me
 
 ## Introductory audiovisual material
 
-The author’s Practice Assignment 3 identifies documentary footage, particularly *Caravaggio — L’anima e il sangue* (2018), directed by Jesus Garces Lambert, Sky / Magnitudo Film, as source material for the introductory montage. It also identifies *Experience* by Ludovico Einaudi as the intended music.
+### How the project video was assembled
 
-The repository includes a screenshot of the prototype opening screen. Source video and music files are not distributed here. The credits above record the declared sources; they do not claim ownership of those works.
+The introductory video was assembled by **Alessandro Benevelli through the selection, trimming and joining of scenes from _Caravaggio — L’anima e il sangue_**. The result is a re-edited montage for the Caravaggio prototype, accompanied by **“Experience” by Ludovico Einaudi**.
+
+The author’s contribution is selecting the excerpts, choosing their order and assembling the montage for this project. The cinematography and original film production are the work of the documentary’s credited creators.
+
+### Source documentary
+
+| Credit | Reference |
+| --- | --- |
+| **Original title** | _Caravaggio — L’anima e il sangue_ |
+| **International title** | _Caravaggio: The Soul and the Blood_ |
+| **Director** | Jesus Garces Lambert |
+| **Production** | Sky / Sky Arte and Magnitudo Film |
+| **Cinematography / director of photography** | Massimiliano Gatti |
+| **Screenplay** | Laura Allievi |
+| **Project and artistic direction for Sky** | Cosetta Lagani |
+| **Original film editing** | Valentina Corti |
+| **Original film score** | Matteo Curallo |
+| **Voice of Caravaggio** | Manuel Agnelli |
+| **Italian theatrical distributor** | Nexo Digital |
+| **Italian theatrical release** | 19 February 2018 |
+| **Country and running time** | Italy, 90 minutes |
+
+**Film reference:** Garces Lambert, J. (Director). (2018 theatrical release). _Caravaggio — L’anima e il sangue_ [Documentary film]. Sky; Magnitudo Film. Distributed by Nexo Digital.
+
+Production, direction and artistic-direction information are documented by [Sky’s production announcement](https://tg24.sky.it/spettacolo/cinema/2017/09/21/caravaggio-l-anima-e-il-sangue). The [Cinematografo film record](https://www.cinematografo.it/film/caravaggio-lanima-e-il-sangue-ah8cqdsh) lists cinematography, screenplay, original editing, original score, release date and running time. [Nexo Digital’s film presentation](https://www.nexostudios.it/movie/caravaggio-lanima-e-il-sangue-replica/) confirms the production, distribution and voice credit. References checked on 25 October 2026.
+
+### Background music used in the prototype
+
+| Credit | Reference |
+| --- | --- |
+| **Track** | “Experience” |
+| **Composer and artist** | Ludovico Einaudi |
+| **Album** | _In a Time Lapse_ |
+| **Release year** | 2013 |
+| **Label** | Decca Records |
+| **Use in this project** | Background music accompanying the introductory montage |
+
+**Music reference:** Einaudi, L. (2013). Experience [Recorded composition]. On _In a Time Lapse_. Decca Records. The album, year, label and inclusion of “Experience” are documented in [Ludovico Einaudi’s official discography](https://ludovicoeinaudi.com/in-a-time-lapse/), checked on 25 October 2026.
+
+The documentary’s original score is credited above to **Matteo Curallo**; **Ludovico Einaudi’s “Experience” is the separate background music selected for this project’s montage**.
+
+### Attribution
+
+Original film footage, cinematography and music remain credited to their respective creators and rights holders. The montage is presented as part of Alessandro Benevelli’s COMP-2002 academic prototype. Source video and music files are not distributed in this repository; the README contains screenshots of the prototype.
 
 ## Visual references
 
