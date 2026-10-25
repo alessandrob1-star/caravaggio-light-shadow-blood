@@ -204,6 +204,7 @@ A later phase proposes a gallery-style guestbook using API Gateway, Lambda and D
 
 | File | Purpose |
 | --- | --- |
+| [Assessment 1 — submitted report](docs/ass1.pdf) | Submitted prototype report, preserved in its original form with the university APA-format cover |
 | [Prototype notes](docs/prototype-notes.md) | Navigation, helpers, language selection, verification and Figma limitations |
 | [Course requirements](docs/course-requirements.md) | Academic context, assessment milestones and submission requirements |
 | [Work plan](docs/work-plan-2026-2027.md) | Development phases from October 2026 to January 2027 |
