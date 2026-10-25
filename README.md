@@ -38,11 +38,13 @@ The experience uses contrasting backgrounds, expressive typography and generous 
 | Light, matter and the presence of the sacred. | Human imperfection, scandal and the painter’s personal struggles. | Violence, mortality and the search for protection. |
 | [![LIGHT chapter opening](assets/screenshots/light-chapter.png)](assets/screenshots/light-chapter.png) | [![SHADOW chapter opening](assets/screenshots/shadow-chapter.png)](assets/screenshots/shadow-chapter.png) | [![BLOOD chapter opening](assets/screenshots/blood-chapter.png)](assets/screenshots/blood-chapter.png) |
 
-### Details and anecdotes
+### Language selection across anecdotes and helpers
 
-Selected crops pair a visual detail with a short anecdote and a gold helper button.
+The language selector applies to both the **short anecdotes beneath the artwork details** and the **longer explanations opened through the gold helper buttons**. Selecting a language displays the corresponding stored translations throughout the prototype, so visitors can explore both levels of storytelling in their chosen language.
 
-| SHADOW — Saint Matthew and the Angel | BLOOD — Judith Beheading Holofernes |
+The examples below show anecdotes in Italian and English; the helper screenshots that follow show the longer explanations in Polish, German and Japanese. All eight language versions are saved in Figma, without runtime translation API calls.
+
+| SHADOW — Saint Matthew and the Angel · Italian | BLOOD — Judith Beheading Holofernes · English |
 | --- | --- |
 | ![Saint Matthew and the Angel detail with its Italian anecdote](assets/screenshots/shadow-matthew-anecdote-it.png) | ![Judith detail with its English anecdote](assets/screenshots/blood-judith-anecdote-en.png) |
 
