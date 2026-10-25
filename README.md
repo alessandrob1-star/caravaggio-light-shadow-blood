@@ -48,6 +48,18 @@ The main technical decisions are:
 - **Stored translations:** the selector updates bound text variables for anecdotes; helper opening actions display the corresponding saved language panel. Both follow the same selected language.
 - **Language-aware fitting:** font size, wrapping and panel placement accommodate different text lengths and writing systems without rewriting the content.
 
+### Making horizontal exploration intuitive
+
+Artworks and captions are deliberately **partially visible at the left and right edges** of the gallery. These glimpses show that the composition continues beyond the viewport and invite visitors to scroll sideways. The central detail stays in focus while neighbouring images and text act as navigation cues.
+
+This design choice was inspired by **[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles**. In particular, its presentation of a central item with neighbouring content visible at the sides informed the horizontal exploration in this project.
+
+| Caravaggio prototype — neighbouring artworks visible at the edges | Design reference — dataland.art |
+| --- | --- |
+| ![BLOOD gallery with a central detail and parts of neighbouring artworks visible at both edges](assets/screenshots/horizontal-scroll-side-previews.png) | ![Author-supplied screenshot of dataland.art showing central and partially visible neighbouring text](assets/screenshots/dataland-design-reference.png) |
+
+The website will also include a **visible horizontal scrollbar** for each gallery, giving visitors an explicit way to discover, control and track horizontal movement. The side previews, scrollbar and planned snap alignment will work together.
+
 [Read the detailed architecture and implementation notes](docs/prototype-notes.md).
 
 ## Three chapters
@@ -135,6 +147,7 @@ The next phase will translate the design into HTML, CSS and JavaScript. These be
 | --- | --- |
 | **Vertical scroll snapping and chapter entry** | Settle on LIGHT, SHADOW or BLOOD and position that chapter’s horizontal track on its title |
 | **Horizontal scroll snapping** | Let paintings and details settle near the centre of the viewport |
+| **Visible horizontal scrollbar** | Provide an explicit control and position indicator for each gallery, alongside the side previews |
 | **Responsive layouts** | Adapt artwork, spacing and explanation panels to desktop, tablet and mobile |
 | **Accessible helper dialogs** | Support keyboard input, Escape, focus management and background scroll locking |
 | **Local language resources** | Keep anecdotes and explanations in the same selected language using stored translations |

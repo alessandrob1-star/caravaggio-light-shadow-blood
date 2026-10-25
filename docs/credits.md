@@ -22,11 +22,13 @@ The repository includes a screenshot of the prototype opening screen. Source vid
 
 ## Visual references
 
-The design research recorded in Practice Assignment 3 cites Apple for section contrast, centred composition and negative space, and DATALAND for immersive video and horizontal exploration with side previews.
+The design research recorded in Practice Assignment 3 cites Apple for section contrast, centred composition and negative space.
+
+**[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles, is an explicit design inspiration identified by the author.** Its immersive presentation and central content with neighbouring items partially visible at the sides informed the project’s horizontal galleries. The supplied screenshot is included as a design reference, not as a screen from the Caravaggio prototype. The DATALAND website design and screenshot content belong to their respective owners.
 
 ## Screenshot provenance
 
-The README uses ten prototype preview screenshots, one Figma canvas overview and one close-up image supplied by Alessandro Benevelli on 25 October 2026. These files are reproduced without alterations. Their interface text retains the languages visible in the original captures.
+The README uses eleven prototype preview screenshots, one Figma canvas overview, one close-up image and one DATALAND website reference screenshot supplied by Alessandro Benevelli on 25 October 2026. These files are reproduced without alterations. Their interface text retains the languages visible in the original captures.
 
 Earlier exports from the project’s Figma nodes are also retained in the screenshot directory. Those gallery exports were cropped from their horizontal tracks to show viewport-sized compositions. No artwork, interface text or interaction was invented for these captures.
 

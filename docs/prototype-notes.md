@@ -29,7 +29,13 @@ The canvas overview shows the complete arrangement; the interactive preview pres
 
 Complete paintings establish context through title, year and collection/location. Selected details have a short anecdote and a gold helper button. Helper controls belong to the details rather than the complete paintings.
 
-Spacing allows neighbouring content to appear at the edges, suggesting horizontal exploration. LIGHT uses cream, SHADOW charcoal, and BLOOD warm beige with red typography and a horizontal red motif.
+Spacing deliberately leaves parts of neighbouring artworks and captions visible at the left and right edges. These are navigation cues: they show that more content exists beyond the viewport and make horizontal scrolling discoverable. The central artwork or crop remains the focus, while the side previews invite further exploration.
+
+The author specifically drew inspiration from **[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles**. The author-supplied reference screenshot shows central text with parts of neighbouring text visible at the sides. This presentation informed the project’s use of side previews and immersive horizontal navigation.
+
+The website will complement these visual cues with a **visible horizontal scrollbar for each chapter**. It will provide a direct navigation control and an indication of position within the gallery. The previews communicate continuity, the scrollbar makes movement explicit, and the planned snapping helps centre the selected content.
+
+LIGHT uses cream, SHADOW charcoal, and BLOOD warm beige with red typography and a horizontal red motif.
 
 The file contains reusable components and instances for artwork/detail text blocks, help controls, the language selector and flags, alongside shared text styles and variable collections. Most established detail blocks use component instances; the two later SHADOW additions use separately configured frames. The prototype combines reused components and explicitly configured additions.
 
@@ -108,6 +114,7 @@ The prototype establishes the visual direction and demonstrates the main interac
 | Vertical navigation | Scroll between the opening screen and chapter frames | Browser scrolling with chapter snap points |
 | Chapter entry | Horizontal position follows the current prototype interaction | Settle on the chapter title when entering LIGHT, SHADOW or BLOOD |
 | Horizontal exploration | Scroll through extended chapter frames | Horizontal containers with item-centering snap points |
+| Scroll discoverability | Partial artworks and captions visible at the sides | Retain side previews and add a visible horizontal scrollbar for each gallery |
 | Helpers | Focused overlays and explicit close targets | Reusable modal, one active explanation, background scroll locking, outside-click dismissal and Escape support |
 | Keyboard and focus | Demonstrates the intended visual flow | Keyboard-operable controls, focus moved into the modal and restored to its trigger |
 | Languages | Saved strings, text bindings and visibility flags | Local translation resources driven by one shared language state |
