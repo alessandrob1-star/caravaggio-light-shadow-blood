@@ -11,7 +11,7 @@
 
 </div>
 
-![Opening screen of the Caravaggio prototype, with the title above a frame from the introductory video](assets/screenshots/opening.png)
+![Opening screen in the Figma preview, with the introductory video and language selector](assets/screenshots/opening-preview.png)
 
 ## The experience
 
@@ -36,34 +36,48 @@ The experience uses contrasting backgrounds, expressive typography and generous 
 | LIGHT | SHADOW | BLOOD |
 | --- | --- | --- |
 | Light, matter and the presence of the sacred. | Human imperfection, scandal and the painter’s personal struggles. | Violence, mortality and the search for protection. |
-| [![Basket of Fruit detail and anecdote in LIGHT](assets/screenshots/light.png)](assets/screenshots/light.png) | [![Goliath detail and anecdote in SHADOW](assets/screenshots/shadow.png)](assets/screenshots/shadow.png) | [![Holofernes detail and anecdote in BLOOD](assets/screenshots/blood.png)](assets/screenshots/blood.png) |
+| [![LIGHT chapter opening](assets/screenshots/light-chapter.png)](assets/screenshots/light-chapter.png) | [![SHADOW chapter opening](assets/screenshots/shadow-chapter.png)](assets/screenshots/shadow-chapter.png) | [![BLOOD chapter opening](assets/screenshots/blood-chapter.png)](assets/screenshots/blood-chapter.png) |
 
-*Screenshots exported from the current Figma design on 25 October 2026. Gallery images are viewport-sized crops of the horizontal design tracks.*
+### Details and anecdotes
+
+Selected crops pair a visual detail with a short anecdote and a gold helper button.
+
+| SHADOW — Saint Matthew and the Angel | BLOOD — Judith Beheading Holofernes |
+| --- | --- |
+| ![Saint Matthew and the Angel detail with its Italian anecdote](assets/screenshots/shadow-matthew-anecdote-it.png) | ![Judith detail with its English anecdote](assets/screenshots/blood-judith-anecdote-en.png) |
+
+*Preview screenshots supplied by the author on 25 October 2026, reproduced without alterations.*
 
 ## Focused helpers
 
 Opening a helper replaces the surrounding gallery with the selected image, the chapter background and a gold-bordered explanation. The interaction keeps attention on one detail and avoids overlapping text from neighbouring artworks.
 
-![Focused helper showing the edge of the Basket of Fruit and its explanation](assets/screenshots/helper-light.png)
+### LIGHT — Basket of Fruit · Polish
 
-<details>
-<summary>View SHADOW and BLOOD helper examples</summary>
+![Basket of Fruit detail with its Polish helper](assets/screenshots/light-basket-helper-pl.png)
 
-### SHADOW — David with the Head of Goliath
+### BLOOD — The Beheading of Saint John the Baptist · German
 
-![Goliath helper on a charcoal background](assets/screenshots/helper-shadow.png)
+![The painter’s signature in blood with its German helper](assets/screenshots/blood-signature-helper-de.png)
 
-### BLOOD — Judith Beheading Holofernes
+### BLOOD — Saint Jerome · Japanese
 
-![Holofernes helper on a warm background with red text](assets/screenshots/helper-blood.png)
-
-</details>
+![Saint Jerome detail with its Japanese helper](assets/screenshots/blood-jerome-helper-ja.png)
 
 The prototype uses dedicated overlay frames, explicit close targets and language-specific text panels. [Read the implementation notes](docs/prototype-notes.md).
+
+### Button feedback
+
+The gold helper button shows a warm reflection when the pointer passes over it. Mouse-enter and mouse-leave events control the visual response independently of the click that opens the helper.
+
+<img src="assets/screenshots/helper-button-hover.jpg" alt="Author-supplied close-up of the pointer over the Basket of Fruit helper button" width="720" />
 
 ## Eight languages, stored in the prototype
 
 **Italian · English · German · French · Simplified Chinese · Japanese · Polish · Dutch**
+
+<img src="assets/screenshots/language-selector.png" alt="The eight-language selector in the Figma prototype, with Italian selected" width="280" />
+
 
 The current content archive contains **20 details**, each with a short anecdote and a longer helper in eight languages: **320 text entries**. Translations are saved in Figma; selecting a language does not call a translation API.
 

@@ -26,5 +26,7 @@ The design research recorded in Practice Assignment 3 cites Apple for section co
 
 ## Screenshot provenance
 
-Screenshots were exported from the project’s existing Figma nodes on 25 October 2026. Gallery captures are cropped from the corresponding horizontal tracks to show a viewport-sized composition. Helper screenshots show the existing overlay frames. No artwork, interface text or interaction was invented for the screenshots.
+The README uses ten prototype preview screenshots and one close-up image supplied by Alessandro Benevelli on 25 October 2026. These files are reproduced without alterations. Their interface text retains the languages visible in the original captures.
+
+Earlier exports from the project’s Figma nodes are also retained in the screenshot directory. Those gallery exports were cropped from their horizontal tracks to show viewport-sized compositions. No artwork, interface text or interaction was invented for these captures.
 
