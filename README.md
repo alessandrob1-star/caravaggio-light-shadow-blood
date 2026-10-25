@@ -21,21 +21,7 @@ The introductory video is a montage assembled by **Alessandro Benevelli**, who s
 
 The background music used in the prototype is **“Experience” by Ludovico Einaudi**, from **_In a Time Lapse_ (2013), Decca Records**.
 
-| Film credit | Original documentary |
-| --- | --- |
-| **Title** | _Caravaggio — L’anima e il sangue_ / _Caravaggio: The Soul and the Blood_ |
-| **Production** | Sky / Sky Arte and Magnitudo Film |
-| **Director** | Jesus Garces Lambert |
-| **Cinematography / director of photography** | Massimiliano Gatti |
-
 Film sources: [Sky’s production announcement](https://tg24.sky.it/spettacolo/cinema/2017/09/21/caravaggio-l-anima-e-il-sangue), [Cinematografo’s full credits](https://www.cinematografo.it/film/caravaggio-lanima-e-il-sangue-ah8cqdsh) and [Nexo Digital’s film presentation](https://www.nexostudios.it/movie/caravaggio-lanima-e-il-sangue-replica/).
-
-| Music credit | Background music selected for this prototype |
-| --- | --- |
-| **Track** | “Experience” |
-| **Composer and artist** | Ludovico Einaudi |
-| **Album** | _In a Time Lapse_ |
-| **Year and label** | 2013 · Decca Records |
 
 Music source: [Ludovico Einaudi’s official album page](https://ludovicoeinaudi.com/in-a-time-lapse/). The documentary’s original score by Matteo Curallo and the Einaudi track selected for this montage are credited separately.
 
