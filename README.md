@@ -81,6 +81,23 @@ The website will also include a **visible horizontal scrollbar** for each galler
 
 [Read the detailed architecture and implementation notes](docs/prototype-notes.md).
 
+## Design research: what I took from Apple
+
+**[Apple’s website](https://www.apple.com/it/) was another direct design reference.** I particularly liked the contrast between light and dark sections and the way centred product images are surrounded by generous empty space. These choices make the subject immediately visible and keep attention on it.
+
+| What I liked in Apple’s presentation | How I applied it to Caravaggio |
+| --- | --- |
+| **Contrasting section backgrounds** | Distinct cream, charcoal and warm beige backgrounds separate LIGHT, SHADOW and BLOOD and give each chapter its own atmosphere |
+| **Centred images with empty space around them** | Paintings and selected details become the visual focus, with restrained backgrounds and generous space around them |
+
+![Author-supplied Apple website reference showing contrasting light and dark sections and centred imagery surrounded by empty space](assets/screenshots/apple-contrast-and-negative-space-reference.png)
+
+### Why this connects to Caravaggio
+
+This was also one of the reasons I chose Caravaggio as the subject of the project. His use of reduced backgrounds and space around the figures concentrates the viewer’s attention on the subjects. I saw a connection between that characteristic of his painting and the visual clarity I liked on Apple’s website.
+
+I brought that connection into the prototype: the backgrounds remain restrained, images take a central position, and empty space helps visitors concentrate on the artwork and its details. The contrast between chapters and the space around each image are therefore deliberate choices connected both to my website references and to Caravaggio himself.
+
 ## Three chapters
 
 | LIGHT | SHADOW | BLOOD |

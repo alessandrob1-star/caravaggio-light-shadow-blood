@@ -37,6 +37,10 @@ The website will complement these visual cues with a **visible horizontal scroll
 
 LIGHT uses cream, SHADOW charcoal, and BLOOD warm beige with red typography and a horizontal red motif.
 
+**[Apple’s website](https://www.apple.com/it/) directly inspired two composition choices:** contrasting light and dark section backgrounds, and centred images surrounded by generous empty space. The author liked how these choices separate content and concentrate attention on the subject, and adapted them to the three chapter palettes and the presentation of paintings and details.
+
+The author also connects this approach to Caravaggio’s use of reduced backgrounds to focus attention on figures. That relationship between the website reference and the painter’s visual language was one of the motivations for choosing Caravaggio as the project’s subject. Empty space and restrained backgrounds are therefore part of the project’s visual reasoning, not unused areas waiting for more content.
+
 The file contains reusable components and instances for artwork/detail text blocks, help controls, the language selector and flags, alongside shared text styles and variable collections. Most established detail blocks use component instances; the two later SHADOW additions use separately configured frames. The prototype combines reused components and explicitly configured additions.
 
 ## 3. Two levels of storytelling

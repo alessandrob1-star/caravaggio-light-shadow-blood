@@ -22,7 +22,9 @@ The repository includes a screenshot of the prototype opening screen. Source vid
 
 ## Visual references
 
-The design research recorded in Practice Assignment 3 cites Apple for section contrast, centred composition and negative space.
+**[Apple’s website](https://www.apple.com/it/) is a direct design reference recorded in Practice Assignment 3 and explicitly confirmed by the author.** The author liked its contrasting section backgrounds and centred imagery surrounded by empty space. These ideas were adapted to the LIGHT, SHADOW and BLOOD palettes and to the focused presentation of paintings and selected details.
+
+The author connects this use of restrained backgrounds and empty space to Caravaggio’s concentration of attention on figures. This connection also helped motivate the choice of Caravaggio as the subject. The supplied Apple screenshot documents the visual reference; it is not a screen from the Caravaggio prototype. Apple’s website design and screenshot content belong to their respective owners.
 
 **[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles, is an explicit design inspiration identified by the author.** Two specific choices were adapted:
 
@@ -33,7 +35,7 @@ The supplied DATALAND screenshots document these design references; they are not
 
 ## Screenshot provenance
 
-The README uses eleven prototype preview screenshots, one Figma canvas overview, one close-up image and two DATALAND website reference screenshots supplied by Alessandro Benevelli on 25 October 2026. These files are reproduced without alterations. Their interface text retains the languages visible in the original captures.
+The README uses eleven prototype preview screenshots, one Figma canvas overview, one close-up image, two DATALAND website reference screenshots and one Apple website reference screenshot supplied by Alessandro Benevelli on 25 October 2026. These files are reproduced without alterations. Their interface text retains the languages visible in the original captures.
 
 Earlier exports from the project’s Figma nodes are also retained in the screenshot directory. Those gallery exports were cropped from their horizontal tracks to show viewport-sized compositions. No artwork, interface text or interaction was invented for these captures.
 
