@@ -27,13 +27,6 @@ The background music used in the prototype is **“Experience” by Ludovico Ein
 | **Production** | Sky / Sky Arte and Magnitudo Film |
 | **Director** | Jesus Garces Lambert |
 | **Cinematography / director of photography** | Massimiliano Gatti |
-| **Screenplay** | Laura Allievi |
-| **Project and artistic direction for Sky** | Cosetta Lagani |
-| **Original film editing** | Valentina Corti |
-| **Original film score** | Matteo Curallo |
-| **Voice of Caravaggio** | Manuel Agnelli |
-| **Italian theatrical distributor** | Nexo Digital |
-| **Italian theatrical release** | 19 February 2018 |
 
 Film sources: [Sky’s production announcement](https://tg24.sky.it/spettacolo/cinema/2017/09/21/caravaggio-l-anima-e-il-sangue), [Cinematografo’s full credits](https://www.cinematografo.it/film/caravaggio-lanima-e-il-sangue-ah8cqdsh) and [Nexo Digital’s film presentation](https://www.nexostudios.it/movie/caravaggio-lanima-e-il-sangue-replica/).
 
