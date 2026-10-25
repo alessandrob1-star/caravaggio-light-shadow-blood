@@ -48,6 +48,25 @@ The main technical decisions are:
 - **Stored translations:** the selector updates bound text variables for anecdotes; helper opening actions display the corresponding saved language panel. Both follow the same selected language.
 - **Language-aware fitting:** font size, wrapping and panel placement accommodate different text lengths and writing systems without rewriting the content.
 
+## Design research: what I took from DATALAND
+
+**[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles, was a direct design reference for this project.** Two aspects particularly appealed to me: the immersive impact of its large opening video and the way partially visible neighbouring content encourages sideways exploration. I adapted both ideas to Caravaggio’s paintings and storytelling.
+
+| Reference | What I liked | How I applied it to Caravaggio |
+| --- | --- | --- |
+| **Near-full-screen opening video** | Moving imagery dominates the opening view and establishes an atmosphere before visitors begin exploring | A large introductory video occupies most of the opening screen beneath the Caravaggio title, introducing the mood of LIGHT, SHADOW and BLOOD |
+| **Neighbouring content visible at the sides** | A central item remains the focus while fragments at the edges reveal that more content is available | Paintings, details and captions remain partly visible beside the central item, inviting horizontal scrolling through each chapter |
+
+### An immersive opening video
+
+The opening video’s **near-full-screen presentation is explicitly inspired by DATALAND**. What I wanted to bring into my project was the feeling of entering an exhibition through moving images. I adapted that presentation to an introductory montage about Caravaggio, with the project title and language selector framing the experience.
+
+| DATALAND — opening video reference | Caravaggio — opening video in the prototype |
+| --- | --- |
+| ![DATALAND homepage with a large immersive opening video](assets/screenshots/dataland-opening-video-reference.png) | ![Caravaggio opening screen with its large introductory video below the title](assets/screenshots/opening-preview.png) |
+
+This reference concerns the **presentation and visual impact of the video**. The source credits for the Caravaggio montage are documented separately in [Credits](docs/credits.md#introductory-audiovisual-material).
+
 ### Making horizontal exploration intuitive
 
 Artworks and captions are deliberately **partially visible at the left and right edges** of the gallery. These glimpses show that the composition continues beyond the viewport and invite visitors to scroll sideways. The central detail stays in focus while neighbouring images and text act as navigation cues.

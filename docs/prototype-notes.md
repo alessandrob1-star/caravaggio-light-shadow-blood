@@ -99,6 +99,10 @@ This remains a desktop composition. These adjustments do not constitute a respon
 
 ## 8. Introductory video
 
+The opening video occupies most of the first screen beneath the project title. Its **near-full-screen presentation was directly inspired by the opening video on [dataland.art](https://dataland.art/)**. The author liked the immediate immersion and the way moving images establish an exhibition’s atmosphere before visitors explore its content. Caravaggio adapts that idea through its own introductory montage, title treatment and language selector.
+
+The DATALAND reference describes a presentation choice. It is separate from the documentary and music sources credited for the montage in [Credits](credits.md#introductory-audiovisual-material).
+
 The video is configured for autoplay in Figma. README screenshots show still frames; the interactive link is needed to inspect playback.
 
 An earlier loading delay disappeared after clearing the affected browser cache and was absent in another browser. This was a specific observation, not proof of identical loading times for every visitor.

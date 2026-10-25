@@ -24,11 +24,16 @@ The repository includes a screenshot of the prototype opening screen. Source vid
 
 The design research recorded in Practice Assignment 3 cites Apple for section contrast, centred composition and negative space.
 
-**[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles, is an explicit design inspiration identified by the author.** Its immersive presentation and central content with neighbouring items partially visible at the sides informed the project’s horizontal galleries. The supplied screenshot is included as a design reference, not as a screen from the Caravaggio prototype. The DATALAND website design and screenshot content belong to their respective owners.
+**[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles, is an explicit design inspiration identified by the author.** Two specific choices were adapted:
+
+- **Near-full-screen opening video:** the author liked its immediate immersive impact and used a large introductory video to establish the atmosphere of the Caravaggio experience.
+- **Central content with neighbouring items partially visible at the sides:** the author liked how this makes further horizontal content discoverable and adapted the idea to paintings, details and captions in each chapter.
+
+The supplied DATALAND screenshots document these design references; they are not screens from the Caravaggio prototype. The DATALAND website design and screenshot content belong to their respective owners. Inspiration from its video presentation does not identify DATALAND as the source of the Caravaggio montage footage or music; those sources are credited separately above.
 
 ## Screenshot provenance
 
-The README uses eleven prototype preview screenshots, one Figma canvas overview, one close-up image and one DATALAND website reference screenshot supplied by Alessandro Benevelli on 25 October 2026. These files are reproduced without alterations. Their interface text retains the languages visible in the original captures.
+The README uses eleven prototype preview screenshots, one Figma canvas overview, one close-up image and two DATALAND website reference screenshots supplied by Alessandro Benevelli on 25 October 2026. These files are reproduced without alterations. Their interface text retains the languages visible in the original captures.
 
 Earlier exports from the project’s Figma nodes are also retained in the screenshot directory. Those gallery exports were cropped from their horizontal tracks to show viewport-sized compositions. No artwork, interface text or interaction was invented for these captures.
 
