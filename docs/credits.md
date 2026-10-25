@@ -26,7 +26,7 @@ The design research recorded in Practice Assignment 3 cites Apple for section co
 
 ## Screenshot provenance
 
-The README uses ten prototype preview screenshots and one close-up image supplied by Alessandro Benevelli on 25 October 2026. These files are reproduced without alterations. Their interface text retains the languages visible in the original captures.
+The README uses ten prototype preview screenshots, one Figma canvas overview and one close-up image supplied by Alessandro Benevelli on 25 October 2026. These files are reproduced without alterations. Their interface text retains the languages visible in the original captures.
 
 Earlier exports from the project’s Figma nodes are also retained in the screenshot directory. Those gallery exports were cropped from their horizontal tracks to show viewport-sized compositions. No artwork, interface text or interaction was invented for these captures.
 

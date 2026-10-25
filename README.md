@@ -31,6 +31,25 @@ The experience uses contrasting backgrounds, expressive typography and generous 
 
 **Current stage: Assessment 1 — interactive prototype.** This repository documents the design and its content. Website implementation, responsive layouts, browser scroll snapping and AWS services belong to later phases.
 
+## How the prototype is built
+
+![Figma canvas overview: opening screen above the three extended chapter tracks](assets/screenshots/prototype-canvas-structure.png)
+
+The prototype uses **one vertically scrolling main frame** to connect the opening screen and the three chapters. Each chapter has a **horizontal scrolling viewport** containing one extended frame with its title, artworks, details and captions. This nested structure creates a continuous vertical journey with independent horizontal exploration.
+
+Reusable components, text styles and variables keep controls and presentation consistent. Complete paintings provide title, year and collection/location; selected crops add a short anecdote and a gold button for an optional explanation.
+
+The main technical decisions are:
+
+- **Focused overlays:** opening a helper covers the surrounding gallery and centres the crop and explanation on the chapter background.
+- **Explicit close targets:** × and clicks outside the gold-bordered panel dismiss the helper; clicking its text keeps it open.
+- **One opening per click:** each live button has one overlay-opening action, preventing stacked copies that require repeated closing clicks.
+- **Independent hover feedback:** mouse-enter and mouse-leave events toggle the existing warm reflection through a Boolean variable, without switching component variants.
+- **Stored translations:** the selector updates bound text variables for anecdotes; helper opening actions display the corresponding saved language panel. Both follow the same selected language.
+- **Language-aware fitting:** font size, wrapping and panel placement accommodate different text lengths and writing systems without rewriting the content.
+
+[Read the detailed architecture and implementation notes](docs/prototype-notes.md).
+
 ## Three chapters
 
 | LIGHT | SHADOW | BLOOD |
@@ -110,9 +129,25 @@ The same project is planned to continue through all three course assessments.
 
 ## From prototype to website
 
-The next phase will translate the design into HTML, CSS and JavaScript, with responsive layouts, accessible controls, local language resources and scroll snapping. Hosting on Amazon S3 and CloudFront is planned for the working website.
+The next phase will translate the design into HTML, CSS and JavaScript. These behaviours are planned for the website and are not implemented in the current Figma prototype:
+
+| Planned improvement | Intended behaviour |
+| --- | --- |
+| **Vertical scroll snapping and chapter entry** | Settle on LIGHT, SHADOW or BLOOD and position that chapter’s horizontal track on its title |
+| **Horizontal scroll snapping** | Let paintings and details settle near the centre of the viewport |
+| **Responsive layouts** | Adapt artwork, spacing and explanation panels to desktop, tablet and mobile |
+| **Accessible helper dialogs** | Support keyboard input, Escape, focus management and background scroll locking |
+| **Local language resources** | Keep anecdotes and explanations in the same selected language using stored translations |
+| **Media handling** | Optimise loading and provide playback controls and autoplay-blocked handling |
+| **Reduced motion** | Respect motion preferences when implementing animated navigation |
+
+Vertical snapping and horizontal title positioning are separate concerns: snapping to a chapter vertically does not automatically reset its horizontal track. The website will coordinate both, using CSS scroll snapping and JavaScript where needed. This coordinated behaviour is a limitation of the current prototype, recorded for the implementation phase.
+
+Hosting on Amazon S3 and CloudFront is planned for the working website.
 
 A later phase proposes a gallery-style guestbook using API Gateway, Lambda and DynamoDB, with submission moderation through Amazon Nova on Amazon Bedrock. These are planned project choices; they are not implemented in the Figma prototype or required technologies prescribed by the syllabus.
+
+[Detailed behaviour and prototype limitations](docs/prototype-notes.md#9-figma-behaviour-versus-planned-website-behaviour) · [Full work plan](docs/work-plan-2026-2027.md)
 
 ## Repository guide
 
