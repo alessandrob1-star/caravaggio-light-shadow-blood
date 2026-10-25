@@ -15,20 +15,6 @@
 
 ![Opening screen in the Figma preview, with the introductory video and language selector](assets/screenshots/opening-preview.png)
 
-## Opening video and music credits
-
-The introductory video is a montage assembled by **Alessandro Benevelli**, who selected, trimmed and joined scenes from **_Caravaggio — L’anima e il sangue_** (Italian theatrical release: 2018), a **Sky / Sky Arte and Magnitudo Film** production, directed by **Jesus Garces Lambert**, with cinematography by **Massimiliano Gatti**, distributed by **Nexo Digital**. The project contribution is the selection and re-editing of existing scenes; the original footage is credited to the film’s creators.
-
-The background music used in the prototype is **“Experience” by Ludovico Einaudi**, from **_In a Time Lapse_ (2013), Decca Records**.
-
-Film sources: [Sky’s production announcement](https://tg24.sky.it/spettacolo/cinema/2017/09/21/caravaggio-l-anima-e-il-sangue), [Cinematografo’s full credits](https://www.cinematografo.it/film/caravaggio-lanima-e-il-sangue-ah8cqdsh) and [Nexo Digital’s film presentation](https://www.nexostudios.it/movie/caravaggio-lanima-e-il-sangue-replica/).
-
-Music source: [Ludovico Einaudi’s official album page](https://ludovicoeinaudi.com/in-a-time-lapse/). The documentary’s original score by Matteo Curallo and the Einaudi track selected for this montage are credited separately.
-
-The montage forms part of a **non-commercial university project for COMP-2002 at OPIT, created as a tribute to Caravaggio’s art**. Original footage and music are credited to their respective creators and rights holders.
-
-[Detailed film and music credits, with source references](docs/credits.md#introductory-audiovisual-material).
-
 ## The experience
 
 A painting first. A detail next. A story when you choose to look closer.
@@ -226,6 +212,20 @@ A later phase proposes a gallery-style guestbook using API Gateway, Lambda and D
 | [Screenshots](assets/screenshots) | Current prototype captures used in this README |
 
 All project documentation is in English. The translation archive retains its multilingual content.
+
+## Opening video and music credits
+
+The introductory video is a montage assembled by **Alessandro Benevelli**, who selected, trimmed and joined scenes from **_Caravaggio — L’anima e il sangue_** (Italian theatrical release: 2018), a **Sky / Sky Arte and Magnitudo Film** production, directed by **Jesus Garces Lambert**, with cinematography by **Massimiliano Gatti**, distributed by **Nexo Digital**. The project contribution is the selection and re-editing of existing scenes; the original footage is credited to the film’s creators.
+
+The background music used in the prototype is **“Experience” by Ludovico Einaudi**, from **_In a Time Lapse_ (2013), Decca Records**.
+
+Film sources: [Sky’s production announcement](https://tg24.sky.it/spettacolo/cinema/2017/09/21/caravaggio-l-anima-e-il-sangue), [Cinematografo’s full credits](https://www.cinematografo.it/film/caravaggio-lanima-e-il-sangue-ah8cqdsh) and [Nexo Digital’s film presentation](https://www.nexostudios.it/movie/caravaggio-lanima-e-il-sangue-replica/).
+
+Music source: [Ludovico Einaudi’s official album page](https://ludovicoeinaudi.com/in-a-time-lapse/). The documentary’s original score by Matteo Curallo and the Einaudi track selected for this montage are credited separately.
+
+The montage forms part of a **non-commercial university project for COMP-2002 at OPIT, created as a tribute to Caravaggio’s art**. Original footage and music are credited to their respective creators and rights holders.
+
+[Detailed film and music credits, with source references](docs/credits.md#introductory-audiovisual-material).
 
 ---
 
