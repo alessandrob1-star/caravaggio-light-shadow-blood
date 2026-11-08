@@ -92,7 +92,9 @@ The website will also include a **visible horizontal scrollbar** for each galler
 | **Contrasting section backgrounds** | Distinct cream, charcoal and warm beige backgrounds separate LIGHT, SHADOW and BLOOD and give each chapter its own atmosphere |
 | **Centred images with empty space around them** | Paintings and selected details become the visual focus, with restrained backgrounds and generous space around them |
 
-![Author-supplied Apple website reference showing contrasting light and dark sections and centred imagery surrounded by empty space](assets/screenshots/apple-contrast-and-negative-space-reference.png)
+| Apple reference | Caravaggio chapter backgrounds |
+| --- | --- |
+| ![Author-supplied Apple website reference showing contrasting light and dark sections and centred imagery surrounded by empty space](assets/screenshots/apple-contrast-and-negative-space-reference.png) | ![Caravaggio prototype showing the contrasting backgrounds of LIGHT, SHADOW and BLOOD](assets/screenshots/caravaggio-contrasting-section-backgrounds.png) |
 
 ### Why this connects to Caravaggio
 
