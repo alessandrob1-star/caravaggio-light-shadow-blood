@@ -177,7 +177,7 @@ The same project is planned to continue through all three course assessments.
 | **Assessment 2** | Working web development project | 1 December 2026 |
 | **Assessment 3** | Complete web development project | 5 January 2027 |
 
-[Course requirements](docs/course-requirements.md) · [Full work plan](docs/work-plan-2026-2027.md)
+[Full work plan](docs/work-plan-2026-2027.md)
 
 ## From prototype to website
 
@@ -206,9 +206,8 @@ A later phase proposes a gallery-style guestbook using API Gateway, Lambda and D
 
 | File | Purpose |
 | --- | --- |
-| [Assessment 1 — submitted report](docs/ass1.pdf) | Submitted prototype report, preserved in its original form with the university APA-format cover |
+| [Assessment 1 — submitted report](docs/Alessandro_Benevelli_COMP-2002_Assessment_1.pdf) | Submitted prototype report, preserved in its original form with the university APA-format cover |
 | [Prototype notes](docs/prototype-notes.md) | Navigation, helpers, language selection, verification and Figma limitations |
-| [Course requirements](docs/course-requirements.md) | Academic context, assessment milestones and submission requirements |
 | [Work plan](docs/work-plan-2026-2027.md) | Development phases from October 2026 to January 2027 |
 | [Translation archive](docs/translations/caravaggio-anecdotes-and-helpers-8-languages.txt) | Italian anecdotes and helpers alongside all seven translations |
 | [Credits](docs/credits.md) | Authorship, visual references and media sources |
