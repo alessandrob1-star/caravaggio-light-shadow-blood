@@ -1,0 +1,119 @@
+/* Include padding and borders in each element's declared dimensions. */
+* {
+    box-sizing: border-box;
+}
+
+/* Set the shared typography and the light chapter's background. */
+body {
+    margin: 0;
+    background: #e8e2d5;
+    color: #171717;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+}
+
+/* Keep the skip link visible and usable without JavaScript. */
+body > a {
+    display: block;
+    padding: 12px 24px;
+    background: #000000;
+    color: #e8e2d5;
+}
+
+/* Give the opening title and navigation their own dark area. */
+header {
+    padding: 80px 24px;
+    background: #000000;
+    color: #e8e2d5;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 32px;
+    font-size: 32px;
+    font-weight: normal;
+    letter-spacing: 0.08em;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px 32px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    display: inline-block;
+    padding: 12px;
+    color: inherit;
+    letter-spacing: 0.15em;
+    text-underline-offset: 6px;
+}
+
+/* Show which link is being pointed at or reached with the keyboard. */
+a:hover {
+    text-decoration-thickness: 3px;
+}
+
+a:focus-visible {
+    outline: 3px solid currentColor;
+    outline-offset: 4px;
+}
+
+/* Leave open space around each chapter title. */
+main section {
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 64px 24px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+}
+
+#shadow {
+    background: #282828;
+    color: #e8e2d5;
+}
+
+#blood {
+    background: #d9cfba;
+    color: #a51b17;
+}
+
+footer {
+    padding: 24px;
+    background: #000000;
+    color: #e8e2d5;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Increase title sizes and spacing when more horizontal space is available. */
+@media (min-width: 768px) {
+    header {
+        padding: 120px 48px;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    main section {
+        padding: 96px;
+    }
+
+    h2 {
+        font-size: 64px;
+    }
+}
