@@ -20,37 +20,96 @@ body > a {
     color: #e8e2d5;
 }
 
-/* Give the opening title and navigation their own dark area. */
-header {
-    padding: 80px 24px;
+/* Load the medium-weight font used for the opening typography. */
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("assets/fonts/cormorant-garamond-medium.woff2")
+        format("woff2");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+/* Set the opening area's background, colour and typography. */
+.site-header {
+    padding: 0 clamp(24px, 4.8vw, 92px);
     background: #000000;
-    color: #e8e2d5;
+    color: #ffffff;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-weight: 500;
+}
+
+/* Keep the main title centred and scale it with the viewport. */
+.site-title {
+    margin: 0;
+    font-size: clamp(40px, 5vw, 96px);
+    font-weight: 500;
+    line-height: 0.875;
+    letter-spacing: 0.04em;
     text-align: center;
 }
 
-h1 {
-    margin: 0 0 32px;
-    font-size: 32px;
-    font-weight: normal;
-    letter-spacing: 0.08em;
+/* Align the painter's name and chapter navigation on one row. */
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
 }
 
-nav ul {
+/* Match the widely spaced lettering of the painter's name. */
+.painter-name {
+    margin: 0;
+    font-size: clamp(20px, 2.5vw, 48px);
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+}
+
+/* Arrange the chapter links horizontally without list markers. */
+.chapter-navigation ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 16px 32px;
+    align-items: center;
+    gap: clamp(16px, 2.5vw, 48px);
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-nav a {
+/* Inherit the header's typography and keep each label together. */
+.chapter-navigation a {
     display: inline-block;
-    padding: 12px;
+    padding: 8px 0;
     color: inherit;
-    letter-spacing: 0.15em;
+    font-size: clamp(20px, 2.5vw, 48px);
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    text-decoration: none;
     text-underline-offset: 6px;
+    white-space: nowrap;
+}
+
+/* Underline a chapter link when the pointer is over it. */
+.chapter-navigation a:hover {
+    text-decoration: underline;
+}
+
+/* Stack the lower row when the available width is limited. */
+@media (max-width: 767px) {
+    .site-header {
+        padding-top: 16px;
+    }
+
+    .header-row {
+        flex-direction: column;
+        gap: 8px;
+        padding-top: 16px;
+        text-align: center;
+    }
+
+    .chapter-navigation ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 /* Show which link is being pointed at or reached with the keyboard. */
@@ -101,14 +160,6 @@ footer p {
 
 /* Increase title sizes and spacing when more horizontal space is available. */
 @media (min-width: 768px) {
-    header {
-        padding: 120px 48px;
-    }
-
-    h1 {
-        font-size: 64px;
-    }
-
     main section {
         padding: 96px;
     }
