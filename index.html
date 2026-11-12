@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- Skip link to the main content. -->
-    <a href="#main-content">Vai al contenuto</a>
+    <a href="#main-content">Skip to content</a>
 
     <!-- Opening title, painter's name and chapter navigation. -->
     <header class="site-header">
@@ -18,7 +18,7 @@
         <div class="header-row">
             <p class="painter-name">MICHELANGELO MERISI</p>
 
-            <nav class="chapter-navigation" aria-label="Navigazione principale">
+            <nav class="chapter-navigation" aria-label="Main navigation">
                 <ul>
                     <li><a href="#light" lang="en">LIGHT</a></li>
                     <li><a href="#shadow" lang="en">SHADOW</a></li>
@@ -30,6 +30,23 @@
 
     <!-- Main page content. -->
     <main id="main-content">
+        <!-- Play the introductory montage automatically without sound. -->
+        <div class="opening-video">
+            <video
+                class="intro-video"
+                width="1280"
+                height="720"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="auto"
+                aria-label="Introductory video about Caravaggio">
+                <source src="assets/videos/cara.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+        </div>
+
         <!-- Chapter sections. -->
         <section id="light" aria-labelledby="light-title">
             <h2 id="light-title" lang="en">LIGHT</h2>

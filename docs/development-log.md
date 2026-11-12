@@ -12,3 +12,8 @@
 
 - Added the Caravaggio title, painter’s name and chapter navigation.
 - Applied Cormorant Garamond Medium and adjusted the header layout for desktop and smaller screens.
+
+**12 November 2026 — Introductory video**
+
+- Added the introductory video with muted autoplay, looping playback and responsive sizing.
+- Set English as the default page language and updated the navigation labels and video fallback text.

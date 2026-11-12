@@ -122,6 +122,18 @@ a:focus-visible {
     outline-offset: 4px;
 }
 
+/* Keep the introductory video on a black background. */
+.opening-video {
+    background: #000000;
+}
+
+/* Fill the available width while preserving the video's proportions. */
+.intro-video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 /* Leave open space around each chapter title. */
 main section {
     display: flex;
