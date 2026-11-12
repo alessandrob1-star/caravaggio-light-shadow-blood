@@ -17,3 +17,7 @@
 
 - Added the introductory video with muted autoplay, looping playback and responsive sizing.
 - Set English as the default page language and updated the navigation labels and video fallback text.
+
+**12 November 2026 — Light chapter structure**
+
+- Added the Light chapter background, title and horizontal gallery container.

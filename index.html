@@ -48,8 +48,26 @@
         </div>
 
         <!-- Chapter sections. -->
-        <section id="light" aria-labelledby="light-title">
-            <h2 id="light-title" lang="en">LIGHT</h2>
+        <!-- Light chapter and its horizontally scrollable gallery. -->
+        <section
+            id="light"
+            class="chapter"
+            aria-labelledby="light-title">
+
+            <!-- Allow keyboard users to focus and scroll the gallery. -->
+            <div
+                class="chapter-scroll"
+                tabindex="0"
+                role="group"
+                aria-label="Light gallery">
+
+                <!-- Arrange the title and gallery items along one horizontal track. -->
+                <div class="chapter-track">
+                    <div class="chapter-title-panel">
+                        <h2 id="light-title" class="chapter-title">LIGHT</h2>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="shadow" aria-labelledby="shadow-title">

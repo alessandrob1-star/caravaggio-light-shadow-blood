@@ -180,3 +180,52 @@ footer p {
         font-size: 64px;
     }
 }
+
+/* Remove the initial section spacing from the gallery layout. */
+.chapter {
+    display: block;
+    min-height: 100svh;
+    padding: 0;
+}
+
+/* Set the light chapter's background and text colour. */
+#light {
+    background: #e8e1d5;
+    color: #111111;
+}
+
+/* Keep horizontal scrolling inside the chapter. */
+.chapter-scroll {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Make the focused gallery identifiable during keyboard navigation. */
+.chapter-scroll:focus-visible {
+    outline: 3px solid currentColor;
+    outline-offset: -6px;
+}
+
+/* Keep gallery items on a single horizontal row. */
+.chapter-track {
+    display: flex;
+    min-height: 100svh;
+}
+
+/* Reserve one screen width for the chapter's opening title. */
+.chapter-title-panel {
+    flex: 0 0 100%;
+    min-width: 0;
+    min-height: 100svh;
+    padding: 64svh clamp(24px, 10vw, 192px) 64px;
+}
+
+/* Position the chapter title below the centre of the screen. */
+.chapter-title {
+    margin: 0;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: clamp(48px, 5.73vw, 110px);
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+}
