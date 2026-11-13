@@ -1,0 +1,74 @@
+{
+    "anecdotes": {
+        "medusa-eyes": {
+            "en": [
+                "They criticized his ability to paint movement.",
+                "The answer."
+            ],
+            "it": [
+                "Criticavano la sua capacità di dipingere il movimento.",
+                "La risposta."
+            ],
+            "de": [
+                "Sie kritisierten seine Fähigkeit, Bewegung zu malen.",
+                "Die Antwort."
+            ],
+            "fr": [
+                "On critiquait sa capacité à peindre le mouvement.",
+                "La réponse."
+            ],
+            "zh": [
+                "他们质疑他描绘动态的能力。",
+                "他的回应。"
+            ],
+            "ja": [
+                "動きを描く能力が疑われた。",
+                "その答え。"
+            ],
+            "pl": [
+                "Krytykowali jego umiejętność przedstawiania ruchu.",
+                "Odpowiedź."
+            ],
+            "nl": [
+                "Ze bekritiseerden zijn vermogen om beweging te schilderen.",
+                "Het antwoord."
+            ]
+        }
+    },
+    "helpers": {
+        "medusa-eyes": {
+            "en": [
+                "Some critics questioned Caravaggio’s ability to depict movement,\njudging his figures to be too static.",
+                "His answer was Medusa (c. 1597–1598): a face caught at the very instant of decapitation, suspended between terror and movement."
+            ],
+            "it": [
+                "Alcuni critici mettevano in dubbio la capacità di Caravaggio di rappresentare il movimento, giudicando le sue figure troppo statiche.",
+                "La sua risposta fu Medusa (c. 1597–1598): un volto colto nell’istante della decapitazione, tra terrore e movimento."
+            ],
+            "de": [
+                "Einige Kritiker bezweifelten Caravaggios Fähigkeit, Bewegung darzustellen, und hielten seine Figuren für zu statisch.",
+                "Seine Antwort war die Medusa (ca. 1597–1598): ein Gesicht, im Augenblick der Enthauptung erfasst, zwischen Entsetzen und Bewegung."
+            ],
+            "fr": [
+                "Certains critiques mettaient en doute la capacité de Caravage à représenter le mouvement, jugeant ses figures trop statiques.",
+                "Sa réponse fut Méduse (vers 1597–1598) : un visage saisi à l’instant même de la décapitation, entre terreur et mouvement."
+            ],
+            "zh": [
+                "一些批评者曾质疑卡拉瓦乔表现动态的能力，认为他笔下的人物过于静止。",
+                "他的回应是《美杜莎》（约1597—1598年）：一张被定格在斩首瞬间的面孔，介于恐惧与运动之间。"
+            ],
+            "ja": [
+                "一部の批評家は、カラヴァッジョの人物像は静的すぎるとして、動きを描く能力に疑問を呈していました。",
+                "その答えが《メドゥーサ》（1597〜1598年頃）です。斬首のまさにその瞬間を捉えた顔に、恐怖と動きが同時に刻まれています。"
+            ],
+            "pl": [
+                "Niektórzy krytycy podawali w wątpliwość zdolność Caravaggia do przedstawiania ruchu, uznając jego postacie za zbyt statyczne.",
+                "Jego odpowiedzią była Meduza (ok. 1597–1598): twarz uchwycona dokładnie w chwili ścięcia, pomiędzy przerażeniem a ruchem."
+            ],
+            "nl": [
+                "Sommige critici twijfelden aan Caravaggio’s vermogen om beweging weer te geven en vonden zijn figuren te statisch.",
+                "Zijn antwoord was Medusa (ca. 1597–1598): een gezicht dat precies op het moment van de onthoofding is vastgelegd, tussen ontzetting en beweging."
+            ]
+        }
+    }
+}
