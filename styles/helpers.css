@@ -1,0 +1,127 @@
+/* Place the helper button above the short anecdote. */
+.helper-button {
+    position: absolute;
+    top: calc(-64 * var(--gallery-unit));
+    left: 50%;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #9a702c;
+    font-size: 30px;
+    cursor: pointer;
+    transform: translateX(-50%);
+}
+
+/* Provide visual feedback when the button is pointed at. */
+.helper-button:hover {
+    color: #684713;
+}
+
+/* Identify buttons reached with the keyboard. */
+.helper-button:focus-visible,
+.helper-close:focus-visible {
+    outline: 3px solid currentColor;
+    outline-offset: 3px;
+}
+
+/* Prevent the underlying page from scrolling while the dialog is open. */
+body.helper-open {
+    overflow: hidden;
+}
+
+/* Cover the viewport with the Light section background. */
+.helper-dialog {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    max-width: none;
+    height: 100dvh;
+    max-height: none;
+    margin: 0;
+    padding: clamp(16px, 3vw, 48px);
+    border: 0;
+    background: #e8e1d5;
+    color: #111111;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-weight: 500;
+    overflow: auto;
+    overscroll-behavior: contain;
+}
+
+/* Centre the content only while the native dialog is open. */
+.helper-dialog[open] {
+    display: grid;
+    place-items: center;
+}
+
+/* Hide the surrounding page behind an opaque backdrop. */
+.helper-dialog::backdrop {
+    background: #e8e1d5;
+}
+
+/* Keep the image and explanation aligned on the same centre line. */
+.helper-layout {
+    display: grid;
+    justify-items: center;
+    gap: 24px;
+    width: min(1440px, 100%);
+}
+
+/* Preserve the crop proportions while limiting its viewport height. */
+.helper-crop {
+    width: min(846px, 100%, calc(36svh * 846 / 380));
+}
+
+/* Allow the explanation to grow instead of clipping its text. */
+.helper-panel {
+    position: relative;
+    width: 100%;
+    padding: 24px 56px;
+    border: 1px solid #9a702c;
+    font-size: clamp(20px, 2vw, 32px);
+    line-height: 1.45;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+/* Remove default paragraph spacing and separate the two passages. */
+/* Preserve deliberate line breaks within each explanation paragraph. */
+.helper-panel p {
+    margin: 0;
+    white-space: pre-line;
+}
+
+.helper-panel p + p {
+    margin-top: 12px;
+}
+
+/* Keep the close button inside the border with a generous click area. */
+.helper-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #9a702c;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* Show pointer feedback on the close button. */
+.helper-close:hover {
+    color: #684713;
+}
+
+/* Leave more room for text and reserve space above it for the close button. */
+@media (max-width: 600px) {
+    .helper-panel {
+        padding: 44px 20px 20px;
+    }
+}

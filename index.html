@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="styles/light.css">
     <link rel="stylesheet" href="styles/shadow.css">
     <link rel="stylesheet" href="styles/blood.css">
+    <link rel="stylesheet" href="styles/helpers.css">
     <!-- Set the initial horizontal position of each chapter gallery. -->
     <script src="scripts/galleries.js" defer></script>
+    <!-- Load the helper controls and their content reader as JavaScript modules. -->
+    <script type="module" src="scripts/helpers.js"></script>
 </head>
 <body>
     <!-- Skip link to the main content. -->
@@ -93,6 +96,18 @@
                                 decoding="async">
                         </div>
                         <figcaption class="gallery-caption anecdote-caption">
+                            <!-- Open the explanation associated with this artwork detail. -->
+                            <button
+                                id="medusa-helper-button"
+                                class="helper-button"
+                                type="button"
+                                aria-label="Read more about Medusa’s eyes"
+                                aria-haspopup="dialog"
+                                aria-controls="medusa-helper"
+                                aria-expanded="false">
+                                <span aria-hidden="true">✦</span>
+                            </button>
+
                             <span>They criticized his ability to paint movement.</span>
                             <span>The answer.</span>
                         </figcaption>
@@ -583,6 +598,37 @@
             </div>
         </section>
     </main>
+
+    <!-- Display the selected detail and its explanation above the page. -->
+    <dialog
+        id="medusa-helper"
+        class="helper-dialog"
+        aria-label="Medusa: additional information">
+
+        <div class="helper-layout">
+            <!-- Reuse the original image and the existing crop coordinates. -->
+            <div class="artwork-image helper-crop light-artwork--medusa-eyes">
+                <img
+                    src="assets/artworks/light/medusa-detail-source.jpg"
+                    alt="Detail of Medusa’s eyes"
+                    decoding="async">
+            </div>
+
+            <!-- Keep the explanation inside the gold border. -->
+            <div class="helper-panel">
+                <button
+                    class="helper-close"
+                    type="button"
+                    aria-label="Close explanation"
+                    autofocus>
+                    <span aria-hidden="true">×</span>
+                </button>
+
+                <!-- Receive the explanation loaded from the content archive. -->
+                <div id="medusa-helper-text" aria-live="polite"></div>
+            </div>
+        </div>
+    </dialog>
 
     <!-- Project and course information. -->
     <footer>

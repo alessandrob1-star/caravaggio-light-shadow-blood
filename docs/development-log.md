@@ -27,3 +27,10 @@
 - Added artworks, detail crops, anecdotes and artwork captions to Light, Shadow and Blood.
 - Shared the gallery styles and navigation logic across all three sections.
 - Checked horizontal scrolling, image loading and caption visibility on desktop and smaller screens.
+
+**13 November 2026 — Medusa helper**
+
+- Added the Medusa eyes helper with a centred crop and explanation panel.
+- Added closing through the X button, an outside click or Escape, with keyboard focus restored afterwards.
+- Separated its anecdote and helper text into an eight-language JSON archive.
+- Checked content loading and layout on desktop and smaller screens.
