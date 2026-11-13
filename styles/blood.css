@@ -1,0 +1,165 @@
+/* Set the blood chapter's colour scheme and gallery dimensions. */
+#blood {
+    --gallery-width: 14457;
+    --title-left: 4603.5;
+    background: #d8cdbb;
+    color: #9d1615;
+}
+
+/* Clip the scaled decorative image without changing its SVG dimensions. */
+.blood-trace {
+    position: absolute;
+    left: 0;
+    top: calc(400 * var(--gallery-unit) + var(--gallery-offset));
+    width: calc(14457 * var(--gallery-unit));
+    height: calc(75 * var(--gallery-unit));
+    overflow: hidden;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+}
+
+.blood-trace img {
+    display: block;
+    transform: scale(calc(var(--gallery-unit) / 1px));
+    transform-origin: top left;
+}
+
+/* Image frame, crop and caption position for jerome. */
+.blood-artwork--jerome {
+    --artwork-x: 1496.5;
+    --artwork-y: 148;
+    --artwork-width: 907;
+    --artwork-height: 627;
+    --caption-y: 807;
+    --caption-width: 1743;
+    --image-width: 100.07%;
+    --image-height: 100%;
+    --image-left: -0.03%;
+    --image-top: 0%;
+}
+
+/* Image frame, crop and caption position for wignacourt. */
+.blood-artwork--wignacourt {
+    --artwork-x: 2634;
+    --artwork-y: 123;
+    --artwork-width: 468;
+    --artwork-height: 677;
+    --caption-y: 832;
+    --caption-width: 1743;
+    --image-width: 100%;
+    --image-height: 100.06%;
+    --image-left: 0%;
+    --image-top: -0.03%;
+}
+
+/* Image frame, crop and caption position for jerome detail. */
+.blood-artwork--jerome-detail {
+    --artwork-x: 3553;
+    --artwork-y: 177;
+    --artwork-width: 470;
+    --artwork-height: 450;
+    --caption-y: 798;
+    --caption-width: 1523;
+    --image-width: 358.38%;
+    --image-height: 258.25%;
+    --image-left: -103.84%;
+    --image-top: -4.37%;
+}
+
+/* Image frame, crop and caption position for wignacourt detail. */
+.blood-artwork--wignacourt-detail {
+    --artwork-x: 4449;
+    --artwork-y: 159;
+    --artwork-width: 422;
+    --artwork-height: 481;
+    --caption-y: 798;
+    --caption-width: 1523;
+    --image-width: 301.41%;
+    --image-height: 382.34%;
+    --image-left: -82.39%;
+    --image-top: -0.12%;
+}
+
+/* Image frame, crop and caption position for holofernes. */
+.blood-artwork--holofernes {
+    --artwork-x: 7122;
+    --artwork-y: 292;
+    --artwork-width: 450;
+    --artwork-height: 402;
+    --caption-y: 798;
+    --caption-width: 1523;
+    --image-width: 279.52%;
+    --image-height: 230.92%;
+    --image-left: -49.87%;
+    --image-top: -98.85%;
+}
+
+/* Image frame, crop and caption position for judith detail. */
+.blood-artwork--judith-detail {
+    --artwork-x: 8279;
+    --artwork-y: 292;
+    --artwork-width: 394;
+    --artwork-height: 402;
+    --caption-y: 798;
+    --caption-width: 1523;
+    --image-width: 550.42%;
+    --image-height: 398.68%;
+    --image-left: -364.92%;
+    --image-top: -44.01%;
+}
+
+/* Image frame, crop and caption position for judith. */
+.blood-artwork--judith {
+    --artwork-x: 9674;
+    --artwork-y: 94;
+    --artwork-width: 926;
+    --artwork-height: 684;
+    --caption-y: 810;
+    --caption-width: 1743;
+    --image-width: 100%;
+    --image-height: 100%;
+    --image-left: 0%;
+    --image-top: 0%;
+}
+
+/* Image frame, crop and caption position for signature. */
+.blood-artwork--signature {
+    --artwork-x: 10957.5;
+    --artwork-y: 400;
+    --artwork-width: 719;
+    --artwork-height: 232;
+    --caption-y: 798;
+    --caption-width: 1523;
+    --image-width: 145.39%;
+    --image-height: 222.22%;
+    --image-left: -23.04%;
+    --image-top: -122.18%;
+}
+
+/* Image frame, crop and caption position for misericorde. */
+.blood-artwork--misericorde {
+    --artwork-x: 12009.5;
+    --artwork-y: 370;
+    --artwork-width: 441;
+    --artwork-height: 314;
+    --caption-y: 798;
+    --caption-width: 1523;
+    --image-width: 570.28%;
+    --image-height: 553.68%;
+    --image-left: -258.7%;
+    --image-top: -277.21%;
+}
+
+/* Image frame, crop and caption position for beheading. */
+.blood-artwork--beheading {
+    --artwork-x: 13407.5;
+    --artwork-y: 143;
+    --artwork-width: 919;
+    --artwork-height: 635;
+    --caption-y: 810;
+    --caption-width: 1743;
+    --image-width: 100%;
+    --image-height: 100.01%;
+    --image-left: 0.09%;
+    --image-top: 0.05%;
+}

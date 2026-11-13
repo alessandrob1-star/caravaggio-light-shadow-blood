@@ -1,0 +1,131 @@
+/* Set the Light gallery dimensions. */
+#light {
+    --gallery-width: 13589;
+    --title-left: 2984.5;
+}
+
+/* Image frame, crop and caption position for medusa. */
+.light-artwork--medusa {
+    --artwork-x: 1146;
+    --artwork-y: 180;
+    --artwork-width: 556;
+    --artwork-height: 618;
+    --caption-y: 830;
+    --caption-width: 1743;
+    --image-width: 100.05%;
+    --image-height: 100%;
+    --image-left: -0.03%;
+    --image-top: 0.09%;
+}
+
+/* Image frame, crop and caption position for medusa eyes. */
+.light-artwork--medusa-eyes {
+    --artwork-x: 2416;
+    --artwork-y: 349;
+    --artwork-width: 846;
+    --artwork-height: 380;
+    --caption-y: 841;
+    --caption-width: 1523;
+    --image-width: 285.45%;
+    --image-height: 651.98%;
+    --image-left: -93.45%;
+    --image-top: -227.32%;
+}
+
+/* Image frame, crop and caption position for basket edge. */
+.light-artwork--basket-edge {
+    --artwork-x: 5733;
+    --artwork-y: 192;
+    --artwork-width: 1046;
+    --artwork-height: 522;
+    --caption-y: 798;
+    --caption-width: 1743;
+    --image-width: 227.3%;
+    --image-height: 360.03%;
+    --image-left: -24.7%;
+    --image-top: -260.07%;
+}
+
+/* Image frame, crop and caption position for fruit light. */
+.light-artwork--fruit-light {
+    --artwork-x: 7142;
+    --artwork-y: 177.5;
+    --artwork-width: 764;
+    --artwork-height: 551;
+    --caption-y: 798;
+    --caption-width: 1743;
+    --image-width: 189.62%;
+    --image-height: 208.04%;
+    --image-left: -21.98%;
+    --image-top: -70.13%;
+}
+
+/* Image frame, crop and caption position for empty background. */
+.light-artwork--empty-background {
+    --artwork-x: 8286.5;
+    --artwork-y: 201.5;
+    --artwork-width: 413;
+    --artwork-height: 503;
+    --caption-y: 798;
+    --caption-width: 1743;
+    --image-width: 248.76%;
+    --image-height: 161.51%;
+    --image-left: -148.68%;
+    --image-top: 0%;
+}
+
+/* Image frame, crop and caption position for basket. */
+.light-artwork--basket {
+    --artwork-x: 9401.5;
+    --artwork-y: 116;
+    --artwork-width: 917;
+    --artwork-height: 725;
+    --caption-y: 873;
+    --caption-width: 1743;
+    --image-width: 100%;
+    --image-height: 100%;
+    --image-left: 0%;
+    --image-top: 0%;
+}
+
+/* Image frame, crop and caption position for emmaus basket. */
+.light-artwork--emmaus-basket {
+    --artwork-x: 10594.5;
+    --artwork-y: 334;
+    --artwork-width: 569;
+    --artwork-height: 340;
+    --caption-y: 798;
+    --caption-width: 1743;
+    --image-width: 448.94%;
+    --image-height: 532.88%;
+    --image-left: -237.52%;
+    --image-top: -344.53%;
+}
+
+/* Image frame, crop and caption position for emmaus christ. */
+.light-artwork--emmaus-christ {
+    --artwork-x: 11568;
+    --artwork-y: 334;
+    --artwork-width: 478;
+    --artwork-height: 340;
+    --caption-y: 798;
+    --caption-width: 1743;
+    --image-width: 276.01%;
+    --image-height: 276.04%;
+    --image-left: -105.78%;
+    --image-top: -26.39%;
+}
+
+/* Image frame, crop and caption position for emmaus. */
+.light-artwork--emmaus {
+    --artwork-x: 12717;
+    --artwork-y: 143;
+    --artwork-width: 920;
+    --artwork-height: 655;
+    --caption-y: 830;
+    --caption-width: 1743;
+    --image-width: 100.08%;
+    --image-height: 100%;
+    --image-left: -0.04%;
+    --image-top: 0%;
+}

@@ -1,0 +1,91 @@
+/* Scale the gallery geometry while keeping details readable on small screens. */
+.chapter {
+    --gallery-unit: clamp(0.5px, min(calc(100vw / 1920), calc(100svh / 1018)), 1px);
+    --gallery-offset: max(0px, calc((100svh - 1018 * var(--gallery-unit)) / 2));
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-weight: 500;
+}
+
+/* Keep the native horizontal scrollbar available for gallery navigation. */
+.chapter-scroll {
+    overflow-x: scroll;
+}
+
+/* Preserve the relative positions of the artworks along the gallery. */
+.chapter-track {
+    position: relative;
+    display: block;
+    width: calc(var(--gallery-width) * var(--gallery-unit));
+    height: max(100svh, calc(1018 * var(--gallery-unit)));
+}
+
+/* Place the opening title between the artworks on the left and right. */
+.chapter-title-panel {
+    position: absolute;
+    left: calc(var(--title-left) * var(--gallery-unit));
+    top: calc(627 * var(--gallery-unit) + var(--gallery-offset));
+    display: grid;
+    place-items: center;
+    width: calc(1200 * var(--gallery-unit));
+    height: calc(133 * var(--gallery-unit));
+    min-height: 0;
+    padding: 0;
+}
+
+.chapter-title {
+    font-size: calc(110 * var(--gallery-unit));
+}
+
+/* Centre each artwork on its gallery position and limit text to the viewport. */
+.gallery-artwork {
+    position: absolute;
+    left: calc(var(--artwork-x) * var(--gallery-unit));
+    top: calc(var(--artwork-y) * var(--gallery-unit) + var(--gallery-offset));
+    width: min(calc(var(--caption-width) * var(--gallery-unit)), calc(100vw - 48px));
+    margin: 0;
+    transform: translateX(-50%);
+}
+
+/* Keep each image frame proportional and clip only the selected detail. */
+.artwork-image {
+    position: relative;
+    width: calc(var(--artwork-width) * var(--gallery-unit));
+    max-width: 100%;
+    aspect-ratio: var(--artwork-width) / var(--artwork-height);
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+/* Position the original image inside its full-artwork or detail frame. */
+.artwork-image img {
+    position: absolute;
+    width: var(--image-width);
+    height: var(--image-height);
+    max-width: none;
+    left: var(--image-left);
+    top: var(--image-top);
+    object-fit: cover;
+}
+
+/* Align captions below their images with centred, widely spaced text. */
+.gallery-caption {
+    position: absolute;
+    top: calc((var(--caption-y) - var(--artwork-y)) * var(--gallery-unit));
+    width: 100%;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+
+.gallery-caption span {
+    display: block;
+}
+
+/* Distinguish short anecdotes from the smaller artwork information. */
+.anecdote-caption {
+    font-size: clamp(20px, min(calc(48 * var(--gallery-unit)), 6.4vw), 48px);
+}
+
+.artwork-caption {
+    font-size: clamp(14px, calc(24 * var(--gallery-unit)), 24px);
+}
