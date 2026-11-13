@@ -1,0 +1,210 @@
+/* Set the shadow chapter's colour scheme and gallery dimensions. */
+#shadow {
+    --gallery-width: 18489;
+    --title-left: 4785.5;
+    background: #2a2a2a;
+    color: #e8e1d5;
+}
+
+/* Image frame, crop and caption position for ursula. */
+.shadow-artwork--ursula {
+    --artwork-x: 646.5;
+    --artwork-y: 164;
+    --artwork-width: 577;
+    --artwork-height: 504;
+    --caption-y: 735;
+    --caption-width: 840;
+    --image-width: 100%;
+    --image-height: 100%;
+    --image-left: 0%;
+    --image-top: 0%;
+}
+
+/* Image frame, crop and caption position for ursula detail. */
+.shadow-artwork--ursula-detail {
+    --artwork-x: 1553;
+    --artwork-y: 310;
+    --artwork-width: 258;
+    --artwork-height: 211;
+    --caption-y: 588;
+    --caption-width: 840;
+    --image-width: 418.44%;
+    --image-height: 446.02%;
+    --image-left: -293.64%;
+    --image-top: -123.01%;
+}
+
+/* Image frame, crop and caption position for taking of christ. */
+.shadow-artwork--taking-of-christ {
+    --artwork-x: 2813;
+    --artwork-y: 112;
+    --artwork-width: 820;
+    --artwork-height: 635;
+    --caption-y: 814;
+    --caption-width: 1200;
+    --image-width: 100%;
+    --image-height: 100%;
+    --image-left: 0%;
+    --image-top: 0%;
+}
+
+/* Image frame, crop and caption position for arrest witness. */
+.shadow-artwork--arrest-witness {
+    --artwork-x: 4183;
+    --artwork-y: 215;
+    --artwork-width: 518;
+    --artwork-height: 346;
+    --caption-y: 628;
+    --caption-width: 1200;
+    --image-width: 223.69%;
+    --image-height: 259.36%;
+    --image-left: -123.69%;
+    --image-top: -0.02%;
+}
+
+/* Image frame, crop and caption position for goliath. */
+.shadow-artwork--goliath {
+    --artwork-x: 7200.5;
+    --artwork-y: 306;
+    --artwork-width: 527;
+    --artwork-height: 374;
+    --caption-y: 798;
+    --caption-width: 1523;
+    --image-width: 262.9%;
+    --image-height: 458.06%;
+    --image-left: -162.9%;
+    --image-top: -311.56%;
+}
+
+/* Image frame, crop and caption position for david. */
+.shadow-artwork--david {
+    --artwork-x: 8493.5;
+    --artwork-y: 107;
+    --artwork-width: 585;
+    --artwork-height: 724;
+    --caption-y: 863;
+    --caption-width: 1743;
+    --image-width: 100.07%;
+    --image-height: 100%;
+    --image-left: -0.04%;
+    --image-top: 0%;
+}
+
+/* Image frame, crop and caption position for pilgrim feet. */
+.shadow-artwork--pilgrim-feet {
+    --artwork-x: 9581;
+    --artwork-y: 243;
+    --artwork-width: 632;
+    --artwork-height: 441;
+    --caption-y: 798;
+    --caption-width: 1523;
+    --image-width: 202.48%;
+    --image-height: 496.09%;
+    --image-left: -102.48%;
+    --image-top: -395.92%;
+}
+
+/* Image frame, crop and caption position for pilgrim woman. */
+.shadow-artwork--pilgrim-woman {
+    --artwork-x: 10973;
+    --artwork-y: 260;
+    --artwork-width: 514;
+    --artwork-height: 407;
+    --caption-y: 798;
+    --caption-width: 1523;
+    --image-width: 314.62%;
+    --image-height: 679.11%;
+    --image-left: -214.62%;
+    --image-top: -278.88%;
+}
+
+/* Image frame, crop and caption position for madonna. */
+.shadow-artwork--madonna {
+    --artwork-x: 12224;
+    --artwork-y: 133;
+    --artwork-width: 394;
+    --artwork-height: 675;
+    --caption-y: 840;
+    --caption-width: 1743;
+    --image-width: 100%;
+    --image-height: 100%;
+    --image-left: 0%;
+    --image-top: 0%;
+}
+
+/* Image frame, crop and caption position for virgin detail. */
+.shadow-artwork--virgin-detail {
+    --artwork-x: 13517;
+    --artwork-y: 379;
+    --artwork-width: 854;
+    --artwork-height: 228;
+    --caption-y: 798;
+    --caption-width: 1523;
+    --image-width: 119.47%;
+    --image-height: 675.7%;
+    --image-left: -19.46%;
+    --image-top: -404.67%;
+}
+
+/* Image frame, crop and caption position for virgin. */
+.shadow-artwork--virgin {
+    --artwork-x: 14815.5;
+    --artwork-y: 147;
+    --artwork-width: 479;
+    --artwork-height: 723;
+    --caption-y: 902;
+    --caption-width: 1743;
+    --image-width: 100%;
+    --image-height: 100%;
+    --image-left: 0%;
+    --image-top: 0%;
+}
+
+/* Image frame, crop and caption position for matthew hand. */
+.shadow-artwork--matthew-hand {
+    --artwork-x: 15912.5;
+    --artwork-y: 313;
+    --artwork-width: 375;
+    --artwork-height: 356;
+    --caption-y: 798;
+    --caption-width: 1523;
+    --image-width: 329.94%;
+    --image-height: 456.09%;
+    --image-left: -107.01%;
+    --image-top: -165.29%;
+}
+
+/* Image frame, crop and caption position for matthew angel. */
+.shadow-artwork--matthew-angel {
+    --artwork-x: 16985;
+    --artwork-y: 327;
+    --artwork-width: 472;
+    --artwork-height: 332;
+    --caption-y: 798;
+    --caption-width: 1523;
+    --image-width: 268.39%;
+    --image-height: 499.68%;
+    --image-left: -71.5%;
+    --image-top: -67.12%;
+}
+
+/* Image frame, crop and caption position for matthew. */
+.shadow-artwork--matthew {
+    --artwork-x: 18083;
+    --artwork-y: 151;
+    --artwork-width: 518;
+    --artwork-height: 679;
+    --caption-y: 862;
+    --caption-width: 1743;
+    --image-width: 100%;
+    --image-height: 100%;
+    --image-left: 0%;
+    --image-top: 0%;
+}
+
+/* Leave additional room for the longest caption on narrow screens. */
+@media (max-width: 360px) {
+    #shadow .chapter-track {
+        min-height: calc(100svh + 24px);
+    }
+}

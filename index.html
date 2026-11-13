@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Caravaggio — Light, Shadow, Blood</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/gallery.css">
+    <link rel="stylesheet" href="styles/light.css">
+    <link rel="stylesheet" href="styles/shadow.css">
+    <link rel="stylesheet" href="styles/blood.css">
+    <!-- Set the initial horizontal position of each chapter gallery. -->
+    <script src="scripts/galleries.js" defer></script>
 </head>
 <body>
     <!-- Skip link to the main content. -->
@@ -63,19 +69,518 @@
 
                 <!-- Arrange the title and gallery items along one horizontal track. -->
                 <div class="chapter-track">
+                    <!-- Complete artwork and identifying caption. -->
+                    <figure class="gallery-artwork light-artwork--medusa">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/light/medusa.jpg"
+                                alt="Medusa by Caravaggio"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption artwork-caption">
+                            <span>MEDUSA</span>
+                            <span>c. 1597–1598</span>
+                            <span>Gallerie degli Uffizi, Florence</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork light-artwork--medusa-eyes">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/light/medusa-detail-source.jpg"
+                                alt="Detail of Medusa’s eyes"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>They criticized his ability to paint movement.</span>
+                            <span>The answer.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Opening title between the two groups of artworks. -->
                     <div class="chapter-title-panel">
                         <h2 id="light-title" class="chapter-title">LIGHT</h2>
                     </div>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork light-artwork--basket-edge">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/light/basket-of-fruit.jpg"
+                                alt="Detail of the basket extending over the table edge"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>An invitation to come closer.</span>
+                            <span>Until you want to reach out and push the basket back into the painting.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork light-artwork--fruit-light">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/light/basket-of-fruit.jpg"
+                                alt="Detail of the illuminated fruit"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>An explosion of light shapes matter.</span>
+                            <span>Every detail comes to life.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork light-artwork--empty-background">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/light/basket-of-fruit.jpg"
+                                alt="Detail of the pale background behind the fruit"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>Emptiness becomes space.</span>
+                            <span>The impossible challenge.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Complete artwork and identifying caption. -->
+                    <figure class="gallery-artwork light-artwork--basket">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/light/basket-of-fruit.jpg"
+                                alt="Basket of Fruit by Caravaggio"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption artwork-caption">
+                            <span>BASKET OF FRUIT</span>
+                            <span>c. 1597–1600</span>
+                            <span>Biblioteca Ambrosiana, Milan</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork light-artwork--emmaus-basket">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/light/supper-at-emmaus.jpg"
+                                alt="Detail of the basket and its shadow in The Supper at Emmaus"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>Light reveals the truth.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork light-artwork--emmaus-christ">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/light/supper-at-emmaus.jpg"
+                                alt="Detail of Christ and the shadows behind him"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>Light reveals the divine.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Complete artwork and identifying caption. -->
+                    <figure class="gallery-artwork light-artwork--emmaus">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/light/supper-at-emmaus.jpg"
+                                alt="The Supper at Emmaus by Caravaggio"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption artwork-caption">
+                            <span>THE SUPPER AT EMMAUS</span>
+                            <span>1601</span>
+                            <span>The National Gallery, London</span>
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
         </section>
 
-        <section id="shadow" aria-labelledby="shadow-title">
-            <h2 id="shadow-title" lang="en">SHADOW</h2>
+        <!-- Shadow chapter and its horizontally scrollable gallery. -->
+        <section id="shadow" class="chapter" aria-labelledby="shadow-title">
+            <!-- Allow keyboard users to focus and scroll the gallery. -->
+            <div class="chapter-scroll" tabindex="0" role="group" aria-label="Shadow gallery">
+                <!-- Arrange the title and gallery items along one horizontal track. -->
+                <div class="chapter-track">
+                    <!-- Complete artwork and identifying caption. -->
+                    <figure class="gallery-artwork shadow-artwork--ursula">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/shadow/martyrdom-of-saint-ursula.jpg"
+                                alt="THE MARTYRDOM OF SAINT URSULA"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption artwork-caption">
+                            <span>THE MARTYRDOM OF SAINT URSULA</span>
+                            <span>1610</span>
+                            <span>Gallerie d’Italia — Naples</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork shadow-artwork--ursula-detail">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/shadow/martyrdom-of-saint-ursula.jpg"
+                                alt="Detail of The Martyrdom of Saint Ursula"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>The arrow pierces Ursula.</span>
+                            <span>Behind her, he does more than witness the martyrdom: he seems to share in it.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Complete artwork and identifying caption. -->
+                    <figure class="gallery-artwork shadow-artwork--taking-of-christ">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/shadow/taking-of-christ.jpg"
+                                alt="THE TAKING OF CHRIST"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption artwork-caption">
+                            <span>THE TAKING OF CHRIST</span>
+                            <span>1602</span>
+                            <span>National Gallery of Ireland, Dublin</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork shadow-artwork--arrest-witness">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/shadow/taking-of-christ.jpg"
+                                alt="Detail of The Taking of Christ"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>A curious witness to an arrest.</span>
+                            <span>Perhaps this was how he imagined the looks of those who had witnessed his own arrests.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Opening title between the two groups of artworks. -->
+                    <div class="chapter-title-panel">
+                        <h2 id="shadow-title" class="chapter-title">SHADOW</h2>
+                    </div>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork shadow-artwork--goliath">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/shadow/david-and-goliath.jpg"
+                                alt="Detail of Goliath’s face"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>The bruised face after a night of violence rekindles the anguish of the sentence that still hangs over him.</span>
+                            <span>In Goliath, his own soul is reflected.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Complete artwork and identifying caption. -->
+                    <figure class="gallery-artwork shadow-artwork--david">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/shadow/david-and-goliath.jpg"
+                                alt="DAVID WITH THE HEAD OF GOLIATH"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption artwork-caption">
+                            <span>DAVID WITH THE HEAD OF GOLIATH</span>
+                            <span>c. 1609–1610</span>
+                            <span>Galleria Borghese, Rome</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork shadow-artwork--pilgrim-feet">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/shadow/madonna-of-loreto.jpg"
+                                alt="Detail of the kneeling pilgrim’s feet"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>Dirty, wretched, prostrate.</span>
+                            <span>The scandal.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork shadow-artwork--pilgrim-woman">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/shadow/madonna-of-loreto.jpg"
+                                alt="Detail of the praying woman"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>Old. Unkempt. Imperfect.</span>
+                            <span>The reality that must not be shown.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Complete artwork and identifying caption. -->
+                    <figure class="gallery-artwork shadow-artwork--madonna">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/shadow/madonna-of-loreto.jpg"
+                                alt="MADONNA OF LORETO (MADONNA OF THE PILGRIMS)"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption artwork-caption">
+                            <span>MADONNA OF LORETO (MADONNA OF THE PILGRIMS)</span>
+                            <span>c. 1604–1606</span>
+                            <span>Basilica of Sant’Agostino, Rome</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork shadow-artwork--virgin-detail">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/shadow/death-of-the-virgin.jpg"
+                                alt="Detail of the Virgin’s body"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>A cold table. A drowned woman.</span>
+                            <span>An unacceptable audacity.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Complete artwork and identifying caption. -->
+                    <figure class="gallery-artwork shadow-artwork--virgin">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/shadow/death-of-the-virgin.jpg"
+                                alt="DEATH OF THE VIRGIN"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption artwork-caption">
+                            <span>DEATH OF THE VIRGIN</span>
+                            <span>1606</span>
+                            <span>Musée du Louvre, Paris</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork shadow-artwork--matthew-hand">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/shadow/saint-matthew-and-the-angel.jpg"
+                                alt="Detail of Saint Matthew’s hand"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>An apostle. An uncertain hand.</span>
+                            <span>Incapable without divine guidance.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork shadow-artwork--matthew-angel">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/shadow/saint-matthew-and-the-angel.jpg"
+                                alt="Detail of Saint Matthew and the angel"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>Too close. Too sensual.</span>
+                            <span>Another rejection.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Complete artwork and identifying caption. -->
+                    <figure class="gallery-artwork shadow-artwork--matthew">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/shadow/saint-matthew-and-the-angel.jpg"
+                                alt="SAINT MATTHEW AND THE ANGEL"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption artwork-caption">
+                            <span>SAINT MATTHEW AND THE ANGEL</span>
+                            <span>1602</span>
+                            <span>Photograph of the lost painting — destroyed in Berlin, 1945</span>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
         </section>
 
-        <section id="blood" aria-labelledby="blood-title">
-            <h2 id="blood-title" lang="en">BLOOD</h2>
+        <!-- Blood chapter and its horizontally scrollable gallery. -->
+        <section id="blood" class="chapter" aria-labelledby="blood-title">
+            <!-- Allow keyboard users to focus and scroll the gallery. -->
+            <div class="chapter-scroll" tabindex="0" role="group" aria-label="Blood gallery">
+                <!-- Arrange the title and gallery items along one horizontal track. -->
+                <div class="chapter-track">
+                    <!-- Original decorative blood trace behind the artworks. -->
+                    <div class="blood-trace" aria-hidden="true">
+                        <img src="assets/artworks/blood/blood-trace.svg" alt="">
+                    </div>
+
+                    <!-- Complete artwork and identifying caption. -->
+                    <figure class="gallery-artwork blood-artwork--jerome">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/blood/saint-jerome.jpg"
+                                alt="SAINT JEROME WRITING"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption artwork-caption">
+                            <span>SAINT JEROME WRITING</span>
+                            <span>c. 1607–1608</span>
+                            <span>St. John&#x27;s Co-Cathedral, Valletta, Malta</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Complete artwork and identifying caption. -->
+                    <figure class="gallery-artwork blood-artwork--wignacourt">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/blood/alof-de-wignacourt.jpg"
+                                alt="PORTRAIT OF ALOF DE WIGNACOURT WITH HIS PAGE"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption artwork-caption">
+                            <span>PORTRAIT OF ALOF DE WIGNACOURT WITH HIS PAGE</span>
+                            <span>c. 1607–1608</span>
+                            <span>Musée du Louvre, Paris</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork blood-artwork--jerome-detail">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/blood/saint-jerome.jpg"
+                                alt="Detail of Saint Jerome’s face"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>The Saint.</span>
+                            <span>The Friend.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork blood-artwork--wignacourt-detail">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/blood/alof-de-wignacourt.jpg"
+                                alt="Detail of Alof de Wignacourt’s face"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>The Grand Knight.</span>
+                            <span>The Protector.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Opening title between the two groups of artworks. -->
+                    <div class="chapter-title-panel">
+                        <h2 id="blood-title" class="chapter-title">BLOOD</h2>
+                    </div>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork blood-artwork--holofernes">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/blood/judith-and-holofernes.jpg"
+                                alt="Detail of Holofernes"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>No mercy.</span>
+                            <span>The instant of blood.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork blood-artwork--judith-detail">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/blood/judith-and-holofernes.jpg"
+                                alt="Detail of Judith’s face"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>Intimate with one.</span>
+                            <span>Executioner of the other.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Complete artwork and identifying caption. -->
+                    <figure class="gallery-artwork blood-artwork--judith">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/blood/judith-and-holofernes.jpg"
+                                alt="JUDITH BEHEADING HOLOFERNES"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption artwork-caption">
+                            <span>JUDITH BEHEADING HOLOFERNES</span>
+                            <span>c. 1598–1599</span>
+                            <span>Palazzo Barberini, Rome</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork blood-artwork--signature">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/blood/signature.jpg"
+                                alt="Detail of the signature in blood"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>The only one.</span>
+                            <span>In blood.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Artwork detail and its short anecdote. -->
+                    <figure class="gallery-artwork blood-artwork--misericorde">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/blood/beheading-of-saint-john.jpg"
+                                alt="Detail of the executioner’s dagger"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption anecdote-caption">
+                            <span>Waiting for the misericorde</span>
+                            <span>to end the suffering.</span>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Complete artwork and identifying caption. -->
+                    <figure class="gallery-artwork blood-artwork--beheading">
+                        <div class="artwork-image">
+                            <img
+                                src="assets/artworks/blood/beheading-of-saint-john.jpg"
+                                alt="THE BEHEADING OF SAINT JOHN THE BAPTIST"
+                                decoding="async">
+                        </div>
+                        <figcaption class="gallery-caption artwork-caption">
+                            <span>THE BEHEADING OF SAINT JOHN THE BAPTIST</span>
+                            <span>1608</span>
+                            <span>St. John’s Co-Cathedral, Valletta, Malta</span>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
         </section>
     </main>
 

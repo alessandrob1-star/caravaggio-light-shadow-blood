@@ -21,3 +21,9 @@
 **12 November 2026 — Light chapter structure**
 
 - Added the Light chapter background, title and horizontal gallery container.
+
+**13 November 2026 — Artwork galleries**
+
+- Added artworks, detail crops, anecdotes and artwork captions to Light, Shadow and Blood.
+- Shared the gallery styles and navigation logic across all three sections.
+- Checked horizontal scrolling, image loading and caption visibility on desktop and smaller screens.
