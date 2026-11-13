@@ -34,3 +34,9 @@
 - Added closing through the X button, an outside click or Escape, with keyboard focus restored afterwards.
 - Separated its anecdote and helper text into an eight-language JSON archive.
 - Checked content loading and layout on desktop and smaller screens.
+
+**13 November 2026 — Footer and release v2.51**
+
+- Updated the footer with the full university name, degree and course information, linking to the OPIT degree programme page.
+- Deployed and verified the Medusa helper on AWS.
+- Published release v2.51 — First crop explanation.
