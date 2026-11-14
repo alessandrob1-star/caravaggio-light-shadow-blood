@@ -10,8 +10,11 @@
     <link rel="stylesheet" href="styles/shadow.css">
     <link rel="stylesheet" href="styles/blood.css">
     <link rel="stylesheet" href="styles/helpers.css">
+    <link rel="stylesheet" href="styles/languages.css">
     <!-- Set the initial horizontal position of each chapter gallery. -->
     <script src="scripts/galleries.js" defer></script>
+    <!-- Load language selection and content updates. -->
+    <script type="module" src="scripts/languages.js"></script>
     <!-- Load the helper controls and their content reader as JavaScript modules. -->
     <script type="module" src="scripts/helpers.js"></script>
 </head>
@@ -21,6 +24,105 @@
 
     <!-- Opening title, painter's name and chapter navigation. -->
     <header class="site-header">
+        <!-- Choose the language used for anecdotes and helper explanations. -->
+        <div class="language-selector">
+
+            <!-- Show the selected flag and open or close the language list. -->
+            <button
+                id="language-toggle"
+                class="language-toggle"
+                type="button"
+                aria-label="Choose language. Current language: English."
+                aria-expanded="false"
+                aria-controls="language-options">
+
+                <img
+                    id="selected-language-flag"
+                    src="assets/flags/en.svg"
+                    width="42"
+                    height="28"
+                    alt="">
+
+                <img
+                    src="assets/icons/language-chevron.svg"
+                    width="12"
+                    height="8"
+                    alt="">
+            </button>
+
+            <!-- Keep the language options hidden until the list is opened. -->
+            <ul
+                id="language-options"
+                class="language-options"
+                aria-label="Available languages"
+                hidden>
+
+                <li>
+                    <button type="button" data-language="en"
+                            lang="en" aria-pressed="true">
+                        <img src="assets/flags/en.svg" width="42" height="28" alt="">
+                        <span>English</span>
+                    </button>
+                </li>
+
+                <li>
+                    <button type="button" data-language="zh"
+                            lang="zh-Hans" aria-pressed="false">
+                        <img src="assets/flags/zh.svg" width="42" height="28" alt="">
+                        <span>简体中文</span>
+                    </button>
+                </li>
+
+                <li>
+                    <button type="button" data-language="fr"
+                            lang="fr" aria-pressed="false">
+                        <img src="assets/flags/fr.svg" width="42" height="28" alt="">
+                        <span>Français</span>
+                    </button>
+                </li>
+
+                <li>
+                    <button type="button" data-language="ja"
+                            lang="ja" aria-pressed="false">
+                        <img src="assets/flags/ja.svg" width="42" height="28" alt="">
+                        <span>日本語</span>
+                    </button>
+                </li>
+
+                <li>
+                    <button type="button" data-language="it"
+                            lang="it" aria-pressed="false">
+                        <img src="assets/flags/it.svg" width="42" height="28" alt="">
+                        <span>Italiano</span>
+                    </button>
+                </li>
+
+                <li>
+                    <button type="button" data-language="nl"
+                            lang="nl" aria-pressed="false">
+                        <img src="assets/flags/nl.svg" width="42" height="28" alt="">
+                        <span>Nederlands</span>
+                    </button>
+                </li>
+
+                <li>
+                    <button type="button" data-language="pl"
+                            lang="pl" aria-pressed="false">
+                        <img src="assets/flags/pl.svg" width="42" height="28" alt="">
+                        <span>Polski</span>
+                    </button>
+                </li>
+
+                <li>
+                    <button type="button" data-language="de"
+                            lang="de" aria-pressed="false">
+                        <img src="assets/flags/de.svg" width="42" height="28" alt="">
+                        <span>Deutsch</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+
         <h1 class="site-title">CARAVAGGIO</h1>
 
         <!-- Place the painter's name beside the chapter links. -->
@@ -35,6 +137,8 @@
                 </ul>
             </nav>
         </div>
+        <!-- Announce a language-loading error without replacing the current content. -->
+        <p id="language-status" class="language-status" role="status"></p>
     </header>
 
     <!-- Main page content. -->

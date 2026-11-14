@@ -1,0 +1,128 @@
+/* Position the language selector relative to the opening header. */
+.site-header {
+    position: relative;
+}
+
+/* Keep the selector in the upper-right corner. */
+.language-selector {
+    position: absolute;
+    top: 9px;
+    right: 6px;
+    z-index: 10;
+    width: min(280px, calc(100vw - 32px));
+}
+
+/* Display the selected flag beside the gold arrow. */
+.language-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 88px;
+    height: 48px;
+    margin-left: auto;
+    padding: 0 10px;
+    border: 1px solid #a37a3d;
+    border-radius: 6px;
+    background: #000000;
+    color: #a37a3d;
+    cursor: pointer;
+}
+
+/* Preserve the original dimensions of the flag and arrow assets. */
+.language-toggle img,
+.language-options img {
+    display: block;
+    flex-shrink: 0;
+}
+
+/* Round the flag corners without changing the SVG dimensions. */
+.language-toggle img:first-child,
+.language-options img {
+    border-radius: 4px;
+}
+
+/* Place the language list below the opening button. */
+.language-options {
+    position: absolute;
+    top: 56px;
+    right: 0;
+    width: 100%;
+    max-height: calc(100dvh - 128px);
+    margin: 0;
+    padding: 12px 10px;
+    border: 1px solid #a37a3d;
+    border-radius: 6px;
+    background: #2a2a2a;
+    list-style: none;
+    overflow-y: auto;
+}
+
+/* Keep the closed list out of both the layout and keyboard navigation. */
+.language-options[hidden] {
+    display: none;
+}
+
+/* Align each flag and its native language name. */
+.language-options button {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    min-height: 44px;
+    padding: 0 12px;
+    border: 0;
+    background: transparent;
+    color: #e8e0d6;
+    font-family: inherit;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+    cursor: pointer;
+}
+
+/* Highlight the selected language and provide pointer feedback. */
+.language-options button[aria-pressed="true"],
+.language-options button:hover {
+    background: rgba(163, 122, 61, 0.14);
+    color: #a37a3d;
+}
+
+/* Use appropriate sans-serif lettering for the Chinese label. */
+.language-options button[lang="zh-Hans"] {
+    font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+    font-size: 22px;
+}
+
+/* Use appropriate sans-serif lettering for the Japanese label. */
+.language-options button[lang="ja"] {
+    font-family: "Noto Sans JP", "Yu Gothic", sans-serif;
+    font-size: 22px;
+}
+
+/* Identify the control reached through keyboard navigation. */
+.language-toggle:focus-visible,
+.language-options button:focus-visible {
+    outline: 3px solid currentColor;
+    outline-offset: 3px;
+}
+
+/* Keep language-loading feedback readable within the opening header. */
+.language-status {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Reserve space above the title to avoid overlap on narrow screens. */
+@media (max-width: 767px) {
+    .site-header {
+        padding-top: 72px;
+    }
+
+    .language-selector {
+        top: 8px;
+        right: 24px;
+    }
+}
