@@ -1434,5 +1434,47 @@
                 "Barmhartigheid heeft hier de scherpte van een lemmet."
             ]
         }
+    },
+    "sections": {
+        "en": {
+            "light": "LIGHT",
+            "shadow": "SHADOW",
+            "blood": "BLOOD"
+        },
+        "it": {
+            "light": "LUCE",
+            "shadow": "OMBRA",
+            "blood": "SANGUE"
+        },
+        "de": {
+            "light": "LICHT",
+            "shadow": "SCHATTEN",
+            "blood": "BLUT"
+        },
+        "fr": {
+            "light": "LUMIÈRE",
+            "shadow": "OMBRE",
+            "blood": "SANG"
+        },
+        "zh": {
+            "light": "光",
+            "shadow": "影",
+            "blood": "血"
+        },
+        "ja": {
+            "light": "光",
+            "shadow": "影",
+            "blood": "血"
+        },
+        "pl": {
+            "light": "ŚWIATŁO",
+            "shadow": "CIEŃ",
+            "blood": "KREW"
+        },
+        "nl": {
+            "light": "LICHT",
+            "shadow": "SCHADUW",
+            "blood": "BLOED"
+        }
     }
 }

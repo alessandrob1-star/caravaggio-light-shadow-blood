@@ -33,7 +33,7 @@
 }
 
 .chapter-title {
-    font-size: calc(110 * var(--gallery-unit));
+    font-size: min(calc(110 * var(--gallery-unit)), 11vw);
 }
 
 /* Centre each artwork on its gallery position and limit text to the viewport. */

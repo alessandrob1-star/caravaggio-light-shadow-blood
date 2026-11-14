@@ -1,5 +1,5 @@
 // Read the stored translations from the shared content archive.
-import { getText } from "./texts.js";
+import { getText, getSectionTitles } from "./texts.js";
 
 // Select the language controls and the artwork detail buttons.
 const selector = document.querySelector(".language-selector");
@@ -56,6 +56,8 @@ languageButtons.forEach(function (button) {
         const languageTag = button.lang;
 
         try {
+            // Load all section titles before updating the page.
+            const sectionTitles = await getSectionTitles(language);
             const updates = await Promise.all(
                 Array.from(detailButtons).map(async function (detailButton) {
                     return {
@@ -83,6 +85,20 @@ languageButtons.forEach(function (button) {
                     span.lang = languageTag;
                     update.caption.append(span);
                 });
+            });
+
+            // Update each section heading and its navigation label.
+            ["light", "shadow", "blood"].forEach(function (id) {
+                const heading = document.getElementById(id + "-title");
+                const link = document.querySelector(
+                    '.chapter-navigation a[href="#' + id + '"]'
+                );
+
+                heading.textContent = sectionTitles[id];
+                heading.lang = languageTag;
+
+                link.textContent = sectionTitles[id];
+                link.lang = languageTag;
             });
 
             // Update the shared language state, selected flag and button states.

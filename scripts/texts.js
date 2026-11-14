@@ -35,3 +35,22 @@ export async function getText(category, cropId, language = "en") {
 
     return paragraphs;
 }
+
+// Read the three section titles in the requested language.
+export async function getSectionTitles(language = "en") {
+    const texts = await loadTexts();
+    const titles = texts.sections?.[language];
+    const sectionIds = ["light", "shadow", "blood"];
+
+    // Require a non-empty title for every section.
+    if (
+        !titles ||
+        !sectionIds.every(function (id) {
+            return typeof titles[id] === "string" && titles[id].length > 0;
+        })
+    ) {
+        throw new Error("The section titles are missing or invalid.");
+    }
+
+    return titles;
+}
