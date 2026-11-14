@@ -62,3 +62,8 @@
 
 - Added the eight-language selector for anecdotes and helper explanations.
 - Connected the selector to the stored translations.
+
+**14 November 2026 — Navigation and section translations**
+
+- Connected navigation labels and section titles to the eight-language selector.
+- Adjusted section title sizing for narrow screens.
