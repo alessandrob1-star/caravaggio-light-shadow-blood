@@ -33,6 +33,160 @@
                 "Ze bekritiseerden zijn vermogen om beweging te schilderen.",
                 "Het antwoord."
             ]
+        },
+        "basket-edge": {
+            "en": [
+                "An invitation to come closer.",
+                "Until you want to reach out and push the basket back into the painting."
+            ],
+            "it": [
+                "Un invito ad avvicinarsi.",
+                "Finché non viene voglia di allungare la mano e spingere il cesto dentro il dipinto."
+            ],
+            "de": [
+                "Eine Einladung, näher zu kommen.",
+                "Bis man die Hand ausstrecken und den Korb ins Bild zurückschieben möchte."
+            ],
+            "fr": [
+                "Une invitation à s’approcher.",
+                "Jusqu’à vouloir tendre la main et repousser le panier à l’intérieur du tableau."
+            ],
+            "zh": [
+                "邀请你走近。",
+                "直到你想伸出手，把篮子推回画中。"
+            ],
+            "ja": [
+                "近づくように誘われる。",
+                "やがて手を伸ばし、籠を絵の中へ押し戻したくなる。"
+            ],
+            "pl": [
+                "Zaproszenie, by podejść bliżej.",
+                "Aż chce się wyciągnąć rękę i wsunąć kosz z powrotem do obrazu."
+            ],
+            "nl": [
+                "Een uitnodiging om dichterbij te komen.",
+                "Tot je je hand wilt uitsteken en de mand terug het schilderij in wilt duwen."
+            ]
+        },
+        "fruit-light": {
+            "en": [
+                "An explosion of light shapes matter.",
+                "Every detail comes to life."
+            ],
+            "it": [
+                "Un’esplosione di luce plasma la materia.",
+                "Ogni dettaglio prende vita."
+            ],
+            "de": [
+                "Eine Explosion des Lichts formt die Materie.",
+                "Jedes Detail erwacht zum Leben."
+            ],
+            "fr": [
+                "Une explosion de lumière façonne la matière.",
+                "Chaque détail prend vie."
+            ],
+            "zh": [
+                "光的迸发塑造了物质。",
+                "每一处细节都焕发生机。"
+            ],
+            "ja": [
+                "光の炸裂が物質を形づくる。",
+                "あらゆる細部が息づき始める。"
+            ],
+            "pl": [
+                "Wybuch światła nadaje materii kształt.",
+                "Każdy szczegół ożywa."
+            ],
+            "nl": [
+                "Een uitbarsting van licht geeft vorm aan de materie.",
+                "Elk detail komt tot leven."
+            ]
+        },
+        "empty-background": {
+            "en": [
+                "Emptiness becomes space.",
+                "The impossible challenge."
+            ],
+            "it": [
+                "Il vuoto diventa spazio.",
+                "La sfida impossibile."
+            ],
+            "de": [
+                "Leere wird zu Raum.",
+                "Die unmögliche Herausforderung."
+            ],
+            "fr": [
+                "Le vide devient espace.",
+                "Le défi impossible."
+            ],
+            "zh": [
+                "空白化为空间。",
+                "不可能的挑战。"
+            ],
+            "ja": [
+                "空白が空間になる。",
+                "不可能な挑戦。"
+            ],
+            "pl": [
+                "Pustka staje się przestrzenią.",
+                "Niemożliwe wyzwanie."
+            ],
+            "nl": [
+                "Leegte wordt ruimte.",
+                "De onmogelijke uitdaging."
+            ]
+        },
+        "emmaus-basket": {
+            "en": [
+                "Light reveals the truth."
+            ],
+            "it": [
+                "La luce rivela la verità."
+            ],
+            "de": [
+                "Licht offenbart die Wahrheit."
+            ],
+            "fr": [
+                "La lumière révèle la vérité."
+            ],
+            "zh": [
+                "光揭示真相。"
+            ],
+            "ja": [
+                "光が真実を明かす。"
+            ],
+            "pl": [
+                "Światło odsłania prawdę."
+            ],
+            "nl": [
+                "Licht onthult de waarheid."
+            ]
+        },
+        "emmaus-christ": {
+            "en": [
+                "Light reveals the divine."
+            ],
+            "it": [
+                "La luce rivela il divino."
+            ],
+            "de": [
+                "Licht offenbart das Göttliche."
+            ],
+            "fr": [
+                "La lumière révèle le divin."
+            ],
+            "zh": [
+                "光揭示神圣。"
+            ],
+            "ja": [
+                "光が神聖なものを明かす。"
+            ],
+            "pl": [
+                "Światło odsłania to, co boskie."
+            ],
+            "nl": [
+                "Licht onthult het goddelijke."
+            ]
         }
     },
     "helpers": {
@@ -68,6 +222,208 @@
             "nl": [
                 "Sommige critici twijfelden aan Caravaggio’s vermogen om beweging weer te geven en vonden zijn figuren te statisch.",
                 "Zijn antwoord was Medusa (ca. 1597–1598): een gezicht dat precies op het moment van de onthoofding is vastgelegd, tussen ontzetting en beweging."
+            ]
+        },
+        "basket-edge": {
+            "en": [
+                "Caravaggio brings the basket right to the edge.",
+                "He leaves it almost precariously balanced, as though a single gesture could push it back into the painting.",
+                "The boundary between painting and real space seems to disappear. For a moment, the fruit is no longer merely painted. It is there, right in front of us."
+            ],
+            "it": [
+                "Caravaggio porta la canestra fino all’orlo.",
+                "La mette quasi in bilico, come se bastasse un gesto per spingerla di nuovo dentro il quadro.",
+                "Il confine tra la pittura e lo spazio reale sembra sparire. Per un istante, quella frutta non è più soltanto dipinta. È lì, davanti a noi."
+            ],
+            "de": [
+                "Caravaggio rückt den Korb bis ganz an die Kante.",
+                "Er bringt ihn beinahe ins Wanken, als würde eine einzige Bewegung genügen, um ihn zurück ins Bild zu schieben.",
+                "Die Grenze zwischen Malerei und realem Raum scheint zu verschwinden. Für einen Augenblick ist das Obst nicht mehr nur gemalt. Es ist da, direkt vor uns."
+            ],
+            "fr": [
+                "Caravage avance la corbeille jusqu’au bord.",
+                "Il la place presque en équilibre précaire, comme si un simple geste suffisait à la repousser à l’intérieur du tableau.",
+                "La frontière entre la peinture et l’espace réel semble disparaître. Un instant, ces fruits ne sont plus seulement peints. Ils sont là, devant nous."
+            ],
+            "zh": [
+                "卡拉瓦乔把果篮推到画面的边缘。",
+                "他让它几乎处于失去平衡的状态，仿佛只需一个动作，就能把它重新推回画中。",
+                "绘画与真实空间之间的界限似乎消失了。有那么一瞬间，这些水果不再只是被画出来的东西。它们就在那里，就在我们面前。"
+            ],
+            "ja": [
+                "カラヴァッジョは果物籠を縁ぎりぎりまで寄せています。",
+                "籠は今にもバランスを崩しそうで、ひと押しすれば絵の中へ戻せるかのようです。",
+                "絵画と現実の空間との境界が消えていくように見えます。一瞬、その果物はもはや単に描かれたものではありません。私たちの目の前に、そこにあるのです。"
+            ],
+            "pl": [
+                "Caravaggio przysuwa kosz aż do samej krawędzi.",
+                "Ustawia go niemal na granicy równowagi, jakby jeden gest wystarczył, by wepchnąć go z powrotem w głąb obrazu.",
+                "Granica między malarstwem a rzeczywistą przestrzenią zdaje się znikać. Przez chwilę owoce nie są już tylko namalowane. Są tam, tuż przed nami."
+            ],
+            "nl": [
+                "Caravaggio schuift de mand helemaal naar de rand.",
+                "Hij laat haar bijna wankelen, alsof één gebaar genoeg zou zijn om haar terug het schilderij in te duwen.",
+                "De grens tussen schilderkunst en echte ruimte lijkt te verdwijnen. Even is het fruit niet langer alleen geschilderd. Het is daar, recht voor ons."
+            ]
+        },
+        "fruit-light": {
+            "en": [
+                "Light does not simply illuminate the fruit: it sculpts it.",
+                "It glides over the skins, passes through the grapes and brings out every imperfection. Each surface responds differently, until we can almost sense the weight, the texture, even the smell of what we see.",
+                "Caravaggio turns light into matter."
+            ],
+            "it": [
+                "La luce non illumina semplicemente la frutta: la scolpisce.",
+                "Scivola sulle bucce, attraversa gli acini, esalta le imperfezioni. Ogni superficie reagisce in modo diverso, fino a farci percepire il peso, la consistenza, quasi perfino l’odore di ciò che vediamo.",
+                "Caravaggio trasforma la luce in materia."
+            ],
+            "de": [
+                "Das Licht beleuchtet das Obst nicht einfach: Es modelliert es wie eine Skulptur.",
+                "Es gleitet über die Schalen, durchdringt die Trauben und hebt die Unvollkommenheiten hervor. Jede Oberfläche reagiert anders, bis wir beinahe das Gewicht, die Beschaffenheit und sogar den Geruch dessen wahrzunehmen meinen, was wir sehen.",
+                "Caravaggio verwandelt Licht in Materie."
+            ],
+            "fr": [
+                "La lumière ne se contente pas d’éclairer les fruits : elle les sculpte.",
+                "Elle glisse sur les peaux, traverse les grains de raisin et fait ressortir les imperfections. Chaque surface réagit différemment, jusqu’à nous faire presque percevoir le poids, la texture, voire l’odeur de ce que nous voyons.",
+                "Caravage transforme la lumière en matière."
+            ],
+            "zh": [
+                "光并不只是照亮水果：它仿佛在雕塑它们。",
+                "光滑过果皮，穿透葡萄，凸显出种种瑕疵。不同的表面对光作出不同的回应，直到我们仿佛能够感受到眼前之物的重量、质感，甚至几乎闻到它们的气味。",
+                "卡拉瓦乔把光转化成了物质。"
+            ],
+            "ja": [
+                "光は果物をただ照らすのではありません。まるで彫刻するように形づくっています。",
+                "果皮の上を滑り、葡萄の粒を透かし、不完全な部分を際立たせます。表面ごとに光への反応が異なり、私たちは目にしているものの重さや質感、さらには匂いさえ感じられそうになります。",
+                "カラヴァッジョは光を物質へと変えるのです。"
+            ],
+            "pl": [
+                "Światło nie tylko oświetla owoce: ono je rzeźbi.",
+                "Ślizga się po skórkach, przenika przez winogrona i wydobywa niedoskonałości. Każda powierzchnia reaguje inaczej, aż niemal czujemy ciężar, fakturę, a nawet zapach tego, co widzimy.",
+                "Caravaggio przemienia światło w materię."
+            ],
+            "nl": [
+                "Het licht verlicht het fruit niet alleen: het boetseert het.",
+                "Het glijdt over de schillen, schijnt door de druiven en benadrukt de onvolkomenheden. Elk oppervlak reageert anders, totdat we bijna het gewicht, de textuur en zelfs de geur lijken te voelen van wat we zien.",
+                "Caravaggio verandert licht in materie."
+            ]
+        },
+        "empty-background": {
+            "en": [
+                "Here we see one of Caravaggio’s most recognizable traits: removing everything that is unnecessary.",
+                "No landscape, no setting: only a neutral, almost abstract background.",
+                "The subject remains isolated, tangible, absolute.",
+                "The emptiness does not impoverish the image: it concentrates its force."
+            ],
+            "it": [
+                "Qui emerge una delle caratteristiche più riconoscibili di Caravaggio: eliminare ciò che non serve.",
+                "Nessun paesaggio, nessuna ambientazione: solo uno sfondo neutro e quasi astratto.",
+                "Il soggetto resta isolato, concreto, assoluto.",
+                "Il vuoto non impoverisce l’immagine: la concentra."
+            ],
+            "de": [
+                "Hier zeigt sich eines der unverwechselbarsten Merkmale Caravaggios: alles wegzulassen, was nicht notwendig ist.",
+                "Keine Landschaft, keine Umgebung: nur ein neutraler, beinahe abstrakter Hintergrund.",
+                "Das Motiv bleibt isoliert, greifbar, absolut.",
+                "Die Leere verarmt das Bild nicht: Sie bündelt seine Wirkung."
+            ],
+            "fr": [
+                "L’un des traits les plus reconnaissables de Caravage apparaît ici : éliminer tout ce qui n’est pas nécessaire.",
+                "Ni paysage ni décor : seulement un fond neutre, presque abstrait.",
+                "Le sujet reste isolé, concret, absolu.",
+                "Le vide n’appauvrit pas l’image : il en concentre la force."
+            ],
+            "zh": [
+                "这里显现出卡拉瓦乔最鲜明的特点之一：去除一切不必要的东西。",
+                "没有风景，没有环境铺陈：只有一个中性、近乎抽象的背景。",
+                "主体因此保持孤立、具体而绝对。",
+                "留白并没有让画面变得贫乏，反而让它的力量更加集中。"
+            ],
+            "ja": [
+                "ここには、カラヴァッジョを特徴づける最も明確な手法の一つが表れています。不要なものを取り除くことです。",
+                "風景も、場面を説明する背景もなく、あるのは中立的で、ほとんど抽象的な背景だけです。",
+                "主題は孤立し、具体的で、絶対的な存在として残ります。",
+                "空白はイメージを貧しくするのではなく、その力を凝縮します。"
+            ],
+            "pl": [
+                "Ujawnia się tu jedna z najbardziej rozpoznawalnych cech Caravaggia: usuwanie wszystkiego, co zbędne.",
+                "Bez pejzażu, bez scenerii: tylko neutralne, niemal abstrakcyjne tło.",
+                "Temat pozostaje wyodrębniony, konkretny, absolutny.",
+                "Pustka nie zubaża obrazu: skupia jego siłę."
+            ],
+            "nl": [
+                "Hier zien we een van Caravaggio’s meest herkenbare kenmerken: weglaten wat niet nodig is.",
+                "Geen landschap, geen omgeving: alleen een neutrale, bijna abstracte achtergrond.",
+                "Het onderwerp blijft geïsoleerd, tastbaar, absoluut.",
+                "De leegte verarmt het beeld niet: ze bundelt de kracht ervan."
+            ]
+        },
+        "emmaus-basket": {
+            "en": [
+                "Light becomes a revelatory force: through it, the divine reality of the risen Christ emerges.",
+                "One particularly evocative detail is the fish tail, probably included as a symbolic reference to the multiplication of the loaves and fishes."
+            ],
+            "it": [
+                "La luce diventa una forza rivelatrice: attraverso di essa emerge la realtà divina del Cristo risorto.",
+                "Un dettaglio particolarmente suggestivo è la coda di pesce, probabilmente inserita come richiamo simbolico alla moltiplicazione dei pani e dei pesci."
+            ],
+            "de": [
+                "Das Licht wird zu einer offenbarenden Kraft: Durch es tritt die göttliche Wirklichkeit des auferstandenen Christus hervor.",
+                "Ein besonders eindrucksvolles Detail ist der Fischschwanz, vermutlich als symbolischer Verweis auf die Vermehrung der Brote und Fische eingefügt."
+            ],
+            "fr": [
+                "La lumière devient une force de révélation : à travers elle émerge la réalité divine du Christ ressuscité.",
+                "Un détail particulièrement évocateur est la queue de poisson, probablement introduite comme un rappel symbolique de la multiplication des pains et des poissons."
+            ],
+            "zh": [
+                "光成为一种揭示真相的力量：复活基督的神圣本质通过它显现出来。",
+                "一个格外耐人寻味的细节是鱼尾，它很可能被加入画面，作为对五饼二鱼神迹的象征性呼应。"
+            ],
+            "ja": [
+                "光は真実を明かす力となり、それを通して復活したキリストの神性が現れます。",
+                "とりわけ印象的な細部が魚の尾です。おそらく、パンと魚を増やした奇跡への象徴的な言及として描き込まれたのでしょう。"
+            ],
+            "pl": [
+                "Światło staje się siłą objawienia: dzięki niemu ujawnia się boska natura zmartwychwstałego Chrystusa.",
+                "Szczególnie sugestywnym detalem jest rybi ogon, prawdopodobnie wprowadzony jako symboliczne nawiązanie do rozmnożenia chleba i ryb."
+            ],
+            "nl": [
+                "Het licht wordt een onthullende kracht: daardoor komt de goddelijke werkelijkheid van de verrezen Christus naar voren.",
+                "Een bijzonder suggestief detail is de vissenstaart, waarschijnlijk opgenomen als symbolische verwijzing naar de wonderbare vermenigvuldiging van de broden en de vissen."
+            ]
+        },
+        "emmaus-christ": {
+            "en": [
+                "The scene depicts the moment during the Supper at Emmaus when the disciples recognize the risen Christ.",
+                "Behind him, the shadows form a halo and angelic wings: at the very moment his identity is recognized, the light also makes his divine nature visible."
+            ],
+            "it": [
+                "La scena rappresenta il momento in cui, durante la Cena in Emmaus, i discepoli riconoscono Cristo risorto.",
+                "Alle sue spalle, le ombre disegnano un’aureola e ali angeliche: proprio mentre la sua identità viene riconosciuta, la luce ne rende visibile anche la natura divina."
+            ],
+            "de": [
+                "Die Szene zeigt den Augenblick, in dem die Jünger beim Abendmahl in Emmaus den auferstandenen Christus erkennen.",
+                "Hinter ihm zeichnen die Schatten einen Heiligenschein und Engelsflügel: Genau in dem Moment, in dem seine Identität erkannt wird, macht das Licht auch seine göttliche Natur sichtbar."
+            ],
+            "fr": [
+                "La scène représente l’instant où, pendant le Souper à Emmaüs, les disciples reconnaissent le Christ ressuscité.",
+                "Derrière lui, les ombres dessinent une auréole et des ailes d’ange : au moment même où son identité est reconnue, la lumière rend également visible sa nature divine."
+            ],
+            "zh": [
+                "画面描绘了以马忤斯晚餐中，门徒认出复活基督的那一刻。",
+                "在他身后，阴影勾勒出光环和天使的翅膀：就在他的身份被认出的同时，光也让他的神性显现出来。"
+            ],
+            "ja": [
+                "この場面は、エマオの晩餐で弟子たちが復活したキリストを認める瞬間を描いています。",
+                "その背後では、影が光輪と天使の翼を形づくっています。彼の正体が認められるまさにその時、光は彼の神性をも見えるものにするのです。"
+            ],
+            "pl": [
+                "Scena przedstawia chwilę, w której podczas Wieczerzy w Emaus uczniowie rozpoznają zmartwychwstałego Chrystusa.",
+                "Za jego plecami cienie tworzą aureolę i anielskie skrzydła: właśnie w chwili, gdy zostaje rozpoznany, światło uwidacznia również jego boską naturę."
+            ],
+            "nl": [
+                "De scène toont het moment waarop de leerlingen tijdens het Avondmaal in Emmaüs de verrezen Christus herkennen.",
+                "Achter hem vormen de schaduwen een aureool en engelenvleugels: precies wanneer zijn identiteit wordt herkend, maakt het licht ook zijn goddelijke natuur zichtbaar."
             ]
         }
     }

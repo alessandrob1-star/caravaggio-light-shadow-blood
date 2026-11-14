@@ -99,11 +99,12 @@
                             <!-- Open the explanation associated with this artwork detail. -->
                             <button
                                 id="medusa-helper-button"
+                                data-helper="medusa-eyes"
                                 class="helper-button"
                                 type="button"
                                 aria-label="Read more about Medusa’s eyes"
                                 aria-haspopup="dialog"
-                                aria-controls="medusa-helper"
+                                aria-controls="artwork-helper"
                                 aria-expanded="false">
                                 <span aria-hidden="true">✦</span>
                             </button>
@@ -127,6 +128,19 @@
                                 decoding="async">
                         </div>
                         <figcaption class="gallery-caption anecdote-caption">
+                            <!-- Open the explanation associated with this artwork detail. -->
+                            <button
+                                id="basket-edge-helper-button"
+                                data-helper="basket-edge"
+                                class="helper-button"
+                                type="button"
+                                aria-label="Read more: Detail of the basket extending over the table edge"
+                                aria-haspopup="dialog"
+                                aria-controls="artwork-helper"
+                                aria-expanded="false">
+                                <span aria-hidden="true">✦</span>
+                            </button>
+
                             <span>An invitation to come closer.</span>
                             <span>Until you want to reach out and push the basket back into the painting.</span>
                         </figcaption>
@@ -141,6 +155,19 @@
                                 decoding="async">
                         </div>
                         <figcaption class="gallery-caption anecdote-caption">
+                            <!-- Open the explanation associated with this artwork detail. -->
+                            <button
+                                id="fruit-light-helper-button"
+                                data-helper="fruit-light"
+                                class="helper-button"
+                                type="button"
+                                aria-label="Read more: Detail of the illuminated fruit"
+                                aria-haspopup="dialog"
+                                aria-controls="artwork-helper"
+                                aria-expanded="false">
+                                <span aria-hidden="true">✦</span>
+                            </button>
+
                             <span>An explosion of light shapes matter.</span>
                             <span>Every detail comes to life.</span>
                         </figcaption>
@@ -155,6 +182,19 @@
                                 decoding="async">
                         </div>
                         <figcaption class="gallery-caption anecdote-caption">
+                            <!-- Open the explanation associated with this artwork detail. -->
+                            <button
+                                id="empty-background-helper-button"
+                                data-helper="empty-background"
+                                class="helper-button"
+                                type="button"
+                                aria-label="Read more: Detail of the pale background behind the fruit"
+                                aria-haspopup="dialog"
+                                aria-controls="artwork-helper"
+                                aria-expanded="false">
+                                <span aria-hidden="true">✦</span>
+                            </button>
+
                             <span>Emptiness becomes space.</span>
                             <span>The impossible challenge.</span>
                         </figcaption>
@@ -184,6 +224,19 @@
                                 decoding="async">
                         </div>
                         <figcaption class="gallery-caption anecdote-caption">
+                            <!-- Open the explanation associated with this artwork detail. -->
+                            <button
+                                id="emmaus-basket-helper-button"
+                                data-helper="emmaus-basket"
+                                class="helper-button"
+                                type="button"
+                                aria-label="Read more: Detail of the basket and its shadow in The Supper at Emmaus"
+                                aria-haspopup="dialog"
+                                aria-controls="artwork-helper"
+                                aria-expanded="false">
+                                <span aria-hidden="true">✦</span>
+                            </button>
+
                             <span>Light reveals the truth.</span>
                         </figcaption>
                     </figure>
@@ -197,6 +250,19 @@
                                 decoding="async">
                         </div>
                         <figcaption class="gallery-caption anecdote-caption">
+                            <!-- Open the explanation associated with this artwork detail. -->
+                            <button
+                                id="emmaus-christ-helper-button"
+                                data-helper="emmaus-christ"
+                                class="helper-button"
+                                type="button"
+                                aria-label="Read more: Detail of Christ and the shadows behind him"
+                                aria-haspopup="dialog"
+                                aria-controls="artwork-helper"
+                                aria-expanded="false">
+                                <span aria-hidden="true">✦</span>
+                            </button>
+
                             <span>Light reveals the divine.</span>
                         </figcaption>
                     </figure>
@@ -601,18 +667,13 @@
 
     <!-- Display the selected detail and its explanation above the page. -->
     <dialog
-        id="medusa-helper"
+        id="artwork-helper"
         class="helper-dialog"
-        aria-label="Medusa: additional information">
+        aria-label="Artwork detail: additional information">
 
         <div class="helper-layout">
-            <!-- Reuse the original image and the existing crop coordinates. -->
-            <div class="artwork-image helper-crop light-artwork--medusa-eyes">
-                <img
-                    src="assets/artworks/light/medusa-detail-source.jpg"
-                    alt="Detail of Medusa’s eyes"
-                    decoding="async">
-            </div>
+            <!-- Receive the selected image with its existing crop coordinates. -->
+            <div id="helper-crop" class="artwork-image helper-crop"></div>
 
             <!-- Keep the explanation inside the gold border. -->
             <div class="helper-panel">
@@ -625,7 +686,12 @@
                 </button>
 
                 <!-- Receive the explanation loaded from the content archive. -->
-                <div id="medusa-helper-text" aria-live="polite"></div>
+                <div
+                    id="helper-text"
+                    tabindex="0"
+                    role="region"
+                    aria-label="Explanation text"
+                    aria-live="polite"></div>
             </div>
         </div>
     </dialog>

@@ -1,67 +1,91 @@
 // Import the function that reads the multilingual content archive.
 import { getText } from "./texts.js";
 
-// Select the controls and content area for the Medusa explanation.
-const medusaButton = document.getElementById("medusa-helper-button");
-const medusaDialog = document.getElementById("medusa-helper");
-const medusaPanel = medusaDialog.querySelector(".helper-panel");
-const medusaClose = medusaDialog.querySelector(".helper-close");
-const medusaText = document.getElementById("medusa-helper-text");
+// Share one dialog between the detail buttons in the Light gallery.
+const helperButtons = document.querySelectorAll("#light .helper-button");
+const helperDialog = document.getElementById("artwork-helper");
+const helperPanel = helperDialog.querySelector(".helper-panel");
+const helperClose = helperDialog.querySelector(".helper-close");
+const helperCrop = document.getElementById("helper-crop");
+const helperText = document.getElementById("helper-text");
+let activeButton = null;
 
-// Create paragraphs as plain text, preserving the original wording.
+// Create paragraphs as plain text, preserving wording and deliberate line breaks.
 function showExplanation(paragraphs) {
-    medusaText.replaceChildren();
+    helperText.replaceChildren();
 
     paragraphs.forEach(function (text) {
         const paragraph = document.createElement("p");
         paragraph.textContent = text;
-        medusaText.append(paragraph);
+        helperText.append(paragraph);
     });
 }
 
-// Open the dialog and load the English explanation from the JSON archive.
-medusaButton.addEventListener("click", async function () {
-    medusaDialog.showModal();
-    document.body.classList.add("helper-open");
-    medusaButton.setAttribute("aria-expanded", "true");
+// Copy the selected image and reuse the crop settings from its gallery class.
+function showCrop(button) {
+    const figure = button.closest("figure");
+    const sourceImage = figure.querySelector(".artwork-image img");
+    const cropId = button.dataset.helper;
 
-    medusaText.setAttribute("aria-busy", "true");
-    showExplanation(["Loading explanation…"]);
+    helperCrop.className = "artwork-image helper-crop light-artwork--" + cropId;
+    helperCrop.replaceChildren(sourceImage.cloneNode(true));
+    helperDialog.setAttribute("aria-label", sourceImage.alt + ": additional information");
+}
 
-    try {
-        const paragraphs = await getText("helpers", "medusa-eyes", "en");
+// Open each detail with its matching English explanation from the JSON archive.
+helperButtons.forEach(function (button) {
+    button.addEventListener("click", async function () {
+        activeButton = button;
+        showCrop(button);
+        showExplanation(["Loading explanation…"]);
+        helperText.setAttribute("aria-busy", "true");
 
-        if (medusaDialog.open) {
-            showExplanation(paragraphs);
+        helperDialog.showModal();
+        document.body.classList.add("helper-open");
+        button.setAttribute("aria-expanded", "true");
+
+        try {
+            const paragraphs = await getText("helpers", button.dataset.helper, "en");
+
+            // Ignore an earlier request if another detail has since been opened.
+            if (helperDialog.open && activeButton === button) {
+                showExplanation(paragraphs);
+            }
+        } catch (error) {
+            // Report a loading failure instead of displaying an empty explanation.
+            if (helperDialog.open && activeButton === button) {
+                showExplanation([
+                    "The explanation could not be loaded. Please reload the page and try again."
+                ]);
+            }
+        } finally {
+            if (activeButton === button) {
+                helperText.setAttribute("aria-busy", "false");
+            }
         }
-    } catch (error) {
-        // Report a loading failure instead of displaying an empty explanation.
-        if (medusaDialog.open) {
-            showExplanation([
-                "The explanation could not be loaded. Please reload the page and try again."
-            ]);
-        }
-    } finally {
-        medusaText.setAttribute("aria-busy", "false");
-    }
+    });
 });
 
-// Close the dialog when its X button is selected.
-medusaClose.addEventListener("click", function () {
-    medusaDialog.close();
+// Close the explanation when its X button is selected.
+helperClose.addEventListener("click", function () {
+    helperDialog.close();
 });
 
 // Close with one click outside the gold explanation panel.
-medusaDialog.addEventListener("click", function (event) {
-    if (!medusaPanel.contains(event.target)) {
-        medusaDialog.close();
+helperDialog.addEventListener("click", function (event) {
+    if (!helperPanel.contains(event.target)) {
+        helperDialog.close();
     }
 });
 
-// Restore scrolling and return keyboard focus after the dialog closes.
+// Restore scrolling and return focus to the button that opened the explanation.
 // The native dialog also supports closing with the Escape key.
-medusaDialog.addEventListener("close", function () {
+helperDialog.addEventListener("close", function () {
     document.body.classList.remove("helper-open");
-    medusaButton.setAttribute("aria-expanded", "false");
-    medusaButton.focus({ preventScroll: true });
+
+    if (activeButton) {
+        activeButton.setAttribute("aria-expanded", "false");
+        activeButton.focus({ preventScroll: true });
+        activeButton = null;
+    }
 });
