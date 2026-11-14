@@ -65,6 +65,22 @@ body.helper-open {
     background: #e8e1d5;
 }
 
+/* Match the dark background and light text of the Shadow gallery. */
+.helper-dialog[data-section="shadow"],
+.helper-dialog[data-section="shadow"]::backdrop {
+    background: #2a2a2a;
+}
+
+.helper-dialog[data-section="shadow"] {
+    color: #e8e1d5;
+}
+
+/* Use a lighter hover colour against the dark section background. */
+#shadow .helper-button:hover,
+.helper-dialog[data-section="shadow"] .helper-close:hover {
+    color: #d6b16d;
+}
+
 /* Keep the image and explanation aligned on the same centre line. */
 .helper-layout {
     display: grid;
