@@ -1,8 +1,8 @@
 // Import the function that reads the multilingual content archive.
 import { getText } from "./texts.js";
 
-// Share one dialog between the detail buttons in the Light gallery.
-const helperButtons = document.querySelectorAll("#light .helper-button");
+// Share one dialog between the detail buttons in the Light and Shadow galleries.
+const helperButtons = document.querySelectorAll("#light .helper-button, #shadow .helper-button");
 const helperDialog = document.getElementById("artwork-helper");
 const helperPanel = helperDialog.querySelector(".helper-panel");
 const helperClose = helperDialog.querySelector(".helper-close");
@@ -24,11 +24,13 @@ function showExplanation(paragraphs) {
 // Copy the selected image and reuse the crop settings from its gallery class.
 function showCrop(button) {
     const figure = button.closest("figure");
+    const chapter = figure.closest(".chapter");
     const sourceImage = figure.querySelector(".artwork-image img");
     const cropId = button.dataset.helper;
 
-    helperCrop.className = "artwork-image helper-crop light-artwork--" + cropId;
+    helperCrop.className = "artwork-image helper-crop " + chapter.id + "-artwork--" + cropId;
     helperCrop.replaceChildren(sourceImage.cloneNode(true));
+    helperDialog.dataset.section = chapter.id;
     helperDialog.setAttribute("aria-label", sourceImage.alt + ": additional information");
 }
 

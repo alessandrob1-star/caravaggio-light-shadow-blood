@@ -47,3 +47,8 @@
 - Added their anecdotes and explanations in eight languages to the JSON archive.
 - Kept the crop and close button visible while longer explanations scroll on small screens.
 - Deployed the update to AWS and checked mouse and keyboard interactions.
+
+**14 November 2026 — Shadow section helpers**
+
+- Completed the helpers for all eight Shadow detail crops.
+- Added their anecdotes and explanations in eight languages to the JSON archive.
