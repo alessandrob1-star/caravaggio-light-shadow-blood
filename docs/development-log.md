@@ -57,3 +57,8 @@
 
 - Completed the helpers for all six Blood detail crops.
 - Added their anecdotes and explanations in eight languages to the JSON archive.
+
+**14 November 2026 — Language selector**
+
+- Added the eight-language selector for anecdotes and helper explanations.
+- Connected the selector to the stored translations.

@@ -1,5 +1,6 @@
 // Import the function that reads the multilingual content archive.
 import { getText } from "./texts.js";
+import { getSelectedLanguage } from "./languages.js";
 
 // Share one dialog between the detail buttons in all three galleries.
 const helperButtons = document.querySelectorAll(".chapter .helper-button");
@@ -34,11 +35,13 @@ function showCrop(button) {
     helperDialog.setAttribute("aria-label", sourceImage.alt + ": additional information");
 }
 
-// Open each detail with its matching English explanation from the JSON archive.
+// Open each detail with its explanation in the selected language.
 helperButtons.forEach(function (button) {
     button.addEventListener("click", async function () {
         activeButton = button;
         showCrop(button);
+        // Loading and error messages remain in English.
+        helperText.lang = "en";
         showExplanation(["Loading explanation…"]);
         helperText.setAttribute("aria-busy", "true");
 
@@ -47,11 +50,13 @@ helperButtons.forEach(function (button) {
         button.setAttribute("aria-expanded", "true");
 
         try {
-            const paragraphs = await getText("helpers", button.dataset.helper, "en");
+            const language = getSelectedLanguage();
+            const paragraphs = await getText("helpers", button.dataset.helper, language);
 
             // Ignore an earlier request if another detail has since been opened.
             if (helperDialog.open && activeButton === button) {
                 showExplanation(paragraphs);
+                helperText.lang = language === "zh" ? "zh-Hans" : language;
             }
         } catch (error) {
             // Report a loading failure instead of displaying an empty explanation.

@@ -205,6 +205,6 @@
 /* Leave additional room for the longest caption on narrow screens. */
 @media (max-width: 360px) {
     #shadow .chapter-track {
-        min-height: calc(100svh + 24px);
+        min-height: calc(100svh + 48px);
     }
 }
