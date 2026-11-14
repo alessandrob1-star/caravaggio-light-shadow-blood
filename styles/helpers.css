@@ -23,7 +23,8 @@
 
 /* Identify buttons reached with the keyboard. */
 .helper-button:focus-visible,
-.helper-close:focus-visible {
+.helper-close:focus-visible,
+#helper-text:focus-visible {
     outline: 3px solid currentColor;
     outline-offset: 3px;
 }
@@ -35,6 +36,7 @@ body.helper-open {
 
 /* Cover the viewport with the Light section background. */
 .helper-dialog {
+    --helper-padding: clamp(16px, 3vw, 48px);
     position: fixed;
     inset: 0;
     width: 100%;
@@ -42,7 +44,7 @@ body.helper-open {
     height: 100dvh;
     max-height: none;
     margin: 0;
-    padding: clamp(16px, 3vw, 48px);
+    padding: var(--helper-padding);
     border: 0;
     background: #e8e1d5;
     color: #111111;
@@ -73,7 +75,7 @@ body.helper-open {
 
 /* Preserve the crop proportions while limiting its viewport height. */
 .helper-crop {
-    width: min(846px, 100%, calc(36svh * 846 / 380));
+    width: min(calc(var(--artwork-width) * 1px), 100%, calc(36svh * var(--artwork-width) / var(--artwork-height)));
 }
 
 /* Allow the explanation to grow instead of clipping its text. */
@@ -121,7 +123,23 @@ body.helper-open {
 
 /* Leave more room for text and reserve space above it for the close button. */
 @media (max-width: 600px) {
+    /* Keep the crop and explanation panel within the available dialog height. */
+    .helper-layout {
+        max-height: calc(100dvh - 2 * var(--helper-padding));
+        grid-template-rows: auto minmax(0, 1fr);
+    }
+
     .helper-panel {
+        display: grid;
+        grid-template-rows: minmax(0, 1fr);
+        min-height: 0;
         padding: 44px 20px 20px;
+    }
+
+    /* Scroll only the explanation text, leaving the image and close button visible. */
+    #helper-text {
+        min-height: 0;
+        overflow-y: auto;
+        overscroll-behavior: contain;
     }
 }

@@ -40,3 +40,10 @@
 - Updated the footer with the full university name, degree and course information, linking to the OPIT degree programme page.
 - Deployed and verified the Medusa helper on AWS.
 - Published release v2.51 — First crop explanation.
+
+**14 November 2026 — Light section helpers**
+
+- Completed the helpers for all six Light detail crops.
+- Added their anecdotes and explanations in eight languages to the JSON archive.
+- Kept the crop and close button visible while longer explanations scroll on small screens.
+- Deployed the update to AWS and checked mouse and keyboard interactions.
