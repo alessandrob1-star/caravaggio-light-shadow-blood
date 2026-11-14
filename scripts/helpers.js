@@ -1,8 +1,8 @@
 // Import the function that reads the multilingual content archive.
 import { getText } from "./texts.js";
 
-// Share one dialog between the detail buttons in the Light and Shadow galleries.
-const helperButtons = document.querySelectorAll("#light .helper-button, #shadow .helper-button");
+// Share one dialog between the detail buttons in all three galleries.
+const helperButtons = document.querySelectorAll(".chapter .helper-button");
 const helperDialog = document.getElementById("artwork-helper");
 const helperPanel = helperDialog.querySelector(".helper-panel");
 const helperClose = helperDialog.querySelector(".helper-close");

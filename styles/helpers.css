@@ -75,6 +75,16 @@ body.helper-open {
     color: #e8e1d5;
 }
 
+/* Match the warm background and red text of the Blood gallery. */
+.helper-dialog[data-section="blood"],
+.helper-dialog[data-section="blood"]::backdrop {
+    background: #d8cdbb;
+}
+
+.helper-dialog[data-section="blood"] {
+    color: #9d1615;
+}
+
 /* Use a lighter hover colour against the dark section background. */
 #shadow .helper-button:hover,
 .helper-dialog[data-section="shadow"] .helper-close:hover {
@@ -138,7 +148,7 @@ body.helper-open {
 }
 
 /* Leave more room for text and reserve space above it for the close button. */
-@media (max-width: 600px) {
+@media (max-width: 600px), (max-height: 800px) {
     /* Keep the crop and explanation panel within the available dialog height. */
     .helper-layout {
         max-height: calc(100dvh - 2 * var(--helper-padding));

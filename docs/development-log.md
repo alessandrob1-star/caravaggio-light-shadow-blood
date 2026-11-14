@@ -52,3 +52,8 @@
 
 - Completed the helpers for all eight Shadow detail crops.
 - Added their anecdotes and explanations in eight languages to the JSON archive.
+
+**14 November 2026 — Blood section helpers**
+
+- Completed the helpers for all six Blood detail crops.
+- Added their anecdotes and explanations in eight languages to the JSON archive.
