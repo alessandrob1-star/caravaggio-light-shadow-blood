@@ -459,6 +459,210 @@
                 "Te dichtbij. Te sensueel.",
                 "Opnieuw afgewezen."
             ]
+        },
+        "jerome-detail": {
+            "en": [
+                "The Saint.",
+                "The Friend."
+            ],
+            "it": [
+                "Il Santo.",
+                "L’Amico."
+            ],
+            "de": [
+                "Der Heilige.",
+                "Der Freund."
+            ],
+            "fr": [
+                "Le Saint.",
+                "L’Ami."
+            ],
+            "zh": [
+                "圣人。",
+                "朋友。"
+            ],
+            "ja": [
+                "聖人。",
+                "友人。"
+            ],
+            "pl": [
+                "Święty.",
+                "Przyjaciel."
+            ],
+            "nl": [
+                "De heilige.",
+                "De vriend."
+            ]
+        },
+        "wignacourt-detail": {
+            "en": [
+                "The Grand Knight.",
+                "The Protector."
+            ],
+            "it": [
+                "Il Gran Cavaliere.",
+                "Il Protettore."
+            ],
+            "de": [
+                "Der große Ritter.",
+                "Der Beschützer."
+            ],
+            "fr": [
+                "Le Grand Chevalier.",
+                "Le Protecteur."
+            ],
+            "zh": [
+                "大骑士。",
+                "庇护者。"
+            ],
+            "ja": [
+                "大いなる騎士。",
+                "庇護者。"
+            ],
+            "pl": [
+                "Wielki Rycerz.",
+                "Protektor."
+            ],
+            "nl": [
+                "De grote ridder.",
+                "De beschermer."
+            ]
+        },
+        "holofernes": {
+            "en": [
+                "No mercy.",
+                "The instant of blood."
+            ],
+            "it": [
+                "Nessuna pietà.",
+                "L’istante del sangue."
+            ],
+            "de": [
+                "Keine Gnade.",
+                "Der Augenblick des Blutes."
+            ],
+            "fr": [
+                "Sans pitié.",
+                "L’instant du sang."
+            ],
+            "zh": [
+                "毫无怜悯。",
+                "鲜血涌出的瞬间。"
+            ],
+            "ja": [
+                "容赦はない。",
+                "血の瞬間。"
+            ],
+            "pl": [
+                "Bez litości.",
+                "Chwila krwi."
+            ],
+            "nl": [
+                "Geen genade.",
+                "Het ogenblik van bloed."
+            ]
+        },
+        "judith-detail": {
+            "en": [
+                "Intimate with one.",
+                "Executioner of the other."
+            ],
+            "it": [
+                "Intimo con una.",
+                "Carnefice dell’altro."
+            ],
+            "de": [
+                "Mit der einen intim.",
+                "Der Henker des anderen."
+            ],
+            "fr": [
+                "Intime avec l’une.",
+                "Bourreau de l’autre."
+            ],
+            "zh": [
+                "与一人亲密。",
+                "做另一人的刽子手。"
+            ],
+            "ja": [
+                "一人とは親密に。",
+                "もう一人には処刑人として。"
+            ],
+            "pl": [
+                "Bliski jednej.",
+                "Kat drugiego."
+            ],
+            "nl": [
+                "Intiem met de een.",
+                "De beul van de ander."
+            ]
+        },
+        "signature": {
+            "en": [
+                "The only one.",
+                "In blood."
+            ],
+            "it": [
+                "L’unica.",
+                "Nel sangue."
+            ],
+            "de": [
+                "Die einzige.",
+                "In Blut."
+            ],
+            "fr": [
+                "La seule.",
+                "Dans le sang."
+            ],
+            "zh": [
+                "唯一。",
+                "以血。"
+            ],
+            "ja": [
+                "ただ一つ。",
+                "血で。"
+            ],
+            "pl": [
+                "Jedyny.",
+                "We krwi."
+            ],
+            "nl": [
+                "De enige.",
+                "In bloed."
+            ]
+        },
+        "misericorde": {
+            "en": [
+                "Waiting for the misericorde",
+                "to end the suffering."
+            ],
+            "it": [
+                "In attesa della misericordia",
+                "che metta fine alla sofferenza."
+            ],
+            "de": [
+                "Auf den Gnadendolch wartend,",
+                "der das Leiden beendet."
+            ],
+            "fr": [
+                "En attendant la miséricorde",
+                "qui mettra fin à la souffrance."
+            ],
+            "zh": [
+                "等待慈悲匕首，",
+                "终结痛苦。"
+            ],
+            "ja": [
+                "慈悲の短剣を待つ。",
+                "苦しみを終わらせるために。"
+            ],
+            "pl": [
+                "W oczekiwaniu na mizerykordię,",
+                "która położy kres cierpieniu."
+            ],
+            "nl": [
+                "Wachtend op de misericorde",
+                "om het lijden te beëindigen."
+            ]
         }
     },
     "helpers": {
@@ -976,6 +1180,258 @@
                 "De engel lijkt niet afstandelijk of onstoffelijk: hij nadert de heilige Matteüs met een bijna provocerende zinnelijkheid.",
                 "Hun gezichten raken elkaar bijna, hun lichamen komen in dezelfde ruimte terecht en de heilige scène krijgt een lichamelijke intimiteit die in een religieus werk moeilijk te aanvaarden is.",
                 "Juist deze dubbelzinnigheid, tussen goddelijke inspiratie en zinnelijke aantrekkingskracht, maakt het beeld tot een schandaal."
+            ]
+        },
+        "jerome-detail": {
+            "en": [
+                "In Saint Jerome’s face, that of Alof de Wignacourt reappears. In a gesture of profound gratitude, Caravaggio seems to identify his own protector with a saint: the man who had opened the doors of the Order to him and restored his prestige becomes an almost sacred presence.",
+                "But that protection will not last. In August 1608, Caravaggio becomes involved in a violent assault on Fra Giovanni Rodomonte Roero, Count of Vezza d’Asti and a knight of the Order of Malta, who is seriously wounded during the clash.",
+                "Caravaggio is arrested and imprisoned in Fort St Angelo, but manages to escape and flee Malta. An escape so difficult that it seems likely someone, perhaps from within the Order itself, helped him once again."
+            ],
+            "it": [
+                "Nel volto di San Girolamo riaffiora quello di Alof de Wignacourt. In un gesto di estrema gratitudine, Caravaggio sembra identificare il proprio protettore con un santo: l’uomo che gli aveva aperto le porte dell’Ordine e restituito prestigio diventa una presenza quasi sacra.",
+                "Ma quella protezione non durerà. Nell’agosto del 1608 Caravaggio viene coinvolto in una violenta aggressione contro Fra Giovanni Rodomonte Roero, conte della Vezza d’Asti e cavaliere dell’Ordine di Malta, ferito gravemente durante lo scontro.",
+                "Caravaggio viene arrestato e rinchiuso nel Forte Sant’Angelo, ma riesce a evadere e a fuggire da Malta. Una fuga tanto difficile da far ritenere probabile che qualcuno, forse proprio all’interno dell’Ordine, lo abbia aiutato ancora una volta."
+            ],
+            "de": [
+                "Im Gesicht des heiligen Hieronymus taucht das von Alof de Wignacourt wieder auf. In einer Geste tiefster Dankbarkeit scheint Caravaggio seinen eigenen Beschützer mit einem Heiligen gleichzusetzen: Der Mann, der ihm die Türen des Ordens geöffnet und sein Ansehen wiederhergestellt hatte, wird zu einer beinahe heiligen Präsenz.",
+                "Doch dieser Schutz wird nicht von Dauer sein. Im August 1608 wird Caravaggio in einen gewaltsamen Angriff auf Fra Giovanni Rodomonte Roero verwickelt, Graf von Vezza d’Asti und Ritter des Malteserordens, der bei der Auseinandersetzung schwer verletzt wird.",
+                "Caravaggio wird verhaftet und im Fort St. Angelo eingesperrt, kann jedoch entkommen und aus Malta fliehen. Eine so schwierige Flucht, dass es wahrscheinlich erscheint, dass ihm jemand – vielleicht sogar aus dem Orden selbst – erneut geholfen hat."
+            ],
+            "fr": [
+                "Dans le visage de saint Jérôme réapparaît celui d’Alof de Wignacourt. Dans un geste de profonde gratitude, Caravage semble identifier son propre protecteur à un saint : l’homme qui lui avait ouvert les portes de l’Ordre et rendu son prestige devient une présence presque sacrée.",
+                "Mais cette protection ne durera pas. En août 1608, Caravage est impliqué dans une violente agression contre Fra Giovanni Rodomonte Roero, comte de la Vezza d’Asti et chevalier de l’Ordre de Malte, grièvement blessé pendant l’affrontement.",
+                "Caravage est arrêté et emprisonné au fort Saint-Ange, mais parvient à s’évader et à fuir Malte. Une fuite si difficile qu’il paraît probable que quelqu’un, peut-être au sein même de l’Ordre, l’ait encore une fois aidé."
+            ],
+            "zh": [
+                "在圣杰罗姆的面容中，阿洛夫·德·维尼亚库尔的容貌再次浮现。出于一种极深的感激，卡拉瓦乔似乎把自己的庇护者等同于一位圣人：那个为他打开骑士团大门、重新赋予他声望的人，变成了近乎神圣的存在。",
+                "但这种庇护不会长久。1608年8月，卡拉瓦乔卷入了一场针对乔瓦尼·罗多蒙特·罗埃罗修士的暴力袭击。罗埃罗是维扎达斯蒂伯爵，也是马耳他骑士团骑士，并在冲突中身受重伤。",
+                "卡拉瓦乔被捕并关押在圣天使堡，但成功越狱并逃离马耳他。这次逃亡如此困难，以至于人们有理由认为，或许有人——甚至可能就是骑士团内部的人——再次帮助了他。"
+            ],
+            "ja": [
+                "聖ヒエロニムスの顔には、アロフ・ド・ヴィニャクールの面影が再び現れます。深い感謝のしるしとして、カラヴァッジョは自らの庇護者を聖人と重ねているように見えます。騎士団への道を開き、名誉を取り戻してくれた人物が、ほとんど聖なる存在となるのです。",
+                "しかし、その庇護は長く続きません。1608年8月、カラヴァッジョはヴェッツァ・ダスティ伯でマルタ騎士団員のフラ・ジョヴァンニ・ロドモンテ・ロエロに対する暴行事件に巻き込まれ、ロエロは争いの中で重傷を負います。",
+                "カラヴァッジョは逮捕され、サンタンジェロ砦に投獄されますが、脱獄してマルタから逃れます。あまりにも困難な逃亡だったため、誰かが、あるいは騎士団内部の人物が、再び彼を助けた可能性が高いと考えられています。"
+            ],
+            "pl": [
+                "W twarzy świętego Hieronima ponownie pojawiają się rysy Alofa de Wignacourta. W geście głębokiej wdzięczności Caravaggio zdaje się utożsamiać swojego protektora ze świętym: człowiek, który otworzył mu drzwi zakonu i przywrócił prestiż, staje się niemal świętą obecnością.",
+                "Jednak ta ochrona nie potrwa długo. W sierpniu 1608 roku Caravaggio zostaje uwikłany w brutalną napaść na Fra Giovanniego Rodomonte Roero, hrabiego Vezza d’Asti i kawalera Zakonu Maltańskiego, który podczas starcia odnosi ciężkie rany.",
+                "Caravaggio zostaje aresztowany i osadzony w Forcie Świętego Anioła, ale udaje mu się zbiec i opuścić Maltę. Ucieczka była tak trudna, że wydaje się prawdopodobne, iż ktoś – być może nawet z samego zakonu – ponownie mu pomógł."
+            ],
+            "nl": [
+                "In het gezicht van de heilige Hiëronymus duikt dat van Alof de Wignacourt opnieuw op. Als gebaar van diepe dankbaarheid lijkt Caravaggio zijn eigen beschermheer met een heilige te vereenzelvigen: de man die de deuren van de Orde voor hem had geopend en hem zijn aanzien had teruggegeven, wordt een bijna heilige aanwezigheid.",
+                "Maar die bescherming zal niet duren. In augustus 1608 raakt Caravaggio betrokken bij een gewelddadige aanval op Fra Giovanni Rodomonte Roero, graaf van Vezza d’Asti en ridder van de Orde van Malta, die tijdens het gevecht ernstig gewond raakt.",
+                "Caravaggio wordt gearresteerd en opgesloten in Fort Sint-Angelo, maar weet te ontsnappen en Malta te ontvluchten. Een ontsnapping die zo moeilijk was dat het waarschijnlijk lijkt dat iemand, misschien zelfs binnen de Orde zelf, hem opnieuw heeft geholpen."
+            ]
+        },
+        "wignacourt-detail": {
+            "en": [
+                "Alof de Wignacourt is not only the Grand Master of the Order of Malta: for Caravaggio, he becomes a protector.",
+                "It is Wignacourt who works to ensure that the painter, a fugitive still seeking a path toward pardon, can enter the Order. In 1608, Caravaggio is thus made a Knight of Grace.",
+                "But this achievement also lasts only a short time. Another violent incident leads to his arrest and then to his escape from Malta. The Order expels him, and Caravaggio also loses his title as a knight of the Order of Malta."
+            ],
+            "it": [
+                "Alof de Wignacourt non è soltanto il Gran Maestro dell’Ordine di Malta: per Caravaggio diventa un protettore.",
+                "È lui ad adoperarsi perché il pittore, fuggiasco e ancora in cerca di una via verso il perdono, possa entrare nell’Ordine. Nel 1608 Caravaggio viene così nominato Cavaliere di Grazia.",
+                "Ma anche questa conquista dura pochissimo. Un nuovo episodio di violenza lo conduce all’arresto e poi alla fuga da Malta. L’Ordine lo espelle e Caravaggio perde anche il titolo di cavaliere dell’Ordine di Malta."
+            ],
+            "de": [
+                "Alof de Wignacourt ist nicht nur Großmeister des Malteserordens: Für Caravaggio wird er zum Beschützer.",
+                "Er setzt sich dafür ein, dass der flüchtige Maler, der noch immer nach einem Weg zur Begnadigung sucht, in den Orden aufgenommen werden kann. So wird Caravaggio 1608 zum Gnadenritter ernannt.",
+                "Doch auch dieser Erfolg währt nur sehr kurz. Ein weiterer Gewaltausbruch führt zu seiner Verhaftung und anschließend zur Flucht aus Malta. Der Orden schließt ihn aus, und Caravaggio verliert auch seinen Titel als Ritter des Malteserordens."
+            ],
+            "fr": [
+                "Alof de Wignacourt n’est pas seulement le Grand Maître de l’Ordre de Malte : pour Caravage, il devient un protecteur.",
+                "C’est lui qui œuvre pour que le peintre, fugitif et toujours en quête d’une voie vers le pardon, puisse entrer dans l’Ordre. En 1608, Caravage est ainsi nommé chevalier de grâce.",
+                "Mais cette conquête elle aussi ne dure que très peu de temps. Un nouvel épisode de violence conduit à son arrestation, puis à sa fuite de Malte. L’Ordre l’expulse et Caravage perd également son titre de chevalier de l’Ordre de Malte."
+            ],
+            "zh": [
+                "阿洛夫·德·维尼亚库尔不仅是马耳他骑士团的大团长：对卡拉瓦乔而言，他还成为了一位庇护者。",
+                "正是他努力促成这位仍在逃亡、并继续寻找获得赦免之路的画家加入骑士团。于是，1608年，卡拉瓦乔被授予“恩典骑士”称号。",
+                "但这项成就同样只维持了很短的时间。又一次暴力事件导致他被捕，随后逃离马耳他。骑士团将他除名，卡拉瓦乔也失去了马耳他骑士团骑士的身份。"
+            ],
+            "ja": [
+                "アロフ・ド・ヴィニャクールはマルタ騎士団の総長であるだけではありません。カラヴァッジョにとって、彼は庇護者となります。",
+                "逃亡中で、なおも恩赦への道を探していた画家が騎士団へ入れるよう尽力したのは彼でした。こうして1608年、カラヴァッジョは恩寵騎士に叙任されます。",
+                "しかし、この成功も長くは続きません。再び暴力事件を起こしたことで逮捕され、その後マルタから逃亡します。騎士団は彼を追放し、カラヴァッジョはマルタ騎士団員としての称号も失います。"
+            ],
+            "pl": [
+                "Alof de Wignacourt jest nie tylko wielkim mistrzem Zakonu Maltańskiego: dla Caravaggia staje się także protektorem.",
+                "To on zabiega o to, by malarz – zbieg wciąż szukający drogi do ułaskawienia – mógł zostać przyjęty do zakonu. W 1608 roku Caravaggio zostaje więc mianowany Kawalerem Łaski.",
+                "Jednak i ten sukces trwa bardzo krótko. Kolejny akt przemocy prowadzi do jego aresztowania, a następnie do ucieczki z Malty. Zakon go wydala, a Caravaggio traci również tytuł kawalera Zakonu Maltańskiego."
+            ],
+            "nl": [
+                "Alof de Wignacourt is niet alleen grootmeester van de Orde van Malta: voor Caravaggio wordt hij een beschermheer.",
+                "Hij zet zich ervoor in dat de voortvluchtige schilder, die nog altijd een weg naar gratie zoekt, tot de Orde kan toetreden. Zo wordt Caravaggio in 1608 benoemd tot Ridder van Genade.",
+                "Maar ook deze verworvenheid is van korte duur. Een nieuw geweldsincident leidt tot zijn arrestatie en vervolgens tot zijn vlucht uit Malta. De Orde stoot hem uit, en Caravaggio verliest ook zijn titel als ridder van de Orde van Malta."
+            ]
+        },
+        "holofernes": {
+            "en": [
+                "At that time, Rome witnesses several public beheadings, including that of Beatrice Cenci in front of Ponte Sant’Angelo. Executions become spectacles of death, watched even by artists drawn to the bodies, the extreme gestures and the final expressions.",
+                "Shortly afterwards, in Judith Beheading Holofernes, Caravaggio chooses the most savage instant: the victim is still alive, still conscious, and fully understands what is happening to him.",
+                "The violence is not left to the imagination."
+            ],
+            "it": [
+                "In quel periodo Roma assiste a diverse decapitazioni pubbliche, tra cui quella di Beatrice Cenci davanti a Ponte Sant’Angelo. Le esecuzioni diventano spettacoli di morte osservati anche dagli artisti, attratti dai corpi, dai gesti estremi, dalle ultime espressioni.",
+                "Poco dopo, in Giuditta che decapita Oloferne, Caravaggio sceglie l’istante più feroce: la vittima è ancora viva, ancora cosciente, e comprende perfettamente ciò che le sta accadendo.",
+                "La violenza non è lasciata all’immaginazione."
+            ],
+            "de": [
+                "In dieser Zeit erlebt Rom mehrere öffentliche Enthauptungen, darunter die von Beatrice Cenci vor der Engelsbrücke. Hinrichtungen werden zu Todesschauspielen, die auch von Künstlern beobachtet werden, angezogen von den Körpern, den extremen Gesten und den letzten Gesichtsausdrücken.",
+                "Kurz darauf wählt Caravaggio in Judith enthauptet Holofernes den grausamsten Augenblick: Das Opfer lebt noch, ist noch bei Bewusstsein und begreift vollkommen, was mit ihm geschieht.",
+                "Die Gewalt wird nicht der Vorstellung überlassen."
+            ],
+            "fr": [
+                "À cette époque, Rome assiste à plusieurs décapitations publiques, dont celle de Beatrice Cenci devant le pont Saint-Ange. Les exécutions deviennent des spectacles de mort, observés aussi par des artistes attirés par les corps, les gestes extrêmes et les dernières expressions.",
+                "Peu après, dans Judith décapitant Holopherne, Caravage choisit l’instant le plus féroce : la victime est encore vivante, encore consciente et comprend parfaitement ce qui lui arrive.",
+                "La violence n’est pas laissée à l’imagination."
+            ],
+            "zh": [
+                "当时，罗马上演了多场公开斩首，其中包括贝阿特丽切·琴奇在圣天使桥前被处决。行刑成为公开的死亡场面，也吸引着艺术家前来观看；他们被尸体、极端的动作和临终的表情所吸引。",
+                "不久之后，在《朱迪思斩杀荷罗孚尼》中，卡拉瓦乔选择了最残酷的一刻：受害者仍然活着，意识依然清醒，并且完全明白自己正在经历什么。",
+                "暴力没有被留给想象。"
+            ],
+            "ja": [
+                "当時、ローマではベアトリーチェ・チェンチがサンタンジェロ橋の前で処刑された例を含め、公開斬首が幾度も行われていました。処刑は死の見世物となり、身体や極限の身ぶり、最期の表情に引きつけられた芸術家たちもそれを見物します。",
+                "その後まもなく、カラヴァッジョは《ホロフェルネスの首を斬るユディト》で最も凄惨な瞬間を選びます。犠牲者はまだ生き、意識もあり、自分に何が起きているのかを完全に理解しています。",
+                "暴力は想像に委ねられていません。"
+            ],
+            "pl": [
+                "W tym okresie Rzym jest świadkiem wielu publicznych egzekucji przez ścięcie, w tym Beatrice Cenci przed mostem Świętego Anioła. Egzekucje stają się widowiskami śmierci, obserwowanymi również przez artystów, których przyciągają ciała, skrajne gesty i ostatnie wyrazy twarzy.",
+                "Niedługo później, w Judycie odcinającej głowę Holofernesowi, Caravaggio wybiera najokrutniejszą chwilę: ofiara nadal żyje, wciąż jest świadoma i doskonale rozumie, co się z nią dzieje.",
+                "Przemoc nie zostaje pozostawiona wyobraźni."
+            ],
+            "nl": [
+                "In die periode is Rome getuige van verschillende openbare onthoofdingen, waaronder die van Beatrice Cenci voor de Engelenbrug. Executies worden schouwspelen van de dood, ook bekeken door kunstenaars die worden aangetrokken door de lichamen, de extreme gebaren en de laatste gezichtsuitdrukkingen.",
+                "Kort daarna kiest Caravaggio in Judith onthoofdt Holofernes het gruwelijkste moment: het slachtoffer leeft nog, is nog bij bewustzijn en begrijpt volkomen wat hem overkomt.",
+                "Het geweld wordt niet aan de verbeelding overgelaten."
+            ]
+        },
+        "judith-detail": {
+            "en": [
+                "For Judith’s face, Caravaggio chooses Fillide Melandroni, a celebrated Roman courtesan and a woman very close to him.",
+                "In the painting, Fillide remains at the centre of male desire: Holofernes, made vulnerable by alcohol, desires her, but she does not yield to him and instead becomes his executioner.",
+                "Caravaggio thus reverses a situation already familiar to him, turning the desired woman into the ruthless executioner of the man who wanted to possess her."
+            ],
+            "it": [
+                "Per il volto di Giuditta, Caravaggio sceglie Fillide Melandroni, celebre cortigiana romana e donna a lui molto vicina.",
+                "Nel dipinto Fillide resta al centro del desiderio maschile: Oloferne, reso vulnerabile dall’alcol, la desidera, ma lei non si concede e diventa invece la sua carnefice.",
+                "Caravaggio rovescia così una situazione a lui già familiare, trasformando la donna desiderata nella spietata esecutrice dell’uomo che voleva possederla."
+            ],
+            "de": [
+                "Für Judiths Gesicht wählt Caravaggio Fillide Melandroni, eine berühmte römische Kurtisane und eine Frau, die ihm sehr nahestand.",
+                "Im Gemälde bleibt Fillide im Mittelpunkt männlichen Begehrens: Holofernes, durch den Alkohol verletzlich geworden, begehrt sie, doch sie gibt sich ihm nicht hin und wird stattdessen zu seiner Henkerin.",
+                "So kehrt Caravaggio eine ihm bereits vertraute Situation um und macht die begehrte Frau zur erbarmungslosen Vollstreckerin an dem Mann, der sie besitzen wollte."
+            ],
+            "fr": [
+                "Pour le visage de Judith, Caravage choisit Fillide Melandroni, célèbre courtisane romaine et femme très proche de lui.",
+                "Dans le tableau, Fillide reste au centre du désir masculin : Holopherne, rendu vulnérable par l’alcool, la désire, mais elle ne se donne pas à lui et devient au contraire sa bourrelle.",
+                "Caravage renverse ainsi une situation qui lui était déjà familière, transformant la femme désirée en exécutrice impitoyable de l’homme qui voulait la posséder."
+            ],
+            "zh": [
+                "为了塑造朱迪思的面容，卡拉瓦乔选择了菲利德·梅兰德罗尼——一位著名的罗马名妓，也是与他关系非常亲近的女人。",
+                "在画中，菲利德仍处于男性欲望的中心：因酒精而变得脆弱的荷罗孚尼渴望得到她，但她并不委身于他，反而成为了他的行刑者。",
+                "卡拉瓦乔由此颠倒了一个自己早已熟悉的情境，把被渴望的女人变成那个想要占有她的男人的无情执行者。"
+            ],
+            "ja": [
+                "ユディトの顔に、カラヴァッジョはローマの名高い高級娼婦で、彼と非常に親しかったフィッリデ・メランドローニを選びます。",
+                "絵の中でもフィッリデは男性の欲望の中心にいます。酒によって無防備になったホロフェルネスは彼女を求めますが、彼女は身を委ねず、逆に彼の処刑者となります。",
+                "こうしてカラヴァッジョは、自らにもなじみ深い状況を逆転させ、望まれた女性を、自分を所有しようとした男の冷酷な処刑者へと変えるのです。"
+            ],
+            "pl": [
+                "Dla twarzy Judyty Caravaggio wybiera Fillide Melandroni, słynną rzymską kurtyzanę i kobietę bardzo mu bliską.",
+                "Na obrazie Fillide pozostaje w centrum męskiego pożądania: Holofernes, osłabiony alkoholem, pragnie jej, lecz ona mu się nie oddaje i zamiast tego staje się jego katem.",
+                "Caravaggio odwraca w ten sposób sytuację, która była mu już dobrze znana, przemieniając pożądaną kobietę w bezlitosną wykonawczynię śmierci mężczyzny, który chciał ją posiąść."
+            ],
+            "nl": [
+                "Voor het gezicht van Judith kiest Caravaggio Fillide Melandroni, een beroemde Romeinse courtisane en een vrouw die hem zeer nabij stond.",
+                "In het schilderij blijft Fillide het middelpunt van mannelijk verlangen: Holofernes, kwetsbaar geworden door alcohol, begeert haar, maar zij geeft zich niet aan hem en wordt juist zijn beul.",
+                "Zo keert Caravaggio een situatie om die hem al vertrouwd was: de begeerde vrouw wordt de meedogenloze beul van de man die haar wilde bezitten."
+            ]
+        },
+        "signature": {
+            "en": [
+                "It is the painter’s only known signature, and Caravaggio chooses to leave it in the blood of Saint John the Baptist.",
+                "It is not a signature separate from the scene, but part of the image itself. Artist, martyrdom and crime thus end up in the same blood."
+            ],
+            "it": [
+                "È l’unica firma conosciuta del pittore, e Caravaggio sceglie di lasciarla nel sangue di San Giovanni Battista.",
+                "Non è una firma separata dalla scena, ma parte dell’immagine stessa. Autore, martirio e delitto finiscono così nello stesso sangue."
+            ],
+            "de": [
+                "Es ist die einzige bekannte Signatur des Malers, und Caravaggio entscheidet sich, sie im Blut Johannes des Täufers zu hinterlassen.",
+                "Sie steht nicht außerhalb der Szene, sondern ist Teil des Bildes selbst. Künstler, Martyrium und Verbrechen finden so im selben Blut zusammen."
+            ],
+            "fr": [
+                "C’est la seule signature connue du peintre, et Caravage choisit de la laisser dans le sang de saint Jean-Baptiste.",
+                "Ce n’est pas une signature séparée de la scène, mais une partie de l’image elle-même. Auteur, martyre et crime se retrouvent ainsi dans le même sang."
+            ],
+            "zh": [
+                "这是这位画家唯一已知的签名，而卡拉瓦乔选择把它留在施洗者圣约翰的鲜血中。",
+                "这个签名并不独立于场景之外，而成为画面本身的一部分。作者、殉难与罪行就这样汇入了同一片鲜血。"
+            ],
+            "ja": [
+                "これは画家の唯一知られている署名であり、カラヴァッジョは洗礼者聖ヨハネの血の中にそれを残すことを選びます。",
+                "場面から切り離された署名ではなく、絵そのものの一部です。こうして作者、殉教、そして犯罪が同じ血の中で一つになります。"
+            ],
+            "pl": [
+                "To jedyny znany podpis malarza, a Caravaggio postanawia pozostawić go we krwi świętego Jana Chrzciciela.",
+                "Nie jest to podpis oddzielony od sceny, lecz część samego obrazu. Autor, męczeństwo i zbrodnia spotykają się więc w tej samej krwi."
+            ],
+            "nl": [
+                "Het is de enige bekende signatuur van de schilder, en Caravaggio kiest ervoor die achter te laten in het bloed van de heilige Johannes de Doper.",
+                "De signatuur staat niet los van de scène, maar maakt deel uit van het beeld zelf. Zo komen kunstenaar, martelaarschap en misdaad samen in hetzelfde bloed."
+            ]
+        },
+        "misericorde": {
+            "en": [
+                "The first blow was not enough.",
+                "Saint John is still alive, still trapped in pain, as the executioner draws the “misericordia”: the dagger used to deliver the coup de grâce to someone already mortally wounded.",
+                "Caravaggio therefore chooses not to show us a death already completed, but the agonizing wait for the final act.",
+                "Mercy, here, has the edge of a blade."
+            ],
+            "it": [
+                "Il primo colpo non è bastato.",
+                "San Giovanni è ancora vivo, ancora prigioniero del dolore, mentre il carnefice estrae la “misericordia”: il pugnale usato per dare il colpo di grazia a chi era già mortalmente ferito.",
+                "Caravaggio sceglie quindi di non mostrarci una morte compiuta, ma l’attesa atroce dell’ultimo gesto.",
+                "La misericordia, qui, ha il filo di una lama."
+            ],
+            "de": [
+                "Der erste Hieb hat nicht genügt.",
+                "Johannes lebt noch, noch immer im Schmerz gefangen, während der Henker die „Misericordia“ zieht: den Dolch, mit dem einem bereits tödlich Verwundeten der Gnadenstoß versetzt wurde.",
+                "Caravaggio entscheidet sich also dafür, uns keinen bereits vollendeten Tod zu zeigen, sondern das qualvolle Warten auf die letzte Handlung.",
+                "Die Barmherzigkeit hat hier die Schneide einer Klinge."
+            ],
+            "fr": [
+                "Le premier coup n’a pas suffi.",
+                "Saint Jean est encore vivant, encore prisonnier de la douleur, tandis que le bourreau tire la « misericordia » : le poignard utilisé pour donner le coup de grâce à celui qui était déjà mortellement blessé.",
+                "Caravage choisit donc de ne pas nous montrer une mort accomplie, mais l’attente atroce du dernier geste.",
+                "La miséricorde, ici, a le tranchant d’une lame."
+            ],
+            "zh": [
+                "第一击还不够。",
+                "圣约翰仍然活着，仍被痛苦所困，而行刑者正在拔出“misericordia”——一种用来给已经身受致命伤的人最后一击的匕首。",
+                "因此，卡拉瓦乔选择让我们看到的并不是已经完成的死亡，而是等待最后一个动作的残酷时刻。",
+                "在这里，“慈悲”有着刀刃的锋芒。"
+            ],
+            "ja": [
+                "最初の一撃では足りませんでした。",
+                "聖ヨハネはまだ生き、痛みに囚われたままです。処刑人は「ミゼリコルディア」を抜きます。それは、すでに致命傷を負った者にとどめを刺すための短剣です。",
+                "カラヴァッジョが見せるのは、すでに完了した死ではなく、最後の動作を待つ凄絶な時間なのです。",
+                "ここでは、慈悲は刃の鋭さを帯びています。"
+            ],
+            "pl": [
+                "Pierwszy cios nie wystarczył.",
+                "Święty Jan wciąż żyje, nadal uwięziony w bólu, gdy kat wyciąga „mizerykordię”: sztylet służący do zadawania ciosu łaski komuś, kto był już śmiertelnie ranny.",
+                "Caravaggio nie pokazuje więc śmierci już dokonanej, lecz straszliwe oczekiwanie na ostatni gest.",
+                "Miłosierdzie ma tutaj ostrze noża."
+            ],
+            "nl": [
+                "De eerste slag was niet genoeg.",
+                "Johannes leeft nog, nog altijd gevangen in de pijn, terwijl de beul de ‘misericordia’ trekt: de dolk waarmee iemand die al dodelijk gewond was de genadeslag kreeg.",
+                "Caravaggio kiest er dus voor ons geen reeds voltooide dood te tonen, maar het gruwelijke wachten op het laatste gebaar.",
+                "Barmhartigheid heeft hier de scherpte van een lemmet."
             ]
         }
     }
