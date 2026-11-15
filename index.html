@@ -4,15 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Caravaggio — Light, Shadow, Blood</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20261115-2">
     <link rel="stylesheet" href="styles/gallery.css">
     <link rel="stylesheet" href="styles/light.css">
     <link rel="stylesheet" href="styles/shadow.css">
     <link rel="stylesheet" href="styles/blood.css">
     <link rel="stylesheet" href="styles/helpers.css">
     <link rel="stylesheet" href="styles/languages.css">
+    <link rel="stylesheet" href="styles/audio.css?v=20261115-2">
     <!-- Set the initial horizontal position of each chapter gallery. -->
     <script src="scripts/galleries.js" defer></script>
+    <!-- Manage the introductory video's sound control. -->
+    <script src="scripts/audio.js?v=20261115-2" defer></script>
     <!-- Load language selection and content updates. -->
     <script type="module" src="scripts/languages.js"></script>
     <!-- Load the helper controls and their content reader as JavaScript modules. -->
@@ -143,14 +146,57 @@
 
     <!-- Main page content. -->
     <main id="main-content">
-        <!-- Play the introductory montage automatically without sound. -->
+        <!-- Request automatic playback of the introductory montage. -->
         <div class="opening-video">
+            <div class="video-toolbar">
+                <!-- Enable the sound control after JavaScript is ready. -->
+                <button
+                    id="video-audio-button"
+                    class="audio-toggle"
+                    type="button"
+                    aria-controls="intro-video"
+                    aria-label="Video sound"
+                    aria-pressed="false"
+                    title="Turn sound on"
+                    hidden>
+
+                    <!-- Show the speaker with either sound waves or a mute symbol. -->
+                    <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        aria-hidden="true"
+                        focusable="false">
+
+                        <path d="M11 5 6 9H3v6h3l5 4V5Z"></path>
+
+                        <g class="sound-waves">
+                            <path d="M15 8a6 6 0 0 1 0 8"></path>
+                            <path d="M18 5a10 10 0 0 1 0 14"></path>
+                        </g>
+
+                        <path class="sound-muted" d="M16 9l5 6m0-6-5 6"></path>
+                    </svg>
+                </button>
+
+                <!-- Announce a playback error if sound cannot be enabled. -->
+                <p
+                    id="video-audio-status"
+                    class="audio-status"
+                    role="status"></p>
+            </div>
+
             <video
+                id="intro-video"
                 class="intro-video"
                 width="1280"
                 height="720"
                 autoplay
-                muted
                 loop
                 playsinline
                 preload="auto"
