@@ -6,7 +6,7 @@
 
 /* Image frame, crop and caption position for medusa. */
 .light-artwork--medusa {
-    --artwork-x: 1146;
+    --artwork-x: 1346;
     --artwork-y: 180;
     --artwork-width: 556;
     --artwork-height: 618;
@@ -34,7 +34,7 @@
 
 /* Image frame, crop and caption position for basket edge. */
 .light-artwork--basket-edge {
-    --artwork-x: 5733;
+    --artwork-x: 4933;
     --artwork-y: 192;
     --artwork-width: 1046;
     --artwork-height: 522;
@@ -48,7 +48,7 @@
 
 /* Image frame, crop and caption position for fruit light. */
 .light-artwork--fruit-light {
-    --artwork-x: 7142;
+    --artwork-x: 6142;
     --artwork-y: 177.5;
     --artwork-width: 764;
     --artwork-height: 551;
@@ -62,7 +62,7 @@
 
 /* Image frame, crop and caption position for empty background. */
 .light-artwork--empty-background {
-    --artwork-x: 8286.5;
+    --artwork-x: 7242;
     --artwork-y: 201.5;
     --artwork-width: 413;
     --artwork-height: 503;
@@ -76,7 +76,7 @@
 
 /* Image frame, crop and caption position for basket. */
 .light-artwork--basket {
-    --artwork-x: 9401.5;
+    --artwork-x: 8542;
     --artwork-y: 116;
     --artwork-width: 917;
     --artwork-height: 725;
@@ -90,7 +90,7 @@
 
 /* Image frame, crop and caption position for emmaus basket. */
 .light-artwork--emmaus-basket {
-    --artwork-x: 10594.5;
+    --artwork-x: 9702;
     --artwork-y: 334;
     --artwork-width: 569;
     --artwork-height: 340;
@@ -104,7 +104,7 @@
 
 /* Image frame, crop and caption position for emmaus christ. */
 .light-artwork--emmaus-christ {
-    --artwork-x: 11568;
+    --artwork-x: 10822;
     --artwork-y: 334;
     --artwork-width: 478;
     --artwork-height: 340;
@@ -118,7 +118,7 @@
 
 /* Image frame, crop and caption position for emmaus. */
 .light-artwork--emmaus {
-    --artwork-x: 12717;
+    --artwork-x: 12132;
     --artwork-y: 143;
     --artwork-width: 920;
     --artwork-height: 655;
