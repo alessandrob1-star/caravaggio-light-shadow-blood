@@ -67,3 +67,8 @@
 
 - Connected navigation labels and section titles to the eight-language selector.
 - Adjusted section title sizing for narrow screens.
+
+**15 November 2026 — Introductory video sound controls**
+
+- Added introductory video sound controls and playback guidance.
+- Refined video spacing, keyboard access and cache handling.

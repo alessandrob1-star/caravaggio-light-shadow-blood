@@ -1,0 +1,78 @@
+/* Anchor the sound control to the video area. */
+.opening-video {
+    position: relative;
+}
+
+/* Place the sound control inside the visible picture. */
+.video-toolbar {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    pointer-events: none;
+}
+
+/* Keep the overlay controls interactive without blocking the video. */
+.video-toolbar > * {
+    pointer-events: auto;
+}
+
+/* Keep the sound button large enough for pointer and touch input. */
+.audio-toggle {
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border: 1px solid #a37a3d;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #e8e1d5;
+    cursor: pointer;
+}
+
+/* Keep the control hidden until its JavaScript is ready. */
+.audio-toggle[hidden] {
+    display: none;
+}
+
+/* Provide visual feedback when pointing at the button. */
+.audio-toggle:hover {
+    border-color: #d6b16d;
+    background: #000000;
+}
+
+/* Identify the button during keyboard navigation. */
+.audio-toggle:focus-visible {
+    outline: 3px solid #e8e1d5;
+    outline-offset: 4px;
+}
+
+/* Display the icon that matches the current sound state. */
+.audio-toggle[aria-pressed="false"] .sound-waves,
+.audio-toggle[aria-pressed="true"] .sound-muted {
+    display: none;
+}
+
+/* Display a playback error next to the sound control. */
+.audio-status {
+    max-width: 420px;
+    min-width: 0;
+    margin: 0;
+    padding: 12px 16px;
+    background: #000000;
+    color: #e8e1d5;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Leave the video unobstructed when there is no error message. */
+.audio-status:empty {
+    display: none;
+}
