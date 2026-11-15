@@ -11,7 +11,7 @@
     position: absolute;
     left: 0;
     top: calc(400 * var(--gallery-unit) + var(--gallery-offset));
-    width: calc(14457 * var(--gallery-unit));
+    width: calc(14457 * var(--gallery-unit) * var(--gallery-spacing));
     height: calc(75 * var(--gallery-unit));
     overflow: hidden;
     mix-blend-mode: multiply;
@@ -20,7 +20,7 @@
 
 .blood-trace img {
     display: block;
-    transform: scale(calc(var(--gallery-unit) / 1px));
+    transform: scale(calc(var(--gallery-unit) / 1px)) scaleX(var(--gallery-spacing));
     transform-origin: top left;
 }
 

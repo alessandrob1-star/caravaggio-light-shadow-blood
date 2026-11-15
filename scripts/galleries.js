@@ -11,9 +11,10 @@ const galleries = Array.from(document.querySelectorAll(".chapter")).map(function
 function showGalleryTitle(gallery) {
     const galleryBounds = gallery.scroller.getBoundingClientRect();
     const titleBounds = gallery.title.getBoundingClientRect();
-    const titleInset = Math.min(192, Math.max(24, gallery.scroller.clientWidth * 0.1));
+    const titleCentre = titleBounds.left + titleBounds.width / 2;
+    const galleryCentre = galleryBounds.left + gallery.scroller.clientWidth / 2;
 
-    gallery.scroller.scrollLeft += titleBounds.left - galleryBounds.left - titleInset;
+    gallery.scroller.scrollLeft += titleCentre - galleryCentre;
 }
 
 // Wait for the font before calculating the title positions.
@@ -27,3 +28,17 @@ galleries.forEach(function (gallery) {
         showGalleryTitle(gallery);
     });
 });
+
+// Leave the start of the Light chapter visible below the opening area.
+const openingHeader = document.querySelector(".site-header");
+
+function updateOpeningHeight() {
+    document.documentElement.style.setProperty(
+        "--opening-header-height",
+        openingHeader.getBoundingClientRect().height + "px"
+    );
+}
+
+// Recalculate the available video height when the header wraps or resizes.
+new ResizeObserver(updateOpeningHeight).observe(openingHeader);
+updateOpeningHeight();

@@ -1,0 +1,97 @@
+/* Anchor each manual navigation bar inside its chapter. */
+.has-gallery-controls {
+    position: relative;
+}
+
+/* Replace the native scrollbar only after the navigation buttons exist. */
+.has-gallery-controls .chapter-scroll {
+    scrollbar-width: none;
+}
+
+.has-gallery-controls .chapter-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Keep the rounded navigation bar centred below the artworks. */
+.gallery-pagination {
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    max-width: calc(100% - 32px);
+    padding: 0 8px;
+    border-radius: 24px;
+    background: #222222;
+    color: #ffffff;
+    transform: translateX(-50%);
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.gallery-pagination::-webkit-scrollbar {
+    display: none;
+}
+
+/* Keep small visual dots inside larger pointer and keyboard targets. */
+.gallery-dot {
+    display: grid;
+    place-items: center;
+    flex: 0 0 44px;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+
+.gallery-dot::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #999999;
+}
+
+/* Show the currently centred item as an elongated white segment. */
+.gallery-dot[aria-current="true"]::before {
+    width: 30px;
+    border-radius: 0;
+    background: #ffffff;
+}
+
+.gallery-dot:hover::before {
+    background: #ffffff;
+}
+
+/* Draw keyboard focus inside the bar so it cannot be clipped. */
+.gallery-dot:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: -4px;
+    border-radius: 8px;
+}
+
+/* Show that the gallery can be grabbed with the mouse. */
+.chapter-scroll.is-draggable {
+    cursor: grab;
+}
+
+/* Keep native snapping disabled during dragging and the release animation. */
+.chapter-scroll.is-dragging,
+.chapter-scroll.is-settling {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+/* Avoid selecting captions while dragging the gallery. */
+.chapter-scroll.is-dragging {
+    user-select: none;
+}
+
+.chapter-scroll.is-dragging,
+.chapter-scroll.is-dragging * {
+    cursor: grabbing;
+}

@@ -72,3 +72,8 @@
 
 - Added introductory video sound controls and playback guidance.
 - Refined video spacing, keyboard access and cache handling.
+
+**15 November 2026**
+
+- Added centred gallery snapping, dot navigation and mouse dragging.
+- Refined section heights, opening video spacing and individual artwork positions in Light.

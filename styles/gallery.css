@@ -1,7 +1,8 @@
 /* Scale the gallery geometry while keeping details readable on small screens. */
 .chapter {
-    --gallery-unit: clamp(0.5px, min(calc(100vw / 1920), calc(100svh / 1018)), 1px);
-    --gallery-offset: max(0px, calc((100svh - 1018 * var(--gallery-unit)) / 2));
+    --gallery-spacing: 1.15;
+    --gallery-unit: clamp(0.5px, min(calc(100vw / 1920), calc((90svh - 56px) / 1018)), 1px);
+    --gallery-offset: max(0px, calc((90svh - 56px - 1018 * var(--gallery-unit)) / 2));
     font-family: "Cormorant Garamond", Georgia, serif;
     font-weight: 500;
 }
@@ -9,20 +10,22 @@
 /* Keep the native horizontal scrollbar available for gallery navigation. */
 .chapter-scroll {
     overflow-x: scroll;
+    scroll-snap-type: x mandatory;
 }
 
-/* Preserve the relative positions of the artworks along the gallery. */
+/* Preserve artwork positions and leave room to centre the first and last items. */
 .chapter-track {
     position: relative;
     display: block;
-    width: calc(var(--gallery-width) * var(--gallery-unit));
-    height: max(100svh, calc(1018 * var(--gallery-unit)));
+    width: calc(var(--gallery-width) * var(--gallery-unit) * var(--gallery-spacing));
+    height: max(90svh, calc(1018 * var(--gallery-unit)));
+    margin-inline: 50vw;
 }
 
 /* Place the opening title between the artworks on the left and right. */
 .chapter-title-panel {
     position: absolute;
-    left: calc(var(--title-left) * var(--gallery-unit));
+    left: calc(((var(--title-left) + 600) * var(--gallery-spacing) - 600) * var(--gallery-unit));
     top: calc(627 * var(--gallery-unit) + var(--gallery-offset));
     display: grid;
     place-items: center;
@@ -39,7 +42,7 @@
 /* Centre each artwork on its gallery position and limit text to the viewport. */
 .gallery-artwork {
     position: absolute;
-    left: calc(var(--artwork-x) * var(--gallery-unit));
+    left: calc(var(--artwork-x) * var(--gallery-unit) * var(--gallery-spacing));
     top: calc(var(--artwork-y) * var(--gallery-unit) + var(--gallery-offset));
     width: min(calc(var(--caption-width) * var(--gallery-unit)), calc(100vw - 48px));
     margin: 0;
@@ -88,4 +91,10 @@
 
 .artwork-caption {
     font-size: clamp(14px, calc(24 * var(--gallery-unit)), 24px);
+}
+
+/* Centre the nearest title, artwork or detail when horizontal scrolling ends. */
+.chapter-title-panel,
+.gallery-artwork {
+    scroll-snap-align: center;
 }
