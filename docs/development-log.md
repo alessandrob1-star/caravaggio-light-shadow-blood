@@ -77,3 +77,7 @@
 
 - Added centred gallery snapping, dot navigation and mouse dragging.
 - Refined section heights, opening video spacing and individual artwork positions in Light.
+
+**16 November 2026**
+
+- Refined individual artwork and crop spacing in Shadow.
