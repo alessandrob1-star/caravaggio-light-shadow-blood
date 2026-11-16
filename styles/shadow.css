@@ -50,7 +50,7 @@
 
 /* Image frame, crop and caption position for arrest witness. */
 .shadow-artwork--arrest-witness {
-    --artwork-x: 4183;
+    --artwork-x: 4163;
     --artwork-y: 215;
     --artwork-width: 518;
     --artwork-height: 346;
@@ -64,7 +64,7 @@
 
 /* Image frame, crop and caption position for goliath. */
 .shadow-artwork--goliath {
-    --artwork-x: 7200.5;
+    --artwork-x: 6825.5;
     --artwork-y: 306;
     --artwork-width: 527;
     --artwork-height: 374;
@@ -106,7 +106,7 @@
 
 /* Image frame, crop and caption position for pilgrim woman. */
 .shadow-artwork--pilgrim-woman {
-    --artwork-x: 10973;
+    --artwork-x: 10723;
     --artwork-y: 260;
     --artwork-width: 514;
     --artwork-height: 407;
@@ -120,7 +120,7 @@
 
 /* Image frame, crop and caption position for madonna. */
 .shadow-artwork--madonna {
-    --artwork-x: 12224;
+    --artwork-x: 11813;
     --artwork-y: 133;
     --artwork-width: 394;
     --artwork-height: 675;
@@ -134,7 +134,7 @@
 
 /* Image frame, crop and caption position for virgin detail. */
 .shadow-artwork--virgin-detail {
-    --artwork-x: 13517;
+    --artwork-x: 13103;
     --artwork-y: 379;
     --artwork-width: 854;
     --artwork-height: 228;
@@ -148,7 +148,7 @@
 
 /* Image frame, crop and caption position for virgin. */
 .shadow-artwork--virgin {
-    --artwork-x: 14815.5;
+    --artwork-x: 14233;
     --artwork-y: 147;
     --artwork-width: 479;
     --artwork-height: 723;
@@ -162,7 +162,7 @@
 
 /* Image frame, crop and caption position for matthew hand. */
 .shadow-artwork--matthew-hand {
-    --artwork-x: 15912.5;
+    --artwork-x: 15313;
     --artwork-y: 313;
     --artwork-width: 375;
     --artwork-height: 356;
@@ -176,7 +176,7 @@
 
 /* Image frame, crop and caption position for matthew angel. */
 .shadow-artwork--matthew-angel {
-    --artwork-x: 16985;
+    --artwork-x: 16433;
     --artwork-y: 327;
     --artwork-width: 472;
     --artwork-height: 332;
@@ -190,7 +190,7 @@
 
 /* Image frame, crop and caption position for matthew. */
 .shadow-artwork--matthew {
-    --artwork-x: 18083;
+    --artwork-x: 17573;
     --artwork-y: 151;
     --artwork-width: 518;
     --artwork-height: 679;
