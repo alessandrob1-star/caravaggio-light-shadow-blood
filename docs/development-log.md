@@ -81,3 +81,7 @@
 **16 November 2026**
 
 - Refined individual artwork and crop spacing in Shadow.
+
+**16 November 2026**
+
+- Refined individual artwork and crop spacing in Blood.

@@ -26,7 +26,7 @@
 
 /* Image frame, crop and caption position for jerome. */
 .blood-artwork--jerome {
-    --artwork-x: 1496.5;
+    --artwork-x: 539;
     --artwork-y: 148;
     --artwork-width: 907;
     --artwork-height: 627;
@@ -40,7 +40,7 @@
 
 /* Image frame, crop and caption position for wignacourt. */
 .blood-artwork--wignacourt {
-    --artwork-x: 2634;
+    --artwork-x: 1839;
     --artwork-y: 123;
     --artwork-width: 468;
     --artwork-height: 677;
@@ -54,7 +54,7 @@
 
 /* Image frame, crop and caption position for jerome detail. */
 .blood-artwork--jerome-detail {
-    --artwork-x: 3553;
+    --artwork-x: 2939;
     --artwork-y: 177;
     --artwork-width: 470;
     --artwork-height: 450;
@@ -68,7 +68,7 @@
 
 /* Image frame, crop and caption position for wignacourt detail. */
 .blood-artwork--wignacourt-detail {
-    --artwork-x: 4449;
+    --artwork-x: 4049;
     --artwork-y: 159;
     --artwork-width: 422;
     --artwork-height: 481;
@@ -82,7 +82,7 @@
 
 /* Image frame, crop and caption position for holofernes. */
 .blood-artwork--holofernes {
-    --artwork-x: 7122;
+    --artwork-x: 6323.5;
     --artwork-y: 292;
     --artwork-width: 450;
     --artwork-height: 402;
@@ -96,7 +96,7 @@
 
 /* Image frame, crop and caption position for judith detail. */
 .blood-artwork--judith-detail {
-    --artwork-x: 8279;
+    --artwork-x: 7413.5;
     --artwork-y: 292;
     --artwork-width: 394;
     --artwork-height: 402;
@@ -110,7 +110,7 @@
 
 /* Image frame, crop and caption position for judith. */
 .blood-artwork--judith {
-    --artwork-x: 9674;
+    --artwork-x: 8733.5;
     --artwork-y: 94;
     --artwork-width: 926;
     --artwork-height: 684;
@@ -124,7 +124,7 @@
 
 /* Image frame, crop and caption position for signature. */
 .blood-artwork--signature {
-    --artwork-x: 10957.5;
+    --artwork-x: 9963.5;
     --artwork-y: 400;
     --artwork-width: 719;
     --artwork-height: 232;
@@ -138,7 +138,7 @@
 
 /* Image frame, crop and caption position for misericorde. */
 .blood-artwork--misericorde {
-    --artwork-x: 12009.5;
+    --artwork-x: 11073.5;
     --artwork-y: 370;
     --artwork-width: 441;
     --artwork-height: 314;
@@ -152,7 +152,7 @@
 
 /* Image frame, crop and caption position for beheading. */
 .blood-artwork--beheading {
-    --artwork-x: 13407.5;
+    --artwork-x: 12393.5;
     --artwork-y: 143;
     --artwork-width: 919;
     --artwork-height: 635;
