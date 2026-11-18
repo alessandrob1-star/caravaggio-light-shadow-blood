@@ -169,5 +169,18 @@ document.querySelectorAll(".chapter-scroll").forEach(function (scroller) {
         event.preventDefault();
     });
 
+    // Cancel mouse movement when navigation returns the gallery to its title.
+    scroller.addEventListener("galleryreset", function () {
+        const pointerId = drag ? drag.pointerId : null;
+        drag = null;
+
+        stopGlide();
+        scroller.classList.remove("is-dragging");
+
+        if (pointerId !== null && scroller.hasPointerCapture(pointerId)) {
+            scroller.releasePointerCapture(pointerId);
+        }
+    });
+
     scroller.classList.add("is-draggable");
 });
