@@ -13,12 +13,15 @@
     <link rel="stylesheet" href="styles/languages.css">
     <link rel="stylesheet" href="styles/audio.css?v=20261115-2">
     <link rel="stylesheet" href="styles/gallery-controls.css?v=20261115-11">
+    <link rel="stylesheet" href="styles/section-navigation.css?v=20261118-9">
     <!-- Set the initial horizontal position of each chapter gallery. -->
     <script src="scripts/galleries.js?v=20261118-1" defer></script>
     <!-- Connect the manual gallery navigation buttons. -->
     <script src="scripts/gallery-controls.js?v=20261115-9" defer></script>
     <!-- Support mouse dragging and centre the nearest item on release. -->
     <script src="scripts/gallery-drag.js?v=20261118-1" defer></script>
+    <!-- Connect the opening arrow to the next section. -->
+    <script src="scripts/section-navigation.js?v=20261118-8" defer></script>
     <!-- Manage the introductory video's sound control. -->
     <script src="scripts/audio.js?v=20261115-2" defer></script>
     <!-- Load language selection and content updates. -->
@@ -31,7 +34,7 @@
     <a href="#main-content">Skip to content</a>
 
     <!-- Opening title, painter's name and chapter navigation. -->
-    <header class="site-header">
+    <header id="home" class="site-header">
         <!-- Choose the language used for anecdotes and helper explanations. -->
         <div class="language-selector">
 
@@ -131,7 +134,7 @@
             </ul>
         </div>
 
-        <h1 class="site-title">CARAVAGGIO</h1>
+        <h1 id="home-title" class="site-title">CARAVAGGIO</h1>
 
         <!-- Place the painter's name beside the chapter links. -->
         <div class="header-row">
@@ -209,6 +212,15 @@
                 <source src="assets/videos/cara.mp4" type="video/mp4">
                 Your browser does not support video playback.
             </video>
+        </div>
+
+        <!-- Navigate from Home to Light below the video frame. -->
+        <div class="home-section-navigation">
+            <a class="home-next-section section-arrow" href="#light" data-previous-section="home" data-next-section="light" aria-labelledby="light-title">
+                <svg viewBox="0 0 180 42" aria-hidden="true" focusable="false">
+                    <path d="M60 3H120V18H170L90 39 10 18H60Z"></path>
+                </svg>
+            </a>
         </div>
 
         <!-- Chapter sections. -->
@@ -438,6 +450,18 @@
                     </figure>
                 </div>
             </div>
+
+            <!-- Navigate between Light and Shadow at their shared boundary. -->
+            <div class="section-boundary-navigation">
+                <a class="section-arrow" href="#shadow"
+                    data-previous-section="light" data-next-section="shadow"
+                    aria-labelledby="shadow-title">
+                    <svg viewBox="0 0 180 42" aria-hidden="true" focusable="false">
+                        <path d="M60 3H120V18H170L90 39 10 18H60Z"></path>
+                    </svg>
+                </a>
+            </div>
+
         </section>
 
         <!-- Shadow chapter and its horizontally scrollable gallery. -->
@@ -758,6 +782,18 @@
                     </figure>
                 </div>
             </div>
+
+            <!-- Navigate between Shadow and Blood at their shared boundary. -->
+            <div class="section-boundary-navigation">
+                <a class="section-arrow" href="#blood"
+                    data-previous-section="shadow" data-next-section="blood"
+                    aria-labelledby="blood-title">
+                    <svg viewBox="0 0 180 42" aria-hidden="true" focusable="false">
+                        <path d="M60 3H120V18H170L90 39 10 18H60Z"></path>
+                    </svg>
+                </a>
+            </div>
+
         </section>
 
         <!-- Blood chapter and its horizontally scrollable gallery. -->

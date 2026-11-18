@@ -89,3 +89,7 @@
 **18 November 2026**
 
 - Added automatic return to chapter titles when changing sections vertically.
+
+**18 November 2026**
+
+- Added bidirectional arrows for navigation between Home and the three chapters.

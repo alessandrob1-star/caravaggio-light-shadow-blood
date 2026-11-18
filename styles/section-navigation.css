@@ -1,0 +1,86 @@
+/* Place Home navigation just above the bottom edge of the opening viewport. */
+.home-section-navigation {
+    position: absolute;
+    top: calc(100svh - 46.88px);
+    left: 0;
+    right: 0;
+    z-index: 2;
+    height: 0;
+}
+
+/* Set the shared size of the oval section links. */
+.section-arrow {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    place-items: center;
+    width: 162px;
+    height: 38.88px;
+    border-radius: 50%;
+    background: #222222;
+    color: #999999;
+}
+
+/* Use a broad filled arrow inside the oval. */
+.section-arrow svg {
+    display: block;
+    width: 126.36px;
+    height: 29.16px;
+    fill: currentColor;
+}
+
+/* Match the horizontal bar's white pointer and keyboard feedback. */
+.section-arrow:hover,
+.section-arrow:focus-visible {
+    color: #ffffff;
+}
+
+.section-arrow:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 4px;
+}
+
+/* Point upward when a boundary link returns to its preceding section. */
+.section-arrow.is-pointing-up svg {
+    transform: rotate(180deg);
+}
+
+/* Anchor each chapter boundary without changing the gallery's height. */
+.chapter {
+    position: relative;
+}
+
+.section-boundary-navigation {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    height: 0;
+}
+
+/* Keep chapter arrows just below the horizontal navigation bars. */
+.section-boundary-navigation .section-arrow {
+    top: -8px;
+}
+
+.chapter .gallery-pagination {
+    bottom: 12px;
+}
+
+/* Keep both controls visible in the taller narrow-screen Shadow layout. */
+@media (max-width: 360px) {
+    #shadow .section-boundary-navigation .section-arrow {
+        top: -32px;
+    }
+
+    #shadow .gallery-pagination {
+        bottom: 36px;
+    }
+
+    #shadow .gallery-caption {
+        margin-top: -12px;
+    }
+}
