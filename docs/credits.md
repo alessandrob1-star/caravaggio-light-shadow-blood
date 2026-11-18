@@ -63,7 +63,7 @@ The documentary’s original score is credited above to **Matteo Curallo**; **Lu
 
 ### Attribution
 
-Original film footage, cinematography and music remain credited to their respective creators and rights holders. The montage is presented as part of my COMP-2002 academic prototype. Source video and music files are not distributed in this repository; the README contains screenshots of the prototype.
+Original film footage, cinematography and music remain credited to their respective creators and rights holders. The montage is presented as part of my COMP-2002 academic prototype. The video is included in this repository for non-commercial educational purposes.
 
 ## Visual references
 
