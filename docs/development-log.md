@@ -85,3 +85,7 @@
 **16 November 2026**
 
 - Refined individual artwork and crop spacing in Blood.
+
+**18 November 2026**
+
+- Added automatic return to chapter titles when changing sections vertically.
