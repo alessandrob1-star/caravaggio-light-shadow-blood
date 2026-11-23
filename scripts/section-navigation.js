@@ -5,6 +5,16 @@ const sectionOrder = ["home", "light", "shadow", "blood"];
 // Reverse boundary links after entering their following section.
 function updateSectionArrows() {
     const currentIndex = activeChapter ? sectionOrder.indexOf(activeChapter.id) : 0;
+    const root = document.documentElement;
+    root.dataset.activeSection = sectionOrder[currentIndex];
+
+    // Keep the previous gallery's controls fully visible above centred Shadow.
+    if (activeChapter && activeChapter.id === "shadow") {
+        const edgeSpace = (window.innerHeight - activeChapter.offsetHeight) / 2;
+        root.style.setProperty(
+            "--shadow-top-control-shift", Math.max(16, 64 - edgeSpace) + "px"
+        );
+    }
 
     sectionArrows.forEach(function (arrow) {
         const nextIndex = sectionOrder.indexOf(arrow.dataset.nextSection);
@@ -64,3 +74,6 @@ window.addEventListener("scroll", function () {
 }, { passive: true });
 
 document.fonts.ready.then(updateSectionArrows);
+
+// Recalculate control clearance when the viewport dimensions change.
+window.addEventListener("resize", updateSectionArrows);
