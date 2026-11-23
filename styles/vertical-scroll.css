@@ -1,0 +1,21 @@
+/* Snap vertical page scrolling to the available section positions. */
+html {
+    scroll-snap-type: y mandatory;
+}
+
+/* Return Home to its opening view with the title and video. */
+#home {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+/* Centre each chapter while keeping neighbouring sections visible. */
+.chapter {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+/* Leave enough space to centre Blood at the end of the page. */
+footer {
+    min-height: 5svh;
+}
