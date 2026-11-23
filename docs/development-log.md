@@ -93,3 +93,7 @@
 **18 November 2026**
 
 - Added bidirectional arrows for navigation between Home and the three chapters.
+
+**18 November 2026**
+
+- Added automatic vertical section snapping and centred chapter alignment.
