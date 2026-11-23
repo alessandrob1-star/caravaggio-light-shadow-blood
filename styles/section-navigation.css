@@ -84,3 +84,74 @@
         margin-top: -12px;
     }
 }
+
+/* Lower the upper controls while Shadow is centred in the viewport. */
+html[data-active-section="shadow"] #light .gallery-pagination {
+    bottom: calc(12px - var(--shadow-top-control-shift, 16px));
+}
+
+html[data-active-section="shadow"] #light .section-boundary-navigation .section-arrow {
+    top: calc(-8px + var(--shadow-top-control-shift, 16px));
+}
+
+/* Raise the lower controls without moving Shadow's title or artworks. */
+html[data-active-section="shadow"] #shadow .gallery-pagination {
+    bottom: 28px;
+}
+
+html[data-active-section="shadow"] #shadow .section-boundary-navigation .section-arrow {
+    top: -24px;
+}
+
+/* Preserve caption clearance in the narrow-screen Shadow layout. */
+@media (max-width: 360px) {
+    html[data-active-section="shadow"] #shadow .gallery-pagination {
+        bottom: 52px;
+    }
+
+    html[data-active-section="shadow"] #shadow .section-boundary-navigation .section-arrow {
+        top: -48px;
+    }
+
+    html[data-active-section="shadow"] #shadow .gallery-caption {
+        margin-top: -28px;
+    }
+}
+
+/* Keep the longer Goliath anecdote clear of the raised controls on phones. */
+@media (max-width: 400px) {
+    html[data-active-section="shadow"] #shadow .shadow-artwork--goliath .anecdote-caption {
+        font-size: 20px;
+    }
+}
+
+/* Hide preceding gallery bars while preserving the upward navigation arrows. */
+html[data-active-section="shadow"] #light .gallery-pagination,
+html[data-active-section="blood"] #light .gallery-pagination,
+html[data-active-section="blood"] #shadow .gallery-pagination {
+    visibility: hidden;
+}
+
+/* Move Shadow's upper arrow closer to the top edge. */
+html[data-active-section="shadow"] #light .section-boundary-navigation .section-arrow {
+    top: calc(-24px + var(--shadow-top-control-shift, 16px));
+}
+
+/* Lower Shadow's horizontal bar and bottom arrow. */
+html[data-active-section="shadow"] #shadow .gallery-pagination {
+    bottom: 12px;
+}
+
+html[data-active-section="shadow"] #shadow .section-boundary-navigation .section-arrow {
+    top: -8px;
+}
+
+@media (max-width: 360px) {
+    html[data-active-section="shadow"] #shadow .gallery-pagination {
+        bottom: 36px;
+    }
+
+    html[data-active-section="shadow"] #shadow .section-boundary-navigation .section-arrow {
+        top: -32px;
+    }
+}
