@@ -33,7 +33,8 @@ document.querySelectorAll(".chapter").forEach(function (chapter) {
         button.type = "button";
         button.className = "gallery-dot";
         if (image) {
-            button.setAttribute("aria-label", image.alt);
+            // Use a short label for navigation when the artwork defines one.
+            button.setAttribute("aria-label", item.dataset.galleryLabel || image.alt);
         }
         button.setAttribute("aria-current", "false");
         button.addEventListener("click", function () {
