@@ -103,6 +103,7 @@
 - Merged centred vertical section snapping into the main branch.
 - Hid previous gallery bars while keeping the upward arrows visible and adjusted the position of Shadow’s navigation controls.
 
-**24 November 2026 — v2.80 — WHATWG HTML Living Standard**
+**24 November 2026 — WHATWG HTML Living Standard**
 
-- Matched the language of gallery title buttons to their translated headings.
+- Matched the language of gallery title buttons to their translated headings (v2.80).
+- Moved keyboard focus to the selected chapter heading and manually checked all three chapters with NVDA and Chrome.
