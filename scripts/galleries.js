@@ -26,10 +26,27 @@ document.fonts.ready.then(function () {
     galleries.forEach(showGalleryTitle);
 });
 
-// Return to a chapter's title when its navigation link is selected.
+// Focus the chapter heading when its menu link is activated.
 galleries.forEach(function (gallery) {
-    gallery.link.addEventListener("click", function () {
+    gallery.link.addEventListener("click", function (event) {
+        // Preserve the browser's behaviour for modified clicks.
+        if (event.button !== 0 || event.ctrlKey || event.metaKey ||
+            event.shiftKey || event.altKey) return;
+
+        event.preventDefault();
         showGalleryTitle(gallery);
+
+        // Preserve chapter addresses and browser history.
+        const hash = gallery.link.hash;
+        if (window.location.hash !== hash) {
+            window.history.pushState(null, "", hash);
+        }
+
+        gallery.chapter.scrollIntoView({ block: "center", behavior: "instant" });
+
+        // Focus the heading without scrolling away from the centred chapter.
+        gallery.title.tabIndex = -1;
+        gallery.title.focus({ preventScroll: true });
     });
 });
 
