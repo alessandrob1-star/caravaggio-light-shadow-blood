@@ -97,3 +97,12 @@
 **18 November 2026**
 
 - Added automatic vertical section snapping and centred chapter alignment.
+
+**23 November 2026 — v2.79**
+
+- Merged centred vertical section snapping into the main branch.
+- Hid previous gallery bars while keeping the upward arrows visible and adjusted the position of Shadow’s navigation controls.
+
+**24 November 2026 — v2.80 — WHATWG HTML Living Standard**
+
+- Matched the language of gallery title buttons to their translated headings.
