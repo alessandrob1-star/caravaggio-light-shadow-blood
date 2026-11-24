@@ -32,7 +32,9 @@ document.querySelectorAll(".chapter").forEach(function (chapter) {
         const image = item.querySelector("img");
         button.type = "button";
         button.className = "gallery-dot";
-        button.setAttribute("aria-label", image ? image.alt : title.textContent);
+        if (image) {
+            button.setAttribute("aria-label", image.alt);
+        }
         button.setAttribute("aria-current", "false");
         button.addEventListener("click", function () {
             centreItem(item);
@@ -83,12 +85,22 @@ document.querySelectorAll(".chapter").forEach(function (chapter) {
         });
     });
 
-    // Keep the title button aligned with language changes.
-    new MutationObserver(function () {
-        buttons[items.indexOf(title.closest(".chapter-title-panel"))].setAttribute(
-            "aria-label", title.textContent
-        );
-    }).observe(title, { childList: true, characterData: true, subtree: true });
+    // Keep the title button's name and language aligned with the heading.
+    const titleButton = buttons[items.indexOf(title.closest(".chapter-title-panel"))];
+
+    function updateTitleButton() {
+        titleButton.setAttribute("aria-label", title.textContent);
+        titleButton.lang = title.lang || document.documentElement.lang;
+    }
+
+    updateTitleButton();
+    new MutationObserver(updateTitleButton).observe(title, {
+        attributes: true,
+        attributeFilter: ["lang"],
+        childList: true,
+        characterData: true,
+        subtree: true
+    });
 
     chapter.append(controls);
     chapter.classList.add("has-gallery-controls");
