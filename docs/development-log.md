@@ -107,3 +107,8 @@
 
 - Matched the language of gallery title buttons to their translated headings (v2.80).
 - Moved keyboard focus to the selected chapter heading and manually checked all three chapters with NVDA and Chrome.
+
+**26 November 2026 — WHATWG HTML Living Standard**
+
+- Published alternative text and short gallery labels in eight languages for all nine images in Light.
+- Verified all 72 image descriptions and 72 gallery labels with NVDA and Chrome on the live site. In all eight languages, checked the six anecdotes and explanations and confirmed that Escape closes each dialog and returns focus to its opening button.
