@@ -114,12 +114,16 @@ languageButtons.forEach(function (button) {
                     }
                 );
 
-                update.lines.forEach(function (text) {
-                    const span = document.createElement("span");
-                    span.textContent = text;
-                    span.lang = languageTag;
-                    update.caption.append(span);
+                // Preserve the line breaks in the translated caption.
+                const span = document.createElement("span");
+                span.lang = languageTag;
+                update.lines.forEach(function (text, index) {
+                    if (index > 0) {
+                        span.append(document.createElement("br"));
+                    }
+                    span.append(text);
                 });
+                update.caption.append(span);
             });
 
             // Update each section heading and its navigation label.
