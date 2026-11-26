@@ -112,3 +112,4 @@
 
 - Published alternative text and short gallery labels in eight languages for all nine images in Light.
 - Verified all 72 image descriptions and 72 gallery labels with NVDA and Chrome on the live site. In all eight languages, checked the six anecdotes and explanations and confirmed that Escape closes each dialog and returns focus to its opening button.
+- Published Shadow’s alternative text and gallery labels in eight languages. Verified 112 descriptions and 112 labels on the live site with NVDA and Chrome, and checked all eight anecdotes and explanations in each language, including focus restoration after Escape.
