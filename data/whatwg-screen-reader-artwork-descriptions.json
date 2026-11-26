@@ -1,0 +1,310 @@
+{
+  "light": {
+    "medusa": {
+      "en": {
+        "label": "Medusa",
+        "alt": "Medusa’s severed head is shown on a round shield. Her face is twisted in pain, with wide eyes, a furrowed brow and an open mouth. Snakes coil around her face, and blood streams from her neck."
+      },
+      "zh": {
+        "label": "美杜莎",
+        "alt": "圆盾上画着美杜莎被斩下的头颅。她的脸因疼痛而扭曲，双眼圆睁，眉头紧皱，嘴巴张开。群蛇在她脸庞四周盘绕，鲜血从颈部涌出。"
+      },
+      "fr": {
+        "label": "Méduse",
+        "alt": "La tête tranchée de Méduse est peinte sur un bouclier rond. Son visage est crispé de douleur, les yeux écarquillés, le front plissé et la bouche ouverte. Des serpents s’enroulent autour de son visage et le sang coule de son cou."
+      },
+      "ja": {
+        "label": "メドゥーサ",
+        "alt": "丸い盾にメドゥーサの切り落とされた首が描かれている。顔は苦痛にゆがみ、目を見開き、眉間にしわを寄せ、口を大きく開けている。顔の周りには蛇がとぐろを巻き、首からは血が流れ落ちている。"
+      },
+      "it": {
+        "label": "Medusa",
+        "alt": "La testa recisa di Medusa è raffigurata su uno scudo rotondo. Ha il volto contratto dal dolore, gli occhi spalancati, la fronte corrugata e la bocca aperta. Serpenti si avvolgono attorno al viso e il sangue le scorre dal collo."
+      },
+      "nl": {
+        "label": "Medusa",
+        "alt": "Het afgehakte hoofd van Medusa is afgebeeld op een rond schild. Haar gezicht is vertrokken van de pijn, met wijd opengesperde ogen, een gefronst voorhoofd en een open mond. Slangen kronkelen rond haar gezicht en uit haar hals stroomt bloed."
+      },
+      "pl": {
+        "label": "Meduza",
+        "alt": "Na okrągłej tarczy przedstawiono odciętą głowę Meduzy. Jej twarz wykrzywia ból. Oczy są szeroko otwarte, czoło zmarszczone, a usta rozwarte. Węże wiją się wokół twarzy, a z szyi spływa krew."
+      },
+      "de": {
+        "label": "Medusa",
+        "alt": "Medusas abgeschlagener Kopf ist auf einem runden Schild dargestellt. Ihr Gesicht ist vor Schmerz verzerrt, die Augen sind weit aufgerissen, die Stirn ist gerunzelt und der Mund steht offen. Schlangen winden sich um ihr Gesicht, und aus ihrem Hals strömt Blut."
+      }
+    },
+    "medusa-eyes": {
+      "en": {
+        "label": "Detail of Medusa’s eyes",
+        "alt": "Medusa’s eyes are wide open, staring straight at the viewer. Her brows draw together above her nose, forming a deep crease between her eyes in an expression of dismay and terror."
+      },
+      "zh": {
+        "label": "美杜莎的双眼（局部）",
+        "alt": "美杜莎睁大双眼，直盯着观者。她双眉紧锁，眉间皱出一道深纹，流露出惊惶与恐惧。"
+      },
+      "fr": {
+        "label": "Détail des yeux de Méduse",
+        "alt": "Méduse a les yeux grands ouverts et fixe la personne qui la regarde. Ses sourcils se rapprochent au-dessus du nez, creusant un sillon profond entre ses yeux dans une expression de désarroi et de terreur."
+      },
+      "ja": {
+        "label": "メドゥーサの目の部分",
+        "alt": "メドゥーサは目を大きく見開き、見る者をじっと見つめている。鼻の付け根で眉を寄せ、眉間に深いしわが刻まれている。その表情には動揺と恐怖がにじむ。"
+      },
+      "it": {
+        "label": "Dettaglio degli occhi di Medusa",
+        "alt": "Gli occhi di Medusa sono spalancati e fissano l’osservatore. Le sopracciglia si stringono sopra il naso e formano una piega profonda tra gli occhi, in un’espressione di sgomento e terrore."
+      },
+      "nl": {
+        "label": "Detail van de ogen van Medusa",
+        "alt": "Medusa’s ogen zijn wijd opengesperd en staren de toeschouwer recht aan. Haar wenkbrauwen trekken boven haar neus naar elkaar toe, waardoor er een diepe frons tussen haar ogen ontstaat. Haar blik verraadt ontzetting en angst."
+      },
+      "pl": {
+        "label": "Zbliżenie oczu Meduzy",
+        "alt": "Szeroko otwarte oczy Meduzy wpatrują się wprost w widza. Jej brwi ściągają się u nasady nosa, tworząc głęboką bruzdę między oczami. Na jej twarzy malują się konsternacja i przerażenie."
+      },
+      "de": {
+        "label": "Detailansicht von Medusas Augen",
+        "alt": "Medusas Augen sind weit aufgerissen und starren den Betrachter direkt an. Über der Nasenwurzel ziehen sich ihre Brauen zusammen. Die tiefe Falte zwischen ihren Augen verleiht ihrem Gesicht einen Ausdruck von Bestürzung und Entsetzen."
+      }
+    },
+    "basket-edge": {
+      "en": {
+        "label": "The basket at the table edge",
+        "alt": "The wicker basket projects just beyond the edge of the table, casting a thin shadow on it. Bunches of white and black grapes and a few pears fill the basket. Dry leaves hang over its rim."
+      },
+      "zh": {
+        "label": "桌沿上的果篮",
+        "alt": "柳条篮稍稍探出桌沿，在桌沿上投下一道窄窄的阴影。篮里盛着成串的白葡萄和黑葡萄，还有几只梨。几片枯叶从篮沿垂下。"
+      },
+      "fr": {
+        "label": "La corbeille au bord de la table",
+        "alt": "La corbeille d’osier dépasse à peine du bord de la table et y projette une ombre fine. Des grappes de raisin blanc et noir et quelques poires remplissent la corbeille. Des feuilles sèches retombent sur ses bords."
+      },
+      "ja": {
+        "label": "卓の縁に置かれたかご",
+        "alt": "柳の枝で編んだかごが卓の縁からわずかに突き出し、そこに細い影を落としている。かごの中には白ぶどうと黒ぶどうの房、そしていくつかの梨が詰まり、縁からは枯れ葉が垂れ下がっている。"
+      },
+      "it": {
+        "label": "Il bordo della canestra",
+        "alt": "La canestra di vimini sporge appena oltre il bordo del tavolo e vi proietta un’ombra sottile. Grappoli d’uva bianca e nera e alcune pere riempiono la canestra, mentre alcune foglie secche ricadono dal bordo."
+      },
+      "nl": {
+        "label": "De mand aan de tafelrand",
+        "alt": "De rieten mand steekt net over de tafelrand en werpt er een smalle schaduw op. Trossen witte en donkere druiven en enkele peren vullen de mand. Een paar verdorde bladeren hangen over de rand."
+      },
+      "pl": {
+        "label": "Kosz na krawędzi stołu",
+        "alt": "Wiklinowy kosz wystaje nieco poza krawędź stołu i rzuca na nią wąski cień. Kosz wypełniają kiście jasnych i ciemnych winogron oraz kilka gruszek. Z jego brzegu zwisają suche liście."
+      },
+      "de": {
+        "label": "Der Korb an der Tischkante",
+        "alt": "Der Weidenkorb ragt ein wenig über die Tischkante hinaus und wirft einen schmalen Schatten darauf. Weiße und dunkle Weintrauben und einige Birnen füllen den Korb. Ein paar trockene Blätter hängen über seinen Rand."
+      }
+    },
+    "fruit-light": {
+      "en": {
+        "label": "The illuminated fruit",
+        "alt": "Light glints on the grapes, on the yellow and red skin of an apple, and on the skins of the pears and figs. Realistic details such as bruises and small blemishes are visible on the fruit. A large leaf with prominent veins spreads above it."
+      },
+      "zh": {
+        "label": "光照下的水果",
+        "alt": "光映在一颗颗葡萄上，也映在苹果红黄相间的果皮以及梨和无花果的表皮上。果实上的碰伤和细小斑点清晰可见，细节逼真。水果上方舒展着一片大叶子，叶脉分明。"
+      },
+      "fr": {
+        "label": "Les fruits dans la lumière",
+        "alt": "La lumière se reflète sur les grains de raisin, sur la peau jaune et rouge d’une pomme et sur celle des poires et des figues. On distingue des détails réalistes, comme des meurtrissures et de petites taches. Une grande feuille aux nervures bien visibles se déploie au-dessus des fruits."
+      },
+      "ja": {
+        "label": "光を受ける果物",
+        "alt": "ぶどうの粒や、赤と黄色に色づいたりんごの皮、梨やいちじくの皮に光が反射している。果物には打ち傷や小さな斑点まで写実的に描かれている。その上に大きな葉が広がり、葉脈がはっきり見える。"
+      },
+      "it": {
+        "label": "La frutta illuminata",
+        "alt": "La luce si riflette sugli acini d’uva, sulla buccia gialla e rossa di una mela e su quella delle pere e dei fichi. Sui frutti si distinguono dettagli realistici come ammaccature e piccole macchie. Sopra i frutti si apre una grande foglia dalle nervature ben visibili."
+      },
+      "nl": {
+        "label": "Het verlichte fruit",
+        "alt": "Het licht glanst op de druiven, op de geelrode schil van een appel en op de schil van de peren en vijgen. Op het fruit zijn natuurgetrouwe details te zien, zoals beurse plekken en kleine vlekjes. Boven het fruit spreidt zich een groot blad met duidelijk zichtbare nerven uit."
+      },
+      "pl": {
+        "label": "Oświetlone owoce",
+        "alt": "Światło odbija się od winogron, od żółtoczerwonej skórki jabłka oraz od skórek gruszek i fig. Na owocach widać realistyczne szczegóły, takie jak obicia i drobne plamki. Nad nimi rozpościera się duży liść o wyraźnych żyłkach."
+      },
+      "de": {
+        "label": "Die beleuchteten Früchte",
+        "alt": "Das Licht glänzt auf den Weinbeeren, auf der gelb-roten Schale eines Apfels und auf der Haut der Birnen und Feigen. An den Früchten sind naturgetreue Details wie Druckstellen und kleine Flecken zu erkennen. Darüber breitet sich ein großes Blatt mit deutlich sichtbaren Adern aus."
+      }
+    },
+    "empty-background": {
+      "en": {
+        "label": "The background behind the basket",
+        "alt": "A pale yellow background fills almost the entire frame. The edges of a few leaves are visible at the lower left. On the right, a slender branch crosses the empty space diagonally."
+      },
+      "zh": {
+        "label": "果篮后的背景",
+        "alt": "淡黄色的背景几乎占满整个画面。左下角露出几片叶子的边缘。右侧，一根细枝斜穿过空白处。"
+      },
+      "fr": {
+        "label": "Le fond derrière la corbeille",
+        "alt": "Un fond jaune pâle occupe presque tout le cadre. En bas à gauche, on aperçoit le bord de quelques feuilles. À droite, une branche fine traverse en diagonale l’espace vide."
+      },
+      "ja": {
+        "label": "かごの背後の背景",
+        "alt": "淡い黄色の背景が画面のほぼ全体を占めている。左下には数枚の葉の縁がのぞき、右側では細い枝が余白を斜めに横切っている。"
+      },
+      "it": {
+        "label": "Lo sfondo della canestra",
+        "alt": "Uno sfondo giallo pallido occupa quasi tutto il riquadro. In basso a sinistra si intravedono i margini di alcune foglie. A destra, un ramo sottile attraversa in diagonale lo spazio vuoto."
+      },
+      "nl": {
+        "label": "De achtergrond achter de mand",
+        "alt": "Een lichtgele achtergrond vult bijna het hele beeld. Linksonder zijn de randen van enkele bladeren te zien. Rechts loopt een dunne tak schuin door de lege ruimte."
+      },
+      "pl": {
+        "label": "Tło za koszem",
+        "alt": "Bladożółte tło wypełnia niemal cały kadr. W lewym dolnym rogu widać brzegi kilku liści. Po prawej cienka gałązka przecina pustą przestrzeń po przekątnej."
+      },
+      "de": {
+        "label": "Der Hintergrund des Korbes",
+        "alt": "Ein blassgelber Hintergrund füllt fast den ganzen Bildausschnitt. Links unten sind die Ränder einiger Blätter zu sehen. Rechts durchzieht ein dünner Zweig diagonal die freie Fläche."
+      }
+    },
+    "basket": {
+      "en": {
+        "label": "Basket of Fruit",
+        "alt": "A wicker basket brimming with fruit projects just beyond the edge of a wooden surface. Among the bunches of white and black grapes are a red-blushed apple, pears and figs. Some leaves rise above the fruit, while others, dry and curled, hang down at the sides. The basket occupies the lower part of the painting, leaving a broad expanse of pale yellow above."
+      },
+      "zh": {
+        "label": "水果篮",
+        "alt": "一个盛满水果的柳条篮稍稍探出木质台面的边缘。成串的白葡萄和黑葡萄之间，可以看到一只泛红的苹果，还有梨和无花果。有的叶子向上伸出果堆，有的已经干枯卷曲，从两侧垂下。篮子位于画面下方，上方留出一大片淡黄色的空间。"
+      },
+      "fr": {
+        "label": "Corbeille de fruits",
+        "alt": "Une corbeille d’osier pleine de fruits dépasse à peine du bord d’une surface en bois. Parmi les grappes de raisin blanc et noir, on distingue une pomme à la peau rougie, des poires et des figues. Certaines feuilles se dressent au-dessus des fruits, d’autres, sèches et recroquevillées, retombent sur les côtés. La corbeille occupe le bas du tableau, laissant au-dessus d’elle un vaste espace jaune pâle."
+      },
+      "ja": {
+        "label": "果物かご",
+        "alt": "果物をいっぱいに盛った柳のかごが、木の台の縁から少し突き出している。白ぶどうと黒ぶどうの房の間に、赤みを帯びたりんごや梨、いちじくが見える。葉の中には果物の上に伸びるものもあれば、枯れて丸まり、両脇に垂れ下がるものもある。かごは画面の下部を占め、その上には淡い黄色の広い余白がある。"
+      },
+      "it": {
+        "label": "Canestra di frutta",
+        "alt": "Una canestra di vimini colma di frutta sporge appena oltre il bordo di un piano di legno. Tra i grappoli d’uva bianca e nera si distinguono una mela dalla buccia arrossata, pere e fichi. Alcune foglie si alzano sopra i frutti, altre, secche e accartocciate, ricadono ai lati. La canestra occupa la parte bassa del dipinto, lasciando sopra di sé un ampio spazio giallo pallido."
+      },
+      "nl": {
+        "label": "Fruitmand",
+        "alt": "Een rieten mand vol fruit steekt net over de rand van een houten blad. Tussen trossen witte en donkere druiven liggen een appel met een rode blos, peren en vijgen. Sommige bladeren steken boven het fruit uit, andere hangen droog en opgekruld langs de zijkanten. De mand staat onder in het schilderij, met daarboven een groot lichtgeel vlak."
+      },
+      "pl": {
+        "label": "Kosz z owocami",
+        "alt": "Wiklinowy kosz pełen owoców wystaje nieco poza krawędź drewnianego blatu. Wśród kiści jasnych i ciemnych winogron widać jabłko z rumieńcem, gruszki i figi. Niektóre liście wznoszą się nad owocami, inne, suche i poskręcane, zwisają po bokach. Kosz zajmuje dolną część obrazu, a nad nim rozciąga się duża bladożółta płaszczyzna."
+      },
+      "de": {
+        "label": "Früchtekorb",
+        "alt": "Ein Weidenkorb voller Früchte ragt ein wenig über die Kante einer Holzplatte hinaus. Zwischen weißen und dunklen Weintrauben liegen ein rotwangiger Apfel, Birnen und Feigen. Einige Blätter ragen über die Früchte hinaus, andere hängen trocken und eingerollt an den Seiten herab. Der Korb nimmt den unteren Teil des Bildes ein. Darüber bleibt eine weite blassgelbe Fläche frei."
+      }
+    },
+    "emmaus-basket": {
+      "en": {
+        "label": "The basket and its shadow",
+        "alt": "A wicker basket filled with fruit projects beyond the edge of the table. Light falls on the grapes and the skins of the fruit. The basket’s shadow stretches to the right across the white tablecloth, tracing the shape of a fish."
+      },
+      "zh": {
+        "label": "果篮与投影",
+        "alt": "一个盛满水果的柳条篮探出桌沿。光落在葡萄和水果的表皮上。篮子的影子在白色桌布上向右延伸，勾勒出一条鱼的轮廓。"
+      },
+      "fr": {
+        "label": "La corbeille et son ombre",
+        "alt": "Une corbeille d’osier pleine de fruits dépasse du bord de la table. La lumière éclaire les grains de raisin et la peau des fruits. L’ombre de la corbeille s’étire vers la droite sur la nappe blanche et dessine la silhouette d’un poisson."
+      },
+      "ja": {
+        "label": "果物かごとその影",
+        "alt": "果物を盛った柳のかごが卓の縁から突き出している。ぶどうの粒や果物の皮に光が当たっている。かごの影は白いテーブルクロスの上を右へ伸び、魚の形を描いている。"
+      },
+      "it": {
+        "label": "La canestra e la sua ombra",
+        "alt": "Una canestra di vimini colma di frutta sporge oltre il bordo del tavolo. La luce illumina gli acini d’uva e la buccia dei frutti. L’ombra della canestra si allunga verso destra sulla tovaglia bianca, disegnando la sagoma di un pesce."
+      },
+      "nl": {
+        "label": "De mand en haar schaduw",
+        "alt": "Een rieten mand vol fruit steekt over de tafelrand. Het licht valt op de druiven en op de schil van het fruit. De schaduw van de mand strekt zich naar rechts uit over het witte tafelkleed en tekent de omtrek van een vis."
+      },
+      "pl": {
+        "label": "Kosz i jego cień",
+        "alt": "Wiklinowy kosz pełen owoców wystaje poza krawędź stołu. Światło pada na winogrona i skórki owoców. Cień kosza ciągnie się w prawo po białym obrusie, tworząc zarys ryby."
+      },
+      "de": {
+        "label": "Der Korb und sein Schatten",
+        "alt": "Ein Weidenkorb voller Früchte ragt über die Tischkante hinaus. Licht fällt auf die Weinbeeren und die Haut der Früchte. Der Schatten des Korbes zieht sich auf dem weißen Tischtuch nach rechts und zeichnet den Umriss eines Fisches."
+      }
+    },
+    "emmaus-christ": {
+      "en": {
+        "label": "Christ’s face",
+        "alt": "Christ’s eyes are lowered. Light falls on his forehead, nose and one cheek. A large rounded shadow stands out on the wall behind his head, suggesting a halo and a pair of folded angel wings."
+      },
+      "zh": {
+        "label": "基督的面容",
+        "alt": "基督垂着双眼。光落在他的额头、鼻子和一侧脸颊上。他头后的墙上显出一大片轮廓浑圆的阴影，让人联想到光环和一对收拢的天使翅膀。"
+      },
+      "fr": {
+        "label": "Le visage du Christ",
+        "alt": "Le Christ a les yeux baissés. La lumière éclaire son front, son nez et l’une de ses joues. Sur le mur, derrière sa tête, se détache une grande ombre arrondie qui évoque une auréole et deux ailes d’ange repliées."
+      },
+      "ja": {
+        "label": "キリストの顔",
+        "alt": "キリストは目を伏せている。額と鼻、片方の頬に光が当たっている。頭の後ろの壁には丸みのある大きな影が浮かび、光輪と、折りたたまれた一対の天使の翼を思わせる。"
+      },
+      "it": {
+        "label": "Il volto di Cristo",
+        "alt": "Cristo ha gli occhi abbassati. La luce gli illumina la fronte, il naso e una guancia. Sulla parete, dietro il suo capo, si staglia una grande ombra arrotondata che evoca un’aureola e un paio d’ali angeliche ripiegate."
+      },
+      "nl": {
+        "label": "Het gezicht van Christus",
+        "alt": "Christus heeft zijn ogen neergeslagen. Het licht valt op zijn voorhoofd, zijn neus en één wang. Op de muur achter zijn hoofd tekent zich een grote, afgeronde schaduw af die doet denken aan een aureool en een paar gevouwen engelenvleugels."
+      },
+      "pl": {
+        "label": "Twarz Chrystusa",
+        "alt": "Chrystus ma spuszczone oczy. Światło pada na jego czoło, nos i jeden policzek. Na ścianie za jego głową odcina się duży, zaokrąglony cień, przywodzący na myśl aureolę i parę złożonych anielskich skrzydeł."
+      },
+      "de": {
+        "label": "Das Gesicht Christi",
+        "alt": "Christus hält den Blick gesenkt. Licht fällt auf seine Stirn, seine Nase und eine Wange. An der Wand hinter seinem Kopf hebt sich ein großer, abgerundeter Schatten ab, der an einen Heiligenschein und ein Paar angelegte Engelsflügel erinnert."
+      }
+    },
+    "emmaus": {
+      "en": {
+        "label": "The Supper at Emmaus",
+        "alt": "At the centre of the table, Christ lowers his gaze and extends his right hand to bless the bread. The two disciples recognise him. On the left, the disciple with his back to us grips the arms of his chair as if to rise. On the right, the other throws his arms wide. The innkeeper stands watching with his face in shadow. In the foreground, a basket of fruit projects over the edge of the table towards the viewer."
+      },
+      "zh": {
+        "label": "以马忤斯的晚餐",
+        "alt": "基督坐在桌子中央的位置，垂着目光，伸出右手为面包祝福。两位门徒认出了他。左边的门徒背对观者，双手抓住椅子扶手，仿佛正要起身；右边的门徒张开双臂。旅店主人站在一旁注视着，脸隐在阴影里。前景中，一篮水果越过桌沿，向观者的方向探出。"
+      },
+      "fr": {
+        "label": "Le Souper à Emmaüs",
+        "alt": "Au centre de la table, le Christ baisse les yeux et tend la main droite pour bénir le pain. Les deux disciples le reconnaissent. À gauche, celui qui nous tourne le dos saisit les accoudoirs de sa chaise comme pour se lever, tandis qu’à droite l’autre ouvre grand les bras. Debout, l’aubergiste observe la scène, le visage dans l’ombre. Au premier plan, une corbeille de fruits dépasse du bord de la table en direction du spectateur."
+      },
+      "ja": {
+        "label": "エマオの晩餐",
+        "alt": "食卓の中央でキリストが目を伏せ、パンを祝福しようと右手を差し伸べている。二人の弟子がキリストだと気づく。左ではこちらに背を向けた弟子が立ち上がろうとするように椅子の肘掛けをつかみ、右の弟子は両腕を大きく広げている。宿の主人は顔を影に沈めたまま、立ってその様子を見守る。手前では果物かごが卓の縁からこちらに向かって突き出している。"
+      },
+      "it": {
+        "label": "Cena in Emmaus",
+        "alt": "Al centro della tavola, Cristo tiene lo sguardo abbassato e tende la mano destra per benedire il pane. I due discepoli lo riconoscono: quello a sinistra, di spalle, afferra i braccioli della sedia come per alzarsi, mentre quello a destra spalanca le braccia. Il locandiere osserva in piedi, con il volto in ombra. In primo piano, una canestra di frutta sporge dal bordo della tavola verso chi guarda."
+      },
+      "nl": {
+        "label": "De maaltijd in Emmaüs",
+        "alt": "Midden aan tafel zit Christus met neergeslagen ogen. Hij strekt zijn rechterhand uit om het brood te zegenen. De twee leerlingen herkennen hem. Links grijpt de leerling die met zijn rug naar ons toe zit de armleuningen van zijn stoel vast, alsof hij wil opstaan. De ander spreidt zijn armen wijd uit. De herbergier staat toe te kijken, zijn gezicht in de schaduw. Op de voorgrond steekt een fruitmand over de tafelrand naar ons toe."
+      },
+      "pl": {
+        "label": "Wieczerza w Emaus",
+        "alt": "Pośrodku stołu siedzi Chrystus ze spuszczonym wzrokiem. Wyciąga prawą rękę, by pobłogosławić chleb. Dwaj uczniowie rozpoznają go. Ten z lewej, odwrócony do nas plecami, chwyta za poręcze krzesła, jakby chciał wstać. Drugi szeroko rozkłada ręce. Stojący gospodarz przygląda się scenie z twarzą w cieniu. Na pierwszym planie kosz z owocami wystaje poza krawędź stołu w stronę widza."
+      },
+      "de": {
+        "label": "Das Abendmahl in Emmaus",
+        "alt": "In der Mitte des Tisches sitzt Christus mit gesenktem Blick und streckt die rechte Hand aus, um das Brot zu segnen. Die beiden Jünger erkennen ihn. Der Jünger links, der uns den Rücken zuwendet, greift nach den Armlehnen seines Stuhls, als wolle er aufstehen. Der andere breitet die Arme weit aus. Der Wirt steht dabei und schaut zu, sein Gesicht liegt im Schatten. Im Vordergrund ragt ein Früchtekorb über die Tischkante auf uns zu."
+      }
+    }
+  }
+}

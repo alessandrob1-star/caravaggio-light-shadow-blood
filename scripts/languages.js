@@ -41,6 +41,28 @@ toggle.addEventListener("click", function () {
     options.querySelector('[aria-pressed="true"]').focus();
 });
 
+// Read and validate all artwork descriptions before changing the page language.
+async function getArtworkUpdates(language) {
+    const response = await fetch("data/whatwg-screen-reader-artwork-descriptions.json");
+    if (!response.ok) {
+        throw new Error("The artwork descriptions could not be loaded.");
+    }
+    const archive = await response.json();
+
+    return Array.from(document.querySelectorAll(".gallery-artwork[id]"), function (figure) {
+        const chapter = figure.closest(".chapter");
+        const entry = archive[chapter.id]?.[figure.id]?.[language];
+        if (!entry?.alt?.trim() || !entry?.label?.trim()) {
+            throw new Error("The artwork translation is incomplete.");
+        }
+        return {
+            image: figure.querySelector(".artwork-image img"),
+            button: chapter.querySelector('.gallery-dot[aria-controls="' + figure.id + '"]'),
+            entry
+        };
+    });
+}
+
 // Load every anecdote before changing the displayed language.
 languageButtons.forEach(function (button) {
     button.addEventListener("click", async function () {
@@ -57,7 +79,10 @@ languageButtons.forEach(function (button) {
 
         try {
             // Load all section titles before updating the page.
-            const sectionTitles = await getSectionTitles(language);
+            const [sectionTitles, artworks] = await Promise.all([
+                getSectionTitles(language),
+                getArtworkUpdates(language)
+            ]);
             const updates = await Promise.all(
                 Array.from(detailButtons).map(async function (detailButton) {
                     return {
@@ -70,6 +95,16 @@ languageButtons.forEach(function (button) {
                     };
                 })
             );
+
+            // Set the reading language on each translated image and gallery button.
+            artworks.forEach(function ({ image, button, entry }) {
+                image.lang = languageTag;
+                image.alt = entry.alt;
+                if (button) {
+                    button.lang = languageTag;
+                    button.setAttribute("aria-label", entry.label);
+                }
+            });
 
             // Replace only the anecdote lines, preserving each helper button.
             updates.forEach(function (update) {

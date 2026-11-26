@@ -36,6 +36,10 @@ document.querySelectorAll(".chapter").forEach(function (chapter) {
             // Use a short label for navigation when the artwork defines one.
             button.setAttribute("aria-label", item.dataset.galleryLabel || image.alt);
         }
+        // Link the navigation button to its artwork for language updates.
+        if (image && item.id) {
+            button.setAttribute("aria-controls", item.id);
+        }
         button.setAttribute("aria-current", "false");
         button.addEventListener("click", function () {
             centreItem(item);
