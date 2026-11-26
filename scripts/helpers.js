@@ -32,7 +32,9 @@ function showCrop(button) {
     helperCrop.className = "artwork-image helper-crop " + chapter.id + "-artwork--" + cropId;
     helperCrop.replaceChildren(sourceImage.cloneNode(true));
     helperDialog.dataset.section = chapter.id;
-    helperDialog.setAttribute("aria-label", sourceImage.alt + ": additional information");
+    // Keep the dialog title short when the image has a detailed description.
+    const detailName = figure.dataset.galleryLabel || sourceImage.alt;
+    helperDialog.setAttribute("aria-label", detailName + ": additional information");
 }
 
 // Open each detail with its explanation in the selected language.
