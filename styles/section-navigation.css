@@ -1,9 +1,6 @@
-/* Place Home navigation just above the bottom edge of the opening viewport. */
+/* Anchor the Home arrow to the boundary immediately after the video. */
 .home-section-navigation {
-    position: absolute;
-    top: calc(100svh - 46.88px);
-    left: 0;
-    right: 0;
+    position: relative;
     z-index: 2;
     height: 0;
 }
@@ -13,7 +10,7 @@
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     display: grid;
     place-items: center;
     width: 162px;
@@ -61,21 +58,18 @@
     height: 0;
 }
 
-/* Keep chapter arrows just below the horizontal navigation bars. */
-.section-boundary-navigation .section-arrow {
-    top: -8px;
-}
-
 .chapter .gallery-pagination {
     bottom: 12px;
 }
 
+/* Leave clearance between the horizontal bars and the centred arrows. */
+#light .gallery-pagination,
+#shadow .gallery-pagination {
+    bottom: 28px;
+}
+
 /* Keep both controls visible in the taller narrow-screen Shadow layout. */
 @media (max-width: 360px) {
-    #shadow .section-boundary-navigation .section-arrow {
-        top: -32px;
-    }
-
     #shadow .gallery-pagination {
         bottom: 36px;
     }
@@ -90,27 +84,10 @@ html[data-active-section="shadow"] #light .gallery-pagination {
     bottom: calc(12px - var(--shadow-top-control-shift, 16px));
 }
 
-html[data-active-section="shadow"] #light .section-boundary-navigation .section-arrow {
-    top: calc(-8px + var(--shadow-top-control-shift, 16px));
-}
-
-/* Raise the lower controls without moving Shadow's title or artworks. */
-html[data-active-section="shadow"] #shadow .gallery-pagination {
-    bottom: 28px;
-}
-
-html[data-active-section="shadow"] #shadow .section-boundary-navigation .section-arrow {
-    top: -24px;
-}
-
 /* Preserve caption clearance in the narrow-screen Shadow layout. */
 @media (max-width: 360px) {
     html[data-active-section="shadow"] #shadow .gallery-pagination {
-        bottom: 52px;
-    }
-
-    html[data-active-section="shadow"] #shadow .section-boundary-navigation .section-arrow {
-        top: -48px;
+        bottom: 36px;
     }
 
     html[data-active-section="shadow"] #shadow .gallery-caption {
@@ -130,28 +107,4 @@ html[data-active-section="shadow"] #light .gallery-pagination,
 html[data-active-section="blood"] #light .gallery-pagination,
 html[data-active-section="blood"] #shadow .gallery-pagination {
     visibility: hidden;
-}
-
-/* Move Shadow's upper arrow closer to the top edge. */
-html[data-active-section="shadow"] #light .section-boundary-navigation .section-arrow {
-    top: calc(-24px + var(--shadow-top-control-shift, 16px));
-}
-
-/* Lower Shadow's horizontal bar and bottom arrow. */
-html[data-active-section="shadow"] #shadow .gallery-pagination {
-    bottom: 12px;
-}
-
-html[data-active-section="shadow"] #shadow .section-boundary-navigation .section-arrow {
-    top: -8px;
-}
-
-@media (max-width: 360px) {
-    html[data-active-section="shadow"] #shadow .gallery-pagination {
-        bottom: 36px;
-    }
-
-    html[data-active-section="shadow"] #shadow .section-boundary-navigation .section-arrow {
-        top: -32px;
-    }
 }
