@@ -306,5 +306,483 @@
         "alt": "In der Mitte des Tisches sitzt Christus mit gesenktem Blick und streckt die rechte Hand aus, um das Brot zu segnen. Die beiden Jünger erkennen ihn. Der Jünger links, der uns den Rücken zuwendet, greift nach den Armlehnen seines Stuhls, als wolle er aufstehen. Der andere breitet die Arme weit aus. Der Wirt steht dabei und schaut zu, sein Gesicht liegt im Schatten. Im Vordergrund ragt ein Früchtekorb über die Tischkante auf uns zu."
       }
     }
+  },
+  "shadow": {
+    "ursula": {
+      "en": {
+        "label": "The Martyrdom of Saint Ursula",
+        "alt": "On the right, Saint Ursula bows her head towards her chest, where an arrow has struck her. Her hands gather around the wound. On the left, an archer in armour still holds his bow. The light brings out Ursula’s face and the red of her cloak. Behind her, among the witnesses, Caravaggio’s face emerges from the darkness. He portrays himself with his face turned upwards and his mouth slightly open."
+      },
+      "zh": {
+        "label": "圣乌尔苏拉殉道",
+        "alt": "在右侧，圣乌尔苏拉低头看向被箭射中的胸口，双手拢在伤口周围。左边，一名披甲的弓箭手仍握着弓。光线突出了乌尔苏拉的脸庞和她鲜红的披风。在她身后的目击者中，卡拉瓦乔的脸从黑暗中浮现。他将自己画成面朝上方、嘴唇微张的样子。"
+      },
+      "fr": {
+        "label": "Le Martyre de sainte Ursule",
+        "alt": "À droite, sainte Ursule baisse la tête vers sa poitrine, où une flèche l’a touchée. Ses mains se rapprochent autour de la blessure. À gauche, un archer en armure tient encore son arc. La lumière fait ressortir le visage d’Ursule et le rouge de son manteau. Derrière elle, parmi les témoins, le visage du Caravage émerge de l’obscurité. Il s’est représenté le visage tourné vers le haut et la bouche entrouverte."
+      },
+      "ja": {
+        "label": "聖ウルスラの殉教",
+        "alt": "右側で聖ウルスラは、矢が刺さった胸に目を落とし、傷口の周りに両手を寄せている。左では鎧を着た射手がまだ弓を手にしている。光がウルスラの顔と赤いマントを浮かび上がらせる。その背後では、目撃者たちの間からカラヴァッジョの顔が闇に浮かぶ。画家は顔を上に向け、口を少し開いた姿で自分を描いている。"
+      },
+      "it": {
+        "label": "Il martirio di sant’Orsola",
+        "alt": "A destra, sant’Orsola china il capo verso il petto, dove l’ha colpita una freccia. Le sue mani si raccolgono attorno alla ferita. A sinistra, un arciere in armatura tiene ancora l’arco. La luce fa risaltare il volto di Orsola e il rosso del suo mantello. Alle sue spalle, tra i testimoni, emerge dal buio il volto di Caravaggio, che si è ritratto con il viso rivolto verso l’alto e la bocca socchiusa."
+      },
+      "nl": {
+        "label": "Het martelaarschap van de heilige Ursula",
+        "alt": "Rechts buigt de heilige Ursula haar hoofd naar haar borst, waar een pijl haar heeft getroffen. Haar handen komen rond de wond samen. Links houdt een boogschutter in harnas zijn boog nog vast. Het licht laat Ursula’s gezicht en het rood van haar mantel uitkomen. Achter haar verschijnt tussen de getuigen Caravaggio’s gezicht uit het donker. Hij heeft zichzelf afgebeeld met zijn gezicht omhoog en zijn mond op een kier."
+      },
+      "pl": {
+        "label": "Męczeństwo świętej Urszuli",
+        "alt": "Po prawej święta Urszula pochyla głowę ku piersi, w którą ugodziła ją strzała. Zbliża dłonie do rany. Po lewej łucznik w zbroi nadal trzyma łuk. Światło wydobywa twarz Urszuli i czerwień jej płaszcza. Za nią, wśród świadków, z mroku wyłania się twarz Caravaggia. Malarz przedstawił siebie z twarzą zwróconą ku górze i lekko rozchylonymi ustami."
+      },
+      "de": {
+        "label": "Das Martyrium der heiligen Ursula",
+        "alt": "Rechts neigt die heilige Ursula den Kopf zu ihrer Brust, wo ein Pfeil sie getroffen hat. Ihre Hände umfassen die Stelle der Wunde. Links hält ein Bogenschütze in Rüstung noch seinen Bogen. Das Licht hebt Ursulas Gesicht und das Rot ihres Mantels hervor. Hinter ihr tritt unter den Zeugen Caravaggios Gesicht aus der Dunkelheit hervor. Er hat sich mit erhobenem Gesicht und leicht geöffnetem Mund dargestellt."
+      }
+    },
+    "ursula-detail": {
+      "en": {
+        "label": "The self-portrait behind Saint Ursula",
+        "alt": "Caravaggio portrays himself directly behind the martyr. His face emerges from the darkness, his gaze turned upwards and his mouth slightly open. His expression is so pained that it seems almost as though the arrow piercing Ursula has struck him too."
+      },
+      "zh": {
+        "label": "圣乌尔苏拉身后的自画像",
+        "alt": "卡拉瓦乔把自己画在殉道者的身后。他的脸从黑暗中浮现，目光向上，嘴巴微张。他的表情如此痛苦，仿佛射穿乌尔苏拉的那支箭也射中了他。"
+      },
+      "fr": {
+        "label": "L’autoportrait derrière sainte Ursule",
+        "alt": "Le Caravage s’est représenté juste derrière la martyre. Son visage émerge de l’obscurité, le regard levé et la bouche entrouverte. Son expression est si douloureuse qu’on dirait presque que la flèche qui transperce Ursule l’a touché lui aussi."
+      },
+      "ja": {
+        "label": "聖ウルスラの背後の自画像",
+        "alt": "カラヴァッジョは殉教者のすぐ後ろに自分を描いている。闇に浮かぶ顔は上を見つめ、口は少し開いている。その苦しげな表情からは、ウルスラを貫く矢が彼にも当たったかのように見える。"
+      },
+      "it": {
+        "label": "L’autoritratto dietro sant’Orsola",
+        "alt": "Caravaggio si è ritratto subito dietro la martire. Il suo volto emerge dal buio, con lo sguardo rivolto verso l’alto e la bocca socchiusa. La sua espressione è così sofferente che sembra quasi che la freccia che trafigge Orsola abbia colpito anche lui."
+      },
+      "nl": {
+        "label": "Het zelfportret achter de heilige Ursula",
+        "alt": "Caravaggio heeft zichzelf vlak achter de martelares afgebeeld. Zijn gezicht komt uit het donker tevoorschijn, met zijn blik omhoog en zijn mond op een kier. Zijn uitdrukking is zo gepijnigd dat het bijna lijkt alsof de pijl die Ursula doorboort ook hem heeft getroffen."
+      },
+      "pl": {
+        "label": "Autoportret za świętą Urszulą",
+        "alt": "Caravaggio przedstawił siebie tuż za męczennicą. Jego twarz wyłania się z mroku, ze spojrzeniem skierowanym ku górze i lekko rozchylonymi ustami. Tak wyraźnie maluje się na niej cierpienie, że można odnieść wrażenie, iż strzała przeszywająca Urszulę ugodziła także jego."
+      },
+      "de": {
+        "label": "Das Selbstbildnis hinter der heiligen Ursula",
+        "alt": "Caravaggio hat sich unmittelbar hinter der Märtyrerin dargestellt. Sein Gesicht tritt aus dem Dunkel hervor, mit erhobenem Blick und leicht geöffnetem Mund. Sein Ausdruck ist so schmerzvoll, dass es fast scheint, als hätte ihn der Pfeil, der Ursula durchbohrt, ebenfalls getroffen."
+      }
+    },
+    "taking-of-christ": {
+      "en": {
+        "label": "The Taking of Christ",
+        "alt": "Christ bows his head and clasps his hands while Judas embraces him and brings his face close to kiss him. From the right, a guard reaches out towards Christ. Light reflects off the black armour. At the far left, John draws back with one hand raised. On the opposite side, Caravaggio portrays himself among those present, leaning his face forward and holding a lantern above the guards."
+      },
+      "zh": {
+        "label": "基督被捕",
+        "alt": "基督低着头，双手交扣。犹大抱住他，把脸凑近，准备亲吻他。右边一名卫兵朝基督伸出手臂，光线在黑色铠甲上反射。最左边的约翰举起一只手，向后退去。另一侧，卡拉瓦乔把自己画在在场的人群中，探身向前，把一盏灯笼举过卫兵的头顶。"
+      },
+      "fr": {
+        "label": "L’Arrestation du Christ",
+        "alt": "Le Christ baisse la tête et joint les mains, les doigts entrelacés, tandis que Judas l’étreint et approche son visage pour l’embrasser. À droite, un garde tend le bras vers le Christ. La lumière se reflète sur l’armure noire. Tout à gauche, Jean recule, une main levée. De l’autre côté, le Caravage s’est représenté parmi les assistants, le visage avancé et une lanterne levée au-dessus des gardes."
+      },
+      "ja": {
+        "label": "キリストの捕縛",
+        "alt": "キリストは頭を垂れて両手の指を組み、ユダは彼を抱き寄せて口づけしようと顔を近づける。右から衛兵が腕をキリストに伸ばし、黒い鎧が光を反射している。左端ではヨハネが片手を上げて身を引く。反対側には、居合わせた人々の中に自らを描いたカラヴァッジョがいる。顔を前に突き出し、衛兵たちの頭上にランタンを掲げている。"
+      },
+      "it": {
+        "label": "La cattura di Cristo",
+        "alt": "Cristo china il capo e tiene le mani intrecciate mentre Giuda lo stringe e gli accosta il volto per baciarlo. Da destra, una guardia protende il braccio verso Cristo. La luce si riflette sull’armatura nera. All’estrema sinistra, Giovanni si ritrae con una mano alzata. Sul lato opposto, Caravaggio si è ritratto tra i presenti, con il viso proteso in avanti e una lanterna sollevata sopra le guardie."
+      },
+      "nl": {
+        "label": "De gevangenneming van Christus",
+        "alt": "Christus buigt zijn hoofd en vouwt zijn handen, terwijl Judas hem omhelst en zijn gezicht naar hem toe brengt om hem te kussen. Van rechts strekt een bewaker zijn arm naar Christus uit. Het licht weerkaatst op het zwarte harnas. Helemaal links deinst Johannes terug met één hand omhoog. Aan de andere kant heeft Caravaggio zichzelf tussen de omstanders afgebeeld. Hij steekt zijn hoofd naar voren en houdt een lantaarn boven de bewakers."
+      },
+      "pl": {
+        "label": "Pojmanie Chrystusa",
+        "alt": "Chrystus pochyla głowę i splata dłonie, podczas gdy Judasz obejmuje go i zbliża twarz, by go pocałować. Z prawej strażnik wyciąga rękę w stronę Chrystusa. Światło odbija się od czarnej zbroi. Po lewej stronie Jan cofa się z uniesioną ręką. Po przeciwnej stronie Caravaggio przedstawił siebie wśród obecnych, wysuwając twarz do przodu i unosząc latarnię ponad strażnikami."
+      },
+      "de": {
+        "label": "Die Gefangennahme Christi",
+        "alt": "Christus senkt den Kopf und verschränkt die Finger, während Judas ihn an sich zieht und sein Gesicht nähert, um ihn zu küssen. Von rechts streckt ein Wächter den Arm nach Christus aus. Das Licht spiegelt sich auf der schwarzen Rüstung. Ganz links weicht Johannes mit erhobener Hand zurück. Auf der anderen Seite hat sich Caravaggio unter den Anwesenden dargestellt. Er reckt den Kopf nach vorne und hält eine Laterne über die Wächter."
+      }
+    },
+    "arrest-witness": {
+      "en": {
+        "label": "The man with the lantern",
+        "alt": "On the right, Caravaggio portrays himself in profile, leaning forward to look past the guards. Above them, his hand lifts a lantern over the helmets. His forehead and nose, his raised hand and the reflections on the armour emerge from the darkness."
+      },
+      "zh": {
+        "label": "提灯的人",
+        "alt": "在右侧，卡拉瓦乔把自己画成侧身前倾的样子，试图越过卫兵看清前方。他抬手把灯笼举到头盔上方。画家的前额和鼻子、举起的手以及铠甲上的反光从黑暗中显现。"
+      },
+      "fr": {
+        "label": "L’homme à la lanterne",
+        "alt": "À droite, le Caravage se représente de profil, penché en avant pour regarder au-delà des gardes. En haut, sa main lève une lanterne au-dessus des casques. Le front et le nez du peintre, sa main levée et les reflets sur les armures émergent de l’obscurité."
+      },
+      "ja": {
+        "label": "ランタンを持つ男",
+        "alt": "右側でカラヴァッジョは横顔を見せ、衛兵たちの向こうを見ようと身を乗り出している。頭上では、彼の手が兜の上にランタンを掲げている。画家の額と鼻、上げた手、鎧の反射が闇から浮かび上がる。"
+      },
+      "it": {
+        "label": "L’uomo con la lanterna",
+        "alt": "A destra, Caravaggio si ritrae di profilo, proteso in avanti per guardare oltre le guardie. In alto, la sua mano solleva una lanterna sopra gli elmi. Dal buio emergono la fronte e il naso del pittore, la mano alzata e i riflessi sulle armature."
+      },
+      "nl": {
+        "label": "De man met de lantaarn",
+        "alt": "Rechts heeft Caravaggio zichzelf in profiel afgebeeld, voorovergebogen om langs de bewakers heen te kijken. Boven hun helmen houdt hij een lantaarn omhoog. Zijn voorhoofd en neus, zijn opgeheven hand en de weerschijn op de harnassen komen uit het donker tevoorschijn."
+      },
+      "pl": {
+        "label": "Mężczyzna z latarnią",
+        "alt": "Po prawej Caravaggio przedstawił się z profilu, pochylony do przodu, by spojrzeć ponad strażnikami. Jego ręka unosi latarnię nad hełmami. Z mroku wyłaniają się czoło i nos malarza, jego podniesiona ręka i refleksy na zbrojach."
+      },
+      "de": {
+        "label": "Der Mann mit der Laterne",
+        "alt": "Rechts stellt sich Caravaggio im Profil dar. Er beugt sich vor, um an den Wächtern vorbeizusehen. Oben hebt seine Hand eine Laterne über die Helme. Die Stirn und die Nase des Malers, seine erhobene Hand und die Lichtreflexe auf den Rüstungen treten aus der Dunkelheit hervor."
+      }
+    },
+    "goliath": {
+      "en": {
+        "label": "Goliath’s face",
+        "alt": "Caravaggio gave his own face to Goliath’s severed, bloodied head. The furrowed brow, half-closed eyes and open mouth with visible teeth give him a pained expression."
+      },
+      "zh": {
+        "label": "歌利亚的脸",
+        "alt": "卡拉瓦乔把自己的面容画在歌利亚被斩下、沾满鲜血的头颅上。紧皱的额头、半闭的眼睛和露出牙齿的张嘴，让这张脸显出痛苦的神情。"
+      },
+      "fr": {
+        "label": "Le visage de Goliath",
+        "alt": "Le Caravage a donné ses propres traits à la tête tranchée et ensanglantée de Goliath. Le front plissé, les yeux mi-clos et la bouche ouverte laissant voir les dents lui donnent une expression douloureuse."
+      },
+      "ja": {
+        "label": "ゴリアテの顔",
+        "alt": "カラヴァッジョは、切り落とされ血にまみれたゴリアテの首に、自分の顔を描いた。しわの寄った額、半ば閉じた目、歯が見えるほど開いた口が、苦しげな表情をつくっている。"
+      },
+      "it": {
+        "label": "Il volto di Golia",
+        "alt": "Caravaggio ha dato il proprio volto alla testa recisa e insanguinata di Golia. La fronte corrugata, gli occhi socchiusi e la bocca aperta, con i denti in vista, gli danno un’espressione sofferente."
+      },
+      "nl": {
+        "label": "Het gezicht van Goliath",
+        "alt": "Caravaggio gaf het afgehakte, bebloede hoofd van Goliath zijn eigen gezicht. Het gefronste voorhoofd, de halfgesloten ogen en de open mond met zichtbare tanden geven hem een gepijnigde uitdrukking."
+      },
+      "pl": {
+        "label": "Twarz Goliata",
+        "alt": "Caravaggio nadał odciętej, zakrwawionej głowie Goliata własne rysy. Zmarszczone czoło, przymknięte oczy i otwarte usta, w których widać zęby, nadają twarzy wyraz cierpienia."
+      },
+      "de": {
+        "label": "Das Gesicht Goliaths",
+        "alt": "Caravaggio gab Goliaths abgeschlagenem, blutverschmiertem Kopf sein eigenes Gesicht. Die gerunzelte Stirn, die halb geschlossenen Augen und der offene Mund mit sichtbaren Zähnen verleihen ihm einen schmerzerfüllten Ausdruck."
+      }
+    },
+    "david": {
+      "en": {
+        "label": "David with the Head of Goliath",
+        "alt": "David emerges from the darkness with one shoulder bare. In his right hand he holds a sword that cuts diagonally across the lower part of the painting. In his left he holds Goliath’s severed, bloodied head by the hair. Caravaggio gave Goliath his own face. David lowers his gaze towards the head with a melancholy expression."
+      },
+      "zh": {
+        "label": "大卫与歌利亚的头颅",
+        "alt": "大卫从黑暗中显现，露出一侧肩膀。他右手握剑，剑身斜贯画面的下部。左手揪住歌利亚的头发，提着那颗被斩下、沾满鲜血的头颅。卡拉瓦乔给歌利亚画上了自己的面容。大卫神情忧郁，垂眼望着那颗头颅。"
+      },
+      "fr": {
+        "label": "David avec la tête de Goliath",
+        "alt": "David émerge de l’obscurité, une épaule nue. De la main droite, il tient une épée qui traverse en diagonale le bas du tableau. De la main gauche, il tient par les cheveux la tête tranchée et ensanglantée de Goliath, à qui le Caravage a donné ses propres traits. David baisse les yeux vers la tête, l’air mélancolique."
+      },
+      "ja": {
+        "label": "ゴリアテの首を持つダヴィデ",
+        "alt": "ダヴィデが片方の肩をあらわにして闇から現れる。右手に握る剣は画面の下部を斜めに横切っている。左手では、切り落とされ血にまみれたゴリアテの首を髪の毛でつかんでいる。ゴリアテの顔にはカラヴァッジョ自身の顔が描かれている。ダヴィデは物憂げな表情でその首を見下ろしている。"
+      },
+      "it": {
+        "label": "Davide con la testa di Golia",
+        "alt": "Davide emerge dal buio con una spalla scoperta. Con la mano destra impugna la spada, che attraversa in diagonale la parte bassa del dipinto. Con la sinistra regge per i capelli la testa recisa e insanguinata di Golia, a cui Caravaggio ha dato il proprio volto. Davide abbassa lo sguardo verso la testa, con un’espressione malinconica."
+      },
+      "nl": {
+        "label": "David met het hoofd van Goliath",
+        "alt": "David komt uit het donker tevoorschijn met één blote schouder. In zijn rechterhand houdt hij een zwaard dat schuin door het onderste deel van het schilderij loopt. Met zijn linkerhand houdt hij het afgehakte, bebloede hoofd van Goliath bij het haar vast. Caravaggio gaf Goliath zijn eigen gezicht. David kijkt met een melancholieke uitdrukking neer op het hoofd."
+      },
+      "pl": {
+        "label": "Dawid z głową Goliata",
+        "alt": "Dawid wyłania się z mroku z odsłoniętym ramieniem. W prawej ręce trzyma miecz, który biegnie ukośnie przez dolną część obrazu. Lewą chwyta za włosy odciętą, zakrwawioną głowę Goliata, któremu Caravaggio nadał własne rysy. Dawid spogląda na głowę z melancholijnym wyrazem twarzy."
+      },
+      "de": {
+        "label": "David mit dem Haupt Goliaths",
+        "alt": "David tritt mit einer entblößten Schulter aus der Dunkelheit hervor. In der rechten Hand hält er das Schwert, das den unteren Teil des Bildes diagonal durchzieht. Mit der linken hält er Goliaths abgeschlagenen, blutverschmierten Kopf an den Haaren. Caravaggio gab Goliath sein eigenes Gesicht. David senkt den Blick mit einem melancholischen Ausdruck auf den Kopf."
+      }
+    },
+    "pilgrim-feet": {
+      "en": {
+        "label": "The pilgrim’s feet",
+        "alt": "The pilgrim is barefoot and kneels on the ground. His legs and feet are dirty. The soles face the viewer, and the light brings out the dirt on his heels and in the creases of his skin."
+      },
+      "zh": {
+        "label": "朝圣者的双脚",
+        "alt": "朝圣者赤脚跪在地上，双腿和双脚都沾着污垢。他的脚底朝向观者。光线使脚跟和皮肤褶皱里的污垢格外显眼。"
+      },
+      "fr": {
+        "label": "Les pieds du pèlerin",
+        "alt": "Le pèlerin est pieds nus et agenouillé à terre. Ses jambes et ses pieds sont sales. La plante de ses pieds est tournée vers le spectateur, et la lumière fait ressortir la saleté sur ses talons et dans les plis de sa peau."
+      },
+      "ja": {
+        "label": "巡礼者の足",
+        "alt": "巡礼者は裸足で地面にひざまずいている。脚も足も汚れている。足の裏はこちらを向いており、光がかかとや皮膚のしわに入り込んだ汚れを際立たせている。"
+      },
+      "it": {
+        "label": "I piedi del pellegrino",
+        "alt": "Il pellegrino è scalzo e inginocchiato a terra. Ha le gambe e i piedi sporchi. Le piante dei piedi sono rivolte verso chi guarda, e la luce mette in risalto lo sporco sui talloni e nelle pieghe della pelle."
+      },
+      "nl": {
+        "label": "De voeten van de pelgrim",
+        "alt": "De pelgrim knielt op blote voeten op de grond. Zijn benen en voeten zijn vuil. Zijn voetzolen zijn naar de toeschouwer gekeerd. Het licht laat het vuil op zijn hielen en in de plooien van zijn huid uitkomen."
+      },
+      "pl": {
+        "label": "Stopy pielgrzyma",
+        "alt": "Pielgrzym klęczy boso na ziemi. Ma brudne nogi i stopy. Podeszwy stóp są zwrócone ku widzowi, a światło uwydatnia brud na piętach i w fałdach skóry."
+      },
+      "de": {
+        "label": "Die Füße des Pilgers",
+        "alt": "Der Pilger kniet barfuß auf dem Boden. Seine Beine und Füße sind schmutzig. Die Fußsohlen sind dem Betrachter zugewandt. Das Licht hebt den Schmutz an den Fersen und in den Hautfalten hervor."
+      }
+    },
+    "pilgrim-woman": {
+      "en": {
+        "label": "The praying pilgrim",
+        "alt": "The pilgrim is seen in profile, looking upwards with her hands joined in prayer. She wears crumpled, worn clothes and a white headscarf with a small tear. The light brings out the wrinkles on her face and illuminates her fingers."
+      },
+      "zh": {
+        "label": "祈祷的女朝圣者",
+        "alt": "画面呈现女朝圣者的侧脸。她抬眼向上，双手合起祈祷。她穿着皱巴巴的旧衣服，头上裹着一块有小破口的白头巾。光线勾勒出她脸上的皱纹，照亮她的手指。"
+      },
+      "fr": {
+        "label": "La pèlerine en prière",
+        "alt": "La pèlerine est vue de profil, les yeux levés et les mains jointes en prière. Elle porte des vêtements froissés et usés et un foulard blanc légèrement déchiré sur la tête. La lumière fait ressortir les rides du visage et les doigts."
+      },
+      "ja": {
+        "label": "祈る女性巡礼者",
+        "alt": "女性巡礼者の横顔が見える。上を見上げ、両手を合わせて祈っている。しわだらけの着古した服をまとい、頭には小さな破れのある白い布を巻いている。光が顔のしわと指を浮かび上がらせる。"
+      },
+      "it": {
+        "label": "La pellegrina in preghiera",
+        "alt": "La pellegrina è vista di profilo, con lo sguardo rivolto verso l’alto e le mani giunte in preghiera. Indossa abiti sgualciti e usurati e porta sul capo un fazzoletto bianco con un piccolo strappo. La luce mette in risalto le rughe del viso e le dita."
+      },
+      "nl": {
+        "label": "De biddende pelgrim",
+        "alt": "De pelgrim is van opzij te zien. Ze kijkt omhoog met haar handen gevouwen in gebed. Ze draagt gekreukte, versleten kleren en een witte hoofddoek met een kleine scheur. Het licht laat de rimpels in haar gezicht en haar vingers uitkomen."
+      },
+      "pl": {
+        "label": "Modląca się pielgrzymka",
+        "alt": "Pielgrzymkę widać z profilu. Patrzy w górę i składa dłonie do modlitwy. Ma pogniecione i znoszone ubranie, a na głowie białą chustę z niewielkim rozdarciem. Światło uwydatnia zmarszczki na jej twarzy i oświetla palce."
+      },
+      "de": {
+        "label": "Die betende Pilgerin",
+        "alt": "Die Pilgerin ist im Profil zu sehen. Sie blickt nach oben und hält die Hände zum Gebet zusammen. Sie trägt zerknitterte und abgenutzte Kleidung und ein weißes Kopftuch mit einem kleinen Riss. Das Licht hebt die Falten in ihrem Gesicht und ihre Finger hervor."
+      }
+    },
+    "madonna": {
+      "en": {
+        "label": "Madonna of Loreto",
+        "alt": "In a doorway, the Madonna holds the Child in her arms and bows her head towards two kneeling pilgrims. The Child leans towards them. In the foreground, the man prays with his hands joined and his bare, dirty feet facing the viewer. Behind him, the woman in a white headscarf looks up at the Madonna. The pilgrims’ walking staffs are visible beside them."
+      },
+      "zh": {
+        "label": "洛雷托圣母",
+        "alt": "圣母站在门槛上，怀抱圣婴，向两位跪着的朝圣者低下头。圣婴向他们探身。前景中，男子双手合起祈祷，赤裸而肮脏的双脚朝向观者。他身后，戴白头巾的女子抬眼望向圣母。两位朝圣者身旁是他们的手杖。"
+      },
+      "fr": {
+        "label": "La Madone de Lorette",
+        "alt": "Sur le seuil d’une porte, la Madone tient l’Enfant dans ses bras et incline la tête vers deux pèlerins agenouillés. L’Enfant se penche vers eux. Au premier plan, l’homme prie les mains jointes, les pieds nus et sales tournés vers le spectateur. Derrière lui, la femme au foulard blanc lève les yeux vers la Madone. Leurs bâtons de marche sont visibles à côté d’eux."
+      },
+      "ja": {
+        "label": "ロレートの聖母",
+        "alt": "戸口に立つ聖母は幼子を抱き、ひざまずく二人の巡礼者に向かって頭を傾けている。幼子も二人の方に身を乗り出している。手前の男は手を合わせて祈り、汚れた裸足をこちらに向けている。その後ろで白い頭巾の女性が聖母を見上げている。巡礼者たちのそばに旅の杖が見える。"
+      },
+      "it": {
+        "label": "Madonna di Loreto",
+        "alt": "Sulla soglia di una porta, la Madonna tiene il Bambino tra le braccia e china il capo verso due pellegrini inginocchiati. Il Bambino si sporge verso di loro. In primo piano, l’uomo prega a mani giunte, con i piedi nudi e sporchi rivolti verso chi guarda. Dietro di lui, la donna con il fazzoletto bianco alza lo sguardo verso la Madonna. Accanto ai pellegrini si vedono i loro bastoni da viaggio."
+      },
+      "nl": {
+        "label": "Madonna van Loreto",
+        "alt": "Op de drempel van een deur houdt de Madonna het Kind in haar armen en buigt ze haar hoofd naar twee knielende pelgrims. Het Kind buigt zich naar hen toe. Op de voorgrond bidt de man met gevouwen handen. Zijn blote, vuile voeten zijn naar de toeschouwer gekeerd. Achter hem kijkt de vrouw met de witte hoofddoek op naar de Madonna. Naast de pelgrims zijn hun wandelstokken te zien."
+      },
+      "pl": {
+        "label": "Madonna Loretańska",
+        "alt": "Na progu Madonna trzyma Dzieciątko na rękach i pochyla głowę ku dwojgu klęczącym pielgrzymom. Dzieciątko wychyla się ku nim. Na pierwszym planie mężczyzna modli się ze złożonymi dłońmi, a jego bose, brudne stopy są zwrócone ku widzowi. Za nim kobieta w białej chuście wznosi wzrok ku Madonnie. Obok pielgrzymów widać ich kije wędrowne."
+      },
+      "de": {
+        "label": "Madonna von Loreto",
+        "alt": "Auf einer Türschwelle hält die Madonna das Kind im Arm und neigt den Kopf zu zwei knienden Pilgern. Das Kind beugt sich zu ihnen. Im Vordergrund betet der Mann mit gefalteten Händen. Seine nackten, schmutzigen Füße sind dem Betrachter zugewandt. Hinter ihm blickt die Frau mit dem weißen Kopftuch zur Madonna auf. Neben den Pilgern sind ihre Wanderstäbe zu sehen."
+      }
+    },
+    "virgin-detail": {
+      "en": {
+        "label": "Death of the Virgin — Mary’s body",
+        "alt": "Mary lies barefoot with her eyes closed and her head resting on a cushion. One hand rests on her swollen belly beneath the red dress, while the other hangs over the edge of the cushion. The resemblance to a woman drowned in the Tiber and the realism of the body caused a scandal."
+      },
+      "zh": {
+        "label": "圣母之死：玛利亚的身体",
+        "alt": "玛利亚赤脚躺着，双眼闭合，头枕在靠垫上。一只手放在红衣下隆起的腹部，另一只手垂在靠垫边缘之外。她的身体与一名在台伯河溺亡的女子相似，这种相似与身体的写实描绘引起了非议。"
+      },
+      "fr": {
+        "label": "La Mort de la Vierge — le corps de Marie",
+        "alt": "Marie est allongée pieds nus, les yeux fermés et la tête posée sur un coussin. Une main repose sur son ventre gonflé sous la robe rouge, tandis que l’autre retombe au-delà du coussin. La ressemblance avec une femme noyée dans le Tibre et le réalisme du corps ont fait scandale."
+      },
+      "ja": {
+        "label": "聖母の死 ― マリアの体",
+        "alt": "マリアは裸足で横たわり、目を閉じ、頭を枕にのせている。片手は赤い衣の下のふくらんだ腹に置かれ、もう片方は枕の端から垂れている。テヴェレ川で溺死した女性を思わせる姿と、身体の写実的な描写が物議を醸した。"
+      },
+      "it": {
+        "label": "Il corpo di Maria",
+        "alt": "Maria è distesa a piedi nudi, con gli occhi chiusi e il capo appoggiato su un cuscino. Una mano riposa sul ventre gonfio sotto la veste rossa, mentre l’altra ricade oltre il cuscino.  la somiglianza con una donna annegata nel Tevere e Il realismo del corpo suscitò scandalo,."
+      },
+      "nl": {
+        "label": "De dood van Maria — het lichaam van Maria",
+        "alt": "Maria ligt op blote voeten met haar ogen dicht en haar hoofd op een kussen. Eén hand rust op haar gezwollen buik onder de rode jurk, terwijl de andere over de rand van het kussen hangt. De gelijkenis met een vrouw die in de Tiber was verdronken en het realisme van het lichaam veroorzaakten een schandaal."
+      },
+      "pl": {
+        "label": "Śmierć Marii — ciało Marii",
+        "alt": "Maria leży boso, z zamkniętymi oczami i głową opartą na poduszce. Jedna dłoń spoczywa na nabrzmiałym brzuchu pod czerwoną suknią, a druga zwisa poza krawędź poduszki. Podobieństwo do kobiety, która utonęła w Tybrze, oraz realizm przedstawienia ciała wywołały skandal."
+      },
+      "de": {
+        "label": "Der Tod Mariens — Marias Körper",
+        "alt": "Maria liegt barfuß da, die Augen geschlossen, den Kopf auf einem Kissen. Eine Hand ruht auf ihrem geschwollenen Bauch unter dem roten Kleid, die andere hängt über den Rand des Kissens herab. Die Ähnlichkeit mit einer im Tiber ertrunkenen Frau und die realistische Darstellung des Körpers sorgten für einen Skandal."
+      }
+    },
+    "virgin": {
+      "en": {
+        "label": "Death of the Virgin",
+        "alt": "A large red drape hangs above the scene. Below, Mary lies barefoot in a red dress, with one arm hanging limp. The apostles around her bow their heads, and some cover their faces. In the foreground, a seated woman bends forward with her face hidden in her hands. A copper basin lies at her feet."
+      },
+      "zh": {
+        "label": "圣母之死",
+        "alt": "一大幅红布悬在场景上方。下方，玛利亚身穿红衣，赤脚躺着，一只手臂无力地垂下。围在她身旁的使徒低着头，有人掩面。前景中，一名坐着的女子俯身向前，双手遮住面容。她脚边放着一只铜盆。"
+      },
+      "fr": {
+        "label": "La Mort de la Vierge",
+        "alt": "Un grand drap rouge pend au-dessus de la scène. Plus bas, Marie est allongée pieds nus, vêtue de rouge, un bras retombant sans force. Autour d’elle, les apôtres baissent la tête et certains se couvrent le visage. Au premier plan, une femme assise se penche en avant, le visage caché dans ses mains. À ses pieds se trouve un bassin en cuivre."
+      },
+      "ja": {
+        "label": "聖母の死",
+        "alt": "場面の上には大きな赤い布が垂れ下がっている。その下で、赤い衣をまとったマリアが裸足で横たわり、片腕を力なく垂らしている。周りの使徒たちは頭を垂れ、顔を覆う者もいる。手前では、座った女性が前かがみになって両手に顔をうずめている。足元には銅のたらいがある。"
+      },
+      "it": {
+        "label": "Morte della Vergine",
+        "alt": "Un grande drappo rosso pende sopra la scena. Più in basso, Maria è distesa a piedi nudi, con la veste rossa e un braccio abbandonato. Attorno a lei gli apostoli chinano il capo e alcuni si coprono il volto. In primo piano, una donna seduta si piega in avanti, con il viso nascosto tra le mani. Ai suoi piedi c’è un bacile di rame."
+      },
+      "nl": {
+        "label": "De dood van Maria",
+        "alt": "Een groot rood doek hangt boven de scène. Daaronder ligt Maria op blote voeten in een rode jurk, met één arm die slap neerhangt. De apostelen om haar heen buigen hun hoofd en sommigen bedekken hun gezicht. Op de voorgrond buigt een zittende vrouw voorover met haar gezicht verborgen in haar handen. Aan haar voeten staat een koperen bekken."
+      },
+      "pl": {
+        "label": "Śmierć Marii",
+        "alt": "Nad sceną wisi duża czerwona tkanina. Poniżej leży bosa Maria w czerwonej sukni, z jedną ręką bezwładnie opuszczoną. Otaczający ją apostołowie pochylają głowy, niektórzy zasłaniają twarze. Na pierwszym planie siedząca kobieta pochyla się do przodu i ukrywa twarz w dłoniach. U jej stóp stoi miedziana misa."
+      },
+      "de": {
+        "label": "Der Tod Mariens",
+        "alt": "Ein großes rotes Tuch hängt über der Szene. Darunter liegt Maria barfuß in einem roten Kleid, ein Arm hängt schlaff herab. Die Apostel um sie herum senken die Köpfe, einige bedecken ihr Gesicht. Im Vordergrund beugt sich eine sitzende Frau nach vorne und verbirgt ihr Gesicht in den Händen. Zu ihren Füßen steht ein Kupferbecken."
+      }
+    },
+    "matthew-hand": {
+      "en": {
+        "label": "Saint Matthew’s hand",
+        "alt": "In the black-and-white detail, Saint Matthew holds a pen over the open book. The angel places a hand on his and guides it as he writes. With his other hand, Matthew holds the page steady."
+      },
+      "zh": {
+        "label": "圣马太的手",
+        "alt": "在这处黑白细节中，圣马太握着笔，笔尖悬在摊开的书页上方。天使将一只手放在马太手上，引导他书写。马太用另一只手按住书页。"
+      },
+      "fr": {
+        "label": "La main de saint Matthieu",
+        "alt": "Dans ce détail en noir et blanc, saint Matthieu tient une plume au-dessus d’un livre ouvert. L’ange pose sa main sur celle de Matthieu et la guide pendant qu’il écrit. De l’autre main, Matthieu maintient la page."
+      },
+      "ja": {
+        "label": "聖マタイの手",
+        "alt": "白黒の部分図では、聖マタイが開いた本の上にペンを構えている。天使はマタイの手に自分の手を重ね、書く動きを導いている。マタイはもう片方の手でページを押さえている。"
+      },
+      "it": {
+        "label": "La mano di san Matteo",
+        "alt": "Nel ritaglio in bianco e nero, san Matteo tiene una penna sopra il libro aperto. La mano dell’angelo si posa sulla sua e la guida mentre scrive. Con l’altra mano, Matteo tiene ferma la pagina."
+      },
+      "nl": {
+        "label": "De hand van de heilige Matteüs",
+        "alt": "In de zwart-witte uitsnede houdt de heilige Matteüs een pen boven het open boek. De engel legt een hand op de zijne en leidt die terwijl hij schrijft. Met zijn andere hand houdt Matteüs de bladzijde op haar plaats."
+      },
+      "pl": {
+        "label": "Dłoń świętego Mateusza",
+        "alt": "Na czarno-białym zbliżeniu święty Mateusz trzyma pióro nad otwartą księgą. Anioł kładzie dłoń na dłoni Mateusza i prowadzi ją podczas pisania. Drugą ręką Mateusz przytrzymuje kartę."
+      },
+      "de": {
+        "label": "Die Hand des heiligen Matthäus",
+        "alt": "Im Schwarz-Weiß-Ausschnitt hält der heilige Matthäus eine Schreibfeder über das aufgeschlagene Buch. Der Engel legt seine Hand auf die des Matthäus und führt sie beim Schreiben. Mit der anderen Hand hält Matthäus die Seite fest."
+      }
+    },
+    "matthew-angel": {
+      "en": {
+        "label": "The faces of Saint Matthew and the angel",
+        "alt": "In the black-and-white detail, Saint Matthew bows his head and looks down, his eyes wide in disbelief. In a sensual pose, the curly-haired angel bends beside him, with lowered eyes and slightly parted lips."
+      },
+      "zh": {
+        "label": "圣马太与天使的面容",
+        "alt": "在这处黑白细节中，圣马太低头向下看，双眼因难以置信而睁大。卷发天使以妩媚的姿态俯身靠近他，双眼低垂，嘴唇微张。"
+      },
+      "fr": {
+        "label": "Les visages de saint Matthieu et de l’ange",
+        "alt": "Dans ce détail en noir et blanc, saint Matthieu incline la tête et regarde vers le bas, les yeux écarquillés d’incrédulité. Dans une pose sensuelle, l’ange aux cheveux bouclés se penche à côté de lui, les yeux baissés et les lèvres entrouvertes."
+      },
+      "ja": {
+        "label": "聖マタイと天使の顔",
+        "alt": "白黒の部分図では、聖マタイは頭を垂れ、信じられないという表情で目を大きく見開き、下を見ている。巻き毛の天使は官能的な姿勢でその傍らに身をかがめ、目を伏せ、唇を少し開いている。"
+      },
+      "it": {
+        "label": "I volti di san Matteo e dell’angelo",
+        "alt": "Nel ritaglio in bianco e nero, san Matteo china il capo e guarda verso il basso, con gli occhi spalancati in un’espressione di incredulità. In una posa sensuale, l’angelo dai capelli ricci si china accanto a lui, con gli occhi abbassati e le labbra socchiuse."
+      },
+      "nl": {
+        "label": "De gezichten van de heilige Matteüs en de engel",
+        "alt": "In de zwart-witte uitsnede buigt de heilige Matteüs zijn hoofd en kijkt hij omlaag, zijn ogen wijd open van ongeloof. De engel met krullend haar buigt zich in een sensuele houding naast hem, met neergeslagen ogen en licht geopende lippen."
+      },
+      "pl": {
+        "label": "Twarze świętego Mateusza i anioła",
+        "alt": "Na czarno-białym zbliżeniu święty Mateusz pochyla głowę i patrzy w dół z oczami szeroko otwartymi z niedowierzania. Obok niego pochyla się w zmysłowej pozie anioł o kręconych włosach, ze spuszczonym wzrokiem i lekko rozchylonymi ustami."
+      },
+      "de": {
+        "label": "Die Gesichter des heiligen Matthäus und des Engels",
+        "alt": "Im Schwarz-Weiß-Ausschnitt senkt der heilige Matthäus den Kopf und blickt mit vor Unglauben weit geöffneten Augen nach unten. Der lockige Engel neigt sich in sinnlicher Haltung neben ihn, mit gesenktem Blick und leicht geöffneten Lippen."
+      }
+    },
+    "matthew": {
+      "en": {
+        "label": "Saint Matthew and the Angel",
+        "alt": "In the black-and-white photograph, Saint Matthew sits barefoot with his legs crossed and a large open book on his knees. The angel bends beside him, brings its face close to his and guides his hand as he writes. A large pale wing stands out against the dark background."
+      },
+      "zh": {
+        "label": "圣马太与天使",
+        "alt": "在这张黑白照片里，圣马太赤脚交腿坐着，膝上摊开一本大书。天使在他身旁俯下身，把脸凑近他的脸，并引导他的手书写。一只浅色的大翅膀在深色背景前格外醒目。"
+      },
+      "fr": {
+        "label": "Saint Matthieu et l’Ange",
+        "alt": "Sur la photographie en noir et blanc, saint Matthieu est assis pieds nus, les jambes croisées et un grand livre ouvert sur les genoux. L’ange se penche à côté de lui, approche son visage du sien et lui guide la main pendant qu’il écrit. Une grande aile claire se détache sur le fond sombre."
+      },
+      "ja": {
+        "label": "聖マタイと天使",
+        "alt": "白黒写真では、聖マタイが裸足で脚を組んで座り、膝の上に大きな本を開いている。天使はそばに身をかがめ、マタイの顔に自分の顔を近づけ、書く手を導いている。明るい色の大きな翼が暗い背景に浮かび上がる。"
+      },
+      "it": {
+        "label": "San Matteo e l’angelo",
+        "alt": "Nella fotografia in bianco e nero, san Matteo è seduto a piedi nudi, con le gambe incrociate e un grande libro aperto sulle ginocchia. L’angelo si china accanto a lui, avvicina il volto al suo e gli guida la mano mentre scrive. Una grande ala chiara si staglia sul fondo scuro."
+      },
+      "nl": {
+        "label": "De heilige Matteüs en de engel",
+        "alt": "Op de zwart-witfoto zit de heilige Matteüs op blote voeten met gekruiste benen en een groot open boek op zijn knieën. De engel buigt zich naast hem, brengt zijn gezicht dicht bij dat van Matteüs en leidt zijn hand terwijl hij schrijft. Een grote lichte vleugel steekt af tegen de donkere achtergrond."
+      },
+      "pl": {
+        "label": "Święty Mateusz i anioł",
+        "alt": "Na czarno-białej fotografii święty Mateusz siedzi boso, z nogami skrzyżowanymi i dużą otwartą księgą na kolanach. Anioł pochyla się obok, przybliża twarz do twarzy Mateusza i prowadzi jego rękę podczas pisania. Na ciemnym tle odcina się wielkie jasne skrzydło."
+      },
+      "de": {
+        "label": "Der heilige Matthäus und der Engel",
+        "alt": "Auf der Schwarz-Weiß-Fotografie sitzt der heilige Matthäus barfuß mit überkreuzten Beinen und einem großen aufgeschlagenen Buch auf den Knien. Der Engel beugt sich neben ihn, bringt sein Gesicht nahe an das von Matthäus und führt beim Schreiben seine Hand. Ein großer heller Flügel hebt sich vom dunklen Grund ab."
+      }
+    }
   }
 }
