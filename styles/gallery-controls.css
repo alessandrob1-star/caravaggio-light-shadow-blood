@@ -3,7 +3,7 @@
     position: relative;
 }
 
-/* Replace the native scrollbar only after the navigation buttons exist. */
+/* Keep browser scrollbars inside the gallery from duplicating the controls. */
 .has-gallery-controls .chapter-scroll {
     scrollbar-width: none;
 }
@@ -32,6 +32,73 @@
 
 .gallery-pagination::-webkit-scrollbar {
     display: none;
+}
+
+/* Hide the dot bar visually and from keyboard navigation while it would overlap. */
+.use-native-scrollbar .gallery-pagination {
+    visibility: hidden;
+}
+
+/* Allow complete artworks to move upward on laptops. */
+@media (min-width: 900px) and (min-height: 520px) and (max-height: 800px) {
+    .gallery-pagination {
+        --lift-complete-artworks: 1;
+    }
+}
+
+/* Keep full-height controls inside a slimmer dot bar. */
+@media (min-width: 900px) and (min-height: 520px) and (max-height: 800px),
+    (max-width: 800px), (max-height: 560px) {
+    .gallery-pagination {
+        --dot-bar-inset: 6px;
+        background: transparent;
+    }
+
+    .gallery-pagination::before {
+        content: "";
+        position: absolute;
+        inset: var(--dot-bar-inset) 0;
+        z-index: -1;
+        border-radius: 24px;
+        background: #222222;
+        pointer-events: none;
+    }
+
+    .gallery-pagination .gallery-dot:focus-visible {
+        outline-offset: -7px;
+    }
+}
+
+/* Lift a complete artwork and its caption together when space is tight. */
+.gallery-artwork {
+    margin-top: calc(0px - var(--artwork-caption-lift, 0px));
+}
+
+/* Keep the native horizontal scrollbar in view in the active chapter. */
+.gallery-scrollbar {
+    display: none;
+    position: fixed;
+    inset: auto 16px calc(4px + var(--navigation-safe-bottom, 0px));
+    z-index: 3;
+    height: 12px;
+    overflow: scroll hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #999999 #222222;
+}
+
+html[data-active-section="light"] #light.use-native-scrollbar > .gallery-scrollbar,
+html[data-active-section="shadow"] #shadow.use-native-scrollbar > .gallery-scrollbar,
+html[data-active-section="blood"] #blood.use-native-scrollbar > .gallery-scrollbar {
+    display: block;
+}
+
+.gallery-scrollbar-track {
+    height: 1px;
+}
+
+.gallery-scrollbar:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 1px;
 }
 
 /* Keep small visual dots inside larger pointer and keyboard targets. */
@@ -74,19 +141,30 @@
     border-radius: 8px;
 }
 
-/* Fit more buttons on narrow screens while preserving their touch height. */
-@media (max-width: 600px) {
+/* Shrink the bar and its markers with the other gallery details. */
+@media (max-width: 800px), (max-height: 560px) {
     .gallery-pagination {
-        max-width: calc(100% - 40px);
+        --dot-bar-inset: 9px;
+        max-width: calc(100% - 48px);
+        padding-inline: 6px;
+    }
+
+    .gallery-pagination .gallery-dot:focus-visible {
+        outline-offset: -10px;
     }
 
     .gallery-dot {
-        flex-basis: 36px;
-        width: 36px;
+        flex-basis: clamp(28px, 6vw, 36px);
+        width: clamp(28px, 6vw, 36px);
+    }
+
+    .gallery-dot::before {
+        width: 6px;
+        height: 6px;
     }
 
     .gallery-dot[aria-current="true"]::before {
-        width: 24px;
+        width: 20px;
     }
 }
 
@@ -97,7 +175,8 @@
 
 /* Keep native snapping disabled during dragging and the release animation. */
 .chapter-scroll.is-dragging,
-.chapter-scroll.is-settling {
+.chapter-scroll.is-settling,
+.chapter-scroll.is-using-scrollbar {
     scroll-snap-type: none;
     scroll-behavior: auto;
 }

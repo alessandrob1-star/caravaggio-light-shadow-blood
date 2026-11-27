@@ -1,6 +1,23 @@
 /* Snap vertical page scrolling to the available section positions. */
 html {
+    --navigation-safe-bottom: env(safe-area-inset-bottom, 0px);
     scroll-snap-type: y mandatory;
+    scroll-padding-bottom: var(--navigation-safe-bottom);
+}
+
+/* Allow for system navigation on touch devices that report no bottom inset. */
+@media (pointer: coarse) {
+    html {
+        --navigation-safe-bottom: max(48px, env(safe-area-inset-bottom, 0px));
+    }
+}
+
+/* Reserve more room for the system bar in short touch windows. */
+@media (pointer: coarse) and (max-height: 680px) {
+    html {
+        --navigation-safe-bottom: max(60px, env(safe-area-inset-bottom, 0px));
+        --minimum-gallery-unit: 0.42px;
+    }
 }
 
 /* Return Home to its opening view with the title and video. */
@@ -17,5 +34,5 @@ html {
 
 /* Leave enough space to centre Blood at the end of the page. */
 footer {
-    min-height: 5svh;
+    min-height: calc(5svh + var(--navigation-safe-bottom));
 }

@@ -1,19 +1,89 @@
+/* Keep the emblem above the caption when the gallery scales down. */
+.gallery-artwork:has(> .anecdote-caption > .helper-button) {
+    --emblem-lift: max(0px, calc(50px - 64 * var(--gallery-unit)));
+}
+
 /* Place the helper button above the short anecdote. */
 .helper-button {
     position: absolute;
-    top: calc(-64 * var(--gallery-unit));
+    top: calc(-64 * var(--gallery-unit) - 4px - var(--emblem-lift, 0px));
     left: 50%;
     display: grid;
     place-items: center;
-    width: 44px;
-    height: 44px;
+    width: 52px;
+    height: 48px;
     padding: 0;
     border: 0;
     background: transparent;
     color: #9a702c;
-    font-size: 30px;
     cursor: pointer;
     transform: translateX(-50%);
+}
+
+/* Display the transparent emblem and adjust its gold for light backgrounds. */
+.helper-button > span {
+    width: 52px;
+    height: 46px;
+    background: url("../assets/icons/medusa-emblem.png?v=20261127-4") center 49% / 355% auto no-repeat;
+    filter: brightness(var(--emblem-brightness, 0.68));
+    font-size: 0;
+}
+
+#shadow .helper-button > span {
+    --emblem-brightness: 1.3;
+    --emblem-hover-brightness: 1.75;
+}
+
+#blood .helper-button > span {
+    --emblem-brightness: 0.6;
+    --emblem-hover-brightness: 1.12;
+}
+
+/* Scale the visible emblem down while keeping the full button easy to press. */
+@media (max-width: 800px), (max-height: 560px) {
+    .helper-button > span {
+        width: clamp(28px, min(7vw, 8svh), 38px);
+        height: clamp(26px, min(6.3vw, 7.2svh), 34px);
+    }
+}
+
+/* Brighten the emblem and add a soft gold glow on pointer hover. */
+@media (hover: hover) {
+    .helper-button:hover > span {
+        filter: brightness(var(--emblem-hover-brightness, 1.05)) drop-shadow(0 0 3px #be8d3e);
+    }
+}
+
+/* Lift the crop by the same amount to preserve the gap above the emblem. */
+.gallery-artwork:has(> .anecdote-caption > .helper-button) > .artwork-image {
+    translate: 0 calc(var(--crop-offset, 0px) - var(--emblem-lift));
+}
+
+#fruit-light,
+#ursula-detail {
+    --crop-offset: -6px;
+}
+
+#arrest-witness {
+    --crop-offset: -14px;
+}
+
+/* Preserve the gap where Shadow's captions sit higher on narrow screens. */
+@media (max-width: 360px) {
+    #ursula-detail {
+        --crop-offset: -35px;
+    }
+
+    #arrest-witness {
+        --crop-offset: -43px;
+    }
+
+    #goliath,
+    #pilgrim-feet,
+    #pilgrim-woman,
+    #matthew-hand {
+        --crop-offset: -9px;
+    }
 }
 
 /* Provide visual feedback when the button is pointed at. */
