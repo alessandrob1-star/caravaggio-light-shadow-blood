@@ -200,7 +200,8 @@ document.querySelectorAll(".chapter").forEach(function (chapter) {
 
         const useNativeScrollbar = captionOverlap > 0 &&
             window.matchMedia("(max-width: 360px)").matches;
-        const extraSpace = captionOverlap > 0 && !useNativeScrollbar
+        // Reserve caption space even when the dot bar gives way to the scrollbar.
+        const extraSpace = captionOverlap > 0
             ? Math.ceil(captionOverlap + 4)
             : 0;
         if (extraSpace !== formerSpace) {

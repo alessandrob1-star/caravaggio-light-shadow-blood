@@ -1,3 +1,5 @@
+import { getControlLabels } from "./whatwg-screen-reader-controls.js?v=20261127-1";
+
 // Select the introductory video, its controls and the feedback areas.
 const introVideo = document.getElementById("intro-video");
 const audioButton = document.getElementById("video-audio-button");
@@ -8,7 +10,8 @@ const musicStatus = document.getElementById("video-music-status");
 // Expose the next playback action and show the matching icon.
 function updatePlaybackControl() {
     const playing = !introVideo.paused && !introVideo.ended && !introVideo.error;
-    const label = playing ? "Pause video" : "Play video";
+    const labels = getControlLabels();
+    const label = playing ? labels.pause : labels.play;
 
     playbackButton.toggleAttribute("data-playing", playing);
     playbackButton.setAttribute("aria-label", label);
@@ -18,7 +21,7 @@ function updatePlaybackControl() {
 // Announce the credit when sound is enabled and playback is active.
 function announceMusicCredit() {
     if (!introVideo.muted && !introVideo.paused) {
-        musicStatus.textContent = "Music: Experience by Ludovico Einaudi.";
+        musicStatus.textContent = getControlLabels().music;
     }
 }
 
@@ -27,7 +30,9 @@ function updateAudioControl() {
     const soundOn = !introVideo.muted;
 
     audioButton.setAttribute("aria-pressed", String(soundOn));
-    audioButton.title = soundOn ? "Turn sound off" : "Turn sound on";
+    const labels = getControlLabels();
+    audioButton.setAttribute("aria-label", labels.sound);
+    audioButton.title = soundOn ? labels.soundOff : labels.soundOn;
     if (!soundOn) {
         musicStatus.textContent = "";
     }
@@ -40,7 +45,7 @@ function reportPlaybackFailure() {
     updatePlaybackControl();
 
     audioStatus.textContent =
-        "The video could not be played. Please reload the page and try again.";
+        getControlLabels().videoError;
 }
 
 // Request autoplay with sound enabled.
@@ -122,6 +127,20 @@ introVideo.addEventListener("volumechange", updateAudioControl);
 introVideo.addEventListener("play", updatePlaybackControl);
 introVideo.addEventListener("pause", updatePlaybackControl);
 introVideo.addEventListener("ended", updatePlaybackControl);
+
+// Refresh accessible labels without changing playback or sound settings.
+document.addEventListener("sitecontrolslanguagechange", function () {
+    const labels = getControlLabels();
+    const languageTag = document.getElementById("language-toggle").lang;
+    document.querySelector(".video-toolbar").lang = languageTag;
+    introVideo.lang = languageTag;
+    introVideo.setAttribute("aria-label", labels.video);
+    musicStatus.lang = languageTag;
+    updateAudioControl();
+    updatePlaybackControl();
+    if (audioStatus.textContent) audioStatus.textContent = labels.videoError;
+    if (musicStatus.textContent) musicStatus.textContent = labels.music;
+});
 
 // Show the controls after their initial state and event handlers are ready.
 updateAudioControl();

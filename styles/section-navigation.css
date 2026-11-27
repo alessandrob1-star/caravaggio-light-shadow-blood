@@ -121,3 +121,9 @@ html[data-active-section="blood"] #light .gallery-pagination,
 html[data-active-section="blood"] #shadow .gallery-pagination {
     visibility: hidden;
 }
+
+/* Keep the visible arrow proportional while retaining its clickable height. */
+.section-arrow {
+    --arrow-face-height: calc(38.88 * var(--navigation-unit));
+    width: calc(162 * var(--navigation-unit));
+}

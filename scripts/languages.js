@@ -1,5 +1,6 @@
 // Read the stored translations from the shared content archive.
 import { getText, getSectionTitles } from "./texts.js";
+import { getControlLabels, setControlLanguage } from "./whatwg-screen-reader-controls.js?v=20261127-1";
 
 // Select the language controls and the artwork detail buttons.
 const selector = document.querySelector(".language-selector");
@@ -18,6 +19,43 @@ let isUpdating = false;
 export function getSelectedLanguage() {
     return selectedLanguage;
 }
+
+// Keep translated controls and their reading languages aligned.
+function updateControlLabels() {
+    const labels = getControlLabels();
+    const languageTag = selectedLanguage === "zh" ? "zh-Hans" : selectedLanguage;
+    const choice = options.querySelector('[data-language="' + selectedLanguage + '"]');
+    toggle.lang = languageTag;
+    toggle.setAttribute("aria-label", labels.chooseLanguage + " " +
+        labels.currentLanguage + " — " + choice.textContent.trim() + ".");
+    options.setAttribute("aria-label", labels.availableLanguages);
+    options.lang = languageTag;
+    status.lang = languageTag;
+    document.querySelector(".chapter-navigation").setAttribute("aria-label", labels.mainNavigation);
+    document.querySelector(".chapter-navigation").lang = languageTag;
+
+    detailButtons.forEach(function (button) {
+        const figure = button.closest("figure");
+        button.lang = languageTag;
+        button.setAttribute("aria-label", labels.readExplanation + " — " + figure.dataset.galleryLabel);
+    });
+
+    document.querySelectorAll(".chapter").forEach(function (chapter) {
+        const scroller = chapter.querySelector(".chapter-scroll");
+        scroller.lang = languageTag;
+        scroller.setAttribute("aria-label", labels.gallery + " — " +
+            chapter.querySelector(".chapter-title").textContent);
+    });
+
+    const dialog = document.getElementById("artwork-helper");
+    dialog.lang = languageTag;
+    dialog.setAttribute("aria-label", labels.additionalInformation);
+    dialog.querySelector(".helper-close").setAttribute("aria-label", labels.closeExplanation);
+    document.getElementById("helper-text").setAttribute("aria-label", labels.explanationText);
+    document.dispatchEvent(new Event("sitecontrolslanguagechange"));
+}
+
+updateControlLabels();
 
 // Close the list and optionally return keyboard focus to its opening button.
 function closeLanguageMenu(returnFocus) {
@@ -56,6 +94,7 @@ async function getArtworkUpdates(language) {
             throw new Error("The artwork translation is incomplete.");
         }
         return {
+            figure,
             image: figure.querySelector(".artwork-image img"),
             button: chapter.querySelector('.gallery-dot[aria-controls="' + figure.id + '"]'),
             entry
@@ -97,7 +136,8 @@ languageButtons.forEach(function (button) {
             );
 
             // Set the reading language on each translated image and gallery button.
-            artworks.forEach(function ({ image, button, entry }) {
+            artworks.forEach(function ({ figure, image, button, entry }) {
+                figure.dataset.galleryLabel = entry.label;
                 image.lang = languageTag;
                 image.alt = entry.alt;
                 if (button) {
@@ -142,6 +182,7 @@ languageButtons.forEach(function (button) {
 
             // Update the shared language state, selected flag and button states.
             selectedLanguage = language;
+            setControlLanguage(language);
             flag.src = button.querySelector("img").getAttribute("src");
 
             languageButtons.forEach(function (choice) {
@@ -151,17 +192,13 @@ languageButtons.forEach(function (button) {
                 );
             });
 
-            toggle.setAttribute(
-                "aria-label",
-                "Choose language. Current language: " +
-                    button.textContent.trim() + "."
-            );
+            updateControlLabels();
 
             closeLanguageMenu(true);
         } catch (error) {
             // Keep the current language if the requested content cannot be loaded.
             status.textContent =
-                "The language could not be changed. Please reload the page and try again.";
+                getControlLabels().languageError;
 
             closeLanguageMenu(true);
         } finally {
