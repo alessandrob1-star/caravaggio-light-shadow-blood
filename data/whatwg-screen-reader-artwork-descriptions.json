@@ -633,7 +633,7 @@
       },
       "it": {
         "label": "Il corpo di Maria",
-        "alt": "Maria è distesa a piedi nudi, con gli occhi chiusi e il capo appoggiato su un cuscino. Una mano riposa sul ventre gonfio sotto la veste rossa, mentre l’altra ricade oltre il cuscino.  la somiglianza con una donna annegata nel Tevere e Il realismo del corpo suscitò scandalo,."
+        "alt": "Maria è distesa a piedi nudi, con gli occhi chiusi e il capo appoggiato su un cuscino. Una mano riposa sul ventre gonfio sotto la veste rossa, mentre l’altra ricade oltre il cuscino. La somiglianza con una donna annegata nel Tevere e il realismo del corpo suscitarono scandalo."
       },
       "nl": {
         "label": "De dood van Maria — het lichaam van Maria",
@@ -782,6 +782,348 @@
       "de": {
         "label": "Der heilige Matthäus und der Engel",
         "alt": "Auf der Schwarz-Weiß-Fotografie sitzt der heilige Matthäus barfuß mit überkreuzten Beinen und einem großen aufgeschlagenen Buch auf den Knien. Der Engel beugt sich neben ihn, bringt sein Gesicht nahe an das von Matthäus und führt beim Schreiben seine Hand. Ein großer heller Flügel hebt sich vom dunklen Grund ab."
+      }
+    }
+  },
+  "blood": {
+    "jerome": {
+      "en": {
+        "label": "Saint Jerome Writing",
+        "alt": "Saint Jerome sits bare-chested, wrapped from the waist down in red cloth. He bends over the open book and writes with a pen. On the right side of the table are a skull and a candlestick. The light brings out the saint’s thin body and the red of the cloth."
+      },
+      "zh": {
+        "label": "圣哲罗姆写作",
+        "alt": "圣哲罗姆坐着，上身赤裸，腰以下裹着红布。他俯身伏在摊开的书上，用笔书写。桌子的右侧摆着一个头骨和一个烛台。光线突出了圣人瘦削的身体和红布的颜色。"
+      },
+      "fr": {
+        "label": "Saint Jérôme écrivant",
+        "alt": "Saint Jérôme est assis torse nu, enveloppé à partir de la taille dans un drap rouge. Il se penche sur le livre ouvert et écrit à la plume. À droite sur la table se trouvent un crâne et un chandelier. La lumière fait ressortir le corps maigre du saint et le rouge du drap."
+      },
+      "ja": {
+        "label": "執筆する聖ヒエロニムス",
+        "alt": "聖ヒエロニムスは上半身裸で座り、腰から下を赤い布で覆っている。開いた本に身をかがめ、ペンで書き込んでいる。机の右側には頭蓋骨と燭台がある。光が聖人の痩せた体と布の赤を浮かび上がらせている。"
+      },
+      "it": {
+        "label": "San Girolamo scrivente",
+        "alt": "San Girolamo siede a torso nudo, avvolto dalla vita in giù in un drappo rosso. Si china sul libro aperto e scrive con una penna. Sul tavolo, a destra, ci sono un teschio e un candeliere. La luce mette in risalto il corpo magro del santo e il rosso del drappo."
+      },
+      "nl": {
+        "label": "De schrijvende heilige Hiëronymus",
+        "alt": "De heilige Hiëronymus zit met ontbloot bovenlijf. Vanaf zijn middel is hij in een rode doek gewikkeld. Hij buigt zich over het open boek en schrijft met een pen. Rechts op tafel staan een schedel en een kandelaar. Het licht laat het magere lichaam van de heilige en het rood van de doek uitkomen."
+      },
+      "pl": {
+        "label": "Święty Hieronim piszący",
+        "alt": "Święty Hieronim siedzi z nagim torsem, od pasa w dół owinięty czerwoną tkaniną. Pochyla się nad otwartą księgą i pisze piórem. Po prawej stronie stołu znajdują się czaszka i świecznik. Światło uwydatnia szczupłe ciało świętego i czerwień tkaniny."
+      },
+      "de": {
+        "label": "Der heilige Hieronymus beim Schreiben",
+        "alt": "Der heilige Hieronymus sitzt mit nacktem Oberkörper da, von der Taille abwärts in ein rotes Tuch gehüllt. Er beugt sich über das aufgeschlagene Buch und schreibt mit einer Feder. Rechts auf dem Tisch stehen ein Schädel und ein Kerzenhalter. Das Licht hebt den mageren Körper des Heiligen und das Rot des Tuches hervor."
+      }
+    },
+    "wignacourt": {
+      "en": {
+        "label": "Portrait of Alof de Wignacourt with His Page",
+        "alt": "Alof de Wignacourt stands at full length, looking to the right. He wears dark armour with gold decoration and holds a baton of command in front of him. To his right in the painting, a young page holds a helmet with a plume and looks out at the viewer."
+      },
+      "zh": {
+        "label": "阿洛夫·德·维尼亚库尔与侍童的肖像",
+        "alt": "画中，阿洛夫·德·维尼亚库尔全身站立，望向右侧。他身穿饰有金色纹样的深色铠甲，手持指挥杖横在身前。画面右侧，一名年轻的侍童捧着带羽饰的头盔，望向观者。"
+      },
+      "fr": {
+        "label": "Portrait d’Alof de Wignacourt avec son page",
+        "alt": "Alof de Wignacourt est représenté debout, en pied, le regard tourné vers la droite. Il porte une armure sombre ornée d’or et tient un bâton de commandement devant lui. À droite du portrait, un jeune page tient un casque à plumet et regarde le spectateur."
+      },
+      "ja": {
+        "label": "アロフ・ド・ウィニャクールと小姓の肖像",
+        "alt": "アロフ・ド・ウィニャクールは全身を描かれ、立ったまま右を見ている。金色の装飾がある暗い色の鎧をまとい、体の前に指揮杖を持っている。画面右側では、若い小姓が羽飾りの付いた兜を抱え、こちらを見ている。"
+      },
+      "it": {
+        "label": "Ritratto di Alof de Wignacourt con il paggio",
+        "alt": "Alof de Wignacourt è in piedi, a figura intera, con lo sguardo rivolto verso destra. Indossa un’armatura scura con decorazioni dorate e tiene un bastone di comando davanti a sé. Alla sua destra, un giovane paggio regge un elmo con un pennacchio e guarda verso chi osserva il dipinto."
+      },
+      "nl": {
+        "label": "Portret van Alof de Wignacourt met zijn page",
+        "alt": "Alof de Wignacourt staat ten voeten uit afgebeeld en kijkt naar rechts. Hij draagt een donker harnas met gouden versieringen en houdt een commandostaf voor zich. Rechts van hem in het schilderij houdt een jonge page een helm met een pluim vast en kijkt hij de toeschouwer aan."
+      },
+      "pl": {
+        "label": "Portret Alofa de Wignacourt z paziem",
+        "alt": "Alof de Wignacourt stoi ukazany w całej postaci i patrzy w prawo. Nosi ciemną zbroję ze złotymi zdobieniami i trzyma przed sobą laskę dowódcy. Po prawej stronie obrazu młody paź trzyma hełm z pióropuszem i patrzy na widza."
+      },
+      "de": {
+        "label": "Bildnis des Alof de Wignacourt mit seinem Pagen",
+        "alt": "Alof de Wignacourt ist stehend in ganzer Figur dargestellt und blickt nach rechts. Er trägt eine dunkle Rüstung mit goldenen Verzierungen und hält einen Kommandostab vor sich. Rechts von ihm im Bild hält ein junger Page einen Helm mit Federbusch und blickt den Betrachter an."
+      }
+    },
+    "jerome-detail": {
+      "en": {
+        "label": "Saint Jerome’s face",
+        "alt": "Saint Jerome bows his head and lowers his gaze. The light brings out the wrinkles on his forehead and his grey beard. His features bear a resemblance to Alof de Wignacourt, Grand Master of the Order of Malta."
+      },
+      "zh": {
+        "label": "圣哲罗姆的脸",
+        "alt": "圣哲罗姆低头垂眼。光线突出了他额头上的皱纹和灰白的胡须。他的面部轮廓与马耳他骑士团大团长阿洛夫·德·维尼亚库尔相似。"
+      },
+      "fr": {
+        "label": "Le visage de saint Jérôme",
+        "alt": "Saint Jérôme incline la tête et baisse les yeux. La lumière souligne les rides de son front et sa barbe grise. Ses traits rappellent ceux d’Alof de Wignacourt, grand maître de l’ordre de Malte."
+      },
+      "ja": {
+        "label": "聖ヒエロニムスの顔",
+        "alt": "聖ヒエロニムスは頭を垂れ、目を伏せている。光が額のしわと灰色のひげを際立たせている。その顔立ちはマルタ騎士団の総長アロフ・ド・ウィニャクールに似ている。"
+      },
+      "it": {
+        "label": "Il volto di san Girolamo",
+        "alt": "San Girolamo china il capo e abbassa lo sguardo. La luce mette in risalto le rughe della fronte e la barba grigia. Nei suoi lineamenti si riconosce una somiglianza con Alof de Wignacourt, Gran Maestro dell’Ordine di Malta."
+      },
+      "nl": {
+        "label": "Het gezicht van de heilige Hiëronymus",
+        "alt": "De heilige Hiëronymus buigt zijn hoofd en kijkt omlaag. Het licht benadrukt de rimpels op zijn voorhoofd en zijn grijze baard. Zijn gelaatstrekken doen denken aan Alof de Wignacourt, grootmeester van de Orde van Malta."
+      },
+      "pl": {
+        "label": "Twarz świętego Hieronima",
+        "alt": "Święty Hieronim pochyla głowę i opuszcza wzrok. Światło uwydatnia zmarszczki na jego czole i siwą brodę. Jego rysy przypominają Alofa de Wignacourt, wielkiego mistrza zakonu maltańskiego."
+      },
+      "de": {
+        "label": "Das Gesicht des heiligen Hieronymus",
+        "alt": "Der heilige Hieronymus senkt den Kopf und den Blick. Das Licht hebt die Stirnfalten und den grauen Bart hervor. Seine Gesichtszüge ähneln denen von Alof de Wignacourt, dem Großmeister des Malteserordens."
+      }
+    },
+    "wignacourt-detail": {
+      "en": {
+        "label": "Alof de Wignacourt’s face",
+        "alt": "Alof de Wignacourt’s face is turned slightly to the right. The light falls on his forehead and one cheek, bringing out his moustache and greying beard. Below, his white collar and the edge of his armour are visible."
+      },
+      "zh": {
+        "label": "阿洛夫·德·维尼亚库尔的脸",
+        "alt": "阿洛夫·德·维尼亚库尔的脸微微转向右侧。光照在他的额头和一侧脸颊上，映出他的髭须和花白的胡须。画面下方可以看到白色领口和铠甲的边缘。"
+      },
+      "fr": {
+        "label": "Le visage d’Alof de Wignacourt",
+        "alt": "Alof de Wignacourt a le visage légèrement tourné vers la droite. La lumière éclaire son front et une joue, faisant ressortir sa moustache et sa barbe grisonnante. En bas, on aperçoit le col blanc et le bord de l’armure."
+      },
+      "ja": {
+        "label": "アロフ・ド・ウィニャクールの顔",
+        "alt": "アロフ・ド・ウィニャクールは顔をわずかに右に向けている。光が額と片方の頬を照らし、口ひげと白髪交じりのあごひげを際立たせる。下には白い襟と鎧の縁が見える。"
+      },
+      "it": {
+        "label": "Il volto di Alof de Wignacourt",
+        "alt": "Alof de Wignacourt ha il volto leggermente voltato verso destra. La luce gli illumina la fronte e una guancia, mettendo in risalto i baffi e la barba brizzolata. In basso si vedono il colletto bianco e il bordo dell’armatura."
+      },
+      "nl": {
+        "label": "Het gezicht van Alof de Wignacourt",
+        "alt": "Het gezicht van Alof de Wignacourt is iets naar rechts gedraaid. Het licht valt op zijn voorhoofd en één wang en laat zijn snor en grijzende baard uitkomen. Onderaan zijn zijn witte kraag en de rand van zijn harnas zichtbaar."
+      },
+      "pl": {
+        "label": "Twarz Alofa de Wignacourt",
+        "alt": "Alof de Wignacourt zwraca twarz lekko w prawo. Światło pada na czoło i jeden policzek, uwydatniając wąsy i siwiejącą brodę. U dołu widać biały kołnierz i krawędź zbroi."
+      },
+      "de": {
+        "label": "Das Gesicht von Alof de Wignacourt",
+        "alt": "Alof de Wignacourt wendet das Gesicht leicht nach rechts. Das Licht fällt auf seine Stirn und eine Wange und hebt den Schnurrbart und den ergrauenden Bart hervor. Unten sind der weiße Kragen und der Rand der Rüstung zu sehen."
+      }
+    },
+    "holofernes": {
+      "en": {
+        "label": "Holofernes",
+        "alt": "Holofernes throws his head back, his eyes wide and his mouth open in a scream. The blade cuts across his neck and blood gushes from the wound. Below, his hand grips the white sheet."
+      },
+      "zh": {
+        "label": "荷罗孚尼",
+        "alt": "荷罗孚尼仰起头，双眼圆睁，张口尖叫。刀刃划过他的脖颈，鲜血从伤口涌出。画面下方，他的手紧攥着白床单。"
+      },
+      "fr": {
+        "label": "Holopherne",
+        "alt": "Holopherne renverse la tête en arrière, les yeux écarquillés et la bouche ouverte dans un cri. La lame lui traverse le cou et le sang jaillit de la blessure. Plus bas, sa main serre le drap blanc."
+      },
+      "ja": {
+        "label": "ホロフェルネス",
+        "alt": "ホロフェルネスは頭をのけぞらせ、目を見開き、口を大きく開けて叫んでいる。刃が首を切り裂き、傷口から血が噴き出す。下では彼の手が白いシーツを握りしめている。"
+      },
+      "it": {
+        "label": "Oloferne",
+        "alt": "Oloferne rovescia il capo all’indietro, con gli occhi spalancati e la bocca aperta in un grido. La lama gli attraversa il collo e il sangue sgorga dalla ferita. In basso, la sua mano stringe il lenzuolo bianco."
+      },
+      "nl": {
+        "label": "Holofernes",
+        "alt": "Holofernes werpt zijn hoofd achterover, met wijd opengesperde ogen en zijn mond open in een schreeuw. Het lemmet snijdt door zijn hals en het bloed gutst uit de wond. Onderaan grijpt zijn hand het witte laken vast."
+      },
+      "pl": {
+        "label": "Holofernes",
+        "alt": "Holofernes odrzuca głowę do tyłu, z szeroko otwartymi oczami i ustami rozwartymi w krzyku. Ostrze przecina mu szyję, a z rany tryska krew. Niżej jego dłoń zaciska się na białym prześcieradle."
+      },
+      "de": {
+        "label": "Holofernes",
+        "alt": "Holofernes wirft den Kopf zurück, mit weit aufgerissenen Augen und zum Schrei geöffnetem Mund. Die Klinge schneidet durch seinen Hals, und Blut quillt aus der Wunde. Unten umklammert seine Hand das weiße Laken."
+      }
+    },
+    "judith-detail": {
+      "en": {
+        "label": "Judith’s face",
+        "alt": "Judith looks down to the left, her brow furrowed and her lips slightly parted. Light falls on her face, bringing out the tension between her brows. Her hair is pinned up, and a pearl earring hangs from a dark bow. Caravaggio used Fillide Melandroni as the model for Judith’s face."
+      },
+      "zh": {
+        "label": "朱迪丝的脸",
+        "alt": "朱迪丝望向左下方，眉头紧蹙，双唇微张。光照在她的脸上，凸显双眉间紧绷的神情。她的头发挽起，一只珍珠耳环从深色蝴蝶结下垂落。卡拉瓦乔以菲利德·梅兰德罗尼为模特描绘朱迪丝的面容。"
+      },
+      "fr": {
+        "label": "Le visage de Judith",
+        "alt": "Judith regarde en bas à gauche, le front plissé et les lèvres légèrement entrouvertes. La lumière éclaire son visage et souligne la tension entre ses sourcils. Ses cheveux sont relevés et une boucle d’oreille en perle pend d’un nœud sombre. Le Caravage a pris Fillide Melandroni pour modèle du visage de Judith."
+      },
+      "ja": {
+        "label": "ユディトの顔",
+        "alt": "ユディトは眉をひそめ、唇を少し開いて左下を見ている。光が顔に当たり、眉間の緊張を際立たせている。髪はまとめられ、暗い色のリボンから真珠の耳飾りが下がっている。カラヴァッジョはユディトの顔のモデルにフィッリデ・メランドローニを起用した。"
+      },
+      "it": {
+        "label": "Il volto di Giuditta",
+        "alt": "Giuditta guarda in basso a sinistra, con la fronte corrugata e le labbra appena socchiuse. La luce le illumina il viso, mettendo in risalto la tensione tra le sopracciglia. I capelli sono raccolti e un orecchino di perla pende da un fiocco scuro. Per il volto di Giuditta, Caravaggio ha usato come modella Fillide Melandroni."
+      },
+      "nl": {
+        "label": "Het gezicht van Judith",
+        "alt": "Judith kijkt linksonder, met een gefronst voorhoofd en licht geopende lippen. Het licht valt op haar gezicht en benadrukt de spanning tussen haar wenkbrauwen. Haar haar is opgestoken en aan een donkere strik hangt een pareloorbel. Voor Judiths gezicht gebruikte Caravaggio Fillide Melandroni als model."
+      },
+      "pl": {
+        "label": "Twarz Judyty",
+        "alt": "Judyta spogląda w lewo i w dół, z pomarszczonym czołem i lekko rozchylonymi ustami. Światło oświetla twarz i podkreśla napięcie między brwiami. Włosy są upięte, a przy ciemnej kokardzie zwisa kolczyk z perłą. Za modelkę do twarzy Judyty Caravaggio obrał Fillide Melandroni."
+      },
+      "de": {
+        "label": "Judiths Gesicht",
+        "alt": "Judith blickt nach links unten, mit gerunzelter Stirn und leicht geöffneten Lippen. Das Licht fällt auf ihr Gesicht und betont die Anspannung zwischen den Brauen. Ihr Haar ist hochgesteckt, und von einer dunklen Schleife hängt ein Perlenohrring. Für Judiths Gesicht nahm Caravaggio Fillide Melandroni als Modell."
+      }
+    },
+    "judith": {
+      "en": {
+        "label": "Judith Beheading Holofernes",
+        "alt": "On the left, Holofernes arches his body on the bed, his mouth open in a scream. Judith grips him by the hair and cuts his neck with the sword, leaning back with her arms outstretched. Blood spurts onto the white sheet. Beside her, an elderly maid watches the scene, clutching a sack. A red drape hangs above the bed."
+      },
+      "zh": {
+        "label": "朱迪丝斩下荷罗孚尼的头颅",
+        "alt": "左侧，荷罗孚尼在床上弓起身子，张口尖叫。朱迪丝抓住他的头发，用剑割向他的脖颈。她上身向后倾，双臂伸直。鲜血溅到白床单上。她身旁，一名年迈的女仆攥着袋子注视这一幕。床的上方垂着一块红布。"
+      },
+      "fr": {
+        "label": "Judith décapitant Holopherne",
+        "alt": "À gauche, Holopherne se cambre sur le lit, la bouche ouverte dans un cri. Judith le saisit par les cheveux et lui tranche le cou avec l’épée, le buste en arrière et les bras tendus. Le sang éclabousse le drap blanc. À ses côtés, une vieille servante observe la scène en serrant un sac. Un drap rouge pend au-dessus du lit."
+      },
+      "ja": {
+        "label": "ホロフェルネスの首を斬るユディト",
+        "alt": "左側でホロフェルネスは寝台の上で体を反らせ、口を開いて叫んでいる。ユディトは上体を後ろに引き、腕を伸ばしたまま彼の髪をつかみ、剣で首を切る。血が白いシーツに飛び散る。傍らでは年老いた侍女が袋を握りしめて見守っている。寝台の上には赤い布が垂れ下がっている。"
+      },
+      "it": {
+        "label": "Giuditta decapita Oloferne",
+        "alt": "A sinistra, Oloferne si inarca sul letto, con la bocca aperta in un grido. Giuditta lo afferra per i capelli e gli taglia il collo con la spada, tenendo il busto all’indietro e le braccia tese. Il sangue schizza sul lenzuolo bianco. Accanto a lei, un’anziana serva osserva la scena stringendo un sacco. Sopra il letto pende un drappo rosso."
+      },
+      "nl": {
+        "label": "Judith onthoofdt Holofernes",
+        "alt": "Links kromt Holofernes zijn lichaam op het bed, zijn mond open in een schreeuw. Judith grijpt hem bij het haar en snijdt met het zwaard door zijn hals, met haar bovenlichaam achterover en haar armen gestrekt. Het bloed spat op het witte laken. Naast haar kijkt een oude dienstmeid toe en klemt een zak vast. Boven het bed hangt een rode doek."
+      },
+      "pl": {
+        "label": "Judyta odcina głowę Holofernesowi",
+        "alt": "Po lewej Holofernes wygina się na łożu, z ustami rozwartymi w krzyku. Judyta chwyta go za włosy i przecina mu szyję mieczem, odchylając tułów i wyciągając ręce. Krew bryzga na białe prześcieradło. Obok niej stara służąca przygląda się scenie, ściskając worek. Nad łożem zwisa czerwona tkanina."
+      },
+      "de": {
+        "label": "Judith enthauptet Holofernes",
+        "alt": "Links bäumt sich Holofernes auf dem Bett auf, den Mund zum Schrei geöffnet. Judith packt ihn am Haar und schneidet ihm mit dem Schwert in den Hals. Dabei lehnt sie den Oberkörper zurück und streckt die Arme aus. Blut spritzt auf das weiße Laken. Neben ihr beobachtet eine alte Dienerin die Szene und hält einen Sack fest. Über dem Bett hängt ein rotes Tuch."
+      }
+    },
+    "signature": {
+      "en": {
+        "label": "Caravaggio’s signature",
+        "alt": "The painted blood forms a pool on the floor. Along its edge are the red letters of Caravaggio’s signature. This is his only signed painting."
+      },
+      "zh": {
+        "label": "卡拉瓦乔的签名",
+        "alt": "画中的血在地面上汇成一滩。血泊边缘可以看到卡拉瓦乔用红色写下的签名。这是他唯一一幅签了名的画。"
+      },
+      "fr": {
+        "label": "La signature du Caravage",
+        "alt": "Le sang peint forme une flaque sur le sol. Sur son bord se lisent les lettres rouges de la signature du Caravage. C’est le seul tableau qu’il ait signé."
+      },
+      "ja": {
+        "label": "カラヴァッジョの署名",
+        "alt": "床に描かれた血がたまりを作っている。その縁にカラヴァッジョの署名の赤い文字が読める。画家が署名した唯一の絵画である。"
+      },
+      "it": {
+        "label": "La firma di Caravaggio",
+        "alt": "Sul pavimento, il sangue dipinto forma una pozza. Al suo bordo si leggono le lettere rosse della firma di Caravaggio. È il suo unico dipinto firmato."
+      },
+      "nl": {
+        "label": "Caravaggio’s handtekening",
+        "alt": "Het geschilderde bloed vormt een plas op de vloer. Langs de rand zijn de rode letters van Caravaggio’s handtekening te lezen. Het is zijn enige gesigneerde schilderij."
+      },
+      "pl": {
+        "label": "Podpis Caravaggia",
+        "alt": "Namalowana krew tworzy kałużę na posadzce. Na jej brzegu widać czerwone litery podpisu Caravaggia. To jedyny podpisany przez niego obraz."
+      },
+      "de": {
+        "label": "Caravaggios Signatur",
+        "alt": "Das gemalte Blut bildet auf dem Boden eine Lache. An ihrem Rand sind die roten Buchstaben von Caravaggios Signatur zu lesen. Es ist sein einziges signiertes Gemälde."
+      }
+    },
+    "misericorde": {
+      "en": {
+        "label": "The executioner’s dagger",
+        "alt": "The executioner grips a dagger behind his back. The light catches the metal of the hilt. The dagger is called a misericorde. It was used to deliver the coup de grâce. Below the weapon are the folds of the cloth wrapped around his waist."
+      },
+      "zh": {
+        "label": "行刑者的匕首",
+        "alt": "行刑者在背后紧握一把匕首。光线突出了刀柄的金属。这种匕首名叫米塞里科尔迪亚，用于给予最后一击。匕首下方可以看到裹在他腰间的布褶。"
+      },
+      "fr": {
+        "label": "Le poignard du bourreau",
+        "alt": "Le bourreau serre un poignard derrière son dos. La lumière fait ressortir le métal de la poignée. Ce poignard s’appelle une miséricorde. Il servait à donner le coup de grâce. Sous l’arme, on voit les plis du tissu qui lui entoure la taille."
+      },
+      "ja": {
+        "label": "処刑人の短剣",
+        "alt": "処刑人は背中の後ろで短剣を握っている。光が柄の金属を際立たせている。その短剣はミゼリコルディアと呼ばれ、とどめを刺すために使われた。武器の下には腰に巻いた布のひだが見える。"
+      },
+      "it": {
+        "label": "Il pugnale del carnefice",
+        "alt": "Il carnefice stringe un pugnale dietro la schiena. La luce fa risaltare il metallo dell’impugnatura. Il nome del pugnale è misericordia. Veniva utilizzato per dare il colpo di grazia. Sotto l’arma si vedono le pieghe della stoffa che gli avvolge la vita."
+      },
+      "nl": {
+        "label": "De dolk van de beul",
+        "alt": "De beul houdt een dolk achter zijn rug. Het licht laat het metaal van het heft uitkomen. De dolk heet een misericorde. Hij werd gebruikt om de genadeslag toe te dienen. Onder het wapen zijn de plooien te zien van de stof die hij om zijn middel draagt."
+      },
+      "pl": {
+        "label": "Sztylet kata",
+        "alt": "Kat ściska sztylet za plecami. Światło wydobywa metal rękojeści. Sztylet nosi nazwę mizerykordia. Używano go do zadawania ciosu łaski. Pod bronią widać fałdy tkaniny owiniętej wokół pasa kata."
+      },
+      "de": {
+        "label": "Der Dolch des Scharfrichters",
+        "alt": "Der Scharfrichter hält hinter seinem Rücken einen Dolch fest. Das Licht hebt das Metall des Griffs hervor. Der Dolch heißt Misericordia. Er wurde für den Gnadenstoß verwendet. Unter der Waffe sind die Falten des Tuches zu sehen, das er um die Taille trägt."
+      }
+    },
+    "beheading": {
+      "en": {
+        "label": "The Beheading of Saint John the Baptist",
+        "alt": "In a stone courtyard, Saint John lies on the ground, still alive, with a red cloth across his legs. The first blow has left the beheading unfinished. The executioner bends over him, holding behind his back the dagger with which he is about to finish the beheading. On the left, a young woman leans forward with a platter while an older woman raises her hands to her face. A standing man points to the platter. On the right, two prisoners watch through a barred window."
+      },
+      "zh": {
+        "label": "施洗者圣约翰被斩首",
+        "alt": "在石砌的庭院里，圣约翰躺在地上，尚未死去，腿上盖着一块红布。第一击未能完成斩首。行刑者俯身靠近他，背后握着一把匕首，准备完成斩首。左侧，一名年轻女子端着托盘俯身向前，一名年长女子举起双手捂脸。一名站立的男子指向托盘。右侧，两名囚犯隔着窗上的铁栏注视着这一幕。"
+      },
+      "fr": {
+        "label": "La Décollation de saint Jean-Baptiste",
+        "alt": "Dans une cour en pierre, saint Jean gît à terre, encore vivant, un drap rouge sur les jambes. Le premier coup n’a pas achevé la décapitation. Le bourreau se penche sur lui et tient derrière son dos le poignard avec lequel il s’apprête à achever la décapitation. À gauche, une jeune femme se penche avec un plateau, tandis qu’une femme âgée porte les mains à son visage. Un homme debout désigne le plateau. À droite, deux prisonniers observent la scène derrière les barreaux d’une fenêtre."
+      },
+      "ja": {
+        "label": "洗礼者聖ヨハネの斬首",
+        "alt": "石造りの中庭で、聖ヨハネはまだ息があり、脚に赤い布を掛けられて地面に横たわっている。最初の一撃では斬首は終わっていない。処刑人はヨハネの上に身をかがめ、斬首を終えるための短剣を背中の後ろに持っている。左では若い女性が盆を持って前かがみになり、年老いた女性が両手を顔に当てる。立っている男が盆を指さす。右では二人の囚人が格子のはまった窓から見守っている。"
+      },
+      "it": {
+        "label": "Decollazione di san Giovanni Battista",
+        "alt": "In un cortile di pietra, san Giovanni giace a terra, ancora vivo, con un drappo rosso sulle gambe. Il primo colpo ha lasciato la decapitazione incompiuta. Il carnefice si china su di lui e tiene dietro la schiena il pugnale con cui si prepara a finirla. A sinistra, una giovane si piega in avanti con un vassoio, mentre un’anziana si porta le mani al volto. Un uomo in piedi indica il vassoio. A destra, due prigionieri osservano la scena da una finestra con le sbarre."
+      },
+      "nl": {
+        "label": "De onthoofding van Johannes de Doper",
+        "alt": "Op een stenen binnenplaats ligt Johannes nog levend op de grond, met een rode doek over zijn benen. Na de eerste slag is de onthoofding nog niet voltooid. De beul buigt zich over hem heen en houdt achter zijn rug de dolk waarmee hij de onthoofding wil voltooien. Links buigt een jonge vrouw voorover met een schaal, terwijl een oudere vrouw haar handen naar haar gezicht brengt. Een staande man wijst naar de schaal. Rechts kijken twee gevangenen door een venster met tralies toe."
+      },
+      "pl": {
+        "label": "Ścięcie świętego Jana Chrzciciela",
+        "alt": "Na kamiennym dziedzińcu święty Jan leży na ziemi, wciąż żywy, z czerwoną tkaniną na nogach. Pierwszy cios nie dokończył ścięcia. Kat pochyla się nad nim i trzyma za plecami sztylet, którym zamierza dokończyć dekapitację. Po lewej młoda kobieta pochyla się z tacą, a starsza unosi dłonie do twarzy. Stojący mężczyzna wskazuje tacę. Po prawej dwaj więźniowie obserwują scenę przez zakratowane okno."
+      },
+      "de": {
+        "label": "Die Enthauptung Johannes des Täufers",
+        "alt": "In einem steinernen Hof liegt der heilige Johannes noch lebend am Boden, ein rotes Tuch über den Beinen. Der erste Hieb hat die Enthauptung nicht vollendet. Der Scharfrichter beugt sich über ihn und hält hinter seinem Rücken den Dolch, mit dem er die Enthauptung vollenden will. Links beugt sich eine junge Frau mit einer Schale vor, während eine alte Frau die Hände vor das Gesicht hebt. Ein stehender Mann zeigt auf die Schale. Rechts beobachten zwei Gefangene die Szene durch ein vergittertes Fenster."
       }
     }
   }
