@@ -31,15 +31,15 @@ Complete paintings establish context through title, year and collection/location
 
 Spacing deliberately leaves parts of neighbouring artworks and captions visible at the left and right edges. These are navigation cues: they show that more content exists beyond the viewport and make horizontal scrolling discoverable. The central artwork or crop remains the focus, while the side previews invite further exploration.
 
-I drew inspiration from **[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles**. In the reference screenshot, the central text is framed by partially visible neighbouring text. I adapted this approach to suggest horizontal scrolling through the Caravaggio galleries.
+**[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles**, informed the horizontal gallery presentation. In the reference screenshot, the central text is framed by partially visible neighbouring text. Adapted to suggest horizontal scrolling through the Caravaggio galleries.
 
 The website will complement these visual cues with a **visible horizontal scrollbar for each chapter**. It will provide a direct navigation control and an indication of position within the gallery. The previews communicate continuity, the scrollbar makes movement explicit, and the planned snapping helps centre the selected content.
 
 LIGHT uses cream, SHADOW charcoal, and BLOOD warm beige with red typography and a horizontal red motif.
 
-**[Apple’s website](https://www.apple.com/it/) directly inspired two composition choices:** contrasting light and dark section backgrounds, and centred images surrounded by generous empty space. I appreciated how these choices separate content and concentrate attention on the subject, and adapted them to the three chapter palettes and the presentation of paintings and details.
+**[Apple’s website](https://www.apple.com/it/) directly inspired two composition choices:** contrasting light and dark section backgrounds, and centred images surrounded by generous empty space. Adapted to the three chapter palettes and the presentation of paintings and details to separate content and focus attention on the subject.
 
-I also connected this approach to Caravaggio’s use of reduced backgrounds to focus attention on figures. That relationship between the website reference and the painter’s visual language was one of my motivations for choosing Caravaggio as the project’s subject. Empty space and restrained backgrounds are therefore part of the project’s visual reasoning, not unused areas waiting for more content.
+This approach connects to Caravaggio’s use of reduced backgrounds to focus attention on figures. The relationship between the website reference and the painter’s visual language informed the choice of subject and the use of restrained backgrounds.
 
 The file contains reusable components and instances for artwork/detail text blocks, help controls, the language selector and flags, alongside shared text styles and variable collections. Most established detail blocks use component instances; the two later SHADOW additions use separately configured frames. The prototype combines reused components and explicitly configured additions.
 
@@ -103,11 +103,11 @@ This remains a desktop composition. These adjustments do not constitute a respon
 
 ## 8. Introductory video
 
-The opening video occupies most of the first screen beneath the project title. Its **near-full-screen presentation was directly inspired by the opening video on [dataland.art](https://dataland.art/)**. I appreciated the immediate immersion and the way moving images establish an exhibition’s atmosphere before visitors explore its content. I adapted that idea to the Caravaggio project through its introductory montage, title treatment and language selector.
+The opening video occupies most of the first screen beneath the project title. Its **near-full-screen presentation was directly inspired by the opening video on [dataland.art](https://dataland.art/)**. Adapted to establish the exhibition’s atmosphere through the introductory montage, title treatment and language selector.
 
 The DATALAND reference describes a presentation choice. It is separate from the documentary and music sources credited for the montage in [Credits](credits.md#introductory-audiovisual-material).
 
-I personally edited the introductory montage using **OpenShot Video Editor and OBS Studio**. The editing process involved selecting, trimming and combining scenes from *Caravaggio — L’anima e il sangue*, produced by Sky / Sky Arte and Magnitudo Film, directed by Jesus Garces Lambert, with cinematography by Massimiliano Gatti. The montage features “Experience” by Ludovico Einaudi as background music. [Detailed credits and source references](credits.md#introductory-audiovisual-material) distinguish the original film’s creators from my contribution to the excerpt selection and re-editing.
+The introductory montage was edited using **OpenShot Video Editor and OBS Studio**. The editing process involved selecting, trimming and combining scenes from *Caravaggio — L’anima e il sangue*, produced by Sky / Sky Arte and Magnitudo Film, directed by Jesus Garces Lambert, with cinematography by Massimiliano Gatti. The montage features “Experience” by Ludovico Einaudi as background music. [Detailed credits and source references](credits.md#introductory-audiovisual-material) distinguish the original film’s creators from the project’s excerpt selection and re-editing.
 
 ![Introductory montage editing timeline](../assets/screenshots/introductory-video-editing-timeline.png)
 
@@ -166,7 +166,7 @@ These are planned project choices, not working Figma features or technologies ma
 
 The scrolling configurations and track dimensions were read from Figma for these notes. All 20 helper buttons have one overlay-opening action and separate mouse-enter and mouse-leave events.
 
-Recent browser checks verified the Basket of Fruit helper opening and closing with one × click. Earlier checks verified its first-click background dismissal. The archive was checked for 160 anecdote entries and 160 helper entries; the frozen Italian master was compared against the approved source.
+Recent browser checks verified the Basket of Fruit helper opening and closing with one × click. Earlier checks verified its first-click background dismissal. The archive was checked for 160 anecdote entries and 160 helper entries; the Italian archive was compared against the Italian source texts.
 
 These are specific observations, not exhaustive tests of every browser, device and language combination. Responsive behaviour, browser compatibility, accessibility, media delivery and performance remain website-phase validation work.
 

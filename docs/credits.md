@@ -1,16 +1,16 @@
 # Credits and sources
 
-## Project authorship
+## Project contribution
 
 This is a **non-commercial university project**, created for the **COMP-2002 Web Development course at Open Institute of Technology (OPIT)** and as a **tribute to the art of Caravaggio**. It was developed for educational purposes, without a profit-making objective.
 
-Alessandro Benevelli is the author of the project concept, visual direction, selection of artwork details, Italian anecdotes and helper texts. The prototype is coursework for COMP-2002 Web Development at Open Institute of Technology (OPIT), taught by Filip Biały.
+Project work includes the concept, visual direction, selection of artwork details, Italian anecdotes and explanation texts for COMP-2002 Web Development at Open Institute of Technology (OPIT), taught by Filip Biały.
 
-The Italian source texts and the approved translations are preserved in the [multilingual archive](translations/caravaggio-anecdotes-and-helpers-8-languages.txt).
+The Italian source texts and their translations are preserved in the [multilingual archive](translations/caravaggio-anecdotes-and-helpers-8-languages.txt).
 
 ## Paintings and reproductions
 
-The paintings shown in the prototype are works by Michelangelo Merisi da Caravaggio. Artwork reproductions were sourced primarily through Wikipedia, as recorded in my Practice Assignment 3. The crops were prepared in Figma.
+The paintings shown in the prototype are works by Michelangelo Merisi da Caravaggio. Artwork reproductions were sourced primarily through Wikipedia, as recorded in Practice Assignment 3. The crops were prepared in Figma.
 
 Examples shown in this repository include *Basket of Fruit*, *David with the Head of Goliath*, and *Judith Beheading Holofernes*. Artwork captions in the prototype provide titles, dates and collection/location information.
 
@@ -20,9 +20,9 @@ A per-asset source and rights register remains to be completed before website me
 
 ### How the project video was assembled
 
-I assembled the introductory video by **selecting, trimming and joining scenes from *Caravaggio — L’anima e il sangue***, using **OpenShot Video Editor and OBS Studio**. The result is a re-edited montage for the Caravaggio prototype, accompanied by **“Experience” by Ludovico Einaudi**.
+The introductory video was assembled by **selecting, trimming and joining scenes from *Caravaggio — L’anima e il sangue***, using **OpenShot Video Editor and OBS Studio**. The result is a re-edited montage for the Caravaggio prototype, accompanied by **“Experience” by Ludovico Einaudi**.
 
-My contribution involved selecting the excerpts, choosing their order and assembling the montage for this project. The cinematography and original film production are the work of the documentary’s credited creators.
+The editing involved selecting the excerpts, choosing their order and assembling the montage for this project. The cinematography and original film production are the work of the documentary’s credited creators.
 
 ### Source documentary
 
@@ -63,18 +63,18 @@ The documentary’s original score is credited above to **Matteo Curallo**; **Lu
 
 ### Attribution
 
-Original film footage, cinematography and music remain credited to their respective creators and rights holders. The montage is presented as part of my COMP-2002 academic prototype. The video is included in this repository for non-commercial educational purposes.
+Original film footage, cinematography and music remain credited to their respective creators and rights holders. The montage is presented as part of the COMP-2002 academic prototype. The video is included in this repository for non-commercial educational purposes.
 
 ## Visual references
 
-**[Apple’s website](https://www.apple.com/it/) is a direct design reference recorded in my Practice Assignment 3.** I appreciated its contrasting section backgrounds and centred imagery surrounded by empty space. I adapted these ideas to the LIGHT, SHADOW and BLOOD palettes and to the focused presentation of paintings and selected details.
+**[Apple’s website](https://www.apple.com/it/) is a direct design reference recorded in Practice Assignment 3.** Its contrasting section backgrounds and centred imagery informed the LIGHT, SHADOW and BLOOD palettes and the presentation of paintings and selected details.
 
-I connected this use of restrained backgrounds and empty space to Caravaggio’s concentration of attention on figures. This connection also helped motivate my choice of Caravaggio as the subject. The Apple reference screenshot documents the visual inspiration; it is not a screen from the Caravaggio prototype. Apple’s website design and screenshot content belong to their respective owners.
+Restrained backgrounds and empty space connect this reference with Caravaggio’s concentration of attention on figures and informed the choice of subject. The Apple reference screenshot documents the visual inspiration; it is not a screen from the Caravaggio prototype. Apple’s website design and screenshot content belong to their respective owners.
 
-**[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles, was another source of design inspiration.** I adapted two specific choices:
+**[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles, was another source of design inspiration.** Two presentation choices were adapted.
 
-- **Near-full-screen opening video:** I appreciated its immediate immersive impact and used a large introductory video to establish the atmosphere of the Caravaggio experience.
-- **Central content with neighbouring items partially visible at the sides:** I appreciated how this makes further horizontal content discoverable and adapted the idea to paintings, details and captions in each chapter.
+- **Near-full-screen opening video:** A large introductory video establishes the atmosphere of the Caravaggio experience.
+- **Central content with neighbouring items partially visible at the sides:** Applied to paintings, details and captions to make further horizontal content discoverable.
 
 The DATALAND reference screenshots document these design inspirations; they are not screens from the Caravaggio prototype. The DATALAND website design and screenshot content belong to their respective owners. Inspiration from its video presentation does not identify DATALAND as the source of the Caravaggio montage footage or music; those sources are credited separately above.
 

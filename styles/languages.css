@@ -126,3 +126,30 @@
         right: 24px;
     }
 }
+
+/* Scale the language control down in narrower browser windows. */
+@media (max-width: 1366px) {
+    .language-toggle {
+        width: 60px;
+        height: 32px;
+        gap: 6px;
+        padding-inline: 6px;
+    }
+
+    .language-toggle img:first-child {
+        width: 28px;
+        height: auto;
+    }
+
+    .language-toggle img:last-child {
+        width: 8px;
+        height: auto;
+    }
+}
+
+/* Leave clearance below the compact language control. */
+@media (min-width: 768px) {
+    .site-title {
+        min-height: 48px;
+    }
+}

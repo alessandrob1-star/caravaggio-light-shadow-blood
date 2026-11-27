@@ -152,7 +152,7 @@ body.helper-open {
 }
 
 .helper-dialog[data-section="blood"] {
-    color: #9d1615;
+    color: #781012;
 }
 
 /* Use a lighter hover colour against the dark section background. */
@@ -244,4 +244,44 @@ body.helper-open {
         overflow-y: auto;
         overscroll-behavior: contain;
     }
+}
+
+/* Match explanation scrolling to the gold panel border. */
+#helper-text {
+    scrollbar-width: thin;
+    scrollbar-color: #936a28 transparent;
+}
+
+.helper-dialog[data-section="shadow"] #helper-text {
+    scrollbar-color: #d6b16d transparent;
+}
+
+#helper-text::-webkit-scrollbar {
+    width: 6px;
+}
+
+#helper-text::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#helper-text::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background: #936a28;
+}
+
+.helper-dialog[data-section="shadow"] #helper-text::-webkit-scrollbar-thumb {
+    background: #d6b16d;
+}
+
+#helper-text::-webkit-scrollbar-button {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+/* Give the close control the same gold glow as the artwork emblems. */
+.helper-dialog[data-section] .helper-close:hover,
+.helper-dialog[data-section] .helper-close:focus-visible {
+    color: #d6b16d;
+    filter: brightness(1.12) drop-shadow(0 0 3px #be8d3e);
 }

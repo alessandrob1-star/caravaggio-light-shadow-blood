@@ -5,9 +5,9 @@
 
 **An immersive journey through Caravaggio’s paintings, life and contradictions.**
 
-[**Open the interactive Figma prototype**](https://www.figma.com/proto/gVNoq7JkoidWp73WNVsCdA/CARAVAGGIO-%E2%80%94-LIGHT---SHADOW---BLOOD-project?node-id=2251-2&p=f&t=mBbglGlgnijfBiDA-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2251%3A2) · [Design & interaction notes](docs/prototype-notes.md) · [Project roadmap](docs/work-plan-2026-2027.md)
+[**Open the website**](https://dgn3qdx78alyc.cloudfront.net/) · [**Open the Assessment 1 Figma prototype**](https://www.figma.com/proto/gVNoq7JkoidWp73WNVsCdA/CARAVAGGIO-%E2%80%94-LIGHT---SHADOW---BLOOD-project?node-id=2251-2&p=f&t=mBbglGlgnijfBiDA-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2251%3A2) · [Design & interaction notes](docs/prototype-notes.md) · [Project roadmap](docs/work-plan-2026-2027.md)
 
-**Figma prototype · COMP-2002 Web Development · OPIT**
+**Assessment 2 website · COMP-2002 Web Development · OPIT**
 
 **A non-commercial university project, created for the COMP-2002 Web Development course at Open Institute of Technology (OPIT), as a tribute to the art of Caravaggio.**
 
@@ -23,17 +23,17 @@ This project explores Caravaggio through three visual chapters: **LIGHT**, **SHA
 
 The experience uses contrasting backgrounds, expressive typography and generous space around the artwork. Visitors move horizontally within each chapter and vertically between chapters.
 
-## Explore the prototype
+## Explore the website
 
-1. Open the [interactive Figma prototype](https://www.figma.com/proto/gVNoq7JkoidWp73WNVsCdA/CARAVAGGIO-%E2%80%94-LIGHT---SHADOW---BLOOD-project?node-id=2251-2&p=f&t=mBbglGlgnijfBiDA-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2251%3A2) on a desktop browser.
+1. Open the [website](https://dgn3qdx78alyc.cloudfront.net/) in a browser.
 2. Choose a language using the selector on the opening screen.
 3. Scroll vertically between chapters and horizontally to explore their paintings and details.
 4. Select a gold helper button to focus on an image and its explanation.
-5. Close the helper with **×** or a click outside its gold-bordered text panel, within the prototype viewport.
+5. Close the explanation with **×**, Escape or a click outside its gold-bordered text panel.
 
-**Current stage: Assessment 1 — interactive prototype.** This repository documents the design and its content. Website implementation, responsive layouts, browser scroll snapping and AWS services belong to later phases.
+**Current stage — Assessment 2, working website.** Implemented in HTML, CSS and JavaScript and deployed on Amazon S3 and CloudFront. The repository contains the website source, its content and technical documentation. The Assessment 1 Figma prototype and submitted report are retained as earlier project deliverables.
 
-## How the prototype is built
+## Assessment 1 prototype structure
 
 ![Figma canvas overview: opening screen above the three extended chapter tracks](assets/screenshots/prototype-canvas-structure.png)
 
@@ -50,18 +50,18 @@ The main technical decisions are:
 - **Stored translations:** the selector updates bound text variables for anecdotes; helper opening actions display the corresponding saved language panel. Both follow the same selected language.
 - **Language-aware fitting:** font size, wrapping and panel placement accommodate different text lengths and writing systems without rewriting the content.
 
-## Design research: what I took from DATALAND
+## Design references — DATALAND
 
-**[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles, was a direct design reference for this project.** Two aspects particularly appealed to me: the immersive impact of its large opening video and the way partially visible neighbouring content encourages sideways exploration. I adapted both ideas to Caravaggio’s paintings and storytelling.
+**[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles, was a direct design reference for this project.** The large opening video and partially visible neighbouring content informed the presentation of Caravaggio’s paintings and storytelling.
 
-| Reference | What I liked | How I applied it to Caravaggio |
+| Reference | Design characteristic | Application to Caravaggio |
 | --- | --- | --- |
 | **Near-full-screen opening video** | Moving imagery dominates the opening view and establishes an atmosphere before visitors begin exploring | A large introductory video occupies most of the opening screen beneath the Caravaggio title, introducing the mood of LIGHT, SHADOW and BLOOD |
 | **Neighbouring content visible at the sides** | A central item remains the focus while fragments at the edges reveal that more content is available | Paintings, details and captions remain partly visible beside the central item, inviting horizontal scrolling through each chapter |
 
 ### An immersive opening video
 
-The opening video’s **near-full-screen presentation is explicitly inspired by DATALAND**. What I wanted to bring into my project was the feeling of entering an exhibition through moving images. I adapted that presentation to an introductory montage about Caravaggio, with the project title and language selector framing the experience.
+The opening video’s **near-full-screen presentation is explicitly inspired by DATALAND**. Adapted to an introductory montage about Caravaggio, with the project title and language selector framing the experience.
 
 | DATALAND — opening video reference | Caravaggio — opening video in the prototype |
 | --- | --- |
@@ -77,30 +77,30 @@ This design choice was inspired by **[dataland.art](https://dataland.art/), the 
 
 | Caravaggio prototype — neighbouring artworks visible at the edges | Design reference — dataland.art |
 | --- | --- |
-| ![BLOOD gallery with a central detail and parts of neighbouring artworks visible at both edges](assets/screenshots/horizontal-scroll-side-previews.png) | ![Author-supplied screenshot of dataland.art showing central and partially visible neighbouring text](assets/screenshots/dataland-design-reference.png) |
+| ![BLOOD gallery with a central detail and parts of neighbouring artworks visible at both edges](assets/screenshots/horizontal-scroll-side-previews.png) | ![Screenshot of dataland.art showing central and partially visible neighbouring text](assets/screenshots/dataland-design-reference.png) |
 
-The website will also include a **visible horizontal scrollbar** for each gallery, giving visitors an explicit way to discover, control and track horizontal movement. The side previews, scrollbar and planned snap alignment will work together.
+The website uses a dot navigation bar, centred scroll snapping and mouse dragging for horizontal exploration. A slim horizontal scrollbar is available in the smallest windows when the dot bar would overlap the content.
 
 [Read the detailed architecture and implementation notes](docs/prototype-notes.md).
 
-## Design research: what I took from Apple
+## Design references — Apple
 
-**[Apple’s website](https://www.apple.com/it/) was another direct design reference.** I particularly liked the contrast between light and dark sections and the way centred product images are surrounded by generous empty space. These choices make the subject immediately visible and keep attention on it.
+**[Apple’s website](https://www.apple.com/it/) was another direct design reference.** Contrasting sections and centred images surrounded by empty space informed the chapter backgrounds and artwork presentation.
 
-| What I liked in Apple’s presentation | How I applied it to Caravaggio |
+| Design characteristic | Application to Caravaggio |
 | --- | --- |
 | **Contrasting section backgrounds** | Distinct cream, charcoal and warm beige backgrounds separate LIGHT, SHADOW and BLOOD and give each chapter its own atmosphere |
 | **Centred images with empty space around them** | Paintings and selected details become the visual focus, with restrained backgrounds and generous space around them |
 
 | Apple reference | Caravaggio chapter backgrounds |
 | --- | --- |
-| ![Author-supplied Apple website reference showing contrasting light and dark sections and centred imagery surrounded by empty space](assets/screenshots/apple-contrast-and-negative-space-reference.png) | ![Caravaggio prototype showing the contrasting backgrounds of LIGHT, SHADOW and BLOOD](assets/screenshots/caravaggio-contrasting-section-backgrounds.png) |
+| ![Apple website reference showing contrasting light and dark sections and centred imagery surrounded by empty space](assets/screenshots/apple-contrast-and-negative-space-reference.png) | ![Caravaggio prototype showing the contrasting backgrounds of LIGHT, SHADOW and BLOOD](assets/screenshots/caravaggio-contrasting-section-backgrounds.png) |
 
 ### Why this connects to Caravaggio
 
-This was also one of the reasons I chose Caravaggio as the subject of the project. His use of reduced backgrounds and space around the figures concentrates the viewer’s attention on the subjects. I saw a connection between that characteristic of his painting and the visual clarity I liked on Apple’s website.
+Caravaggio’s reduced backgrounds concentrate attention on figures. This characteristic connects with the centred imagery and restrained backgrounds used in the website references.
 
-I brought that connection into the prototype: the backgrounds remain restrained, images take a central position, and empty space helps visitors concentrate on the artwork and its details. The contrast between chapters and the space around each image are therefore deliberate choices connected both to my website references and to Caravaggio himself.
+Applied in the prototype through restrained backgrounds, centred imagery and space around the artworks. The contrasting chapters and image spacing support the focus on paintings and selected details.
 
 ## Three chapters
 
@@ -119,7 +119,7 @@ The examples below show anecdotes in Italian and English; the helper screenshots
 | --- | --- |
 | ![Saint Matthew and the Angel detail with its Italian anecdote](assets/screenshots/shadow-matthew-anecdote-it.png) | ![Judith detail with its English anecdote](assets/screenshots/blood-judith-anecdote-en.png) |
 
-*Preview screenshots supplied by the author on 25 October 2026, reproduced without alterations.*
+*These screenshots show the Assessment 1 prototype as captured on 25 October 2026.*
 
 ## Focused helpers
 
@@ -137,39 +137,39 @@ Opening a helper replaces the surrounding gallery with the selected image, the c
 
 ![Saint Jerome detail with its Japanese helper](assets/screenshots/blood-jerome-helper-ja.png)
 
-The prototype uses dedicated overlay frames, explicit close targets and language-specific text panels. [Read the implementation notes](docs/prototype-notes.md).
+The screenshots show the prototype’s overlay frames. In the website, the explanation opens in a native HTML `dialog`, with keyboard support and focus returning to the opening button when it closes. [Read the prototype notes](docs/prototype-notes.md) and [the WHATWG HTML Living Standard review](docs/whatwg-html-living-standard.md).
 
 ### Button feedback
 
-The gold helper button shows a warm reflection when the pointer passes over it. Mouse-enter and mouse-leave events control the visual response independently of the click that opens the helper.
+The website’s gold Medusa buttons and explanation close control brighten with a gold glow when hovered or focused with the keyboard. The image below records the button feedback in the Assessment 1 prototype.
 
-<img src="assets/screenshots/helper-button-hover.jpg" alt="Author-supplied close-up of the pointer over the Basket of Fruit helper button" width="720" />
+<img src="assets/screenshots/helper-button-hover.jpg" alt="Close-up of the pointer over the Basket of Fruit helper button" width="720" />
 
-## Eight languages, stored in the prototype
+## Eight languages
 
 **Italian · English · German · French · Simplified Chinese · Japanese · Polish · Dutch**
 
 <img src="assets/screenshots/language-selector.png" alt="The eight-language selector in the Figma prototype, with Italian selected" width="280" />
 
 
-The current content archive contains **20 details**, each with a short anecdote and a longer helper in eight languages: **320 text entries**. Translations are saved in Figma; selecting a language does not call a translation API.
+The website content archive contains **20 details**, each with a short anecdote and a longer explanation in eight languages, giving **320 text entries**. The translations are stored in JSON files. The language selector loads the saved text and updates the reading language of translated content and controls.
 
-The author’s Italian texts are the source of truth. The archive preserves the current source texts and translations verbatim.
+Italian anecdotes and explanations were written for the project. The website uses [the multilingual content archive](data/texts.json), [artwork descriptions and gallery labels](data/whatwg-screen-reader-artwork-descriptions.json), and [screen-reader control labels](scripts/whatwg-screen-reader-controls.js).
 
-[Read the complete multilingual text archive](docs/translations/caravaggio-anecdotes-and-helpers-8-languages.txt)
+[Read the Assessment 1 multilingual text archive](docs/translations/caravaggio-anecdotes-and-helpers-8-languages.txt)
 
 ## Academic context
 
 | | |
 | --- | --- |
-| **Author** | Alessandro Benevelli |
+| **Name** | Alessandro Benevelli |
 | **University** | [Open Institute of Technology — OPIT](https://www.opit.com/) |
 | **Degree** | Bachelor of Science in Computer Science |
 | **Course** | COMP-2002 — Web Development, Fall 2026 |
 | **Professor** | Filip Biały |
-| **Current deliverable** | Assessment 1: Web Development Project Prototype |
+| **Current deliverable** | Assessment 2 — Working web development project |
 
-The same project is planned to continue through all three course assessments.
+The project spans all three course assessments.
 
 | Milestone | Deliverable | Deadline |
 | --- | --- | --- |
@@ -179,24 +179,21 @@ The same project is planned to continue through all three course assessments.
 
 [Full work plan](docs/work-plan-2026-2027.md)
 
-## From prototype to website
+## Website implementation
 
-The next phase will translate the design into HTML, CSS and JavaScript. These behaviours are planned for the website and are not implemented in the current Figma prototype:
+Implemented in HTML, CSS and JavaScript. Hosted on Amazon S3 through CloudFront with HTTPS.
 
-| Planned improvement | Intended behaviour |
+| Feature | Implementation |
 | --- | --- |
-| **Vertical scroll snapping and chapter entry** | Settle on LIGHT, SHADOW or BLOOD and position that chapter’s horizontal track on its title |
-| **Horizontal scroll snapping** | Let paintings and details settle near the centre of the viewport |
-| **Visible horizontal scrollbar** | Provide an explicit control and position indicator for each gallery, alongside the side previews |
-| **Responsive layouts** | Adapt artwork, spacing and explanation panels to desktop, tablet and mobile |
-| **Accessible helper dialogs** | Support keyboard input, Escape, focus management and background scroll locking |
-| **Local language resources** | Keep anecdotes and explanations in the same selected language using stored translations |
-| **Media handling** | Optimise loading and provide playback controls and autoplay-blocked handling |
-| **Reduced motion** | Respect motion preferences when implementing animated navigation |
+| **Chapter navigation** | Vertical scroll snapping centres chapters and restores their horizontal position to the section title |
+| **Gallery navigation** | Horizontal snapping, mouse dragging, dot buttons and a scrollbar for the smallest windows |
+| **Responsive layouts** | Artwork, captions and navigation adapt to desktop, tablet and smaller windows |
+| **Explanation dialogs** | Native HTML dialogs with Escape handling, focus restoration and scrollable explanation text |
+| **Eight languages** | Stored translations for section titles, anecdotes, explanations, artwork descriptions and control labels |
+| **Video controls** | Play, pause and sound controls for the introductory montage |
+| **Reduced motion** | Navigation respects the browser’s reduced-motion preference |
 
-Vertical snapping and horizontal title positioning are separate concerns: snapping to a chapter vertically does not automatically reset its horizontal track. The website will coordinate both, using CSS scroll snapping and JavaScript where needed. This coordinated behaviour is a limitation of the current prototype, recorded for the implementation phase.
-
-Hosting on Amazon S3 and CloudFront is planned for the working website.
+The [WHATWG HTML Living Standard review](docs/whatwg-html-living-standard.md) records the HTML implementation and accessibility checks. The [development log](docs/development-log.md) records the project’s progress.
 
 A later phase proposes a gallery-style guestbook using API Gateway, Lambda and DynamoDB, with submission moderation through Amazon Nova on Amazon Bedrock. These are planned project choices; they are not implemented in the Figma prototype or required technologies prescribed by the syllabus.
 
@@ -210,16 +207,18 @@ A later phase proposes a gallery-style guestbook using API Gateway, Lambda and D
 | [Prototype notes](docs/prototype-notes.md) | Navigation, helpers, language selection, verification and Figma limitations |
 | [Work plan](docs/work-plan-2026-2027.md) | Development phases from October 2026 to January 2027 |
 | [Translation archive](docs/translations/caravaggio-anecdotes-and-helpers-8-languages.txt) | Italian anecdotes and helpers alongside all seven translations |
-| [Credits](docs/credits.md) | Authorship, visual references and media sources |
-| [Screenshots](assets/screenshots) | Current prototype captures used in this README |
+| [Credits](docs/credits.md) | Project contribution, visual references and media sources |
+| [Screenshots](assets/screenshots) | Assessment 1 prototype captures and design references |
+| [WHATWG HTML Living Standard](docs/whatwg-html-living-standard.md) | HTML implementation and accessibility checks |
+| [Development log](docs/development-log.md) | Website development milestones |
 
 All project documentation is in English. The translation archive retains its multilingual content.
 
 ## Opening video and music credits
 
-The introductory video is a montage assembled by **Alessandro Benevelli**, who selected, trimmed and joined scenes from **_Caravaggio — L’anima e il sangue_** (Italian theatrical release: 2018), a **Sky / Sky Arte and Magnitudo Film** production, directed by **Jesus Garces Lambert**, with cinematography by **Massimiliano Gatti**, distributed by **Nexo Digital**. The project contribution is the selection and re-editing of existing scenes; the original footage is credited to the film’s creators.
+The introductory video was assembled by selecting, trimming and joining scenes from **_Caravaggio — L’anima e il sangue_** (Italian theatrical release: 2018), a **Sky / Sky Arte and Magnitudo Film** production, directed by **Jesus Garces Lambert**, with cinematography by **Massimiliano Gatti**, distributed by **Nexo Digital**. The montage uses selected and re-edited excerpts. The original footage is credited to the film’s creators.
 
-The background music used in the prototype is **“Experience” by Ludovico Einaudi**, from **_In a Time Lapse_ (2013), Decca Records**.
+The background music used in the introductory montage is **“Experience” by Ludovico Einaudi**, from **_In a Time Lapse_ (2013), Decca Records**.
 
 Film sources: [Sky’s production announcement](https://tg24.sky.it/spettacolo/cinema/2017/09/21/caravaggio-l-anima-e-il-sangue), [Cinematografo’s full credits](https://www.cinematografo.it/film/caravaggio-lanima-e-il-sangue-ah8cqdsh) and [Nexo Digital’s film presentation](https://www.nexostudios.it/movie/caravaggio-lanima-e-il-sangue-replica/).
 
@@ -243,5 +242,4 @@ See [LICENSE](LICENSE) and [LICENSING.md](LICENSING.md).
 
 ---
 
-Designed and developed as an independent student project by **Alessandro Benevelli** for COMP-2002 at OPIT. University and course references identify the academic context; they do not imply institutional endorsement.
-
+Designed and developed for COMP-2002 at OPIT. University and course references identify the academic context; they do not imply institutional endorsement.

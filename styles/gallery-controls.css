@@ -190,3 +190,64 @@ html[data-active-section="blood"] #blood.use-native-scrollbar > .gallery-scrollb
 .chapter-scroll.is-dragging * {
     cursor: grabbing;
 }
+
+/* Keep navigation graphics proportional to the viewport during browser zoom. */
+:root {
+    --navigation-unit: min(calc(100vw / 1920), calc(100svh / 900));
+}
+
+.gallery-pagination {
+    --dot-bar-inset: 0px;
+    padding: 0 calc(8 * var(--navigation-unit));
+    border-radius: calc(24 * var(--navigation-unit));
+    background: #222222;
+}
+
+.gallery-pagination::before {
+    display: none;
+}
+
+.gallery-dot {
+    flex-basis: calc(44 * var(--navigation-unit));
+    width: calc(44 * var(--navigation-unit));
+    height: calc(44 * var(--navigation-unit));
+}
+
+.gallery-dot::before {
+    width: calc(8 * var(--navigation-unit));
+    height: calc(8 * var(--navigation-unit));
+}
+
+.gallery-dot[aria-current="true"]::before {
+    width: calc(30 * var(--navigation-unit));
+}
+
+.gallery-pagination .gallery-dot:focus-visible {
+    outline-width: calc(2 * var(--navigation-unit));
+    outline-offset: calc(-4 * var(--navigation-unit));
+    border-radius: calc(8 * var(--navigation-unit));
+}
+
+/* Enlarge small-window targets while keeping the navigation graphics compact. */
+@media (max-width: 800px) {
+    .gallery-pagination {
+        --dot-bar-inset: max(0px, calc((44px - 44 * var(--navigation-unit)) / 2));
+        background: transparent;
+    }
+
+    .gallery-pagination::before {
+        display: block;
+        border-radius: inherit;
+    }
+
+    .gallery-dot {
+        flex-basis: 44px;
+        width: 44px;
+        height: 44px;
+    }
+
+    .gallery-pagination .gallery-dot:focus-visible {
+        outline-width: 2px;
+        outline-offset: -2px;
+    }
+}

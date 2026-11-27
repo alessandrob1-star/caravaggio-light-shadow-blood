@@ -1,6 +1,7 @@
 // Import the function that reads the multilingual content archive.
 import { getText } from "./texts.js";
-import { getSelectedLanguage } from "./languages.js";
+import { getSelectedLanguage } from "./languages.js?v=20261127-1";
+import { getControlLabels } from "./whatwg-screen-reader-controls.js?v=20261127-1";
 
 // Share one dialog between the detail buttons in all three galleries.
 const helperButtons = document.querySelectorAll(".chapter .helper-button");
@@ -34,7 +35,7 @@ function showCrop(button) {
     helperDialog.dataset.section = chapter.id;
     // Keep the dialog title short when the image has a detailed description.
     const detailName = figure.dataset.galleryLabel || sourceImage.alt;
-    helperDialog.setAttribute("aria-label", detailName + ": additional information");
+    helperDialog.setAttribute("aria-label", detailName + " — " + getControlLabels().additionalInformation);
 }
 
 // Open each detail with its explanation in the selected language.
@@ -42,9 +43,9 @@ helperButtons.forEach(function (button) {
     button.addEventListener("click", async function () {
         activeButton = button;
         showCrop(button);
-        // Loading and error messages remain in English.
-        helperText.lang = "en";
-        showExplanation(["Loading explanation…"]);
+        // Use the selected language for loading feedback and explanations.
+        helperText.lang = helperDialog.lang;
+        showExplanation([getControlLabels().loading]);
         helperText.setAttribute("aria-busy", "true");
 
         helperDialog.showModal();
@@ -64,7 +65,7 @@ helperButtons.forEach(function (button) {
             // Report a loading failure instead of displaying an empty explanation.
             if (helperDialog.open && activeButton === button) {
                 showExplanation([
-                    "The explanation could not be loaded. Please reload the page and try again."
+                    getControlLabels().explanationError
                 ]);
             }
         } finally {
