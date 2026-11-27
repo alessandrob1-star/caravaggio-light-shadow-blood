@@ -74,6 +74,22 @@
     border-radius: 8px;
 }
 
+/* Fit more buttons on narrow screens while preserving their touch height. */
+@media (max-width: 600px) {
+    .gallery-pagination {
+        max-width: calc(100% - 40px);
+    }
+
+    .gallery-dot {
+        flex-basis: 36px;
+        width: 36px;
+    }
+
+    .gallery-dot[aria-current="true"]::before {
+        width: 24px;
+    }
+}
+
 /* Show that the gallery can be grabbed with the mouse. */
 .chapter-scroll.is-draggable {
     cursor: grab;
