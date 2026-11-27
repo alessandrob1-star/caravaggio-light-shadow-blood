@@ -2,6 +2,7 @@
 const introVideo = document.getElementById("intro-video");
 const audioButton = document.getElementById("video-audio-button");
 const audioStatus = document.getElementById("video-audio-status");
+const musicStatus = document.getElementById("video-music-status");
 
 // Keep the icon and accessibility state aligned with the video's sound state.
 function updateAudioControl() {
@@ -9,6 +10,9 @@ function updateAudioControl() {
 
     audioButton.setAttribute("aria-pressed", String(soundOn));
     audioButton.title = soundOn ? "Turn sound off" : "Turn sound on";
+    if (!soundOn) {
+        musicStatus.textContent = "";
+    }
 }
 
 // Restore the muted state and report a playback failure.
@@ -83,6 +87,9 @@ audioButton.addEventListener("click", async function () {
     try {
         // Resume playback during the user action if autoplay was interrupted.
         await introVideo.play();
+        if (!introVideo.muted) {
+            musicStatus.textContent = "Music: Experience by Ludovico Einaudi.";
+        }
     } catch (error) {
         reportPlaybackFailure();
     }
