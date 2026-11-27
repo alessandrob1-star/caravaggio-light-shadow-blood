@@ -1,8 +1,9 @@
 /* Scale the gallery geometry while keeping details readable on small screens. */
 .chapter {
+    --chapter-height: 95svh;
     --gallery-spacing: 1.15;
     --gallery-unit: clamp(0.5px, min(calc(100vw / 1920), calc((90svh - 56px) / 1018)), 1px);
-    --gallery-offset: max(0px, calc((90svh - 56px - 1018 * var(--gallery-unit)) / 2));
+    --gallery-offset: max(0px, calc((var(--chapter-height) - 56px - 1018 * var(--gallery-unit)) / 2));
     font-family: "Cormorant Garamond", Georgia, serif;
     font-weight: 500;
 }
@@ -18,7 +19,7 @@
     position: relative;
     display: block;
     width: calc(var(--gallery-width) * var(--gallery-unit) * var(--gallery-spacing));
-    height: max(90svh, calc(1018 * var(--gallery-unit)));
+    height: max(var(--chapter-height), calc(1018 * var(--gallery-unit)));
     margin-inline: 50vw;
 }
 
