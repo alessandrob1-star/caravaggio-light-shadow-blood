@@ -1,6 +1,8 @@
 // Build a manual navigation bar for each horizontally scrolling gallery.
 document.querySelectorAll(".chapter").forEach(function (chapter) {
     const scroller = chapter.querySelector(".chapter-scroll");
+    const track = scroller.querySelector(".chapter-track");
+    const captions = track.querySelectorAll(".gallery-caption");
     const title = chapter.querySelector(".chapter-title");
     const items = Array.from(
         scroller.querySelectorAll(".gallery-artwork, .chapter-title-panel")
@@ -9,6 +11,30 @@ document.querySelectorAll(".chapter").forEach(function (chapter) {
     controls.className = "gallery-pagination";
     controls.setAttribute("role", "group");
     controls.setAttribute("aria-labelledby", title.id);
+
+    const scrollbar = document.createElement("div");
+    scrollbar.className = "gallery-scrollbar";
+    scrollbar.tabIndex = 0;
+    scrollbar.setAttribute("role", "group");
+    scrollbar.setAttribute("aria-labelledby", title.id);
+    const scrollbarTrack = document.createElement("div");
+    scrollbarTrack.className = "gallery-scrollbar-track";
+    scrollbar.append(scrollbarTrack);
+
+    // Keep the visible scrollbar aligned with the current gallery position.
+    function syncScrollbar() {
+        if (scrollbar.clientWidth) scrollbar.scrollLeft = scroller.scrollLeft;
+    }
+
+    scrollbar.addEventListener("scroll", function () {
+        if (Math.abs(scrollbar.scrollLeft - scroller.scrollLeft) < 1) return;
+        scroller.classList.add("is-using-scrollbar");
+        scroller.scrollLeft = scrollbar.scrollLeft;
+    });
+
+    scrollbar.addEventListener("scrollend", function () {
+        scroller.classList.remove("is-using-scrollbar");
+    });
 
     // Centre the selected item without moving the page vertically.
     function centreItem(item) {
@@ -112,6 +138,7 @@ document.querySelectorAll(".chapter").forEach(function (chapter) {
         pendingFrame = true;
         requestAnimationFrame(function () {
             pendingFrame = false;
+            syncScrollbar();
             updateActiveItem();
         });
     });
@@ -133,8 +160,82 @@ document.querySelectorAll(".chapter").forEach(function (chapter) {
         subtree: true
     });
 
-    chapter.append(controls);
+    chapter.append(controls, scrollbar);
     chapter.classList.add("has-gallery-controls");
-    new ResizeObserver(updateActiveItem).observe(scroller);
-    document.fonts.ready.then(updateActiveItem);
+
+    // Keep the dot bar below the captions, except on the narrowest screens.
+    function updateNavigationLayout() {
+        // Measure from the track so the native scrollbar does not affect the test.
+        const style = getComputedStyle(controls);
+        const trackBounds = track.getBoundingClientRect();
+        const barInset = parseFloat(style.getPropertyValue("--dot-bar-inset")) || 0;
+        const liftCompleteArtworks = style.getPropertyValue("--lift-complete-artworks").trim() === "1";
+        const formerSpace = parseFloat(track.style.getPropertyValue("--gallery-navigation-space")) || 0;
+        const barTop = trackBounds.bottom - formerSpace - parseFloat(style.bottom) -
+            controls.offsetHeight + barInset;
+        let captionOverlap = 0;
+        const lifts = [];
+
+        captions.forEach(function (caption) {
+            const artwork = caption.parentElement;
+            const formerLift = parseFloat(artwork.style.getPropertyValue("--artwork-caption-lift")) || 0;
+            const captionBottom = caption.getBoundingClientRect().bottom + formerLift;
+            let lift = 0;
+
+            // Keep the dot bar on laptops by lifting only complete artworks that need it.
+            if (liftCompleteArtworks && caption.classList.contains("artwork-caption")) {
+                const imageTop = artwork.querySelector(".artwork-image")
+                    .getBoundingClientRect().top + formerLift;
+                const availableSpace = Math.max(0, imageTop - trackBounds.top - 4);
+                lift = Math.min(availableSpace, Math.max(0, captionBottom + 4 - barTop));
+            }
+
+            if (lift !== formerLift) lifts.push({ artwork, lift });
+            captionOverlap = Math.max(captionOverlap, captionBottom - lift - barTop);
+        });
+
+        lifts.forEach(function ({ artwork, lift }) {
+            artwork.style.setProperty("--artwork-caption-lift", lift + "px");
+        });
+
+        const useNativeScrollbar = captionOverlap > 0 &&
+            window.matchMedia("(max-width: 360px)").matches;
+        const extraSpace = captionOverlap > 0 && !useNativeScrollbar
+            ? Math.ceil(captionOverlap + 4)
+            : 0;
+        if (extraSpace !== formerSpace) {
+            track.style.setProperty("--gallery-navigation-space", extraSpace + "px");
+        }
+
+        if (
+            (useNativeScrollbar && controls.contains(document.activeElement)) ||
+            (!useNativeScrollbar && document.activeElement === scrollbar)
+        ) {
+            scroller.focus({ preventScroll: true });
+        }
+
+        chapter.classList.toggle("use-native-scrollbar", useNativeScrollbar);
+        if (scrollbar.clientWidth) {
+            // Match the gallery's full scroll range when the bar is visible.
+            scrollbarTrack.style.width =
+                scrollbar.clientWidth + scroller.scrollWidth - scroller.clientWidth + "px";
+            syncScrollbar();
+        } else {
+            scroller.classList.remove("is-using-scrollbar");
+        }
+        updateActiveItem();
+    }
+
+    const navigationObserver = new ResizeObserver(updateNavigationLayout);
+    navigationObserver.observe(scroller);
+    navigationObserver.observe(track);
+    navigationObserver.observe(controls);
+    captions.forEach(function (caption) {
+        navigationObserver.observe(caption);
+    });
+    new MutationObserver(updateNavigationLayout).observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ["data-active-section"]
+    });
+    document.fonts.ready.then(updateNavigationLayout);
 });

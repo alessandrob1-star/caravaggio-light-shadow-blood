@@ -1,8 +1,9 @@
 /* Scale the gallery geometry while keeping details readable on small screens. */
 .chapter {
-    --chapter-height: 95svh;
+    --chapter-height: calc(95svh - var(--navigation-safe-bottom, 0px));
     --gallery-spacing: 1.15;
-    --gallery-unit: clamp(0.5px, min(calc(100vw / 1920), calc((90svh - 56px) / 1018)), 1px);
+    --gallery-unit: clamp(var(--minimum-gallery-unit, 0.5px), min(calc(100vw / 1920),
+        calc((90svh - 56px - var(--navigation-safe-bottom, 0px)) / 1018)), 1px);
     --gallery-offset: max(0px, calc((var(--chapter-height) - 56px - 1018 * var(--gallery-unit)) / 2));
     font-family: "Cormorant Garamond", Georgia, serif;
     font-weight: 500;
@@ -19,7 +20,8 @@
     position: relative;
     display: block;
     width: calc(var(--gallery-width) * var(--gallery-unit) * var(--gallery-spacing));
-    height: max(var(--chapter-height), calc(1018 * var(--gallery-unit)));
+    height: calc(max(var(--chapter-height), calc(1018 * var(--gallery-unit))) +
+        var(--gallery-navigation-space, 0px));
     margin-inline: 50vw;
 }
 
@@ -90,8 +92,20 @@
     font-size: clamp(20px, min(calc(48 * var(--gallery-unit)), 6.4vw), 48px);
 }
 
+/* Scale complete artwork captions consistently with the available window space. */
 .artwork-caption {
-    font-size: clamp(14px, calc(24 * var(--gallery-unit)), 24px);
+    font-size: clamp(1rem, min(2.05vw, 2.7svh), 1.5rem);
+}
+
+/* Keep gallery titles and captions proportional in small or short windows. */
+@media (max-width: 800px), (max-height: 640px) {
+    .chapter-title {
+        font-size: clamp(1.75rem, min(8vw, 9svh), 4rem);
+    }
+
+    .anecdote-caption {
+        font-size: clamp(1rem, min(4.1vw, 3.6svh), 1.75rem);
+    }
 }
 
 /* Centre the nearest title, artwork or detail when horizontal scrolling ends. */

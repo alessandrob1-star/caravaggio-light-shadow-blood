@@ -134,7 +134,8 @@ a:focus-visible {
 /* Hide the montage's upper black band without changing the media file. */
 .opening-video {
     overflow: hidden;
-    max-height: max(160px, calc(97svh - var(--opening-header-height, 0px)));
+    max-height: max(160px, calc(97svh - var(--opening-header-height, 0px) -
+        var(--navigation-safe-bottom, 0px)));
     border-bottom: 3svh solid #000000;
     background: #000000;
 }

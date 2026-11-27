@@ -7,24 +7,37 @@
 
 /* Set the shared size of the oval section links. */
 .section-arrow {
+    --arrow-face-height: clamp(22px, 4.32svh, 38.88px);
     position: absolute;
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
     display: grid;
     place-items: center;
-    width: 162px;
-    height: 38.88px;
+    width: clamp(76px, min(17vw, 18svh), 162px);
+    height: 44px;
+    border-radius: 50%;
+    color: #999999;
+}
+
+/* Scale the oval and arrow without reducing the clickable height. */
+.section-arrow::before {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    top: 50%;
+    z-index: -1;
+    height: var(--arrow-face-height);
+    transform: translateY(-50%);
     border-radius: 50%;
     background: #222222;
-    color: #999999;
 }
 
 /* Use a broad filled arrow inside the oval. */
 .section-arrow svg {
     display: block;
-    width: 126.36px;
-    height: 29.16px;
+    width: 78%;
+    height: calc(var(--arrow-face-height) * 0.75);
     fill: currentColor;
 }
 
