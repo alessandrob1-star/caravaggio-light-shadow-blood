@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/blood.css?v=20261116-12">
     <link rel="stylesheet" href="styles/helpers.css">
     <link rel="stylesheet" href="styles/languages.css">
-    <link rel="stylesheet" href="styles/audio.css?v=20261115-2">
+    <link rel="stylesheet" href="styles/audio.css?v=20261127-1">
     <link rel="stylesheet" href="styles/gallery-controls.css?v=20261115-11">
     <link rel="stylesheet" href="styles/section-navigation.css?v=20261123-3">
     <link rel="stylesheet" href="styles/vertical-scroll.css?v=20261118-10">
@@ -23,8 +23,8 @@
     <script src="scripts/gallery-drag.js?v=20261118-1" defer></script>
     <!-- Connect the opening arrow to the next section. -->
     <script src="scripts/section-navigation.js?v=20261123-1" defer></script>
-    <!-- Manage the introductory video's sound control. -->
-    <script src="scripts/audio.js?v=20261115-2" defer></script>
+    <!-- Manage playback and sound for the introductory video. -->
+    <script src="scripts/audio.js?v=20261127-4" defer></script>
     <!-- Load language selection and content updates. -->
     <script type="module" src="scripts/languages.js"></script>
     <!-- Load the helper controls and their content reader as JavaScript modules. -->
@@ -155,13 +155,13 @@
 
     <!-- Main page content. -->
     <main id="main-content">
-        <!-- Request automatic playback of the introductory montage. -->
+        <!-- Introductory montage with sound and playback controls. -->
         <div class="opening-video">
             <div class="video-toolbar">
                 <!-- Enable the sound control after JavaScript is ready. -->
                 <button
                     id="video-audio-button"
-                    class="audio-toggle"
+                    class="video-toggle"
                     type="button"
                     aria-controls="intro-video"
                     aria-label="Video sound"
@@ -193,7 +193,19 @@
                     </svg>
                 </button>
 
-                <!-- Announce a playback error if sound cannot be enabled. -->
+                <!-- Offer a keyboard-accessible playback control beside the sound button. -->
+                <button
+                    id="video-playback-button"
+                    class="video-toggle"
+                    type="button"
+                    aria-controls="intro-video"
+                    aria-label="Play video"
+                    title="Play video"
+                    hidden>
+                    <span class="playback-icon" aria-hidden="true"></span>
+                </button>
+
+                <!-- Announce playback feedback. -->
                 <p
                     id="video-audio-status"
                     class="audio-status"
@@ -208,7 +220,6 @@
                 class="intro-video"
                 width="1280"
                 height="720"
-                autoplay
                 loop
                 playsinline
                 preload="auto"

@@ -1,9 +1,9 @@
-/* Anchor the sound control to the video area. */
+/* Anchor the media controls to the video area. */
 .opening-video {
     position: relative;
 }
 
-/* Place the sound control inside the visible picture. */
+/* Place the media controls inside the visible picture. */
 .video-toolbar {
     position: absolute;
     top: 16px;
@@ -21,8 +21,8 @@
     pointer-events: auto;
 }
 
-/* Keep the sound button large enough for pointer and touch input. */
-.audio-toggle {
+/* Give both buttons the same size and appearance. */
+.video-toggle {
     flex-shrink: 0;
     display: grid;
     place-items: center;
@@ -36,30 +36,45 @@
     cursor: pointer;
 }
 
-/* Keep the control hidden until its JavaScript is ready. */
-.audio-toggle[hidden] {
+/* Keep the buttons hidden until their JavaScript is ready. */
+.video-toggle[hidden] {
     display: none;
 }
 
 /* Provide visual feedback when pointing at the button. */
-.audio-toggle:hover {
+.video-toggle:hover {
     border-color: #d6b16d;
     background: #000000;
 }
 
 /* Identify the button during keyboard navigation. */
-.audio-toggle:focus-visible {
+.video-toggle:focus-visible {
     outline: 3px solid #e8e1d5;
     outline-offset: 4px;
 }
 
 /* Display the icon that matches the current sound state. */
-.audio-toggle[aria-pressed="false"] .sound-waves,
-.audio-toggle[aria-pressed="true"] .sound-muted {
+.video-toggle[aria-pressed="false"] .sound-waves,
+.video-toggle[aria-pressed="true"] .sound-muted {
     display: none;
 }
 
-/* Display a playback error next to the sound control. */
+/* Show a play triangle or pause bars in the button's foreground colour. */
+.playback-icon {
+    width: 16px;
+    height: 18px;
+    background: currentColor;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+.video-toggle[data-playing] .playback-icon {
+    background: linear-gradient(
+        to right, currentColor 35%, transparent 35% 65%, currentColor 65%
+    );
+    clip-path: none;
+}
+
+/* Display playback feedback next to the media controls. */
 .audio-status {
     max-width: 420px;
     min-width: 0;

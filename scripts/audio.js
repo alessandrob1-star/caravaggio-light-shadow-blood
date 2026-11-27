@@ -1,8 +1,26 @@
-// Select the introductory video, sound button and feedback area.
+// Select the introductory video, its controls and the feedback areas.
 const introVideo = document.getElementById("intro-video");
 const audioButton = document.getElementById("video-audio-button");
+const playbackButton = document.getElementById("video-playback-button");
 const audioStatus = document.getElementById("video-audio-status");
 const musicStatus = document.getElementById("video-music-status");
+
+// Expose the next playback action and show the matching icon.
+function updatePlaybackControl() {
+    const playing = !introVideo.paused && !introVideo.ended && !introVideo.error;
+    const label = playing ? "Pause video" : "Play video";
+
+    playbackButton.toggleAttribute("data-playing", playing);
+    playbackButton.setAttribute("aria-label", label);
+    playbackButton.title = label;
+}
+
+// Announce the credit when sound is enabled and playback is active.
+function announceMusicCredit() {
+    if (!introVideo.muted && !introVideo.paused) {
+        musicStatus.textContent = "Music: Experience by Ludovico Einaudi.";
+    }
+}
 
 // Keep the icon and accessibility state aligned with the video's sound state.
 function updateAudioControl() {
@@ -19,6 +37,7 @@ function updateAudioControl() {
 function reportPlaybackFailure() {
     introVideo.muted = true;
     updateAudioControl();
+    updatePlaybackControl();
 
     audioStatus.textContent =
         "The video could not be played. Please reload the page and try again.";
@@ -38,36 +57,24 @@ async function startIntroVideo() {
     try {
         await introVideo.play();
     } catch (error) {
-        // Treat playback errors separately from autoplay restrictions.
-        if (error.name !== "NotAllowedError") {
-            reportPlaybackFailure();
+        // A manual pause can interrupt a pending autoplay request.
+        if (error.name === "AbortError") {
             return;
         }
 
-        // Retry playback with sound enabled.
-        introVideo.muted = false;
-
-        try {
-            await introVideo.play();
-        } catch (error) {
-            // Explain an autoplay restriction without reporting a media failure.
-            if (error.name === "NotAllowedError") {
-                introVideo.muted = true;
-                updateAudioControl();
-                audioStatus.textContent =
-                    "To hear the video, click the sound icon.";
-                return;
-            }
-
-            reportPlaybackFailure();
+        // Wait for the Play button when automatic playback with sound is blocked.
+        if (error.name === "NotAllowedError") {
+            introVideo.muted = true;
+            updateAudioControl();
+            return;
         }
+
+        reportPlaybackFailure();
     }
 }
 
-// Toggle sound in response to a mouse click or native keyboard activation.
-audioButton.addEventListener("click", async function () {
-    audioStatus.textContent = "";
-
+// Toggle sound independently of playback.
+audioButton.addEventListener("click", function () {
     // Stop if the browser has already reported an unavailable source.
     if (
         introVideo.error ||
@@ -77,21 +84,29 @@ audioButton.addEventListener("click", async function () {
         return;
     }
 
-    if (!introVideo.muted) {
-        introVideo.muted = true;
+    introVideo.muted = !introVideo.muted;
+    announceMusicCredit();
+});
+
+// Pause or resume playback through the native button's click event.
+playbackButton.addEventListener("click", async function () {
+    if (!introVideo.paused && !introVideo.ended) {
+        introVideo.pause();
         return;
     }
 
+    audioStatus.textContent = "";
+
+    // Enable sound as part of the visitor's Play action.
     introVideo.muted = false;
 
     try {
-        // Resume playback during the user action if autoplay was interrupted.
         await introVideo.play();
-        if (!introVideo.muted) {
-            musicStatus.textContent = "Music: Experience by Ludovico Einaudi.";
-        }
+        announceMusicCredit();
     } catch (error) {
-        reportPlaybackFailure();
+        if (error.name !== "AbortError") {
+            reportPlaybackFailure();
+        }
     }
 });
 
@@ -104,10 +119,15 @@ introVideo.querySelector("source").addEventListener(
 
 // Update the control whenever the video's sound state changes.
 introVideo.addEventListener("volumechange", updateAudioControl);
+introVideo.addEventListener("play", updatePlaybackControl);
+introVideo.addEventListener("pause", updatePlaybackControl);
+introVideo.addEventListener("ended", updatePlaybackControl);
 
-// Show the control after its initial state and event handlers are ready.
+// Show the controls after their initial state and event handlers are ready.
 updateAudioControl();
+updatePlaybackControl();
 audioButton.hidden = false;
+playbackButton.hidden = false;
 
 // Request playback after the sound controls are ready.
 startIntroVideo();
