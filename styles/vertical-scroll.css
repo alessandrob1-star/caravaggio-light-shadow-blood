@@ -36,3 +36,51 @@ html {
 footer {
     min-height: calc(5svh + var(--navigation-safe-bottom));
 }
+
+/* Keep tablet chapters centred as browser controls expand and collapse. */
+@media (pointer: coarse) and (min-width: 600px) {
+    .chapter {
+        --chapter-height: calc(95dvh - var(--navigation-safe-bottom));
+        scroll-margin-top: var(--navigation-safe-bottom);
+    }
+
+    #light .gallery-pagination,
+    #shadow .gallery-pagination {
+        bottom: calc(24px + var(--navigation-safe-bottom) / 2);
+    }
+
+    html[data-active-section="light"] #light > .section-boundary-navigation > .section-arrow,
+    html[data-active-section="shadow"] #shadow > .section-boundary-navigation > .section-arrow {
+        top: calc(var(--navigation-safe-bottom) / -2 - 4px);
+    }
+}
+
+/* Fill the tablet opening area as the browser controls change height. */
+@media (pointer: coarse) and (min-width: 600px) {
+    .opening-video {
+        height: max(160px, calc(97dvh - var(--opening-header-height, 0px)));
+        max-height: none;
+        border-bottom-width: 3dvh;
+    }
+
+    .intro-video {
+        height: calc(100% + 7.5vw);
+        object-fit: cover;
+    }
+}
+
+/* Use a thin vertical browser scrollbar for tablet section navigation. */
+@media (pointer: coarse) and (min-width: 600px) {
+    .section-arrow {
+        display: none;
+    }
+
+    html {
+        overflow-y: scroll;
+        scrollbar-width: thin;
+    }
+
+    html::-webkit-scrollbar {
+        width: 6px;
+    }
+}
