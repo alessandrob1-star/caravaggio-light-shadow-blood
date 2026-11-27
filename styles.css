@@ -183,6 +183,12 @@ footer p {
     margin: 0;
 }
 
+/* Use the footer text colour for links and keep their underline. */
+footer a {
+    color: inherit;
+    text-decoration: underline;
+}
+
 /* Increase title sizes and spacing when more horizontal space is available. */
 @media (min-width: 768px) {
     main section {

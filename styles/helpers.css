@@ -147,6 +147,12 @@ body.helper-open {
     color: #684713;
 }
 
+/* Darken the gold controls against the Blood background. */
+:where(#blood) .helper-button,
+:where(.helper-dialog[data-section="blood"]) .helper-close {
+    color: #936a28;
+}
+
 /* Leave more room for text and reserve space above it for the close button. */
 @media (max-width: 600px), (max-height: 800px) {
     /* Keep the crop and explanation panel within the available dialog height. */
