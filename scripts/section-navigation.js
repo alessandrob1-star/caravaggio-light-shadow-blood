@@ -1,10 +1,15 @@
 // Connect each boundary arrow to its preceding and following sections.
 const sectionArrows = Array.from(document.querySelectorAll(".section-arrow"));
-const sectionOrder = ["home", "light", "shadow", "blood"];
+const sectionOrder = ["home", "light", "shadow", "blood", "credits"];
+const creditsSection = document.getElementById("credits");
 
 // Reverse boundary links after entering their following section.
 function updateSectionArrows() {
-    const currentIndex = activeChapter ? sectionOrder.indexOf(activeChapter.id) : 0;
+    const creditsBounds = creditsSection.getBoundingClientRect();
+    const creditsActive = creditsBounds.top <= window.innerHeight / 2 &&
+        creditsBounds.bottom > window.innerHeight / 2;
+    const currentIndex = creditsActive ? sectionOrder.indexOf("credits") :
+        (activeChapter ? sectionOrder.indexOf(activeChapter.id) : 0);
     const root = document.documentElement;
     root.dataset.activeSection = sectionOrder[currentIndex];
 
@@ -44,6 +49,9 @@ sectionArrows.forEach(function (arrow) {
             // Return to the opening title and video at the top of the page.
             window.scrollTo({ top: 0, behavior: behavior });
             destinationTitle = document.getElementById("home-title");
+        } else if (target.id === "credits") {
+            target.scrollIntoView({ block: "start", behavior: behavior });
+            destinationTitle = document.getElementById("credits-title");
         } else {
             const gallery = galleries.find(function (item) {
                 return item.chapter === target;

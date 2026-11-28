@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/gallery-controls.css?v=20261128-2">
     <link rel="stylesheet" href="styles/section-navigation.css?v=20261128-1">
     <link rel="stylesheet" href="styles/vertical-scroll.css?v=20261127-5">
+    <link rel="stylesheet" href="styles/credits.css?v=20261128-6">
     <!-- Set the initial horizontal position of each chapter gallery. -->
     <script src="scripts/galleries.js?v=20261118-1" defer></script>
     <!-- Connect the manual gallery navigation buttons. -->
@@ -22,7 +23,7 @@
     <!-- Support mouse dragging and centre the nearest item on release. -->
     <script src="scripts/gallery-drag.js?v=20261118-1" defer></script>
     <!-- Connect the opening arrow to the next section. -->
-    <script src="scripts/section-navigation.js?v=20261123-1" defer></script>
+    <script src="scripts/section-navigation.js?v=20261128-credits1" defer></script>
     <!-- Manage playback and sound for the introductory video. -->
     <script type="module" src="scripts/audio.js?v=20261127-5"></script>
     <!-- Load language selection and content updates. -->
@@ -1049,6 +1050,40 @@
                         </figcaption>
                     </figure>
                 </div>
+            </div>
+            <div class="section-boundary-navigation">
+                <a class="section-arrow" href="#credits"
+                    data-previous-section="blood" data-next-section="credits"
+                    aria-labelledby="credits-title">
+                    <svg viewBox="0 0 180 42" aria-hidden="true" focusable="false">
+                        <path d="M60 3H120V18H170L90 39 10 18H60Z"></path>
+                    </svg>
+                </a>
+            </div>
+        </section>
+        <section id="credits" class="credits-section" aria-labelledby="credits-title" lang="en">
+            <div class="credits-content">
+                <h2 id="credits-title">CREDITS</h2>
+                <p>Conceived, designed and developed in 2026 by Alessandro Benevelli for the COMP-2002 Web Development course, taught by Dr. Filip Biały, as part of the Bachelor of Science (Honours) in Computer Science at the Open Institute of Technology (OPIT).</p>
+                <p>Caravaggio: Light, Shadow, Blood emerges from the intersection of art and technology, with the intention of exploring not only Caravaggio’s works, but also his vision of humanity, his contradictions and his extraordinary ability to transform reality into painting.</p>
+                <p>Through three chapters, Light, Shadow and Blood, the exhibition offers an immersive journey through paintings, details and anecdotes, exploring the light, human vulnerability and violence that shaped both his art and his tumultuous life.</p>
+                <p>The original texts, anecdotes and selection of painting details are the result of personal research, reflection and artistic interpretation, drawing on knowledge acquired over the years. Originally written in Italian, the texts were subsequently translated into seven other languages.</p>
+                <p>Developed using HTML, CSS and JavaScript, the project places particular emphasis on the visual experience, digital accessibility (WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility) and linguistic inclusion through keyboard navigation, screen reader support and content available in eight languages.</p>
+                <p>The aim is to make art accessible to a wider audience, overcoming linguistic and sensory barriers through technology.</p>
+                <h3>Audiovisual and Image Credits</h3>
+                <p>Video: A montage of scenes from the documentary <em>Caravaggio: The Soul and the Blood</em> (<em>Caravaggio - L’anima e il sangue</em>, 2018), directed by Jesus Garces Lambert and produced by Sky and Magnitudo Film.</p>
+                <p>Music: <em>Experience</em> by Ludovico Einaudi, from the album <em>In a Time Lapse</em> (2013), Decca Records.</p>
+                <p>Images: Digital reproductions of the works of Michelangelo Merisi da Caravaggio were sourced primarily from Wikipedia.</p>
+                <p>This non-commercial project was created for educational purposes and as a tribute to the art of Caravaggio. All rights to third-party materials remain with their respective rights holders.</p>
+                <p>The technical documentation, sources and complete project references are available in the <a href="https://github.com/alessandrob1-star/caravaggio-light-shadow-blood">GitHub repository</a>.</p>
+                <nav class="credits-social" aria-label="Social profiles">
+                    <a href="https://www.linkedin.com/in/alessandrobenevelliopit/" aria-label="Alessandro Benevelli on LinkedIn">
+                        <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.35V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://github.com/alessandrob1-star" aria-label="Alessandro Benevelli on GitHub">
+                        <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 .297a12 12 0 0 0-3.793 23.385c.6.111.82-.261.82-.577v-2.234c-3.338.726-4.043-1.416-4.043-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.838 1.237 1.838 1.237 1.07 1.835 2.807 1.305 3.492.998.108-.776.418-1.305.762-1.605-2.665-.304-5.467-1.334-5.467-5.931 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.323 3.301 1.23a11.5 11.5 0 0 1 6.006 0c2.291-1.553 3.297-1.23 3.297-1.23.654 1.652.243 2.873.119 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.216.694.825.576A12 12 0 0 0 12 .297z"/></svg>
+                    </a>
+                </nav>
             </div>
         </section>
     </main>

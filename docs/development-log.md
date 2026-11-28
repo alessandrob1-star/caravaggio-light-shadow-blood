@@ -88,3 +88,5 @@
 - Increased the selected-language text contrast to approximately 7.46:1 and retained Blood text contrast at 7.106:1.
 - Narrowed explanation text columns and set line height to 1.5. Verified all 160 explanations in eight languages and tested the line-height change at five viewport sizes.
 - Adapted gallery navigation to system contrast themes and recorded the verified results in the technical document.
+- Added the Credits section below Blood with project background, audiovisual and image credits, and LinkedIn and GitHub profile links.
+- Refined the Credits text layout and first-line paragraph indentation, and added reversible arrow navigation between Blood and Credits.
