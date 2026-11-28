@@ -113,3 +113,4 @@ window.addEventListener("scroll", function () {
 
 // Identify the initial section after the opening layout is ready.
 document.fonts.ready.then(updateActiveChapter);
+

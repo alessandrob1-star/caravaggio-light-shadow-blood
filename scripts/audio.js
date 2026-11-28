@@ -150,3 +150,4 @@ playbackButton.hidden = false;
 
 // Request playback after the sound controls are ready.
 startIntroVideo();
+

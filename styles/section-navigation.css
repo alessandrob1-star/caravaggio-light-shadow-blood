@@ -144,3 +144,4 @@ html[data-active-section="blood"] #shadow .gallery-pagination {
 .section-arrow svg {
     width: calc(var(--arrow-visual-width) * 0.78);
 }
+

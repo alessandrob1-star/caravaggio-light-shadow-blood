@@ -240,3 +240,4 @@ document.querySelectorAll(".chapter").forEach(function (chapter) {
     });
     document.fonts.ready.then(updateNavigationLayout);
 });
+
