@@ -38,3 +38,11 @@ The Credits section uses semantic headings and eight stored language versions in
 **Verified AAA criteria.** Text contrast is 16.27:1 on black, meeting [WCAG 2.2 1.4.6 Contrast (Enhanced)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html). LinkedIn and GitHub targets measure 48 x 48 CSS pixels in all eight languages, meeting [2.5.5 Target Size (Enhanced)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html).
 
 **Browser checks on AWS.** Automated Chrome checks covered all eight languages at widths of 320, 390, 1280 and 1920 CSS pixels. Measured lines contained at most 70 characters for European languages and 34 for Chinese and Japanese. Line height is 1.6. Text doubled through CSS and custom text spacing caused no horizontal overflow in the tested configurations. Social links remained keyboard accessible, section arrows moved focus to the destination heading, and the footer remained reachable.
+
+## Introductory video and footer
+
+A short montage description is available in all eight languages through `aria-describedby`. The screen-reader status places it before the music title and composer; the reading language follows the site selector.
+
+**Verified AAA criteria.** The Play/Pause and sound controls measure 48 x 48 CSS pixels, meeting [2.5.5 Target Size (Enhanced)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html). Both operate with Enter and Space, satisfying [2.1.3 Keyboard (No Exception)](https://www.w3.org/WAI/WCAG22/Understanding/keyboard-no-exception.html) for these controls. Footer text contrast is 16.27:1, meeting [1.4.6 Contrast (Enhanced)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html).
+
+**Verification on AWS.** Automated Chrome checks in all eight languages confirmed the description in the accessibility tree, description-before-credit ordering, reading-language attributes, keyboard playback and sound controls, target sizes and the COMP-2002 course link.

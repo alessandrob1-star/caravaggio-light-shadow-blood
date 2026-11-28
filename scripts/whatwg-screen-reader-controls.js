@@ -18,6 +18,7 @@ const controlLabels = {
         soundOn: "Turn sound on",
         soundOff: "Turn sound off",
         video: "Introductory video about Caravaggio",
+        videoDescription: "A sequence of Caravaggio's paintings shown in succession, with lighting effects and close-ups of details.",
         music: "Music - Experience by Ludovico Einaudi.",
         videoError: "The video could not be played. Please reload the page and try again.",
         languageError: "The language could not be changed. Please reload the page and try again."
@@ -40,6 +41,7 @@ const controlLabels = {
         soundOn: "Attiva l’audio",
         soundOff: "Disattiva l’audio",
         video: "Video introduttivo su Caravaggio",
+        videoDescription: "Una sequenza di opere di Caravaggio presentate in successione, con effetti di luce e inquadrature dei particolari.",
         music: "Musica - Experience di Ludovico Einaudi.",
         videoError: "Impossibile riprodurre il video. Ricarica la pagina e riprova.",
         languageError: "Impossibile cambiare lingua. Ricarica la pagina e riprova."
@@ -62,6 +64,7 @@ const controlLabels = {
         soundOn: "Activer le son",
         soundOff: "Couper le son",
         video: "Vidéo de présentation du Caravage",
+        videoDescription: "Une succession d’œuvres du Caravage, avec des effets de lumière et des gros plans sur les détails.",
         music: "Musique - Experience de Ludovico Einaudi.",
         videoError: "Impossible de lire la vidéo. Rechargez la page et réessayez.",
         languageError: "Impossible de changer de langue. Rechargez la page et réessayez."
@@ -84,6 +87,7 @@ const controlLabels = {
         soundOn: "Ton einschalten",
         soundOff: "Ton ausschalten",
         video: "Einführungsvideo über Caravaggio",
+        videoDescription: "Eine Abfolge von Caravaggios Gemälden mit Lichteffekten und Nahaufnahmen einzelner Details.",
         music: "Musik - Experience von Ludovico Einaudi.",
         videoError: "Das Video konnte nicht abgespielt werden. Laden Sie die Seite neu und versuchen Sie es erneut.",
         languageError: "Die Sprache konnte nicht geändert werden. Laden Sie die Seite neu und versuchen Sie es erneut."
@@ -106,6 +110,7 @@ const controlLabels = {
         soundOn: "Geluid inschakelen",
         soundOff: "Geluid uitschakelen",
         video: "Introductievideo over Caravaggio",
+        videoDescription: "Een opeenvolging van schilderijen van Caravaggio, met lichteffecten en close-ups van details.",
         music: "Muziek - Experience van Ludovico Einaudi.",
         videoError: "De video kon niet worden afgespeeld. Laad de pagina opnieuw en probeer het nogmaals.",
         languageError: "De taal kon niet worden gewijzigd. Laad de pagina opnieuw en probeer het nogmaals."
@@ -128,6 +133,7 @@ const controlLabels = {
         soundOn: "Włącz dźwięk",
         soundOff: "Wyłącz dźwięk",
         video: "Film wprowadzający o Caravaggiu",
+        videoDescription: "Sekwencja obrazów Caravaggia prezentowanych kolejno, z efektami świetlnymi i zbliżeniami detali.",
         music: "Muzyka - Experience, kompozytor Ludovico Einaudi.",
         videoError: "Nie udało się odtworzyć filmu. Odśwież stronę i spróbuj ponownie.",
         languageError: "Nie udało się zmienić języka. Odśwież stronę i spróbuj ponownie."
@@ -150,6 +156,7 @@ const controlLabels = {
         soundOn: "开启声音",
         soundOff: "关闭声音",
         video: "卡拉瓦乔介绍视频",
+        videoDescription: "视频依次呈现卡拉瓦乔的绘画作品，配以光影效果和局部细节特写。",
         music: "音乐 - Experience，作曲：Ludovico Einaudi。",
         videoError: "无法播放视频。请刷新页面后重试。",
         languageError: "无法切换语言。请刷新页面后重试。"
@@ -172,6 +179,7 @@ const controlLabels = {
         soundOn: "音声をオンにする",
         soundOff: "音声をオフにする",
         video: "カラヴァッジョの紹介動画",
+        videoDescription: "カラヴァッジョの作品が次々に映し出され、光の効果や細部のクローズアップが加わります。",
         music: "音楽 - Experience、作曲：Ludovico Einaudi。",
         videoError: "動画を再生できませんでした。ページを再読み込みして、もう一度お試しください。",
         languageError: "言語を変更できませんでした。ページを再読み込みして、もう一度お試しください。"

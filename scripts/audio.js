@@ -6,6 +6,7 @@ const audioButton = document.getElementById("video-audio-button");
 const playbackButton = document.getElementById("video-playback-button");
 const audioStatus = document.getElementById("video-audio-status");
 const musicStatus = document.getElementById("video-music-status");
+const videoDescription = document.getElementById("intro-video-description");
 
 // Expose the next playback action and show the matching icon.
 function updatePlaybackControl() {
@@ -18,10 +19,11 @@ function updatePlaybackControl() {
     playbackButton.title = label;
 }
 
-// Announce the credit when sound is enabled and playback is active.
+// Describe the video before announcing the music credit.
 function announceMusicCredit() {
     if (!introVideo.muted && !introVideo.paused) {
-        musicStatus.textContent = getControlLabels().music;
+        const labels = getControlLabels();
+        musicStatus.textContent = labels.videoDescription + " " + labels.music;
     }
 }
 
@@ -135,11 +137,15 @@ document.addEventListener("sitecontrolslanguagechange", function () {
     document.querySelector(".video-toolbar").lang = languageTag;
     introVideo.lang = languageTag;
     introVideo.setAttribute("aria-label", labels.video);
+    videoDescription.lang = languageTag;
+    videoDescription.textContent = labels.videoDescription;
     musicStatus.lang = languageTag;
     updateAudioControl();
     updatePlaybackControl();
     if (audioStatus.textContent) audioStatus.textContent = labels.videoError;
-    if (musicStatus.textContent) musicStatus.textContent = labels.music;
+    if (musicStatus.textContent) {
+        musicStatus.textContent = labels.videoDescription + " " + labels.music;
+    }
 });
 
 // Show the controls after their initial state and event handlers are ready.

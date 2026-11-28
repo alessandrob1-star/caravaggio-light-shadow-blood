@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Caravaggio - Light, Shadow, Blood</title>
+    <meta name="description" content="Explore Caravaggio's paintings, life and contradictions through Light, Shadow and Blood, with artwork details and stories in eight languages.">
+    <link rel="icon" type="image/svg+xml" sizes="any" href="assets/icons/medusa-favicon.svg">
     <link rel="stylesheet" href="styles.css?v=20261128-1">
     <link rel="stylesheet" href="styles/gallery.css?v=20261127-7">
     <link rel="stylesheet" href="styles/light.css?v=20261115-22">
@@ -25,7 +27,7 @@
     <!-- Connect the opening arrow to the next section. -->
     <script src="scripts/section-navigation.js?v=20261128-credits2" defer></script>
     <!-- Manage playback and sound for the introductory video. -->
-    <script type="module" src="scripts/audio.js?v=20261127-5"></script>
+    <script type="module" src="scripts/audio.js?v=20261128-reader1"></script>
     <!-- Load language selection and content updates. -->
     <script type="module" src="scripts/languages.js?v=20261128-credits1"></script>
     <!-- Load the helper controls and their content reader as JavaScript modules. -->
@@ -158,6 +160,7 @@
     <main id="main-content">
         <!-- Introductory montage with sound and playback controls. -->
         <div class="opening-video">
+            <p id="intro-video-description" class="video-music-status" lang="en">A sequence of Caravaggio's paintings shown in succession, with lighting effects and close-ups of details.</p>
             <div class="video-toolbar">
                 <!-- Enable the sound control after JavaScript is ready. -->
                 <button
@@ -218,6 +221,7 @@
 
             <video
                 id="intro-video"
+                aria-describedby="intro-video-description"
                 class="intro-video"
                 width="1280"
                 height="720"
@@ -1087,7 +1091,7 @@
             </div>
             <!-- Project and course information. -->
             <footer class="credits-footer" role="contentinfo" lang="en">
-                <p>Alessandro Benevelli - <a href="https://www.opit.com/courses/computer-science-bachelor/">Open Institute of Technology 2026 - BSc (Hons) Computer Science</a> - COMP - Web Development</p>
+                <p>Alessandro Benevelli - <a href="https://www.opit.com/courses/computer-science-bachelor/">Open Institute of Technology 2026 - BSc (Hons) Computer Science</a> - <a href="https://opit.instructure.com/courses/643">COMP-2002</a> - Web Development</p>
             </footer>
         </section>
     </main>
