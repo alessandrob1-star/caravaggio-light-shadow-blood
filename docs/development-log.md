@@ -118,3 +118,12 @@
 
 - Published alternative text and gallery labels for all ten images in Blood in eight languages. Verified the descriptions, gallery labels, anecdotes, explanations and focus restoration with NVDA and Chrome.
 - Aligned the live AWS site with GitHub and documented the HTML implementation and accessibility checks.
+
+**27–28 November 2026 — WHATWG HTML Living Standard**
+
+- Published v2.86 and merged the responsive, tablet and multilingual accessibility updates in PRs #41–#43.
+- Updated the README for Assessment 2 and revised the project descriptions into impersonal wording.
+- Extended the 44 × 44 gallery button targets to intermediate window sizes, enlarged the compact language selector target to 60 × 44 CSS pixels, and set the main chapter links and section arrows to a minimum target size of 44 × 44 CSS pixels.
+- Increased the selected-language text contrast to approximately 7.46:1 and retained Blood text contrast at 7.106:1.
+- Narrowed explanation text columns and set line height to 1.5. Verified all 160 explanations in eight languages and tested the line-height change at five viewport sizes.
+- Adapted gallery navigation to system contrast themes and recorded the verified results in the technical document.

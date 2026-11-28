@@ -228,26 +228,55 @@ html[data-active-section="blood"] #blood.use-native-scrollbar > .gallery-scrollb
     border-radius: calc(8 * var(--navigation-unit));
 }
 
-/* Enlarge small-window targets while keeping the navigation graphics compact. */
+/* Keep pointer targets large while the navigation graphics scale with the viewport. */
+.gallery-pagination {
+    --dot-bar-inset: max(0px, calc((44px - 44 * var(--navigation-unit)) / 2));
+    background: transparent;
+}
+
+.gallery-pagination::before {
+    content: "";
+    position: absolute;
+    inset: var(--dot-bar-inset) 0;
+    z-index: -1;
+    display: block;
+    border-radius: inherit;
+    background: #222222;
+    pointer-events: none;
+}
+
+.gallery-dot {
+    flex-basis: max(44px, calc(44 * var(--navigation-unit)));
+    width: max(44px, calc(44 * var(--navigation-unit)));
+    height: max(44px, calc(44 * var(--navigation-unit)));
+}
+
 @media (max-width: 800px) {
-    .gallery-pagination {
-        --dot-bar-inset: max(0px, calc((44px - 44 * var(--navigation-unit)) / 2));
-        background: transparent;
-    }
-
-    .gallery-pagination::before {
-        display: block;
-        border-radius: inherit;
-    }
-
-    .gallery-dot {
-        flex-basis: 44px;
-        width: 44px;
-        height: 44px;
-    }
-
     .gallery-pagination .gallery-dot:focus-visible {
         outline-width: 2px;
         outline-offset: -2px;
+    }
+}
+
+/* Keep gallery navigation visible in system contrast themes. */
+@media (forced-colors: active) {
+    .gallery-pagination {
+        border: 1px solid ButtonText;
+        background: Canvas;
+    }
+
+    .gallery-pagination::before {
+        background: Canvas;
+    }
+
+    .gallery-dot::before {
+        forced-color-adjust: none;
+        background: ButtonText;
+        border: 1px solid ButtonText;
+    }
+
+    .gallery-dot[aria-current="true"]::before {
+        background: Highlight;
+        border-color: Highlight;
     }
 }
