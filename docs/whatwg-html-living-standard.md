@@ -1,4 +1,4 @@
-# WHATWG HTML Living Standard
+# WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility
 
 **Caravaggio — Light, Shadow, Blood · COMP-2002 · Assessment 2**  
 **Review date · 28 November 2026**
