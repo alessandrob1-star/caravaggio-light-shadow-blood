@@ -92,3 +92,5 @@
 - Refined the Credits text layout and first-line paragraph indentation, and added reversible arrow navigation between Blood and Credits.
 - Added Credits translations in all eight site languages, including headings, repository-link text and social-profile labels.
 - Moved the site footer inside Credits and checked translated content, layout, language attributes and navigation on AWS.
+- Published v2.9 - Credits and refinements, and merged the README screenshot and multilingual Credits updates in PRs #46-#47.
+- Recorded the verified Credits contrast, target sizes, multilingual layout and browser checks in the technical document.
