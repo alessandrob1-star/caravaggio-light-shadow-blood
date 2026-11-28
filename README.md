@@ -141,9 +141,9 @@ The screenshots show the prototype’s overlay frames. In the website, the expla
 
 ### Button feedback
 
-The website’s gold Medusa buttons and explanation close control brighten with a gold glow when hovered or focused with the keyboard. The image below records the button feedback in the Assessment 1 prototype.
+The website’s gold Medusa buttons and explanation close control brighten with a gold glow when hovered or focused with the keyboard. The image below shows the Medusa helper button on the website.
 
-<img src="assets/screenshots/helper-button-hover.jpg" alt="Close-up of the pointer over the Basket of Fruit helper button" width="720" />
+<img src="assets/screenshots/helper-button-hover.jpg" alt="Basket of Fruit detail with the gold Medusa helper button on the website" width="720" />
 
 ## Eight languages
 
