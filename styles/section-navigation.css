@@ -127,3 +127,20 @@ html[data-active-section="blood"] #shadow .gallery-pagination {
     --arrow-face-height: calc(38.88 * var(--navigation-unit));
     width: calc(162 * var(--navigation-unit));
 }
+
+/* Keep arrow hit areas large while preserving compact navigation graphics. */
+.section-arrow {
+    --arrow-visual-width: calc(162 * var(--navigation-unit));
+    width: max(44px, var(--arrow-visual-width));
+}
+
+.section-arrow::before {
+    width: var(--arrow-visual-width);
+    inset-inline: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-arrow svg {
+    width: calc(var(--arrow-visual-width) * 0.78);
+}

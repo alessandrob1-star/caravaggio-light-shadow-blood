@@ -86,6 +86,9 @@ body > a[href="#main-content"]:focus {
 
 /* Inherit the header's typography and keep each label together. */
 .chapter-navigation a {
+    min-width: 44px;
+    min-height: 44px;
+    text-align: center;
     display: inline-block;
     padding: 8px 0;
     color: inherit;

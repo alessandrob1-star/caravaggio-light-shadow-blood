@@ -181,7 +181,7 @@ body.helper-open {
     padding: 24px 56px;
     border: 1px solid #9a702c;
     font-size: clamp(20px, 2vw, 32px);
-    line-height: 1.45;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
 }
@@ -284,4 +284,17 @@ body.helper-open {
 .helper-dialog[data-section] .helper-close:focus-visible {
     color: #d6b16d;
     filter: brightness(1.12) drop-shadow(0 0 3px #be8d3e);
+}
+
+/* Centre a narrower text column inside the explanation panel. */
+#helper-text {
+    width: 100%;
+    max-width: 60ch;
+    margin-inline: auto;
+}
+
+/* Keep Chinese and Japanese explanation lines shorter. */
+#helper-text:lang(zh),
+#helper-text:lang(ja) {
+    max-width: 32em;
 }

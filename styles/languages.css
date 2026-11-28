@@ -89,6 +89,11 @@
     color: #a37a3d;
 }
 
+/* Keep the selected language readable against its dark gold-tinted background. */
+.language-options button[aria-pressed="true"] {
+    color: #e8c787;
+}
+
 /* Use appropriate sans-serif lettering for the Chinese label. */
 .language-options button[lang="zh-Hans"] {
     font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif;
@@ -151,5 +156,38 @@
 @media (min-width: 768px) {
     .site-title {
         min-height: 48px;
+    }
+}
+
+/* Expand the compact control's hit area while keeping its visible frame small. */
+@media (max-width: 1366px) {
+    .language-toggle {
+        position: relative;
+        height: 44px;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+    }
+
+    .language-toggle::before {
+        content: "";
+        position: absolute;
+        inset: 0 0 12px;
+        border: 1px solid #a37a3d;
+        border-radius: 6px;
+        background: #000000;
+        pointer-events: none;
+    }
+
+    .language-toggle img {
+        position: relative;
+        top: -6px;
+    }
+}
+
+/* Leave room below the enlarged target in the single-row header. */
+@media (min-width: 768px) and (max-width: 1366px) {
+    .site-title {
+        min-height: 60px;
     }
 }
