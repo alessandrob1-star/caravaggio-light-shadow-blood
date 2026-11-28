@@ -1,0 +1,170 @@
+{
+  "en": {
+    "title": "CREDITS",
+    "mediaHeading": "Audiovisual and Image Credits",
+    "repositoryLink": "GitHub repository",
+    "socialProfiles": "Social profiles",
+    "linkedIn": "Alessandro Benevelli on LinkedIn",
+    "github": "Alessandro Benevelli on GitHub",
+    "paragraphs": [
+      "Conceived, designed and developed in 2026 by Alessandro Benevelli for the COMP-2002 Web Development course, taught by Dr. Filip Biały, as part of the Bachelor of Science (Honours) in Computer Science at the Open Institute of Technology (OPIT).",
+      "Caravaggio: Light, Shadow, Blood emerges from the intersection of art and technology, with the intention of exploring not only Caravaggio’s works, but also his vision of humanity, his contradictions and his extraordinary ability to transform reality into painting.",
+      "Through three chapters, Light, Shadow and Blood, the exhibition offers an immersive journey through paintings, details and anecdotes, exploring the light, human vulnerability and violence that shaped both his art and his tumultuous life.",
+      "The original texts, anecdotes and selection of painting details are the result of personal research, reflection and artistic interpretation, drawing on knowledge acquired over the years. Originally written in Italian, the texts were subsequently translated into seven other languages.",
+      "Developed using HTML, CSS and JavaScript, the project places particular emphasis on the visual experience, digital accessibility (WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility) and linguistic inclusion through keyboard navigation, screen reader support and content available in eight languages.",
+      "The aim is to make art accessible to a wider audience, overcoming linguistic and sensory barriers through technology.",
+      "Video: A montage of scenes from the documentary Caravaggio: The Soul and the Blood (Caravaggio - L’anima e il sangue, 2018), directed by Jesus Garces Lambert and produced by Sky and Magnitudo Film.",
+      "Music: Experience by Ludovico Einaudi, from the album In a Time Lapse (2013), Decca Records.",
+      "Images: Digital reproductions of the works of Michelangelo Merisi da Caravaggio were sourced primarily from Wikipedia.",
+      "This non-commercial project was created for educational purposes and as a tribute to the art of Caravaggio. All rights to third-party materials remain with their respective rights holders.",
+      "The technical documentation, sources and complete project references are available in the {repository}."
+    ]
+  },
+  "it": {
+    "title": "CREDITI",
+    "mediaHeading": "Crediti audiovisivi e delle immagini",
+    "repositoryLink": "repository GitHub",
+    "socialProfiles": "Profili social",
+    "linkedIn": "Alessandro Benevelli su LinkedIn",
+    "github": "Alessandro Benevelli su GitHub",
+    "paragraphs": [
+      "Ideato, progettato e sviluppato nel 2026 da Alessandro Benevelli per il corso COMP-2002 Web Development, tenuto dal Dr. Filip Biały, nell’ambito del Bachelor of Science (Honours) in Computer Science presso Open Institute of Technology (OPIT).",
+      "Caravaggio: Light, Shadow, Blood nasce dall’incontro tra arte e tecnologia, con l’intenzione di esplorare non soltanto le opere di Caravaggio, ma anche la sua visione dell’umanità, le sue contraddizioni e la sua straordinaria capacità di trasformare la realtà in pittura.",
+      "Attraverso tre capitoli, Light, Shadow e Blood, la mostra propone un viaggio immersivo tra dipinti, dettagli e aneddoti, esplorando la luce, la fragilità umana e la violenza che hanno segnato sia la sua arte sia la sua vita tumultuosa.",
+      "I testi originali, gli aneddoti e la selezione dei dettagli dei dipinti sono il risultato di ricerca personale, riflessione e interpretazione artistica, basate sulle conoscenze acquisite nel corso degli anni. Scritti originariamente in italiano, i testi sono stati successivamente tradotti in altre sette lingue.",
+      "Sviluppato con HTML, CSS e JavaScript, il progetto dedica particolare attenzione all’esperienza visiva, all’accessibilità digitale (WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility) e all’inclusione linguistica attraverso la navigazione da tastiera, il supporto per gli screen reader e contenuti disponibili in otto lingue.",
+      "L’obiettivo è rendere l’arte accessibile a un pubblico più ampio, superando le barriere linguistiche e sensoriali attraverso la tecnologia.",
+      "Video: Un montaggio di scene tratte dal documentario Caravaggio: The Soul and the Blood (Caravaggio - L’anima e il sangue, 2018), diretto da Jesus Garces Lambert e prodotto da Sky e Magnitudo Film.",
+      "Musica: Experience di Ludovico Einaudi, dall’album In a Time Lapse (2013), Decca Records.",
+      "Immagini: Le riproduzioni digitali delle opere di Michelangelo Merisi da Caravaggio provengono principalmente da Wikipedia.",
+      "Questo progetto non commerciale è stato realizzato a fini didattici e come omaggio all’arte di Caravaggio. Tutti i diritti sui materiali di terzi restano ai rispettivi titolari.",
+      "La documentazione tecnica, le fonti e tutti i riferimenti del progetto sono disponibili nel {repository}."
+    ]
+  },
+  "fr": {
+    "title": "CRÉDITS",
+    "mediaHeading": "Crédits audiovisuels et des images",
+    "repositoryLink": "dépôt GitHub",
+    "socialProfiles": "Profils sur les réseaux sociaux",
+    "linkedIn": "Alessandro Benevelli sur LinkedIn",
+    "github": "Alessandro Benevelli sur GitHub",
+    "paragraphs": [
+      "Conçu, réalisé et développé en 2026 par Alessandro Benevelli pour le cours COMP-2002 Web Development, enseigné par le Dr Filip Biały, dans le cadre du Bachelor of Science (Honours) in Computer Science à l’Open Institute of Technology (OPIT).",
+      "Caravaggio: Light, Shadow, Blood naît de la rencontre entre l’art et la technologie, avec l’intention d’explorer non seulement les œuvres du Caravage, mais aussi sa vision de l’humanité, ses contradictions et son extraordinaire capacité à transformer la réalité en peinture.",
+      "À travers trois chapitres, Light, Shadow et Blood, l’exposition propose un voyage immersif parmi les tableaux, les détails et les anecdotes, explorant la lumière, la vulnérabilité humaine et la violence qui ont marqué à la fois son art et sa vie tumultueuse.",
+      "Les textes originaux, les anecdotes et la sélection des détails des tableaux sont le fruit de recherches personnelles, de réflexions et d’une interprétation artistique fondées sur des connaissances acquises au fil des années. Rédigés à l’origine en italien, les textes ont ensuite été traduits dans sept autres langues.",
+      "Développé en HTML, CSS et JavaScript, le projet accorde une attention particulière à l’expérience visuelle, à l’accessibilité numérique (WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility) et à l’inclusion linguistique grâce à la navigation au clavier, à la prise en charge des lecteurs d’écran et à des contenus disponibles en huit langues.",
+      "L’objectif est de rendre l’art accessible à un public plus large, en dépassant les barrières linguistiques et sensorielles grâce à la technologie.",
+      "Vidéo : Un montage de scènes du documentaire Caravaggio: The Soul and the Blood (Caravaggio - L’anima e il sangue, 2018), réalisé par Jesus Garces Lambert et produit par Sky et Magnitudo Film.",
+      "Musique : Experience de Ludovico Einaudi, extrait de l’album In a Time Lapse (2013), Decca Records.",
+      "Images : Les reproductions numériques des œuvres de Michelangelo Merisi da Caravaggio proviennent principalement de Wikipédia.",
+      "Ce projet non commercial a été réalisé à des fins pédagogiques et en hommage à l’art du Caravage. Tous les droits sur les contenus de tiers restent la propriété de leurs titulaires respectifs.",
+      "La documentation technique, les sources et l’ensemble des références du projet sont disponibles dans le {repository}."
+    ]
+  },
+  "de": {
+    "title": "CREDITS",
+    "mediaHeading": "Nachweise für audiovisuelle Inhalte und Bilder",
+    "repositoryLink": "GitHub-Repository",
+    "socialProfiles": "Social-Media-Profile",
+    "linkedIn": "Alessandro Benevelli auf LinkedIn",
+    "github": "Alessandro Benevelli auf GitHub",
+    "paragraphs": [
+      "2026 von Alessandro Benevelli für den von Dr. Filip Biały geleiteten Kurs COMP-2002 Web Development im Rahmen des Bachelor of Science (Honours) in Computer Science am Open Institute of Technology (OPIT) konzipiert, gestaltet und entwickelt.",
+      "Caravaggio: Light, Shadow, Blood entsteht an der Schnittstelle von Kunst und Technologie. Das Projekt möchte nicht nur Caravaggios Werke erkunden, sondern auch sein Menschenbild, seine Widersprüche und seine außergewöhnliche Fähigkeit, Wirklichkeit in Malerei zu verwandeln.",
+      "In drei Kapiteln, Light, Shadow und Blood, bietet die Ausstellung eine immersive Reise durch Gemälde, Details und Anekdoten. Dabei erkundet sie das Licht, die menschliche Verletzlichkeit und die Gewalt, die sowohl seine Kunst als auch sein bewegtes Leben geprägt haben.",
+      "Die Originaltexte, Anekdoten und die Auswahl der Gemäldedetails beruhen auf persönlicher Recherche, Reflexion und künstlerischer Interpretation sowie auf Kenntnissen, die im Laufe der Jahre erworben wurden. Die ursprünglich auf Italienisch verfassten Texte wurden anschließend in sieben weitere Sprachen übersetzt.",
+      "Das mit HTML, CSS und JavaScript entwickelte Projekt legt besonderen Wert auf das visuelle Erlebnis, digitale Barrierefreiheit (WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility) und sprachliche Inklusion durch Tastaturnavigation, Unterstützung für Screenreader und Inhalte in acht Sprachen.",
+      "Ziel ist es, Kunst einem breiteren Publikum zugänglich zu machen und mithilfe von Technologie sprachliche und sensorische Barrieren zu überwinden.",
+      "Video: Eine Montage von Szenen aus dem Dokumentarfilm Caravaggio: The Soul and the Blood (Caravaggio - L’anima e il sangue, 2018), unter der Regie von Jesus Garces Lambert und produziert von Sky und Magnitudo Film.",
+      "Musik: Experience von Ludovico Einaudi aus dem Album In a Time Lapse (2013), Decca Records.",
+      "Bilder: Die digitalen Reproduktionen der Werke von Michelangelo Merisi da Caravaggio stammen hauptsächlich aus Wikipedia.",
+      "Dieses nicht kommerzielle Projekt wurde zu Bildungszwecken und als Hommage an Caravaggios Kunst geschaffen. Alle Rechte an Materialien Dritter verbleiben bei den jeweiligen Rechteinhabern.",
+      "Die technische Dokumentation, die Quellen und sämtliche Projektverweise sind im {repository} verfügbar."
+    ]
+  },
+  "nl": {
+    "title": "COLOFON",
+    "mediaHeading": "Bronvermelding voor audiovisueel materiaal en afbeeldingen",
+    "repositoryLink": "GitHub-repository",
+    "socialProfiles": "Socialemediaprofielen",
+    "linkedIn": "Alessandro Benevelli op LinkedIn",
+    "github": "Alessandro Benevelli op GitHub",
+    "paragraphs": [
+      "In 2026 bedacht, ontworpen en ontwikkeld door Alessandro Benevelli voor de cursus COMP-2002 Web Development, gegeven door dr. Filip Biały, als onderdeel van de Bachelor of Science (Honours) in Computer Science aan het Open Institute of Technology (OPIT).",
+      "Caravaggio: Light, Shadow, Blood ontstaat op het snijvlak van kunst en technologie, met de bedoeling niet alleen Caravaggio’s werken te verkennen, maar ook zijn mensbeeld, zijn tegenstrijdigheden en zijn buitengewone vermogen om de werkelijkheid in schilderkunst te veranderen.",
+      "Via drie hoofdstukken, Light, Shadow en Blood, biedt de tentoonstelling een meeslepende reis langs schilderijen, details en anekdotes. Daarbij worden het licht, de menselijke kwetsbaarheid en het geweld verkend die zowel zijn kunst als zijn bewogen leven hebben gevormd.",
+      "De oorspronkelijke teksten, anekdotes en de selectie van schilderijdetails zijn het resultaat van persoonlijk onderzoek, reflectie en artistieke interpretatie, gebaseerd op kennis die door de jaren heen is opgedaan. De teksten zijn oorspronkelijk in het Italiaans geschreven en vervolgens in zeven andere talen vertaald.",
+      "Het project is ontwikkeld met HTML, CSS en JavaScript en besteedt bijzondere aandacht aan de visuele ervaring, digitale toegankelijkheid (WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility) en taalkundige inclusie door toetsenbordnavigatie, ondersteuning voor schermlezers en inhoud in acht talen.",
+      "Het doel is kunst toegankelijk te maken voor een breder publiek en met technologie taalkundige en zintuiglijke barrières te overwinnen.",
+      "Video: Een montage van scènes uit de documentaire Caravaggio: The Soul and the Blood (Caravaggio - L’anima e il sangue, 2018), geregisseerd door Jesus Garces Lambert en geproduceerd door Sky en Magnitudo Film.",
+      "Muziek: Experience van Ludovico Einaudi, van het album In a Time Lapse (2013), Decca Records.",
+      "Afbeeldingen: Digitale reproducties van de werken van Michelangelo Merisi da Caravaggio zijn voornamelijk afkomstig van Wikipedia.",
+      "Dit niet-commerciële project is gemaakt voor educatieve doeleinden en als eerbetoon aan de kunst van Caravaggio. Alle rechten op materiaal van derden blijven bij de respectieve rechthebbenden.",
+      "De technische documentatie, bronnen en volledige projectreferenties zijn beschikbaar in de {repository}."
+    ]
+  },
+  "pl": {
+    "title": "TWÓRCY I ŹRÓDŁA",
+    "mediaHeading": "Źródła materiałów audiowizualnych i obrazów",
+    "repositoryLink": "repozytorium GitHub",
+    "socialProfiles": "Profile społecznościowe",
+    "linkedIn": "Alessandro Benevelli na LinkedIn",
+    "github": "Alessandro Benevelli na GitHub",
+    "paragraphs": [
+      "Projekt został opracowany koncepcyjnie, zaprojektowany i wykonany w 2026 roku przez Alessandro Benevellego na potrzeby kursu COMP-2002 Web Development, prowadzonego przez dr. Filipa Białego, w ramach programu Bachelor of Science (Honours) in Computer Science w Open Institute of Technology (OPIT).",
+      "Caravaggio: Light, Shadow, Blood powstaje na styku sztuki i technologii, z zamiarem poznania nie tylko dzieł Caravaggia, lecz także jego wizji człowieczeństwa, jego sprzeczności i niezwykłej zdolności przekształcania rzeczywistości w malarstwo.",
+      "W trzech rozdziałach, Light, Shadow i Blood, wystawa proponuje wciągającą podróż przez obrazy, detale i anegdoty, ukazując światło, ludzką kruchość i przemoc, które ukształtowały zarówno jego sztukę, jak i burzliwe życie.",
+      "Oryginalne teksty, anegdoty i dobór detali obrazów są wynikiem osobistych poszukiwań, refleksji i interpretacji artystycznej, opartych na wiedzy zdobywanej przez lata. Teksty powstały pierwotnie w języku włoskim, a następnie zostały przetłumaczone na siedem innych języków.",
+      "Projekt został wykonany przy użyciu HTML, CSS i JavaScript. Szczególną uwagę poświęcono wrażeniom wizualnym, dostępności cyfrowej (WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility) oraz włączeniu językowemu dzięki nawigacji klawiaturą, obsłudze czytników ekranu i treściom dostępnym w ośmiu językach.",
+      "Celem jest udostępnienie sztuki szerszemu gronu odbiorców poprzez pokonywanie barier językowych i sensorycznych za pomocą technologii.",
+      "Wideo: Montaż scen z filmu dokumentalnego Caravaggio: The Soul and the Blood (Caravaggio - L’anima e il sangue, 2018), w reżyserii Jesusa Garcesa Lamberta, wyprodukowanego przez Sky i Magnitudo Film.",
+      "Muzyka: Experience Ludovica Einaudiego, z albumu In a Time Lapse (2013), Decca Records.",
+      "Obrazy: Cyfrowe reprodukcje dzieł Michelangela Merisiego da Caravaggio pochodzą przede wszystkim z Wikipedii.",
+      "Ten niekomercyjny projekt powstał w celach edukacyjnych i jako hołd dla sztuki Caravaggia. Wszelkie prawa do materiałów osób trzecich pozostają przy ich odpowiednich właścicielach.",
+      "Dokumentacja techniczna, źródła i pełny wykaz odniesień do projektu są dostępne w {repository}."
+    ]
+  },
+  "zh": {
+    "title": "制作与致谢",
+    "mediaHeading": "音视频及图像来源",
+    "repositoryLink": "GitHub 仓库",
+    "socialProfiles": "社交平台个人主页",
+    "linkedIn": "Alessandro Benevelli 的 LinkedIn 主页",
+    "github": "Alessandro Benevelli 的 GitHub 主页",
+    "paragraphs": [
+      "本项目由 Alessandro Benevelli 于 2026 年构思、设计并开发，作为 Open Institute of Technology（OPIT）计算机科学荣誉理学学士课程的一部分，用于 Dr. Filip Biały 讲授的 COMP-2002 Web Development 课程。",
+      "Caravaggio: Light, Shadow, Blood 诞生于艺术与技术的交汇之处，旨在探索的不仅是卡拉瓦乔的作品，还有他对人性的理解、他的矛盾，以及他将现实化为绘画的非凡能力。",
+      "展览通过 Light、Shadow 和 Blood 三个篇章，带来一段穿行于绘画、局部细节与轶事之间的沉浸式旅程，探寻塑造了他的艺术与动荡人生的光、人性的脆弱与暴力。",
+      "原创文字、轶事以及绘画细节的选取，源于个人研究、思考与艺术诠释，并以多年来积累的知识为基础。这些文字最初以意大利语撰写，随后翻译成另外七种语言。",
+      "项目使用 HTML、CSS 和 JavaScript 开发，特别重视视觉体验、数字无障碍（WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility）及语言包容性，通过键盘导航、屏幕阅读器支持和八种语言的内容实现这些目标。",
+      "项目旨在借助技术跨越语言与感官障碍，让更广泛的观众能够接触艺术。",
+      "视频：剪辑自纪录片 Caravaggio: The Soul and the Blood（Caravaggio - L’anima e il sangue，2018）的场景。该片由 Jesus Garces Lambert 执导，Sky 与 Magnitudo Film 出品。",
+      "音乐：Ludovico Einaudi 的 Experience，选自专辑 In a Time Lapse（2013），Decca Records 发行。",
+      "图像：Michelangelo Merisi da Caravaggio 作品的数字复制图像主要来自维基百科。",
+      "本项目为非商业项目，出于教育目的而创作，并向卡拉瓦乔的艺术致敬。所有第三方材料的权利均归各自权利人所有。",
+      "技术文档、来源及完整项目参考资料可在 {repository} 中查阅。"
+    ]
+  },
+  "ja": {
+    "title": "クレジット",
+    "mediaHeading": "映像・音楽・画像のクレジット",
+    "repositoryLink": "GitHub リポジトリ",
+    "socialProfiles": "ソーシャルプロフィール",
+    "linkedIn": "Alessandro Benevelli の LinkedIn プロフィール",
+    "github": "Alessandro Benevelli の GitHub プロフィール",
+    "paragraphs": [
+      "本プロジェクトは、Open Institute of Technology（OPIT）の Bachelor of Science (Honours) in Computer Science 課程の一環として、Dr. Filip Biały が担当する COMP-2002 Web Development のために、Alessandro Benevelli が2026年に構想・設計・開発しました。",
+      "Caravaggio: Light, Shadow, Blood は、芸術とテクノロジーの交わりから生まれました。カラヴァッジョの作品だけでなく、人間に対する彼のまなざし、彼の矛盾、そして現実を絵画へと変える並外れた力を探ることを目指しています。",
+      "Light、Shadow、Blood の3つの章を通して、絵画、細部、逸話を巡る没入感のある旅を提案します。彼の芸術と波乱に満ちた人生の双方を形づくった光、人間の弱さ、そして暴力を探ります。",
+      "オリジナルの文章、逸話、絵画の細部の選定は、長年にわたって培った知識をもとに、個人的な調査、考察、芸術的解釈を重ねた成果です。文章は最初にイタリア語で書かれ、その後、ほかの7言語に翻訳されました。",
+      "HTML、CSS、JavaScript を用いて開発された本プロジェクトは、視覚体験、デジタルアクセシビリティ（WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility）、そして言語的な包摂を重視しています。キーボード操作、スクリーンリーダーへの対応、8言語のコンテンツによって、これらを支えています。",
+      "テクノロジーによって言語や感覚の障壁を越え、より幅広い人々が芸術に触れられるようにすることを目指しています。",
+      "映像：Jesus Garces Lambert 監督、Sky と Magnitudo Film 製作のドキュメンタリー Caravaggio: The Soul and the Blood（Caravaggio - L’anima e il sangue、2018）の場面を編集したものです。",
+      "音楽：Ludovico Einaudi の Experience。アルバム In a Time Lapse（2013）、Decca Records より。",
+      "画像：Michelangelo Merisi da Caravaggio の作品のデジタル複製画像は、主にウィキペディアから入手しました。",
+      "本プロジェクトは、教育目的およびカラヴァッジョの芸術への敬意から制作された非営利の取り組みです。第三者の素材に関するすべての権利は、それぞれの権利者に帰属します。",
+      "技術文書、出典、プロジェクトのすべての参考資料は、{repository} で確認できます。"
+    ]
+  }
+}

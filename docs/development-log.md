@@ -90,3 +90,5 @@
 - Adapted gallery navigation to system contrast themes and recorded the verified results in the technical document.
 - Added the Credits section below Blood with project background, audiovisual and image credits, and LinkedIn and GitHub profile links.
 - Refined the Credits text layout and first-line paragraph indentation, and added reversible arrow navigation between Blood and Credits.
+- Added Credits translations in all eight site languages, including headings, repository-link text and social-profile labels.
+- Moved the site footer inside Credits and checked translated content, layout, language attributes and navigation on AWS.

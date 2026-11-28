@@ -1,6 +1,6 @@
 // Import the function that reads the multilingual content archive.
 import { getText } from "./texts.js";
-import { getSelectedLanguage } from "./languages.js?v=20261127-1";
+import { getSelectedLanguage } from "./languages.js?v=20261128-credits1";
 import { getControlLabels } from "./whatwg-screen-reader-controls.js?v=20261127-1";
 
 // Share one dialog between the detail buttons in all three galleries.

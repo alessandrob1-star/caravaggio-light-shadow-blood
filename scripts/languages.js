@@ -1,5 +1,6 @@
 // Read the stored translations from the shared content archive.
 import { getText, getSectionTitles } from "./texts.js";
+import { getCreditsTranslation, applyCreditsTranslation } from "./credits.js?v=20261128-1";
 import { getControlLabels, setControlLanguage } from "./whatwg-screen-reader-controls.js?v=20261127-1";
 
 // Select the language controls and the artwork detail buttons.
@@ -118,9 +119,10 @@ languageButtons.forEach(function (button) {
 
         try {
             // Load all section titles before updating the page.
-            const [sectionTitles, artworks] = await Promise.all([
+            const [sectionTitles, artworks, creditsTranslation] = await Promise.all([
                 getSectionTitles(language),
-                getArtworkUpdates(language)
+                getArtworkUpdates(language),
+                getCreditsTranslation(language)
             ]);
             const updates = await Promise.all(
                 Array.from(detailButtons).map(async function (detailButton) {
@@ -179,6 +181,8 @@ languageButtons.forEach(function (button) {
                 link.textContent = sectionTitles[id];
                 link.lang = languageTag;
             });
+
+            applyCreditsTranslation(creditsTranslation, languageTag);
 
             // Update the shared language state, selected flag and button states.
             selectedLanguage = language;
