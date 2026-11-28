@@ -1,0 +1,59 @@
+/* Keep the decorative hint beside the first visible Medusa until activation. */
+.helper-button > .medusa-tap-hint {
+    position: absolute;
+    top: 23px;
+    left: calc(100% - 9px);
+    width: 36px;
+    height: 43px;
+    pointer-events: none;
+    z-index: 2;
+    overflow: visible;
+    fill: #74b9e6;
+    stroke: #174a78;
+    stroke-width: 1.6;
+    stroke-linejoin: round;
+    transform-origin: 12px 3px;
+    animation: medusa-hint-press 1.8s ease-in-out infinite;
+}
+
+@keyframes medusa-hint-press {
+    0%, 100% { transform: translate(4px, 5px) rotate(-22deg) scale(1); }
+    50% { transform: translate(-2px, -5px) rotate(-22deg) scale(0.9); }
+}
+
+/* Match the emblem glow to the contact point of the hand gesture. */
+.helper-button:has(> .medusa-tap-hint) > span {
+    animation: medusa-hint-response 1.8s ease-in-out infinite;
+}
+
+@keyframes medusa-hint-response {
+    0%, 25%, 75%, 100% {
+        filter: brightness(var(--emblem-brightness, 0.68));
+    }
+    50% {
+        filter: brightness(var(--emblem-hover-brightness, 1.05)) drop-shadow(0 0 3px #be8d3e);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .helper-button:has(> .medusa-tap-hint) > span {
+        animation: none;
+    }
+
+    .helper-button > .medusa-tap-hint {
+        animation: none;
+        transform: rotate(-22deg);
+    }
+}
+
+@media (forced-colors: active) {
+    .helper-button:has(> .medusa-tap-hint) > span {
+        animation: none;
+    }
+
+    .helper-button > .medusa-tap-hint {
+        fill: Canvas;
+        stroke: ButtonText;
+        filter: none;
+    }
+}
