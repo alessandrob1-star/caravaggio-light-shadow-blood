@@ -143,7 +143,7 @@ The screenshots show the prototype’s overlay frames. In the website, the expla
 
 The website’s gold Medusa buttons and explanation close control brighten with a gold glow when hovered or focused with the keyboard. The image below shows the Medusa helper button on the website.
 
-<img src="assets/screenshots/helper-button-hover.jpg" alt="Basket of Fruit detail with the gold Medusa helper button on the website" width="720" />
+<img src="assets/screenshots/medusa-helper-button.jpg" alt="Basket of Fruit detail with the gold Medusa helper button on the website" width="720" />
 
 ## Eight languages
 
