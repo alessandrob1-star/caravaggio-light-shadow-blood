@@ -46,3 +46,17 @@ A short montage description is available in all eight languages through `aria-de
 **Verified AAA criteria.** The Play/Pause and sound controls measure 48 x 48 CSS pixels, meeting [2.5.5 Target Size (Enhanced)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html). Both operate with Enter and Space, satisfying [2.1.3 Keyboard (No Exception)](https://www.w3.org/WAI/WCAG22/Understanding/keyboard-no-exception.html) for these controls. Footer text contrast is 16.27:1, meeting [1.4.6 Contrast (Enhanced)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html).
 
 **Verification on AWS.** Automated Chrome checks in all eight languages confirmed the description in the accessibility tree, description-before-credit ordering, reading-language attributes, keyboard playback and sound controls, target sizes and the COMP-2002 course link.
+
+## Visual examples
+
+**Gallery navigation with a Windows contrast theme enabled.** The gallery bar, position markers and selected item remain distinguishable using system colours.
+
+![Gallery navigation with a Windows contrast theme enabled](../assets/screenshots/high-contrast-gallery-navigation.png)
+
+**Scrollable explanation on a narrow screen.** Judith's explanation in German at a 390 CSS-pixel viewport width, with the gold scrollbar and close control visible.
+
+<img src="../assets/screenshots/responsive-explanation-dialog.png" alt="German explanation for the Judith detail, with a gold scrollbar and a visible close button" width="300" />
+
+**Website screenshot with the NVDA Speech Viewer transcript used to verify screen-reader audio output.**
+
+![Medusa detail and NVDA Speech Viewer transcript](../assets/screenshots/nvda-speech-viewer-medusa.png)
