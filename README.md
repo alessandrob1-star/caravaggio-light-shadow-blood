@@ -137,7 +137,7 @@ Opening a helper replaces the surrounding gallery with the selected image, the c
 
 ![Saint Jerome detail with its Japanese helper](assets/screenshots/blood-jerome-helper-ja.png)
 
-The screenshots show the prototype’s overlay frames. In the website, the explanation opens in a native HTML `dialog`, with keyboard support and focus returning to the opening button when it closes. [Read the prototype notes](docs/prototype-notes.md) and [the WHATWG HTML Living Standard review](docs/whatwg-html-living-standard.md).
+The screenshots show the prototype’s overlay frames. In the website, the explanation opens in a native HTML `dialog`, with keyboard support and focus returning to the opening button when it closes. [Read the prototype notes](docs/prototype-notes.md) and [the WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility review](docs/whatwg-html-living-standard-and-w3c-wcag-2.2-accessibility.md).
 
 ### Button feedback
 
@@ -193,7 +193,7 @@ Implemented in HTML, CSS and JavaScript. Hosted on Amazon S3 through CloudFront 
 | **Video controls** | Play, pause and sound controls for the introductory montage |
 | **Reduced motion** | Navigation respects the browser’s reduced-motion preference |
 
-The [WHATWG HTML Living Standard review](docs/whatwg-html-living-standard.md) records the HTML implementation and accessibility checks. The [development log](docs/development-log.md) records the project’s progress.
+The [WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility review](docs/whatwg-html-living-standard-and-w3c-wcag-2.2-accessibility.md) records the HTML implementation and accessibility checks. The [development log](docs/development-log.md) records the project’s progress.
 
 A later phase proposes a gallery-style guestbook using API Gateway, Lambda and DynamoDB, with submission moderation through Amazon Nova on Amazon Bedrock. These are planned project choices; they are not implemented in the Figma prototype or required technologies prescribed by the syllabus.
 
@@ -209,7 +209,7 @@ A later phase proposes a gallery-style guestbook using API Gateway, Lambda and D
 | [Translation archive](docs/translations/caravaggio-anecdotes-and-helpers-8-languages.txt) | Italian anecdotes and helpers alongside all seven translations |
 | [Credits](docs/credits.md) | Project contribution, visual references and media sources |
 | [Screenshots](assets/screenshots) | Assessment 1 prototype captures and design references |
-| [WHATWG HTML Living Standard](docs/whatwg-html-living-standard.md) | HTML implementation and accessibility checks |
+| [WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility](docs/whatwg-html-living-standard-and-w3c-wcag-2.2-accessibility.md) | HTML implementation and accessibility checks |
 | [Development log](docs/development-log.md) | Website development milestones |
 
 All project documentation is in English. The translation archive retains its multilingual content.
