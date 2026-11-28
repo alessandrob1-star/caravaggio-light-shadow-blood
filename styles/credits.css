@@ -1,0 +1,92 @@
+/* Present the credits below the exhibition galleries. */
+main .credits-section {
+    display: block;
+    min-height: 95svh;
+    min-height: 95dvh;
+    padding: clamp(40px, 6vw, 96px) clamp(24px, 6vw, 96px);
+    background: #000000;
+    color: #e8e2d5;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+.credits-content {
+    max-width: 54ch;
+    margin-inline: auto;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: clamp(20px, 1.6vw, 28px);
+    line-height: 1.6;
+    overflow-wrap: break-word;
+}
+
+.credits-content h2 {
+    margin: 0 0 clamp(32px, 4vw, 64px);
+    font-size: clamp(36px, 5vw, 80px);
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+.credits-content p {
+    margin: 0 0 1.25em;
+    text-indent: 0.5in;
+}
+
+.credits-content h3 {
+    margin: 2em 0 1em;
+    font-size: 1.2em;
+    line-height: 1.4;
+}
+
+.credits-content a {
+    color: inherit;
+    text-underline-offset: 0.15em;
+}
+
+/* Provide accessible links to social profiles. */
+.credits-social {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.credits-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    color: #e8e2d5;
+    border-radius: 4px;
+}
+
+.credits-social svg {
+    display: block;
+    flex: 0 0 32px;
+}
+
+.credits-social a:hover {
+    color: #e8c787;
+}
+
+.credits-social a:focus-visible {
+    outline: 3px solid currentColor;
+    outline-offset: 4px;
+}
+
+/* Leave space between Blood's gallery bar and the Credits boundary arrow. */
+#blood .gallery-pagination {
+    bottom: 28px;
+}
+
+/* Keep the full clickable area inside the centred Blood viewport. */
+html[data-active-section="blood"] #blood > .section-boundary-navigation > .section-arrow {
+    top: -4px;
+}
+
+/* Keep the return arrow visible when Credits begins at the viewport top. */
+html[data-active-section="credits"] #blood > .section-boundary-navigation > .section-arrow {
+    top: 22px;
+}
