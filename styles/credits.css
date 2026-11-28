@@ -1,9 +1,11 @@
 /* Present the credits below the exhibition galleries. */
 main .credits-section {
-    display: block;
+    display: flex;
+    flex-direction: column;
     min-height: 95svh;
     min-height: 95dvh;
     padding: clamp(40px, 6vw, 96px) clamp(24px, 6vw, 96px);
+    padding-bottom: 0;
     background: #000000;
     color: #e8e2d5;
     scroll-snap-align: start;
@@ -11,6 +13,7 @@ main .credits-section {
 }
 
 .credits-content {
+    width: 100%;
     max-width: 54ch;
     margin-inline: auto;
     font-family: "Cormorant Garamond", Georgia, serif;
@@ -89,4 +92,18 @@ html[data-active-section="blood"] #blood > .section-boundary-navigation > .secti
 /* Keep the return arrow visible when Credits begins at the viewport top. */
 html[data-active-section="credits"] #blood > .section-boundary-navigation > .section-arrow {
     top: 22px;
+}
+
+/* Place the site footer after the Credits content within the black section. */
+.credits-footer {
+    align-self: stretch;
+    width: 100%;
+    margin-top: auto;
+    padding: 48px 0 max(24px, var(--navigation-safe-bottom, 0px));
+}
+
+/* Keep mixed CJK and Latin text within a compact reading column. */
+#credits:lang(zh) .credits-content,
+#credits:lang(ja) .credits-content {
+    max-width: 32ch;
 }

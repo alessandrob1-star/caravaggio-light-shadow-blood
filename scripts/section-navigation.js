@@ -30,6 +30,7 @@ function updateSectionArrows() {
         arrow.classList.toggle("is-pointing-up", pointingUp);
         arrow.setAttribute("href", "#" + targetId);
         arrow.setAttribute("aria-labelledby", targetId + "-title");
+        arrow.lang = document.getElementById(targetId + "-title").closest("[lang]").lang;
     });
 }
 
@@ -85,3 +86,6 @@ document.fonts.ready.then(updateSectionArrows);
 
 // Recalculate control clearance when the viewport dimensions change.
 window.addEventListener("resize", updateSectionArrows);
+
+// Match each arrow label to the selected content language.
+document.addEventListener("sitecontrolslanguagechange", updateSectionArrows);
