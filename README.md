@@ -195,7 +195,7 @@ Implemented in HTML, CSS and JavaScript. Hosted on Amazon S3 through CloudFront 
 
 The [WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility review](docs/whatwg-html-living-standard-and-w3c-wcag-2.2-accessibility.md) records the HTML implementation and accessibility checks. The [development log](docs/development-log.md) records the project’s progress.
 
-A later phase proposes a gallery-style guestbook using API Gateway, Lambda and DynamoDB, with submission moderation through Amazon Nova on Amazon Bedrock. These are planned project choices; they are not implemented in the Figma prototype or required technologies prescribed by the syllabus.
+A later phase proposes a gallery-style guestbook using API Gateway, Lambda and DynamoDB, with submission moderation through Amazon Nova on Amazon Bedrock. These are planned project choices; they are not implemented in the current website or required technologies prescribed by the syllabus.
 
 [Detailed behaviour and prototype limitations](docs/prototype-notes.md#9-figma-behaviour-versus-planned-website-behaviour) · [Full work plan](docs/work-plan-2026-2027.md)
 
