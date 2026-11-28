@@ -31,7 +31,7 @@ The experience uses contrasting backgrounds, expressive typography and generous 
 4. Select a gold helper button to focus on an image and its explanation.
 5. Close the explanation with **×**, Escape or a click outside its gold-bordered text panel.
 
-**Current stage — Assessment 2, working website.** Implemented in HTML, CSS and JavaScript and deployed on Amazon S3 and CloudFront. The repository contains the website source, its content and technical documentation. The Assessment 1 Figma prototype and submitted report are retained as earlier project deliverables.
+**Current stage - Assessment 2, working website.** Implemented in HTML, CSS and JavaScript and deployed on Amazon S3 and CloudFront. The repository contains the website source, its content and technical documentation. The Assessment 1 Figma prototype and submitted report are retained as earlier project deliverables.
 
 ## Assessment 1 prototype structure
 
@@ -50,7 +50,7 @@ The main technical decisions are:
 - **Stored translations:** the selector updates bound text variables for anecdotes; helper opening actions display the corresponding saved language panel. Both follow the same selected language.
 - **Language-aware fitting:** font size, wrapping and panel placement accommodate different text lengths and writing systems without rewriting the content.
 
-## Design references — DATALAND
+## Design references - DATALAND
 
 **[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles, was a direct design reference for this project.** The large opening video and partially visible neighbouring content informed the presentation of Caravaggio’s paintings and storytelling.
 
@@ -63,7 +63,7 @@ The main technical decisions are:
 
 The opening video’s **near-full-screen presentation is explicitly inspired by DATALAND**. Adapted to an introductory montage about Caravaggio, with the project title and language selector framing the experience.
 
-| DATALAND — opening video reference | Caravaggio — opening video in the prototype |
+| DATALAND - opening video reference | Caravaggio - opening video in the prototype |
 | --- | --- |
 | ![DATALAND homepage with a large immersive opening video](assets/screenshots/dataland-opening-video-reference.png) | ![Caravaggio opening screen with its large introductory video below the title](assets/screenshots/opening-preview.png) |
 
@@ -75,7 +75,7 @@ Artworks and captions are deliberately **partially visible at the left and right
 
 This design choice was inspired by **[dataland.art](https://dataland.art/), the website of DATALAND, the Museum of AI Arts in Los Angeles**. In particular, its presentation of a central item with neighbouring content visible at the sides informed the horizontal exploration in this project.
 
-| Caravaggio prototype — neighbouring artworks visible at the edges | Design reference — dataland.art |
+| Caravaggio prototype - neighbouring artworks visible at the edges | Design reference - dataland.art |
 | --- | --- |
 | ![BLOOD gallery with a central detail and parts of neighbouring artworks visible at both edges](assets/screenshots/horizontal-scroll-side-previews.png) | ![Screenshot of dataland.art showing central and partially visible neighbouring text](assets/screenshots/dataland-design-reference.png) |
 
@@ -83,7 +83,7 @@ The website uses a dot navigation bar, centred scroll snapping and mouse draggin
 
 [Read the detailed architecture and implementation notes](docs/prototype-notes.md).
 
-## Design references — Apple
+## Design references - Apple
 
 **[Apple’s website](https://www.apple.com/it/) was another direct design reference.** Contrasting sections and centred images surrounded by empty space informed the chapter backgrounds and artwork presentation.
 
@@ -115,7 +115,7 @@ The language selector applies to both the **short anecdotes beneath the artwork 
 
 The examples below show anecdotes in Italian and English; the helper screenshots that follow show the longer explanations in Polish, German and Japanese. All eight language versions are saved in Figma, without runtime translation API calls.
 
-| SHADOW — Saint Matthew and the Angel · Italian | BLOOD — Judith Beheading Holofernes · English |
+| SHADOW - Saint Matthew and the Angel · Italian | BLOOD - Judith Beheading Holofernes · English |
 | --- | --- |
 | ![Saint Matthew and the Angel detail with its Italian anecdote](assets/screenshots/shadow-matthew-anecdote-it.png) | ![Judith detail with its English anecdote](assets/screenshots/blood-judith-anecdote-en.png) |
 
@@ -125,15 +125,15 @@ The examples below show anecdotes in Italian and English; the helper screenshots
 
 Opening a helper replaces the surrounding gallery with the selected image, the chapter background and a gold-bordered explanation. The interaction keeps attention on one detail and avoids overlapping text from neighbouring artworks.
 
-### LIGHT — Basket of Fruit · Polish
+### LIGHT - Basket of Fruit · Polish
 
 ![Basket of Fruit detail with its Polish helper](assets/screenshots/light-basket-helper-pl.png)
 
-### BLOOD — The Beheading of Saint John the Baptist · German
+### BLOOD - The Beheading of Saint John the Baptist · German
 
 ![The painter’s signature in blood with its German helper](assets/screenshots/blood-signature-helper-de.png)
 
-### BLOOD — Saint Jerome · Japanese
+### BLOOD - Saint Jerome · Japanese
 
 ![Saint Jerome detail with its Japanese helper](assets/screenshots/blood-jerome-helper-ja.png)
 
@@ -163,11 +163,11 @@ Italian anecdotes and explanations were written for the project. The website use
 | | |
 | --- | --- |
 | **Name** | Alessandro Benevelli |
-| **University** | [Open Institute of Technology — OPIT](https://www.opit.com/) |
+| **University** | [Open Institute of Technology - OPIT](https://www.opit.com/) |
 | **Degree** | Bachelor of Science in Computer Science |
-| **Course** | COMP-2002 — Web Development, Fall 2026 |
+| **Course** | COMP-2002 - Web Development, Fall 2026 |
 | **Professor** | Filip Biały |
-| **Current deliverable** | Assessment 2 — Working web development project |
+| **Current deliverable** | Assessment 2 - Working web development project |
 
 The project spans all three course assessments.
 
@@ -203,7 +203,7 @@ A later phase proposes a gallery-style guestbook using API Gateway, Lambda and D
 
 | File | Purpose |
 | --- | --- |
-| [Assessment 1 — submitted report](docs/Alessandro_Benevelli_COMP-2002_Assessment_1.pdf) | Submitted prototype report, preserved in its original form with the university APA-format cover |
+| [Assessment 1 - submitted report](docs/Alessandro_Benevelli_COMP-2002_Assessment_1.pdf) | Submitted prototype report, preserved in its original form with the university APA-format cover |
 | [Prototype notes](docs/prototype-notes.md) | Navigation, helpers, language selection, verification and Figma limitations |
 | [Work plan](docs/work-plan-2026-2027.md) | Development phases from October 2026 to January 2027 |
 | [Translation archive](docs/translations/caravaggio-anecdotes-and-helpers-8-languages.txt) | Italian anecdotes and helpers alongside all seven translations |
@@ -216,7 +216,7 @@ All project documentation is in English. The translation archive retains its mul
 
 ## Opening video and music credits
 
-The introductory video was assembled by selecting, trimming and joining scenes from **_Caravaggio — L’anima e il sangue_** (Italian theatrical release: 2018), a **Sky / Sky Arte and Magnitudo Film** production, directed by **Jesus Garces Lambert**, with cinematography by **Massimiliano Gatti**, distributed by **Nexo Digital**. The montage uses selected and re-edited excerpts. The original footage is credited to the film’s creators.
+The introductory video was assembled by selecting, trimming and joining scenes from **_Caravaggio - L’anima e il sangue_** (Italian theatrical release: 2018), a **Sky / Sky Arte and Magnitudo Film** production, directed by **Jesus Garces Lambert**, with cinematography by **Massimiliano Gatti**, distributed by **Nexo Digital**. The montage uses selected and re-edited excerpts. The original footage is credited to the film’s creators.
 
 The background music used in the introductory montage is **“Experience” by Ludovico Einaudi**, from **_In a Time Lapse_ (2013), Decca Records**.
 

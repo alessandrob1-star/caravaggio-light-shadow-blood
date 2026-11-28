@@ -1,6 +1,6 @@
 # Prototype architecture and technical decisions
 
-**Assessment 1 — Figma interactive prototype**
+**Assessment 1 - Figma interactive prototype**
 
 Alessandro Benevelli · COMP-2002 Web Development · Open Institute of Technology (OPIT)
 
@@ -107,7 +107,7 @@ The opening video occupies most of the first screen beneath the project title. I
 
 The DATALAND reference describes a presentation choice. It is separate from the documentary and music sources credited for the montage in [Credits](credits.md#introductory-audiovisual-material).
 
-The introductory montage was edited using **OpenShot Video Editor and OBS Studio**. The editing process involved selecting, trimming and combining scenes from *Caravaggio — L’anima e il sangue*, produced by Sky / Sky Arte and Magnitudo Film, directed by Jesus Garces Lambert, with cinematography by Massimiliano Gatti. The montage features “Experience” by Ludovico Einaudi as background music. [Detailed credits and source references](credits.md#introductory-audiovisual-material) distinguish the original film’s creators from the project’s excerpt selection and re-editing.
+The introductory montage was edited using **OpenShot Video Editor and OBS Studio**. The editing process involved selecting, trimming and combining scenes from *Caravaggio - L’anima e il sangue*, produced by Sky / Sky Arte and Magnitudo Film, directed by Jesus Garces Lambert, with cinematography by Massimiliano Gatti. The montage features “Experience” by Ludovico Einaudi as background music. [Detailed credits and source references](credits.md#introductory-audiovisual-material) distinguish the original film’s creators from the project’s excerpt selection and re-editing.
 
 ![Introductory montage editing timeline](../assets/screenshots/introductory-video-editing-timeline.png)
 

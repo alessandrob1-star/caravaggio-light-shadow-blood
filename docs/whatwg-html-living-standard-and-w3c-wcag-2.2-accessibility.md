@@ -1,6 +1,6 @@
 # WHATWG HTML Living Standard and W3C WCAG 2.2 Accessibility
 
-**Caravaggio — Light, Shadow, Blood · COMP-2002 · Assessment 2**  
+**Caravaggio - Light, Shadow, Blood · COMP-2002 · Assessment 2**  
 **Review date · 28 November 2026**
 
 ## Implementation and checks
@@ -20,7 +20,7 @@ The deployed HTML and JavaScript were also checked in Chrome. Enter moved focus 
 
 **WCAG 2.2 checks on AWS.** Verified in Chrome. The OPIT footer link reached 16.27:1 contrast, and the Blood explanation and close icons reached 3.09:1. At a 320 × 256 CSS-pixel viewport, all 36 gallery buttons became fully visible when focused with Tab. Moving between buttons did not change the selected artwork. With reduced motion enabled, section and gallery navigation moved without animation.
 
-## Additional verified checks — 28 November 2026
+## Additional verified checks - 28 November 2026
 
 | WCAG 2.2 criterion | Verified implementation and result |
 | --- | --- |

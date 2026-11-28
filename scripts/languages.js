@@ -27,7 +27,7 @@ function updateControlLabels() {
     const choice = options.querySelector('[data-language="' + selectedLanguage + '"]');
     toggle.lang = languageTag;
     toggle.setAttribute("aria-label", labels.chooseLanguage + " " +
-        labels.currentLanguage + " — " + choice.textContent.trim() + ".");
+        labels.currentLanguage + " - " + choice.textContent.trim() + ".");
     options.setAttribute("aria-label", labels.availableLanguages);
     options.lang = languageTag;
     status.lang = languageTag;
@@ -37,13 +37,13 @@ function updateControlLabels() {
     detailButtons.forEach(function (button) {
         const figure = button.closest("figure");
         button.lang = languageTag;
-        button.setAttribute("aria-label", labels.readExplanation + " — " + figure.dataset.galleryLabel);
+        button.setAttribute("aria-label", labels.readExplanation + " - " + figure.dataset.galleryLabel);
     });
 
     document.querySelectorAll(".chapter").forEach(function (chapter) {
         const scroller = chapter.querySelector(".chapter-scroll");
         scroller.lang = languageTag;
-        scroller.setAttribute("aria-label", labels.gallery + " — " +
+        scroller.setAttribute("aria-label", labels.gallery + " - " +
             chapter.querySelector(".chapter-title").textContent);
     });
 

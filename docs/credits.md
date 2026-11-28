@@ -20,7 +20,7 @@ A per-asset source and rights register remains to be completed before website me
 
 ### How the project video was assembled
 
-The introductory video was assembled by **selecting, trimming and joining scenes from *Caravaggio — L’anima e il sangue***, using **OpenShot Video Editor and OBS Studio**. The result is a re-edited montage for the Caravaggio prototype, accompanied by **“Experience” by Ludovico Einaudi**.
+The introductory video was assembled by **selecting, trimming and joining scenes from *Caravaggio - L’anima e il sangue***, using **OpenShot Video Editor and OBS Studio**. The result is a re-edited montage for the Caravaggio prototype, accompanied by **“Experience” by Ludovico Einaudi**.
 
 The editing involved selecting the excerpts, choosing their order and assembling the montage for this project. The cinematography and original film production are the work of the documentary’s credited creators.
 
@@ -28,7 +28,7 @@ The editing involved selecting the excerpts, choosing their order and assembling
 
 | Credit | Reference |
 | --- | --- |
-| **Original title** | *Caravaggio — L’anima e il sangue* |
+| **Original title** | *Caravaggio - L’anima e il sangue* |
 | **International title** | *Caravaggio: The Soul and the Blood* |
 | **Director** | Jesus Garces Lambert |
 | **Production** | Sky / Sky Arte and Magnitudo Film |
@@ -42,7 +42,7 @@ The editing involved selecting the excerpts, choosing their order and assembling
 | **Italian theatrical release** | 19 February 2018 |
 | **Country and running time** | Italy, 90 minutes |
 
-**Film reference:** Garces Lambert, J. (Director). (2018 theatrical release). *Caravaggio — L’anima e il sangue* [Documentary film]. Sky; Magnitudo Film. Distributed by Nexo Digital.
+**Film reference:** Garces Lambert, J. (Director). (2018 theatrical release). *Caravaggio - L’anima e il sangue* [Documentary film]. Sky; Magnitudo Film. Distributed by Nexo Digital.
 
 Production, direction and artistic-direction information are documented by [Sky’s production announcement](https://tg24.sky.it/spettacolo/cinema/2017/09/21/caravaggio-l-anima-e-il-sangue). The [Cinematografo film record](https://www.cinematografo.it/film/caravaggio-lanima-e-il-sangue-ah8cqdsh) lists cinematography, screenplay, original editing, original score, release date and running time. [Nexo Digital’s film presentation](https://www.nexostudios.it/movie/caravaggio-lanima-e-il-sangue-replica/) confirms the production, distribution and voice credit. References checked on 25 October 2026.
 

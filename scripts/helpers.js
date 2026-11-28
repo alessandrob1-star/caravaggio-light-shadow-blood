@@ -35,7 +35,7 @@ function showCrop(button) {
     helperDialog.dataset.section = chapter.id;
     // Keep the dialog title short when the image has a detailed description.
     const detailName = figure.dataset.galleryLabel || sourceImage.alt;
-    helperDialog.setAttribute("aria-label", detailName + " — " + getControlLabels().additionalInformation);
+    helperDialog.setAttribute("aria-label", detailName + " - " + getControlLabels().additionalInformation);
 }
 
 // Open each detail with its explanation in the selected language.
