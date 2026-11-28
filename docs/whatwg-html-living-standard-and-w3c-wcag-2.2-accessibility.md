@@ -18,7 +18,7 @@ On the live AWS site, each image description, gallery button label, anecdote and
 
 The deployed HTML and JavaScript were also checked in Chrome. Enter moved focus to each of the three chapter headings. In all eight languages, the gallery title buttons matched their headings in text and language, and each anecdote retained its line structure.
 
-**WCAG 2.2 checks on AWS.** Verified in Chrome. The OPIT footer link reached 16.27:1 contrast, and the Blood explanation and close icons reached 3.09:1. At a 320 × 256 CSS-pixel viewport, all 36 gallery buttons became fully visible when focused with Tab. Moving between buttons did not change the selected artwork. With reduced motion enabled, section and gallery navigation moved without animation.
+**WCAG 2.2 checks on AWS.** Verified in Chrome. The footer text reached 16.27:1 contrast, and the Blood explanation and close icons reached 3.09:1. At a 320 × 256 CSS-pixel viewport, all 36 gallery buttons became fully visible when focused with Tab. Moving between buttons did not change the selected artwork. With reduced motion enabled, section and gallery navigation moved without animation.
 
 ## Additional verified checks - 28 November 2026
 
@@ -45,8 +45,15 @@ A short montage description is available in all eight languages through `aria-de
 
 **Verified AAA criteria.** The Play/Pause and sound controls measure 48 x 48 CSS pixels, meeting [2.5.5 Target Size (Enhanced)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html). Both operate with Enter and Space, satisfying [2.1.3 Keyboard (No Exception)](https://www.w3.org/WAI/WCAG22/Understanding/keyboard-no-exception.html) for these controls. Footer text contrast is 16.27:1, meeting [1.4.6 Contrast (Enhanced)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html).
 
-**Verification on AWS.** Automated Chrome checks in all eight languages confirmed the description in the accessibility tree, description-before-credit ordering, reading-language attributes, keyboard playback and sound controls, target sizes and the COMP-2002 course link.
+**Verification on AWS.** Automated Chrome checks in all eight languages confirmed the description in the accessibility tree, description-before-credit ordering, reading-language attributes, keyboard playback and sound controls, target sizes and the footer course information.
 
+## Medusa hint and explanation scrolling
+
+**Medusa interaction hint.** A decorative blue hand appears beside the first visible Medusa button after each page load. Its repeating gesture is synchronised with the emblem glow and stops when a Medusa button is activated. The hand is hidden from assistive technology and does not intercept pointer input. Reduced-motion preferences disable both animations. [WCAG 2.2 2.3.3 Animation from Interactions](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html)
+
+**Explanation scrolling.** Long explanations scroll inside the bordered panel while the crop and close control remain outside the scrolling text. Automated Chrome checks on AWS covered all 20 English explanations at 1440 x 900, 1000 x 820 and 390 x 844 CSS pixels. Across these 60 checks, scrolling the text did not move the crop, the panel stayed within the viewport and no outer dialog overflow was detected.
+
+**Footer.** OPIT and COMP-2002 remain visible as plain text without links.
 ## Visual examples
 
 **Gallery navigation with a Windows contrast theme enabled.** The gallery bar, position markers and selected item remain distinguishable using system colours.

@@ -99,3 +99,5 @@
 - Updated the guestbook status in the README and revised the project credits for the current website.
 - Verified video descriptions, reading languages, keyboard playback controls and target sizes on AWS, and recorded the results in the technical document.
 - Added screenshots of Windows high-contrast gallery navigation, a narrow-screen explanation and the NVDA Speech Viewer transcript to the technical document, and updated the v2.93 release notes.
+- Added a blue Medusa interaction hint with synchronised emblem feedback after each page load, stopping on activation and respecting reduced-motion preferences. Removed the OPIT and COMP-2002 footer links.
+- Kept long explanations inside the bordered text panel. Verified all 20 English explanations on AWS at three viewport sizes, confirming that text scrolling leaves the crop stationary, and recorded the 60 checks in the technical document.

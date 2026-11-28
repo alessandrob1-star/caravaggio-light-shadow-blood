@@ -164,9 +164,11 @@ body.helper-open {
 /* Keep the image and explanation aligned on the same centre line. */
 .helper-layout {
     display: grid;
+    grid-template-rows: auto minmax(0, 1fr);
     justify-items: center;
     gap: 24px;
     width: min(1440px, 100%);
+    max-height: calc(100dvh - 2 * var(--helper-padding));
 }
 
 /* Preserve the crop proportions while limiting its viewport height. */
@@ -174,9 +176,12 @@ body.helper-open {
     width: min(calc(var(--artwork-width) * 1px), 100%, calc(36svh * var(--artwork-width) / var(--artwork-height)));
 }
 
-/* Allow the explanation to grow instead of clipping its text. */
+/* Keep explanation scrolling inside the bordered panel. */
 .helper-panel {
     position: relative;
+    display: grid;
+    grid-template-rows: minmax(0, 1fr);
+    min-height: 0;
     width: 100%;
     padding: 24px 56px;
     border: 1px solid #9a702c;
@@ -225,29 +230,16 @@ body.helper-open {
 
 /* Leave more room for text and reserve space above it for the close button. */
 @media (max-width: 600px), (max-height: 800px) {
-    /* Keep the crop and explanation panel within the available dialog height. */
-    .helper-layout {
-        max-height: calc(100dvh - 2 * var(--helper-padding));
-        grid-template-rows: auto minmax(0, 1fr);
-    }
-
     .helper-panel {
-        display: grid;
-        grid-template-rows: minmax(0, 1fr);
-        min-height: 0;
         padding: 44px 20px 20px;
-    }
-
-    /* Scroll only the explanation text, leaving the image and close button visible. */
-    #helper-text {
-        min-height: 0;
-        overflow-y: auto;
-        overscroll-behavior: contain;
     }
 }
 
 /* Match explanation scrolling to the gold panel border. */
 #helper-text {
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
     scrollbar-width: thin;
     scrollbar-color: #936a28 transparent;
 }
